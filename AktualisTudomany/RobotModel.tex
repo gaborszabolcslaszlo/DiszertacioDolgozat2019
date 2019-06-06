@@ -1,0 +1,191 @@
+
+%\lhead{Mobilis robotok modellezése}
+
+\section{Mobilis robotok modellezése} 
+
+\subsection*{Négy kerekű modell}
+A mobilis robotok leginkább kerekekkel oldjak meg a helyváltoztatásukat. Egy fontos probléma ezekkel a robotokkal az hogy milyen kölcsönhatások lepnek fel a kerék és a talaj között \cite{Torjancki4Mobilerobot} \cite{RobustMotionControl} \cite{Campa2014}, és ezeket az erőket hogyan lehet modellezni. A \cite{Torjancki4Mobilerobot} cikkben kidolgoz egy modellt amely segítségével képes meghatározni egy négykerekű robot pozícióját a kerekek forgási sebességéét felhasználva. A fent említett irodalmakban a $SSMR$  típusú $OMP$ vizsgálnak módélezés és pályakövetés szempontjából. Annak függvényében hogy a MR-t mozgató motorokat tekintve a következő variánsok lehetségesek: \textbf{4 kerék - 4 motor}, \textbf{4 kerék - 2 motor}, azonos oldalon levő kerekek összecsatolva fogas-szíjjal ez második megoldás egyszerűbb kevesebb szenzort és hajtó motort igényel.
+A \cite{Torjancki4Mobilerobot} \cite{Campa2014} irodalmakban a $HLC$ sebesség referencia jelet ír elő a kerekeken, \cite{RobustMotionControl} a cikkben nyomatékot ír elő amelyet az alacsony szintű szabályozóknak.
+Az $ICR$ meghatározásával választotta. Több dolgot is feltételez: a robot forgásközpontja a robot középpontjában van, a robot azonos oldalán levő kerekek ugyanazzal a szögsebességgel forognak, a négy kerék mindig érintkezik a talajjal és méretben is megegyeznek.
+
+A \cite{RobustMotionControl} kifejezetten a SSMR  jol ismert a robusztus félépítése miatt, nagyon jól alkalmazható terepen. Általában $DDV$ mert a fordulást azáltal oldják meg hogy a jobb és bal oldali kerekek különböző sebességgel vagy különböző nyomatékot fejtenek ki a talajra.
+A \cite{RobustMotionControl} cikkben alkalmazott technológiaiák: $VFO$
+$CTM$ a robot kerekeit szabályzó motoroknak nyomaték van előríva amit követniük kell.
+
+\subsubsection{Merőleges Nyomóerő (N)} 
+
+\renewcommand{\img}{SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{Merőleges nyomóerő a talajra $4W-SSMR$ típusú robot esetében.}
+\renewcommand{\figlabel}{SMR4WMerolegesNyomoero}
+\input{picture.tex}
+
+Jelölje az $\alpha$ \ref{fig:SMR4WLejtoOldalrol} és $\beta$ \ref{fig:SMR4WLejtoSzembol} rendre a gravitációs vektor és a ZY, ZX sík által bezárt szög értéket fokban kifejezve. 
+
+\renewcommand{\img}{SajatRobot/SzerkAbrak/LejtoOldalrol.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{$4W-SSMR$ típusú robot lejtőn felfele oldal nézetből.}
+\renewcommand{\aspectratioPic}{0.5}
+\renewcommand{\figlabel}{SMR4WLejtoOldalrol}
+\input{picture.tex}
+
+\renewcommand{\img}{SajatRobot/SzerkAbrak/LejtoSzembol.png}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{$4W-SSMR$ típusú robot lejtőn első nézetből.}
+\renewcommand{\aspectratioPic}{0.5}
+\renewcommand{\figlabel}{SMR4WLejtoSzembol}
+\input{picture.tex}
+
+\input{AktualisTudomany/Equations/MerloegesNyomoEroEq.tex}
+
+\input{Szimualciok/MerolegesNyomoerokRobot4W.tex}
+
+\subsubsection{Súlypont meghatározása mérésekkel}
+
+A robot mélypont meghatározása egy mérleg segítségéével lemérve sorra minden kerék merőleges nyomóerőjét a talajra nézve. 
+A mért adatok vízszintes helyzetben:
+
+\begin{table}[H]
+\center
+\begin{tabular}{lll}
+Node  & Nyomó erő & Mértékegység \\
+FL &   11,8      & kg          \\
+FR &   13,2      & kg          \\
+BL &   17,1      & kg          \\
+BR &   17,9      & kg            
+\end{tabular}
+\end{table}
+
+A súlypont pozíciója: $b = 20$ es $c = 30 $
+
+A mért adatok oldalra dőlt helyzetben ($45 \degree $):
+
+\begin{table}[H]
+\center
+\begin{tabular}{lll}
+Node  & Nyomó erő & Mértékegység \\
+FL &          & kg          \\
+FR &          & kg          \\
+BL &          & kg          \\
+BR &          & kg            
+\end{tabular}
+\end{table}
+
+A súlypont pozíciója: $b = 20$ es $c = 30 $
+
+A mért adatok előre  dőlt helyzetben ($45 \degree $):
+
+\begin{table}[H]
+\center
+\begin{tabular}{lll}
+Node   & Nyomó erő & Mértékegység \\
+FL &          & kg          \\
+FR &          & kg          \\
+BL &          & kg          \\
+BR &          & kg            
+\end{tabular}
+\end{table}
+
+A súlypont pozíciója: $b = 20$ es $c = 30 $
+
+\subsubsection{Kerekek Dinamikája}
+Az $I_w \in \mathbb{R}^4$ tartalmazza a kerekek inerciáját a forgás tengelyükhöz képest. $\Omega \in \mathbb{R}^4$ a kerekek szögsebessége. A $W_r \in \mathbb{R}^4$ a kerekek sugara, $\tau \in \mathbb{R}^4$ a kerekek forgatónyomatéka.
+
+\input{AktualisTudomany/Equations/DinamicsEq.tex}
+
+
+\subsection{Kinematikai Modell} 
+
+A \ref{fig:SMR4WKinematics} látható a $4W-SSMR$ kinematikai modellje. Néhány feltételezés : a robot minden kereke mindig érintkezik a talajjal, a kerekek nem csúsznak forgásuk közben, külön van kezelve a laterális és a longitudinális súrlódás, a robot egy tömeg központtal van jellemezve, az alacsony szintű szabályzok tökéletesen követik az előírt referenciát.
+
+A robot a $ICR$ pont körül fordul, és csak a robothoz rendelt vonatkoztatási rendszer x tengelye menten tud elmozdulni. Az y irányú sebességeket azt okozza hogy a jobb és bal oldali kerekek forgási sebessége eltér és így létrejönne egy oldal irányú csuszás. 
+
+Jelölje a rendre a $K_{ik}$ a kerekek a talajjal való érintkezési pontját, $^RV_{ik}$ a $K_{ik}$ pontok sebességet a robothoz rendelt $VNR$-ben, $^RV_{ikX}$ és $^RV_{ikY}$ rendre a $^RV_{ik}$ sebesség X és Y komponense robothoz rendelt $VNR$-ben. A $^RV_{ikX}$ megfelel a kerekek kerületei sebességének. A $^RV^{COM}_{ik}$ a $COM$ pont sebességet a robothoz rendelt $VNR$-ben, illetve a $^RV^{COM}_{ikX}$ és $^RV^{COM}_{ikY}$ az X és Y komponense. 
+
+A robot és a globális $VNR$ x tengelye között bezárt szög $\theta$ valamint $X$ és $Y$ a robot pozíciója a $O$ ponthoz viszonyítva.
+
+Az $ICR$ pont helyzete a $^RV_{ik}$ sebesség vektorokra merőleges egyenesek metszés pontjában található és mindig a robothoz rendelt $VNR$ $Y$ tengelyen helyezkedik el.
+
+\renewcommand{\img}{SajatRobot/SzerkAbrak/robot4wSebModel_seb.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{Kinematikai modell az $4W-SSMR$ típusú robotnak.}
+\renewcommand{\figlabel}{SMR4WKinematics}
+\input{picture.tex}
+
+A $\dot q$ a $4W-SSMR$ síkban modellezett állapot vektora a globális $VNR$-ben. $^R \omega^{COG}$ az $COG$ pont körüli szögsebesség a robothoz rendelt $VNR$-ben. Az $\eta$ jelölje a bemeneti értékeket.
+A $d$ a $COG$ és a $COM$ pontok közti távolság.
+
+A $COM$ pontban mert értékek az \myeqref{eq:allapot} segítségével szamolhatjuk a globális $VNR$ -be.
+A $COM$ pont sebességének y komponense megadható az \myeqref{eq:SebComY} segítségével.
+A nemholomonikus megkötés \myeqref{eq:nemholomonikusmegkotes} biztosítja azt hogy a robot nem tud oldal irányú mozgást végezni.
+
+\input{AktualisTudomany/Equations/KinematikEq.tex}
+
+
+
+\subsection{Dinamikai Modell} 
+
+A \ref{fig:SMR4WDinamicsModel} látható a $4W-SSMR$-ra ható erők rendszerre. Jelölje a $F_{ik}$ a $K_{ik}$ pontokban a kerekek a talajra kifejtett erőt, $F_{fxik}$ es a $F_{fyik}$ rendre az x és y irányba ható súrlódási erőket a $K_{ik}$ pontokban.
+
+Az \myeqrefinterval{eq:eromodelglobal1}{eq:eromodelglobal3} leírják a robot mozgását a globális rendszerben, felhasználva a robot $VNR$ - ben mert erő hatásokat.
+
+\renewcommand{\img}{SajatRobot/SzerkAbrak/robot4wDinamic.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{Kinematikai modell az $SSMR$ típusú $MR$ robotnak.}
+\renewcommand{\figlabel}{SMR4WDinamicsModel}
+\input{picture.tex}
+
+Az $F_x \in \mathbb{R}^4$ tartalmazza $F_{ik}$ kerekek által a talajra kifejtett erőket. Az $F_{sx} \in \mathbb{R}^4$ es $F_{sy} \in \mathbb{R}^4$ súrlódási erők x és y tengely menten a robot $VNR$-ben.A $F \in \mathbb{R}^2$ tartalmazza a jobb és bal oldali kerek által a talajra kifejtett erők összegét. Jelölje $I$ a robot inerciáját a z tengely körül, $M_a$ nyomatékok összege amelyeket a kerekek hoznak létre, $M_r$ a nyomatékok összege amelyeket a súrlódások hoznak létre. 
+
+A $K_x\in \mathbb{R}^4$ és $K_y\in \mathbb{R}^4$ jelölje a súlypont pozíciója a kerek és talaj érintkezési pontokhoz viszonyítva a \ref{fig:SMR4WMerolegesNyomoero} alapján.
+
+Az $N \in \mathbb{R}^4$ tartalmazza a merőleges nyomóerőket talajra nézve, a $K_{ik}$ pontokban. 
+
+\input{AktualisTudomany/Equations/EroModelEq.tex}
+
+Általános formában a $4W-SSMR$ dinamikai modellje a \myeqref{eq:dinamiceqgeneral} adható meg a \cite{RobustMotionControl} alapján. Jelölje $M \in \mathbb{R}^{3x3}$ a tömegek és inerciák mátrixa, $R \in \mathbb{R}^{3}$ ellenálló nyomatékok és erők mátrixa,  $B \in \mathbb{R}^{3x2}$ bemeneti mátrix, $A$ a megkötések vektora \myeqref{eq:nemholomonikusmegkotes} alapján, $\lambda$ Lagrange együtthatók vektora. $F_d \in \mathbb{R}^{3}$ zajok vektora.
+
+A \myeqref{eq:dinamiceqgeneral}  az állapotok gyorsulását megkapjuk ha az \myeqref{eq:allapotegyszeru} időben deriváljuk, így az \myeqref{eq:allapotokdupladerivalt}-t kapjuk.
+
+Felhasználva a  \myeqref{eq:SxAeqZero} és \myeqref{eq:allapotokdupladerivalt} és \myeqref{eq:allapotegyszeru} a \myeqref{eq:dinamiceqgeneral} egyenletet egyszerűbb alakra írhatjuk azáltal hogy minden tagot beszorzunk balról $S^T$ -vel, így a \myeqref{eq:dinamicmodelgenericsimplified} kapjuk.
+
+
+\input{AktualisTudomany/Equations/RobustMotionControlEQ.tex}
+
+
+\subsubsection{Robot Platform Sebesség Szabályzása}
+
+A kerekek előírt nyomatékát megkapjuk ha a  \myeqref{eq:eloirtnyomatek} -t használva. Az $u$ szabályzó jelet kiszámíthatjuk ha az \myeqref{eq:controllertorque1}-t használjuk. Jelölje a $K_\eta$ a szabályzó paraméterei. Csuszás szabályzó  $\sigma_\eta$ parameteri $\rho_v$ linearis sebességért, és $\rho_w$ szögsebességért felelős. Mindkét paraméter nagyobb kell legyen mint a zaj $n$ megfelelő érteké.
+
+\renewcommand{\img}{SajatRobot/SzerkAbrak/SebContRefNyom.tex}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{Kinematikai modell az $SSMR$ típusú $MR$ robotnak.}
+\renewcommand{\figlabel}{DinamicSpeedController}
+\input{pictureFromTex.tex}
+
+\input{AktualisTudomany/Equations/ControllerTorqueHL.tex}
+
+
+
+\subsection{Mesterséges Erő Módszere}
+A \cite{SSMRartificialForceMethod} cikk alapján egy másik megközelítést használva modellezi a robot. A $q$ állapotokat meg kiegészíti a jobb és bal oldali kereke szögsebességével. Feltételezi hogy a kerekek sugara $r$ mind a négy kereknél egyenlő, és a $COM$ pont a robot szimmetriatengely helyezkedik el. Jelölje $F$ a ellenálló erők és nyomatékok vektora. Hasonlóképen az  \myeqref{eq:dinamiceqgeneral} -hez a Lagrange egyenletet ír fel a dinamikai modellre. Az $\eta$ tartalmaz az előírt sebességek vektora, az $\eta_{3}$ a sebességek vektora, a 3-dik eleme tartalmazza a generált sebességet amelyet úgy kell előírnunk hogy a hozza tartozó előírt kerek sebesseg nulla legyen.
+Az $u \in \mathbb{R}^3$ a jobb és bal oldali kerekek előírt erőleadása a talajra.
+
+\input{AktualisTudomany/Equations/ArtificialTroqueMethod.tex}
+
+
+
+
+
+\subsection{Sebesség Szabályzás}
+A \cite{Campa2014} cikkben a kerekek sebességét szabályozza, A jobb és bal oldali kerekek modelljét ARX becsléssel meghatározza a matematikai modellt és pólusáthelyezéses  módszerrel a kívánt modellt állítja elő. 
+
+
+
+\subsection{Útvonal Követes}
+
+%\begin{figure}[!ht]
+% \centering
+% \includesvg[width = 300pt]{SajatRobot/SzerkAbrak/drawing1.svg}
+%\end{figure}
+

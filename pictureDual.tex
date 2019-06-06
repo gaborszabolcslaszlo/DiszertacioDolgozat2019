@@ -1,0 +1,15 @@
+
+\begin{figure}%
+    \centering
+    \subfloat[label a]{
+        {\includegraphics[width=5cm]{\img} }
+        \label{fig:ex3-a}
+    }%
+    \qquad
+    \subfloat[label 2]{{\includegraphics[width=5cm]{\imgSecond} }}%
+    \ifthenelse{\equal{\sources}{*}}
+    { \captionof{figure}{ \captionn}}
+    { \captionof{figure}{ \captionn Forrás: \sources }}%
+   
+    \label{fig:example}%
+\end{figure}

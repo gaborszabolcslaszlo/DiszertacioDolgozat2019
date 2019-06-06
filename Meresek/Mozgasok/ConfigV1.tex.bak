@@ -1,0 +1,27 @@
+
+\pgfplotstableset{%
+    x index=0,
+    y index=1,
+    header=true
+}%
+
+\pgfplotsset{every axis/.append style=
+    {
+        font=\large,
+        line width=1.2pt,
+        tick style={line width=0.8pt}
+    }
+}
+
+\pgfplotsset{
+    contour/every contour label/.style={
+    sloped,
+    transform shape,
+    inner sep=1pt,
+    every node/.style={mapped color!50!black,fill=white},
+    /pgf/number format/relative={\pgfplotspointmetarangeexponent},
+    },
+}
+
+
+

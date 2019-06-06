@@ -1,0 +1,121 @@
+
+\pgfplotstableset{%
+    x index=0,
+    y index=1,
+    header=true
+}%
+
+\pgfplotsset{every axis/.append style={
+font=\large,
+line width=1.2pt,
+tick style={line width=0.8pt}}}
+
+\pgfplotsset{
+contour/every contour label/.style={
+sloped,
+transform shape,
+inner sep=1pt,
+every node/.style={mapped color!50!black,fill=white},
+/pgf/number format/relative={\pgfplotspointmetarangeexponent},
+},
+}
+
+
+
+
+
+\begin{kep}
+
+\begin{figure}[H]
+\centering
+
+\input{Szimualciok/MerolegesNyomoero.tex}
+\pgfplotstableread{MerolegesNyomoeroCalc.dat}{\pistonkinetics}
+
+\begin{tikzpicture}
+\pgfplotsset{every axis plot/.append style={very thick}}
+\setcaptionsubtype
+\begin{axis}[grid,xlabel=m,ylabel=m,zlabel=N]
+
+\addplot3 [surf,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zFL] {\pistonkinetics};
+\end{axis}
+\end{tikzpicture}
+\caption[]{Kerek nyomoero valtozasa a sulypont fugvenyeben}\label{abserror}
+
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+\centering
+
+\input{Szimualciok/MerolegesNyomoero.tex}
+\pgfplotstableread{MerolegesNyomoeroCalc.dat}{\pistonkinetics}
+
+\begin{tikzpicture}
+\pgfplotsset{every axis plot/.append style={very thick}}
+\setcaptionsubtype
+
+\begin{groupplot}[%
+            ,group style={%
+                ,group name=my plots
+                ,group size=2 by 2
+                ,vertical sep=2cm,
+                ,horizontal sep = 2cm,
+                ,ylabels at=edge left
+            }
+            ,width=7cm
+            ,height=6cm
+            ,try min ticks=5
+            ,xlabel={\bfseries{\emph{m}}}
+            ,ylabel={\bfseries{\emph{m}}}
+            ,zlabel={\bfseries{\emph{kg}}}
+            ,grid=both
+            ,every major grid/.style={gray, opacity=0.5},
+            view={0}{90},
+            %xmin=0,xmax=0.65,
+            %ymin=0,ymax=0.65,
+            zmin=-5,zmax=60,
+            ]
+
+\nextgroupplot%
+\addplot3 [contour gnuplot={number=7},
+        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zFL] {\pistonkinetics};
+\label{plots:InstC}
+
+\nextgroupplot%
+\addplot3 [contour gnuplot={number=14},
+        thick,mesh/rows=196, mesh/cols=14, mesh/check=false,contour/label distance=50pt] table [header=true, x = x, y=y, z=F_zFR] {\pistonkinetics};
+
+\nextgroupplot%
+\addplot3 [contour gnuplot={number=14},
+        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zBL] {\pistonkinetics};
+ 
+\nextgroupplot%       
+\addplot3 [contour gnuplot={number=14},
+        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zBR] {\pistonkinetics};
+
+
+\end{groupplot}
+
+%\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+%  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+%    node {Testing of Parameters 1}
+%  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+%    node {Testing of Parameters 2};
+
+% legend
+
+
+
+\node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{FL\label{subplot:one}}};
+\node[text width=.5\linewidth,align=center,anchor=south] at (my plots c2r1.north) {\caption[]{FR\label{subplot:two}}};
+\node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r2.north) {\caption[]{BL\label{subplot:three}}};
+\node[text width=.5\linewidth,align=center,anchor=south] at (my plots c2r2.north) {\caption[]{BR\label{subplot:four}}};
+\end{tikzpicture}
+\caption[]{$SSMR-4W$ tipusu robot kereknyomoerok kerekenkeni változása a sulypont fuggvenyeben}\label{abserror}
+
+\end{figure}
+\end{kep}
+

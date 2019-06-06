@@ -1,0 +1,93 @@
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/M1/}
+
+\DTLsetseparator{ = }% Set the separator between the columns. Could be
+% anything you like. Whitespaces are not trimmed, so you have to set
+%them as part of the separator.
+
+\input{ Meresek/Mozgasok/M1/Statistic.tex }
+
+
+
+%\DTLloaddb[noheader, keys={thekey,thevalue}]{mydataStat}{statistic.dat}
+% Loads mydata.dat with column headers 'thekey' and 'thevalue'
+
+%\newcommand{\missingcommand}[1]{\DTLfetch{mydataStat}{thekey}{#1}{thevalue}}
+
+\DTLfetchsave\errorFL{mydataStat}{thekey}{SumErrorSpeedFL}{thevalue}
+\DTLfetchsave\errorBL{mydataStat}{thekey}{SumErrorSpeedBL}{thevalue}
+\DTLfetchsave\errorFR{mydataStat}{thekey}{SumErrorSpeedFR}{thevalue}
+\DTLfetchsave\errorBR{mydataStat}{thekey}{SumErrorSpeedBR}{thevalue}
+
+
+\pgfplotsset{width=10cm,compat=1.8}
+%\pgfplotsset{compat=newest}
+\begin{center}
+\begin{tikzpicture}
+   \begin{axis}[
+    ybar,
+    enlargelimits=0.15,
+    legend style={at={(0.5,-0.15)},
+    anchor=north,legend columns=-1},
+    ylabel={Energia Fogyasztasa},
+    symbolic x coords={FL,BL,FR,BR},
+    xtick=data,
+    grid,
+    %ylabel style={rotate=-90}
+    nodes near coords,
+    nodes near coords align={vertical},
+    every node near coord/.append style={
+                anchor=east,
+                rotate=90
+        }
+    ]
+        \renewcommand{\GlobalPath}{Meresek/Mozgasok/SzobaBalraDiff/}
+        \input{\mand{\GlobalPath}{Statistic.tex}}
+        \DTLdeletedb{mydataStat}
+        \DTLloaddb[noheader, keys={thekey,thevalue}]{mydataStat}{statistic.dat}
+        \DTLfetchsave\errorFL{mydataStat}{thekey}{SumErrorSpeedFL}{thevalue}
+        \DTLfetchsave\errorBL{mydataStat}{thekey}{SumErrorSpeedBL}{thevalue}
+        \DTLfetchsave\errorFR{mydataStat}{thekey}{SumErrorSpeedFR}{thevalue}
+        \DTLfetchsave\errorBR{mydataStat}{thekey}{SumErrorSpeedBR}{thevalue}
+        \addplot coordinates {(FL,\errorFL) (BL,\errorBL) (FR,\errorFR) (BR,\errorBR)};
+        
+        \renewcommand{\GlobalPath}{Meresek/Mozgasok/M6/}
+        \input{\mand{\GlobalPath}{Statistic.tex}}
+        \DTLdeletedb{mydataStat}
+        \DTLloaddb[noheader, keys={thekey,thevalue}]{mydataStat}{statistic.dat}
+        \DTLfetchsave\errorFL{mydataStat}{thekey}{SumErrorSpeedFL}{thevalue}
+        \DTLfetchsave\errorBL{mydataStat}{thekey}{SumErrorSpeedBL}{thevalue}
+        \DTLfetchsave\errorFR{mydataStat}{thekey}{SumErrorSpeedFR}{thevalue}
+        \DTLfetchsave\errorBR{mydataStat}{thekey}{SumErrorSpeedBR}{thevalue}
+        \addplot coordinates {(FL,\errorFL) (BL,\errorBL) (FR,\errorFR) (BR,\errorBR)};
+        
+        \renewcommand{\GlobalPath}{Meresek/Mozgasok/M1/}
+        \input{\mand{\GlobalPath}{Statistic.tex}}
+        \DTLdeletedb{mydataStat}
+        \DTLloaddb[noheader, keys={thekey,thevalue}]{mydataStat}{statistic.dat}
+        \DTLfetchsave\errorFL{mydataStat}{thekey}{SumErrorSpeedFL}{thevalue}
+        \DTLfetchsave\errorBL{mydataStat}{thekey}{SumErrorSpeedBL}{thevalue}
+        \DTLfetchsave\errorFR{mydataStat}{thekey}{SumErrorSpeedFR}{thevalue}
+        \DTLfetchsave\errorBR{mydataStat}{thekey}{SumErrorSpeedBR}{thevalue}
+        \addplot coordinates {(FL,\errorFL) (BL,\errorBL) (FR,\errorFR) (BR,\errorBR)};
+        
+        \renewcommand{\GlobalPath}{Meresek/Mozgasok/M5/}
+        \input{\mand{\GlobalPath}{Statistic.tex}}
+        \DTLdeletedb{mydataStat}
+        \DTLloaddb[noheader, keys={thekey,thevalue}]{mydataStat}{statistic.dat}
+        \DTLfetchsave\errorFL{mydataStat}{thekey}{SumErrorSpeedFL}{thevalue}
+        \DTLfetchsave\errorBL{mydataStat}{thekey}{SumErrorSpeedBL}{thevalue}
+        \DTLfetchsave\errorFR{mydataStat}{thekey}{SumErrorSpeedFR}{thevalue}
+        \DTLfetchsave\errorBR{mydataStat}{thekey}{SumErrorSpeedBR}{thevalue}
+        \addplot coordinates {(FL,\errorFL) (BL,\errorBL) (FR,\errorFR) (BR,\errorBR)};
+        
+        
+        %\addplot coordinates {(FL,10) (BL,9.4) (FR,2) (BR,4)};
+        %\addplot coordinates {(FL,8.5) (BL,7) (FR,3) (BR,2)};
+        %\addplot coordinates {(FL,7.3) (BL,6) (FR,7.1) (BR,3)};
+        \legend{Fekete Fold,Fuves,Kavicsos,Homok}
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+gdfgfdgfdgfdg,\laca,

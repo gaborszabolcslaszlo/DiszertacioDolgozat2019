@@ -1,0 +1,176 @@
+%\lhead{ROS sajat robot}
+\section{ROS}
+
+A roboton levő számítógépen Ubuntu 16.4 linux operációs rendszer fut, és ROS lunar keret rendszerben fejlesztet programok megoldjak:
+-FPGA ROS kommunikációt, -távirányítás, -heartbeat biztonsági funkcionalitás,-IMU szenzor adatainak a beategyüttese,-térképezés és lokalizálás.
+
+Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő relációk, a nodok és a topikok leírását a 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lp{3cm}p{8cm}}
+\hline Node Nev & Tipus & Leiras \\ \hline
+  /R es /L      &  FPGA
+  Communication
+  Modul     &  Jobboldali FPGA-val való kommunikációért felelős. Adatokat fogad/küld  a \ref{FPGAcomuSection} fejezetben leírt protokoll alapján, amelyeket továbbít a ROS operációs rendszerben működő nodoknak.     \\
+  /ImuInBoxA       &    Imuxxxx   &  Feladata szöveges formában érkező adatok feldolgozása és a ROS keretrendszerbe integrálását oldja meg. Mert fizikai menyiségek:       \\
+  /WheelOdometry       &       &   Kerekek mozgásából számolt robot elméleti pozíciója a térben     \\
+  /TeleopJot      &       & Feladata a joystick-tol érkező parancsok fogadása. Megvalósítja a $Dead Man Switch$ gomb kezelését létrehoz egy globálisan engedélyező jelet a /setEMS-t és a /TeleopSig-t amely előírja a robot linearis mozgási sebességét és a forgási sebességét a Z tengely körül.  \\
+  /rplidarNode & & A lidar merési adatait olvassa ki és továbbítja a /scan topikban.\\
+  /rosserial\_server & & A megvalósítja a kommunikációt egy esp8266 fejlesztőlap és a ROS között amely az akkumulátorok feszültségeinek a merését végzi \cite{RosSerial}.\\
+  /Joy & & Joystick eszközök integrációját valósítja meg \cite{rosjoy}.\\
+  /hector\_mapping & & Lidar merései alapján 2D térképet keszit a környezetről, miközben lokalizálja a robotot ezen a térképen \cite{roshectormap}\\
+  /Measurement & & merésék elvégzésére szolgáló node, amely egy élőre beállított intervallumokban az megadat referenciaértékeket küld ki az FPGA ban levő szabályzóknak.\\
+  /TelepoController & & Átalakítja a robot sebesség állapotait és kiszámolja nyílt hurokban a szabályzok előírt értékeit. Abban az esetben ha a /movebase nodot használjuk, ez megoldja a robot pozíció szabályzását a térképen, így a $/cmd_vel$ csomagot csak átalakítja /refVals csomaggá azáltal hogy azonos oldalon levő kereke ugyanazt a referencia értéket kell követniük.
+  
+  
+\end{tabular}
+\end{table}
+
+\subsection{Uzenet tipusok (.msg)}
+Az alábbi táblázatban láthatjuk a ROS operációs rendszer által szolgáltatott .msg üzenetek kiterjesztését amelyek lehetővé teszik az FPGA integrációját a ROS környezethez.
+\begin{table}[H]
+\centering
+\begin{tabular}{lllp{6cm}}
+\hline \textbf{Üzenet típus}              & \textbf{Értékek}   & \textbf{Erkek típusa} & \textbf{Leírás} \\ \hline
+ header                   &     -     &      std\_msgs/Header      &   Minden üzenet tartalmaz egy fejlécét amely információkat tartalmaz az üzenetről. \\   
+                          & seq       &      uint32        &   minden üzenetet egyedileg beazonosító szám     \\
+                          & stamp     &      time        &  idő-bélyeg amely a küldés idő-pillanatát tárolja.      \\
+                          & frame\_id  &      string        &        \\  \hline
+                          
+\hline  \multirow{1}{*}{/GlobalEnable}  &   systemIsOk        &    int16          &    
+                                                                          =0 - a HLC működik.
+                                                                          
+                                                                          <>0 -  a HLC nem nem működik      \\    \hline                    
+\hline\multirow{4}{*}{/refVals} & names     & string{[}{]} &        \\
+                          & ref\_position  & float{[}{]}  & előírt szög pozíció       \\
+                          & ref\_velocity & float{[}{]}  &  előírt szög sebesség      \\ 
+                          & ref\_effort &    float{[}{]}  &  előírt forgatónyomaték    \\\hline
+ \hline \multirow{1}{*}{/setEMS}  &   value        &     int16         &      =0 - Vészleállító aktív.
+                                                                          
+                                                                       <>0 -  Vészleállító nem aktív  \\     \hline 
+\hline\multirow{3}{*}{/joyControll} & vx     & float64 &    A robot X tengely mentén előírt sebessége m/s-ban.    \\
+                          & omega  & float64  & előírt szög pozíció   A robot Z tengely körüli forgása \degree/s-ban.    \\
+                          & ControlMode & int64  &  Választhatunk a HLC szabályzok típusa vagy a manuális irányítás közül 
+                           =0 move\_base szabályzó, =1 manuális irányítás joystick segítségével.\\   \hline                                                                       
+\end{tabular}
+\end{table}
+
+
+
+\renewcommand{\img}{SajatRobot/ROS/rosgraph.svg}
+\renewcommand{\sources}{*}
+\renewcommand{\svg}{svg}
+\renewcommand{\aspectratioPic}{1.4}
+\renewcommand{\rotationAnglePic}{90}
+\renewcommand{\captionn}{ROS graph}
+\renewcommand{\figlabel}{ROSgraph}
+\input{picture.tex}
+
+\subsection{FPGA komunikacios modul ROS oldali integracio}
+
+A ROS biztosít a fejlesztőknek egy megoldást amelyek kepések újonnan létrehozót robot integrálását ROS környezetben \cite{RosSerial}. Előnye hogy gyorsan látványos eredményt érhetünk el, de a működés sebességben és az üzenetek méretében is korlátozott. Ezen hátrányokból kifolyólag sajátos integráció volt szükséges amely integrálta az FPGA UART kommunikáció protokollt a ROS keretrendszerben működő más modulokhoz.
+
+A \ref{fig:ROStoUart} diagram a kommunikáció node technikai megvalósítását, különálló szál gondoskodik az UART adatok lóvasasáról és írásáról. Az üzenetek értelemizéset egy külön szál végzi és hívja fel a kiszolgáló fövenyeket.
+A paraméterek helyes beállításáról a ParamThread szál gondoskodik, paraméterek helyes beállításáról FPGA oldalon. Abban az esetben ha a hardver kap egy uj paramétert a \ref{fig:MicroblazeSoft} alapján az FPGA visszaküldi a kapott paramétert, a visszajelzésből a eldönthető hogy a paraméter  a hardverben helyesen beállítódott-e. Abban az esetben ha nem megfelelő újraküldődik mindaddig amíg nem sikeres a beállítás.
+
+A paraméterek kezelésére a ROS paraméter szerver a felelős \cite{parameterserver}, abban az esetben ha egy paraméter megváltozott amely az illető nodehoz köthető akkor a \ref{fig:ROStoUart} ábrán látható ParameterValtozott esemény előidézi a  megváltozott paraméter elküldését az FPGAnak.
+
+A globális engedélyező jel a \ref{fig:ROStoUart} MasterLive Enable,  /globalEnable típusú üzenettel engedélyezhetjük a szabályzok működését, a folyamatos működéshez 500ms periódussal kell érkeznie. Abban az esetben ha a központi számítógép valami okból leállna akkor a hardveres szabályzok is leállnak. A node 300ms periódussal küldi tovább az engedélyező jelet az FPGA modulnak. A HardverLive jel információt szolgáltat a többi ROS környezetben futó és a működés szempontjából kritikus nodenak hogy az adott modul megfelelően működik e. Ezen információ birtokában a HeartBeat node leállítja a rendszert ha egyik FPGA modul nem válaszol.
+
+\subsection{Előirt értékek}
+A /refVals tipusu üzenetben megkapjuk minden egyes motor előírt érteket annak fövenyében $\degree/s$ ha sebesség alapján szabályzunk vagy $N/m$ előírt nyomaték alapján szabályzunk.
+
+\renewcommand{\img}{SajatRobot/ROS/NodeUML.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{ROS integrálása Uart protokolhoz.}
+\renewcommand{\figlabel}{ROStoUart}
+\input{picture.tex}
+
+\subsection{Vonatkoztatási Rendszerek }
+A  vonatkoztatási rendszereket szükségesek mert a szenzorok és beavatkozó eszközök pozíciója és egymáshoz viszonyított helyzete is változhat. Sok esetben szükséges ismernünk egy adott eszköznek a múltbeli helyzetét, vagy egy másik vonatkoztatási rendszerhez képest a pozícióját vagy irányát. A ROS biztosít egy tf \cite{rosTF} nevű csomagot amely megvalósítja a szűkséges eszközöket. 
+A \ref{fig:ROSframes} látható a kialakított vonatkoztatási rendszerek a roboton amely hűen modellezi a fizikai robot kialakítását.
+A vonatkoztatási rendszereket két csoportba oszthatok:
+
+\begin{enumerate}[label=(\alph*)]
+\item rögzített pozíció és szögek, szabadságok 0:
+Szenzorok laser, BODY\_link, wheel\_odom, ImuALink VNR je a base\_link a globális robot VNR höz:
+\item rögzített pozíció csak szögek változnak, szabadságok 1: Kerekek VNR je: FL\_link, BL\_link, FR\_link, BR\_link a BODY\_link hez képest csak Y korul foroghat.
+\item pozíció és szög is változik, szabadságok 6:
+A robot base\_link az helymeghatározás odom, és az odometria a térképhez map viszonyítva.
+\end{enumerate}
+
+
+A robot modellt ROS környezetben URDF robot leíró, xml alapú fájlal tehetjük meg, \cite{rosURDF}
+\cite{rosJoint} \cite{rosLink}.
+Az <origin> tag az xzy paraméter alatt megadhatjuk a csukló pozícióját mindhárom tengelyen méterben kifejezve a <parent> tagban szereplő linkhez képest. Az rpy paraméter alatt az elfordulásokat rendre x, y, z tengelyek mentén radiánban.
+Az <axis> tagban beállíthatjuk a kényszereket, jelen esetben csak az y tengely körüli forgás engedélyezett. 
+Az <link> tagban robot elemeket hozhatunk létre. Az alábbi XML-ben látható a robot fizikai leírása amely megfelel a valós szerkezetnek.
+\begin{lstlisting}[language=XML]
+<robot name="mobile_robot_platform_4Wheel">
+	<link name="base_link" > </link>
+	<link name="FL_link" > </link>
+	<link name="BR_link" > </link>
+	<link name="BL_link" > </link>
+	<link name="BODY_link"> </link>  
+	<link name="ImuALink"> </link>  
+	<link name="laser"> </link> 
+
+	<joint name="FL" type="continuous">
+		<parent link="BODY_link"/>
+		<child link="FL_link"/>    
+		<origin xyz="0.29 -0.33 0" rpy="0 0 0" />
+		<axis xyz="0 1 0" />
+	</joint>
+
+	<joint name="FR" type="continuous">
+		<parent link="BODY_link"/>
+		<child link="FR_link"/>    
+		<origin xyz="0.29 0.330 0" rpy="0 0 0" />
+		<axis xyz="0 1 0" />
+	</joint>
+
+	<joint name="BL" type="continuous">
+		<parent link="BODY_link"/>
+		<child link="BL_link"/>
+		<origin xyz="-0.29 -0.330 0" rpy="0 0 0" />
+		<axis xyz="0 1 0" />
+	</joint>
+
+	<joint name="BR" type="continuous">
+		<parent link="BODY_link"/>
+		<child link="BR_link"/>     
+		<origin xyz="-0.29 0.330 0" rpy="0 0 0" />
+		<axis xyz="0 1 0"/>
+	</joint>
+
+	<joint name="imuAandGPS" type="fixed">
+		<parent link="base_link"/>
+		<child link="ImuALink"/>
+		<origin xyz="0.125 0.03 0.11" rpy="0 0 0" />
+	</joint>
+
+	<joint name="laserAJoin" type="fixed">
+		<parent link="base_link"/>
+		<child link="laser"/>
+		<origin xyz="0.39 -0.02 0.23" rpy="0 0 3.14" />
+	</joint>  
+
+	<joint name="contact" type="fixed">
+		<parent link="base_link"/>
+		<child link="BODY_link"/>
+	</joint> 
+</robot>
+\end{lstlisting}
+
+\renewcommand{\img}{SajatRobot/ROS/frames.svg}
+\renewcommand{\sources}{*}
+\renewcommand{\svg}{svg}
+\renewcommand{\aspectratioPic}{1.5}
+\renewcommand{\rotationAnglePic}{90}
+\renewcommand{\captionn}{A megvalositott robot VNR-k közti reláció }
+\renewcommand{\figlabel}{ROSframes}
+\input{picture.tex}
+
+
+\input{SajatRobot/PIDHangolasa/PIDtuning.tex}

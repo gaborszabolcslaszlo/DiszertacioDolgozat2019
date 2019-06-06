@@ -1,0 +1,29 @@
+\begin{kep}
+\begin{figure}[H]
+\centering
+\ifthenelse{\equal{\svg}{*}}
+{
+    \includegraphics[width=\aspectratioPic\textwidth,angle=\rotationAnglePic]{\img}
+}
+{
+    \includesvg[width=\aspectratioPic\textwidth,angle=\rotationAnglePic]{\img}
+}
+
+ \ifthenelse{\equal{\sources}{*}}
+    { \captionof{figure}{ \captionn}}
+    { \captionof{figure}{ \mand{\mand{\captionn}{Forrás:}}{}} }
+  	
+
+\ifthenelse{\equal{\figlabel}{*}}
+    {}
+    {\label{fig:\figlabel}}%
+    
+\renewcommand{\figlabel}{*}
+
+
+
+\end{figure}
+\end{kep}
+\renewcommand{\aspectratioPic}{1}
+\renewcommand{\rotationAnglePic}{0}
+\renewcommand{\svg}{*}

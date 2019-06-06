@@ -1,0 +1,113 @@
+\begin{thebibliography}{10}
+
+\bibitem{ROSArduino2013}
+David & Couceiro Micael & Rocha~Rui Araújo, André &~Portugal.
+\newblock Integrating arduino-based educational mobile robots in ros, 2013.
+
+\bibitem{RobustMotionControl}
+S.~Arslan and H.~Temeltaş.
+\newblock Robust motion control of a four wheel drive skid-steered mobile
+  robot.
+\newblock In {\em 2011 7th International Conference on Electrical and
+  Electronics Engineering (ELECO)}, pages II--415--II--419, Dec 2011.
+
+\bibitem{Campa2014}
+Marissa~G. Campa, J.L. Gordillo, and Rogelio Soto.
+\newblock Speed and point-to-point control for trajectory tracking of a
+  skid-steered mobile robot.
+\newblock In {\em 11th {IEEE} International Conference on Control {\&}
+  Automation ({ICCA})}. {IEEE}, jun 2014.
+
+\bibitem{roscontrol}
+Sachin Chitta, Eitan Marder-Eppstein, Wim Meeussen, Vijay Pradeep, Adolfo
+  Rodr{\'i}guez~Tsouroukdissian, Jonathan Bohren, David Coleman, Bence Magyar,
+  Gennaro Raiola, Mathias L{\"u}dtke, and Enrique Fern{\'a}ndez~Perdomo.
+\newblock ros\_control: A generic and simple control framework for ros.
+\newblock {\em The Journal of Open Source Software}, 2017.
+
+\bibitem{SSMRartificialForceMethod}
+Mateusz Cholewiński and Alicja Mazur.
+\newblock Influence of choosing the extending column in trajectory tracking
+  control of ssmp platform using artificial force method.
+\newblock {\em Advances in Intelligent Systems and Computing}, 323:129--140, 01
+  2015.
+
+\bibitem{ROSRoboticsByExampleSecEd}
+Carol Fairchild and Dr. Thomas~L. Harman.
+\newblock {\em ROS Robotics By Example - Second Edition: Learning to control
+  wheeled, limbed, and flying robots using ROS Kinetic Kame}.
+\newblock Packt Publishing, 2017.
+
+\bibitem{RosSerial}
+Michael Ferguson.
+\newblock rosserial {@ONLINE}, November 2018.
+
+\bibitem{rosLink}
+Jackie~Kay Ioan~Sucan.
+\newblock link, 2018.
+
+\bibitem{rosURDF}
+Jackie~Kay Ioan~Sucan.
+\newblock Urdf, 2018.
+
+\bibitem{rosJoint}
+Jackie~Kay Ioan~Sucan.
+\newblock Urdf, 2018.
+
+\bibitem{lentin\_2015}
+Lentin Joseph.
+\newblock {\em {Mastering ROS for Robotics Programming}}.
+\newblock Packt Publishing, 12 2015.
+
+\bibitem{roshectormap}
+Stefan Kohlbrecher.
+\newblock hector\_mapping, 2018.
+
+\bibitem{NagyPirosKonyv}
+Anis Koubaa, editor.
+\newblock {\em Robot Operating System ({ROS})}.
+\newblock Springer International Publishing, 2016.
+
+\bibitem{SpititWheel1}
+Jet~Propulsion Laboratory.
+\newblock Spirit struggles to survive the martian winter, 2006.
+
+\bibitem{matlabhwmmodel}
+Matlab.
+\newblock link, 2018.
+
+\bibitem{ROSControlExample}
+Wim Meeussen.
+\newblock Create your own hardware interface {@ONLINE}, November 2018.
+
+\bibitem{rosjoy}
+Kevin Watts Blaise~Gassend Morgan~Quigley, Brian~Gerkey.
+\newblock joy, 2018.
+
+\bibitem{DistributedRealTimeControlROS}
+Eduardo Munera, Jose-Luis Poza-Lujan, Juan-Luis Posadas-Yague, Jose Simo, and
+  J.~Francisco~Blanes Noguera.
+\newblock Distributed real-time control architecture for ros-based modular
+  robots.
+\newblock {\em IFAC-PapersOnLine}, 50(1):11233 -- 11238, 2017.
+\newblock 20th IFAC World Congress.
+
+\bibitem{parameterserver}
+ROS.org.
+\newblock Parameter server, 2018.
+
+\bibitem{Torjancki4Mobilerobot}
+Maciej Trojnacki.
+\newblock {\em Dynamics Model of a Four-Wheeled Mobile Robot for Control
+  Applications – A Three-Case Study}, volume 323.
+\newblock 01 2014.
+
+\bibitem{rosTF}
+Wim~Meeussen Tully~Foote, Eitan Marder-Eppstein.
+\newblock tf, 2018.
+
+\bibitem{DualPortRam}
+Xilinx.
+\newblock Block memory generator v8.2, 2015.
+
+\end{thebibliography}

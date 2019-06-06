@@ -1,0 +1,17 @@
+\begin{kep}
+\begin{figure}[H]
+\centering
+\input{\img}
+ \ifthenelse{\equal{\sources}{*}}
+    { \captionof{figure}{ \captionn}}
+    { \captionof{figure}{ \captionn Forrás: \sources }}%
+ 
+
+\ifthenelse{\equal{\figlabel}{*}}
+    {}
+    {\label{fig:\figlabel}}%
+    
+\renewcommand{\figlabel}{*}
+
+\end{figure}
+\end{kep}

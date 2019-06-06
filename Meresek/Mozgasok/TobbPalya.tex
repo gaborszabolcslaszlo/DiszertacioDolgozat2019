@@ -1,0 +1,116 @@
+        %-------------------------------------------------Palya Adatok---------------
+        
+        \begin{figure}[H]
+            \input{\mand{\GlobalPath}{/Pos.tex}}
+            \pgfplotstableread{PositionOrientation.dat}{\position}
+            
+            \ifthenelse{\equal{\GlobalPathA}{*}}
+            {}
+            {
+                \input{\mand{\GlobalPathA}{/Pos.tex}}
+                \pgfplotstableread{PositionOrientation.dat}{\positionA}
+            }
+            
+            \ifthenelse{\equal{\GlobalPathB}{*}}
+            {}
+            {
+                \input{\mand{\GlobalPathB}{/Pos.tex}}
+                \pgfplotstableread{PositionOrientation.dat}{\positionB}
+            }
+            
+            \ifthenelse{\equal{\GlobalPathC}{*}}
+            {}
+            {
+                \input{\mand{\GlobalPathC}{/Pos.tex}}
+                \pgfplotstableread{PositionOrientation.dat}{\positionC}
+            }
+            
+            \tikzsetnextfilename{\figlabel}
+            
+            \begin{tikzpicture}
+                 \pgfplotsset{every axis plot/.append style={very thick}}
+        \pgfplotsset{every axis legend/.append style={
+        at={(0.5,1.03)},
+        anchor=south}}
+        
+        \begin{axis}[
+                ,width=14.5cm
+                ,height=15cm
+                ,try min ticks=5
+                ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                %,ylabel={\bfseries{\emph{A}}}
+                %,zlabel={\bfseries{\emph{kg}}}
+                ,grid=both
+                ,every both grid/.style={gray, opacity=0.5}
+                ,view={0}{90},
+                %,xtick distance=10
+                %,ytick distance=20
+                %,minor tick num=5
+                %xmin=0,xmax=0.65,
+                %ymin=0,ymax=0.65,
+                %zmin=-5,zmax=60,
+                ,legend columns=-1
+              ]
+              
+            	\addplot [color=red,each nth point={\nth}] table [header=true, x=poseX, y=poseY] {\position};
+            	
+				\ifthenelse{\equal{\GlobalPathA}{*}}
+    			{}
+    			{
+            		\addplot [color=blue,each nth point={\nth}] table [header=true, x=poseX, y expr=\thisrow{poseY}*\coefA] {\positionA};
+            	}
+            	
+            	\ifthenelse{\equal{\GlobalPathB}{*}}
+    			{}
+    			{
+            		\addplot [color=green,each nth point={\nth}] table [header=true, x=poseX, y=poseY] {\positionB};
+            	}
+            	
+            	
+            	\ifthenelse{\equal{\GlobalPathC}{*}}
+    			{}
+    			{
+            		\addplot [color=black,each nth point={\nth}] table [header=true, x=poseX, y=poseY] {\positionC};
+            	}            	
+            
+            	
+            	\legend
+            	{
+            	    \bfseries{\emph{\palya}},
+					\ifthenelse{\equal{\GlobalPathA}{*}}
+    				{}
+    				{
+            			\bfseries{\emph{\palyaA}}
+            		}            		
+            		\ifthenelse{\equal{\GlobalPathB}{*}}
+    				{}
+    				{
+            			\bfseries{\emph{\palyaB}}
+            		}          		           		
+            		\ifthenelse{\equal{\GlobalPathC}{*}}
+    				{}
+    				{
+            			\bfseries{\emph{\palyaC}}
+            		}             		         	
+            	}
+         
+         \end{axis}
+            \end{tikzpicture}
+    \end{figure}
+    
+    \renewcommand{\palya}{*}
+    \renewcommand{\palyaA}{*}
+    \renewcommand{\palyaB}{*}
+    \renewcommand{\palyaC}{*}
+    
+    \renewcommand{\GlobalPath}{*}
+    \renewcommand{\GlobalPathA}{*}
+    \renewcommand{\GlobalPathB}{*}
+    \renewcommand{\GlobalPathC}{*}
+    
+    \renewcommand{\figlabel}{*}
+    \renewcommand{\figlabela}{*}
+    \renewcommand{\figlabelb}{*}
+    \renewcommand{\figlabelc}{*}
+    
+        

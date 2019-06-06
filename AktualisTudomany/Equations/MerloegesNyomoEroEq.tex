@@ -1,0 +1,138 @@
+
+\iffalse
+\begin{equation}
+    AN=B \Rightarrow N=BA^{-1}
+\end{equation}
+
+\begin{equation}
+G_xh=F_{difX}R_5\Rightarrow F_{difX}=\frac{G_{x}h}{R5}, \quad
+G_yh=F_{difY}R_6\Rightarrow F_{difY}=\frac{G_{y}h}{R6}
+\end{equation}
+
+\begin{equation}
+N_{comp} = \begin{bmatrix}
+-\frac{1}{2}\\ 
+\frac{1}{2}\\ 
+-\frac{1}{2}\\ 
+\frac{1}{2}
+\end{bmatrix}F_{difX}
++
+\begin{bmatrix}
+-\frac{1}{2}\\ 
+\frac{1}{2}\\ 
+-\frac{1}{2}\\ 
+\frac{1}{2}
+\end{bmatrix}F_{difY}
+\end{equation}
+
+\begin{equation}
+    N=BA^{-1} + N_{conp}(G_x,G_y)
+\end{equation}
+
+\begin{equation*}
+A =\begin{pmatrix}
+0 & \frac{R_5}{R_1} & \frac{R_7}{R_1} & \frac{R_6}{R_1}\\ 
+\frac{R_5}{R_2} &  0&  \frac{R_6}{R_2}& \frac{R_7}{R_2} \\ 
+\frac{R_7}{R_3} & \frac{R_6}{R_3} & 0 & \frac{R_5}{R_3} \\ 
+\frac{R_6}{R_4} & \frac{R_7}{R_4} & \frac{R_5}{R_4}& 0
+\end{pmatrix},\quad
+N =\begin{bmatrix}
+N_{FL} & N_{BL} & N_{FR} & N_{BR} 
+\end{bmatrix}^T,
+B=\begin{bmatrix}
+G_z&& 
+G_z&& 
+G_z&& 
+G_z
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation*}
+    G=mg \textbf{ ahol m - a robot súlya.}
+\end{equation*}
+
+\begin{equation*}
+R_1 = \sqrt{a^2+d^2},R_2 = \sqrt{a^2+c^2},\quad
+R_3 = \sqrt{b^2+c^2}, R_4 = \sqrt{d^2+b^2}
+\end{equation*}
+\begin{equation*}
+R_5 = d+c, R_6 = a+b,\quad
+R_7 = \sqrt{(a+b^2)+(d+c)^2)} 
+\end{equation*} 
+
+\fi
+
+\begin{equation}
+    N_{FGx}=\frac{hG_x}{c+d}
+    ,\quad
+    N_{BGx}= - N_{FGx}
+\end{equation}
+
+\begin{equation}
+    N_{RGy}=\frac{hG_y}{a+b}
+    ,\quad
+    N_{LGy}= - N_{FGy}
+\end{equation}
+
+\begin{equation}
+N_{yBL}=\frac{dN_{LGy}}{c+d}
+    ,\quad
+F_{yFL}=-N_{yBL}
+\end{equation}
+
+\begin{equation}
+N_{yBR}=\frac{dN_{RGy}}{c+d}
+    ,\quad
+F_{yFR}=-N_{yBR}
+\end{equation}
+
+
+\begin{equation}
+F_F = \frac{G_zd}{c+d} + N_{FGx}
+    ,\quad
+F_B = G_z-F_F + N_{BGx}
+\end{equation}
+
+\begin{equation}
+F_{BR}=\frac{aF_B}{a+b}
+    ,\quad
+F_{BL}=F_{B}-F_{BR}
+\end{equation}
+
+\begin{equation}
+F_{FR}=\frac{aF_F}{a+b}
+    ,\quad
+F_{FL}=F_{F}-F_{FR}
+\end{equation}
+
+\begin{equation}
+N_\perp =\begin{bmatrix}
+F_{FL} + N_{yFL} & F_{BL} +  N_{yBL} & F_{FR} +  N_{yFR} & F_{BR} +  N_{yBR}
+\end{bmatrix}^T
+\end{equation}
+
+
+\begin{equation}
+W = a+b,\quad L = c+d
+\end{equation}
+
+\begin{equation}
+F_{FR}=\frac{aF_F}{W} \Rightarrow a = \frac{F_{FR}W}{F_F}
+\end{equation}
+
+\begin{equation}
+G_{z}=F_{FR}+ F_{FL}+ F_{BR}+ F_{BL} 
+\end{equation}
+
+\begin{equation}
+F_{F}=\frac{dG_z}{L} \Rightarrow d = \frac{F_{F}L}{G_z}
+\end{equation}
+
+
+
+
+
+
+
+
+

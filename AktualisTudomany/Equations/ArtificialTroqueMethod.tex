@@ -1,0 +1,125 @@
+\begin{equation}
+A(q)\dot q = \begin{bmatrix}
+\cos\theta  & \sin\theta & -c & -r &  0\\ 
+\cos\theta & \sin\theta & c & 0 & -r
+\end{bmatrix}
+\begin{bmatrix}
+\dot X\\ 
+\dot Y\\ 
+\dot \theta\\ 
+\Omega_L\\ 
+\Omega_R
+\end{bmatrix}
+\end{equation}
+
+\begin{equation*}
+M(q)=\begin{bmatrix}
+m & 0 & 0 & 0 & 0\\ 
+0 & m & 0 & 0 & 0\\ 
+0 & 0 & I & 0 & 0\\ 
+0 & 0 & 0 & I_{FL}+I_{BL} & 0\\ 
+0 & 0 & 0 & 0 & I_{FR}+I_{BR}
+\end{bmatrix}
+,\quad
+B=\begin{bmatrix}
+0 & 0\\ 
+0 & 0\\ 
+0 & 0\\ 
+1 & 0\\ 
+0 & 1
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation}
+F(q,\dot q) = \begin{bmatrix}
+F_x \cos \theta - F_y \sin \theta & F_x \sin \theta - F_y \cos \theta & M_r & 0 & 0
+\end{bmatrix}^T
+\end{equation}
+
+\begin{equation}
+\dot q = G_e(q)\eta = \begin{bmatrix}
+\cos \theta & \cos \theta & -\sin \theta\\ 
+\sin \theta & \sin \theta & \cos \theta\\ 
+\frac{1}{c} & -\frac{1}{c}  & 0\\ 
+0 & \frac{2}{r} & 0\\ 
+\frac{2}{r} & 0 & 0
+\end{bmatrix}
+\begin{pmatrix}
+\eta_1 \\ 
+\eta_2\\ 
+\eta_3
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\underset{M^*}{\underbrace{G^T_eMG_e}}\dot\eta + \underset{C^*}{\underbrace{G^T_e(M\dot G_e + CG_e)}}\dot \eta
+ + \underset{F^*}{\underbrace{G^T_eF}} = \underset{B^*}{\underbrace{G^T_eB}}u
+\end{equation}
+
+\begin{equation*}
+M^*(q)=\begin{bmatrix}
+m+\frac{I}{c}+4\frac{I_k}{r^2} & m-\frac{I}{c^2}  & 0 \\ 
+m-\frac{I}{c^2} & m+\frac{I}{c^2} + 4\frac{I_k}{r^2}& 0\\ 
+0 & 0 & m
+\end{bmatrix}
+,\quad
+F^*(q,\dot q)=\begin{bmatrix}
+-F_x-\frac{M_r}{c} && - F_x+\frac{M_r}{c} && -F_y
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation*}
+C^*(q)=\begin{bmatrix}
+0 & 0 & -m\dot \theta \\ 
+0 & 0 & -m\dot \theta \\
+m\dot \theta & m\dot \theta & 0
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation*}
+B^*=\begin{bmatrix}
+\frac{2}{r} & 0 & 0\\ 
+0 & \frac{2}{r} & 0\\ 
+0 & 0 & 1
+\end{bmatrix}
+,\quad
+(B^*)^{-1}=\begin{bmatrix}
+\frac{r}{2} & 0 & 0\\ 
+0 & \frac{r}{2} & 0\\ 
+0 & 0 & 1
+\end{bmatrix}
+,\quad
+\eta_r=\begin{pmatrix}
+\eta_{r_1}\\ 
+\eta_{r_2}\\ 
+\eta_{r_3}
+\end{pmatrix}
+\end{equation*}
+
+
+\begin{equation}
+u=(B^*)^{-1}
+\begin{Bmatrix}
+M^*\dot\eta_r + C^*\eta_r + F^* -K_de
+\end{Bmatrix}
+\end{equation}
+
+
+
+\begin{equation}
+    \tau =W_rD[u_1, u_2]^T
+\end{equation}
+
+\begin{equation}
+e_{\eta_{i}} = \eta_{i} - \eta_{r_{i}}
+\end{equation}
+
+\begin{equation}
+\dot\eta_{r_{3}} = \frac{m\dot\theta(\eta_{r_{1}}+\eta_{r_{2}})-F_y-K_d(\eta_3-\eta_{r_3})}{m}
+\end{equation}
+
+\begin{equation*}
+\eta_{r_1} = \frac{^RV^{COM}_x- ^R\omega^{COG}_rc}{2}
+,\quad
+\eta_{r_2} = \frac{^RV^{COM}_x+ ^R\omega^{COG}_rc}{2} 
+\end{equation*}

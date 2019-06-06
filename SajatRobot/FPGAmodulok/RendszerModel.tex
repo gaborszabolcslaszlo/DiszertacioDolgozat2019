@@ -1,0 +1,126 @@
+%\lhead{Modulok es kapcsolatok}
+
+\section{Alacsony szintu modulok} 
+
+A roboton alacsonyszintű feladatait amelyek a motor hajtásokhoz kapcsolódó szenzorokat és vezérlő jelek elő allitasara hivatott a kétdaram CmodA7 20T FPGA fejlesztőlap. Négy tengely szogsebesseget kel szabályozni, egy FPGA két hajtást valósít meg. A \ref{fig:CmodA7architektura} alapján egy hajtáshoz tartozó I/O-k:
+
+\begin{table}[H]
+\center
+\begin{tabular}{lll}
+\hline Név                            & Darab              & Típus  \\ \hline
+Inkrementális enkoder           & 2           & Digitális Input \\
+Árammérő szenzor                & 1                  & Analóg Input \\
+Motor vezérlő                   & 3                  & Digitális Output \\
+Végálas kapcsoló                 & 1                  & Digitális Input        
+\end{tabular}
+\end{table}
+
+
+
+
+\renewcommand{\img}{SajatRobot/SzerkAbrak/cmoda7modulok.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{CmodA7 FPGA-ban kialakított architektúra amely a szenzorok és motor hajtások kezelésre hivatott }
+\renewcommand{\figlabel}{CmodA7architektura}
+\input{picture.tex}
+
+A rendszer tervezesenel a fo koncepcio az volt hogy a rendszer arhitekturaja dinamikus legyen a fejleszhetoseget tekitve, igy a \ref{fig:CmodA7architektura} levo arhitekurat kaptuk. 
+
+
+\renewcommand{\img}{SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{MicroBlaze proceszoron futo szoftver diagramja}
+\renewcommand{\figlabel}{MicroblazeSoft}
+\input{picture.tex}
+
+
+
+
+\subsection{FPGA alapu uart komunikacio}
+\label{FPGAcomuSection}
+Megvalositva a komunikaciot a kiszolgalo ROS noddal, amely UART protokolra epitett sajat uzenetekbol all \ref{fig:FPGAComCsomagAlt}.
+
+\renewcommand{\img}{SajatRobot/FPGAmodulok/ProtokolDiagram.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{FPGA komunikacios protokol altalanos csomag szerkezet}
+\renewcommand{\figlabel}{FPGAComCsomagAlt}
+\input{picture.tex}
+
+
+A modul megvalositja mindet iranyban a keretezest, parameterkent atadhato egy-egy karaketr jelzi az uzenet kezdetet es veget jelen esetben az $S$ csomag kezdetet, mig a $P$ a csomag veget jelzik.
+A proceszor cimtartomanyaba ilesztet modul rendelkezik egy 400byte karakterbol allo memoriaval, amelyhez egyidoban a proceszor es a hardver is hozaferhet \cite{DualPortRam}.
+A kezdo keret beerkezte utan minden karakter bekerul a 400byte hoszu memoriaba sorba, kivetelt kepez ezalol a binaris adat tomb ahol a skip\footnote{specialis karakterek amelyek jelzik az ertelmezo szamara hogy olyan karakter kovetkezik amelyet a protokol ertelmezeseben nem kell vegrehajtani.} karakterek kikerulnek a tombol.Jelen esetben a \{ es \} kozt levo karakterek nem kerulnek ertelmezesre. A \{ utani elso karakter megadja a binaris adat hoszat igy tudja az ertelmezo hogy hol kell varnia a lezaro karaktert.
+
+\subsection{Paramterek FPGA modul}
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+
+\begin{table}[H]
+\begin{tabular}{lllllp{6cm}}
+\hline \multirow{2}{*}{Id} & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Nev \\ (X lehet A vagy B)\end{tabular}} & \multicolumn{2}{l}{Ertekek} & \multirow{2}{*}{Tipus} & \multirow{2}{*}{Leiras}                                                                                                                      \\
+                    &                                                                                    & Min         & Max           &                        &                                                                                                                                              \\ \hline
+1                   & TsTimerPeriod                                                                      & 1           & 1000          & int16                  &  Mintavetelezesi periodus {[}ms{]} ban.                                                                                                      \\
+2                   & GetDataPeriodical                                                                  & 0           & 1             & int16                  &  Kapcsolo ha 0 akkor nem kuld az FPGA mert ertekeket, kulomben a TsTimerPeriod periodusi mintavetellel kuld.                                  \\
+3                   & TorqueCoefX                                                                        &             &               & float16                &  Motor aram es nyomatek kozti egyuthato.                                                                                                      \\
+4                   & ActiveControllerX                                                                  & 0           & 65535         & int16                  &  Valaszhato szabalyzo tipusok hajtasonkent 0=Szoftvare PID szogsebesseg, 1=Hardver PID szogsebesseg, 2=Szoftver PID aram, 3=Hardver PID aram  \\
+5                   & MaxControlSiggnalX                                                                 & 0           & 32760         & sint16                 &  A beavatkozo PWM jel maximalis kitoltesi tenyezoje, linearisan 0-\textgreater{}0\% -tol 32760-\textgreater{}100\% -ig.                       \\
+6                   & IncSenzResX                                                                        & 0           & 65535         & int16                  &  Inkrementalis szenzor altal generalt inpulzusok szama egy teljes kerekfordulatra.FPGA oldalon ez a szam 10-el szorzodik.                     \\
+7                   & IncSenzCountDirectionX                                                             & -1          & 1             & sint16                 &  inkrementalis szenzor jeleit feldogozo mudul szamolasi iranyanak valtoztatasara szolgalo egyuthato.                                          \\
+8                   & Kp\_Whell\_PidX                                                                    & 0           &               & float16                &  szogsebeseg szabalyzo, PID erositesi parametere.                                                                                             \\
+9                   & Ti\_Whell\_PidX                                                                    &             &               & float16                &  szogsebeseg szabalyzo, PID integralasi ido.                                                                                                  \\
+10                  & Td\_Whell\_PidX                                                                    &             &               & float16                &  szogsebeseg szabalyzo, PID derivalasi ido.                                                                                                   
+\end{tabular}
+\end{table}
+
+
+\renewcommand{\img}{SajatRobot/FPGAmodulok/UartUML.jpg}
+\renewcommand{\sources}{*}
+\renewcommand{\captionn}{FPGA hardver/MicroBlaze proceszor es ROS node kozti komunikacio megvalistiasa UART protokol alapjan }
+\renewcommand{\figlabel}{FPGAuartRos}
+\input{picture.tex}
+
+
+Az uzenet veget jelzo karakter az \ref{fig:FPGAuartRos} lathato folyamat alapjan a modul general egy hardveres megszakitast a procesornak, a proceszor kiolvassa az adat kezdocimet, es elkezdi kiolvasni az adatokat a sajat adatmemoriajaba. Ekozben ha uj csomag erkezik a hardver komunikacios modulhoz, elkezdodik annak beirasa a memoriaba, az elozo adatok felulnemirasaval. A megszakitas ertelemzi a csomag tipusat es annak megfeleloen vegrehajtja a muveleteket amelyek lehetnek: Parameter ertekenek a bealitasa,  Parameter ertekenek a lekerdezese, eloirt ertekek fogadasa, mert erteke kuldese, ACK megerosito uzenet kuldese/fogadasa.
+
+Az uzenetek kuldese hasonlokepen mukodik az olvasashoz, a hardver megoldja a keretezest es a skip karakterek beszurasat is.
+
+
+
+
+\subsubsection{Kommunikáció sebessége}
+
+Az uart sebesege 1MBd \footnote{megabaud} ami megfelel 131072 byte/s adatforgalomnak. A valosagban a komunikacio hibatlanul mukodik 1ms periodussal kuldott 100byte hoszu uzeneteket.
+
+\begin{equation}
+    frekvencia = \frac{131072}{SizeOfPachage}=\frac{131072[byte/s]}{100[byte]}=1310,072 [Hz]
+\end{equation}
+
+\subsubsection{Biztonsagi megoldasok}
+
+Abbana az esetben ha kikultuk az elirt ertekeket a modulnak es ezutan a komunikacio megszakadt a modullal akkor a szabalyzok probaljak tartani az elirt erteket annak elenere is hogy az mar lehet hogy megkelet volna valtozzon. Erre a celra bepitesre kerult egy uzenet es egy logika (HeartBeat) amely csak a komunikacios modulhoz erkezik meg, es jelzi hogy a ROS jolmukodik, es forditva is.Abban az esetben ha a komunikacio megszakad lealitja a motrokat es a szabalyzokat,  \ref{fig:FPGAuartRos} alapjan az Enable(EN) jel.
+
+\begin{table}[H]
+\center
+\begin{tabular}{lll}
+\hline Irany   & Uzenet & Periodis    \\ \hline
+FPGA->ROS &  SEP        & 300 ms kotelezo         \\
+ROS->FPGA &  mintavetelezett ertekek kuldese & dinamikusan modosithato                   
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

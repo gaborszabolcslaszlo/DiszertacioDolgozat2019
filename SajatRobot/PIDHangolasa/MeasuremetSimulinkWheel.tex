@@ -1,0 +1,48 @@
+
+\tikzstyle{block} = [draw, fill=white, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, fill=white, circle, node distance=1cm]
+\tikzstyle{matlab} = [draw, fill=white, circle, node distance=1cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+\begin{center}
+\begin{tikzpicture}[auto, node distance=2cm,>=latex']
+
+   \node [block] (matlab) {Matlab/Simulink};
+   \node [block, right of=matlab, node distance=4cm] (system) {System};
+   \node [block, below of=system] (rosbag) {ROS bag};
+
+    \node [right of=matlab,fill=black,inner sep=1.2pt,node distance=62] (umid) {};
+    \draw [->] (matlab) -- (system);
+%---------------- 
+    \path (system.north east)--(system.south east) foreach \j in {1,...,2} {%
+        coordinate [pos=1/3*\j] (z\j)
+    };
+    
+    \foreach \i/\name/\nameNode/\text  in {1/{Omega}/{Om}/{$    \Omega$},2/{Current}/{Cu}/{I}}
+    {  
+        \node [output, right of=system, node distance=\i*15] (\nameNode) at (z\i) {};
+        \node [fill=black,inner sep=1.2pt, right of=system, node distance=\i*15] (\nameNode) at (z\i) {};
+        \node [output, right of=system, node distance=0] (\nameNode1) at (z\i) {};
+        \node [output, right of=system, node distance=50] (\nameNode2) at (z\i) {};
+        \draw [->] (\nameNode1) -- node[name=eu1,right of=Om2,node distance=33] {\text} (\nameNode2);
+    }
+
+
+%----------------
+    \path (rosbag.north east)--(rosbag.south east) foreach \k in {1,...,2} {%
+        coordinate [pos=1/3*\k] (z\k)
+    };
+    \foreach \i/\name  in {1/{inRbagOmeg},2/{inRbagCur}}
+    {  
+        \node [input, left of=rosbag, node distance=1.5] (\name) at (z\i) {};
+    }
+    
+
+    \draw [<-] (inRbagCur) -| (Cu); crossing over
+    \draw [<-] (inRbagOmeg) -| (Om);
+    \draw [->] (umid) |-(rosbag);
+    
+\end{tikzpicture}
+\end{center}

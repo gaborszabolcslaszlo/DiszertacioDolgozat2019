@@ -1,0 +1,63 @@
+\subsection{Feloldali kerekek blokolva kavicsos talajon}
+
+A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szogsebeseggel forognak. Az eredmenyek alapjan a \ref{fig:Left0Right50b} lathato a robot altal leirt palya. A mozgas soran tobb mint 360 \degree ot fordult es mondhatni korpalyat irt le. A talajjal valo surlodasok miatt a robot nem tokeletesen fordul ez lathato abbol is hogy a masodszori fordulas mar az elozo palyatol eltero pozicioban talalhato. 
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/HibasMukodes/R_0_L_1/}
+\renewcommand{\secondImage}{*}
+
+%kep a talajrol
+%\input{Meresek/Mozgasok/KepekAFelszinrol.tex}
+
+%1
+%\input{Meresek/Mozgasok/FirstV1.tex}
+
+\begin{figure}[H]
+  \includegraphics{tikz/Left0Right50a.pdf}
+  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+    \label{fig:Left0Right50a}
+\end{figure}
+
+
+\begin{figure}[H]
+  \includegraphics{tikz/Left0Right50b.pdf}
+  \caption{$SSMR-4W$ típusú robot altal leirt palya, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+  \renewcommand{\figlabel}{Left0Right50b}
+  \label{fig:Left0Right50b}
+\end{figure}
+
+
+\begin{figure}[H]
+  \includegraphics{tikz/Left0Right50c.pdf}
+  \caption{$SSMR-4W$ típusú robot orientacioja, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+  \label{fig:Left0Right50c}
+\end{figure}
+
+
+\begin{figure}[H]
+  \label{fig:Left0Right50d}
+  \includegraphics{tikz/Left0Right50d.pdf}
+  \caption{$SSMR-4W$ típusú robot fordulasi szogsebessege, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+  \label{fig:Left0Right50d}
+\end{figure}
+
+
+\begin{figure}[H]
+  \includegraphics{tikz/Left0Right50e.pdf}
+  \caption{$SSMR-4W$ típusú robot egyenesvonalu sebessegei, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+  \label{fig:Left0Right50e}  
+\end{figure}
+
+
+
+
+A mozgas nyilt hurokban tortenik nincsen a pozicio vagy a rogsebeseg szabalyozva.
+A robot $ICR$ pontja a $K_{BL}$ es $K_{FL}$ pontokat oszekoto tengelyen helyezkedik el \ref{fig:SMR4WKinematics}.
+
+
+
+
+
+
+
+
+

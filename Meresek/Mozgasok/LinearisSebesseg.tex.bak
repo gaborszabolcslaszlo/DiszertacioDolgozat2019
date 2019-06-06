@@ -1,0 +1,52 @@
+\begin{figure}[H]
+    %\ContinuedFloat
+    %-------------------------------------------------Pozicio X es Y Adatok---------------
+   % \newline
+
+    \input{\mand { \GlobalPath}{Pos.tex}}
+    \pgfplotstableread{PositionOrientation.dat}{\position}
+    \tikzsetnextfilename{\figlabel}
+    
+    \begin{tikzpicture}
+    
+        \pgfplotsset{every axis plot/.append style={very thick}}
+        \pgfplotsset{every axis legend/.append style={
+        at={(0.5,1.03)},
+        anchor=south}}
+        
+        \begin{axis}[
+                ,width=14.5cm
+                ,height=10cm
+                ,try min ticks=5
+                ,ylabel={\bfseries{\emph{$m/s$}}}
+                ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                %,zlabel={\bfseries{\emph{m}}}
+                ,grid=both
+                ,every both grid/.style={gray, opacity=0.5}
+                ,view={0}{90}
+                %,xtick distance=10
+                %,ytick distance=0.1
+                ,ylabel style={rotate=-90}
+                %xmin=0,xmax=0.65,
+                %ymin=0,ymax=0.65,
+               % zmin=-5,zmax=60,
+                ,legend columns=-1
+              ]
+              
+        \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=speedX] {\position};
+        \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=speedY] {\position};
+        \legend{\bfseries{\emph{X}},\bfseries{\emph{Y}}}
+         
+         \end{axis}
+    \end{tikzpicture}
+
+    % Caption
+    \ifthenelse{\equal{\captionn}{*}}
+    {}
+    {\captionof{figure}{\captionn}}
+    \renewcommand{\captionn}{*}
+    \label{fig:\figlabel}
+    
+\end{figure}
+
+    

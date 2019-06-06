@@ -1,0 +1,197 @@
+    %3
+    \begin{figure}
+        %\ContinuedFloat
+        \input{\mand{\GlobalPath}{Pos.tex}}
+        \ifthenelse{\equal{\plotSpeed}{*}}
+        { }
+        {
+        \newline
+        \begin{subfigure}{\textwidth}
+            \begin{center}
+
+            \pgfplotstableread{PositionOrientation.dat}{\position}
+            
+            %-------------------------------------------------Sebesseg Adatok---------------
+            \begin{tikzpicture}
+                \pgfplotsset{every axis plot/.append style={very thick}}
+                \setcaptionsubtype
+            
+                % megjelenites beallitasai
+            
+                \begin{groupplot}[%
+                        ,group style={%
+                            ,group name=my plots
+                            ,group size=1 by 1
+                            ,vertical sep=2cm,
+                            ,horizontal sep = 0cm,
+                            ,ylabels at=edge left
+                        }
+                        ,width=14.5cm
+                        ,height=10cm
+                        ,try min ticks=5
+                        ,ylabel={\bfseries{\emph{$m/s$}}}
+                        ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                        %,zlabel={\bfseries{\emph{m}}}
+                        ,grid=both
+                        ,every both grid/.style={gray, opacity=0.5}
+                        ,view={0}{90}
+                        %,xtick distance=10
+                        %,ytick distance=0.1
+                        ,ylabel style={rotate=-90}
+                        %xmin=0,xmax=0.65,
+                        %ymin=0,ymax=0.65,
+                       % zmin=-5,zmax=60,
+                        ]
+                    %% ide jonnek a adatok.            
+                                
+                    %\nextgroupplot[ylabel=\emph{A}, ylabel style={rotate=-90}]
+                    \nextgroupplot[]
+                            \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=speedX] {\position}; \label{plots:plot51}
+                            \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=speedY] {\position}; \label{plots:plot52}
+                         %%   \addplot[red,quiver={u=u,v=v}] table [header=true, x=poseX, y=poseY, u=poseX, v=poseY] {\position};
+        
+        
+        
+        
+            \end{groupplot}
+            
+                %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+                %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+                %    node {Testing of Parameters 1}
+                %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+                %    node {Testing of Parameters 2};
+                
+                % legend
+                \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{Robot Sebessége a Globális Koordináta Rendszerben
+               \label{subplot:\figlabela}}};
+                
+                      %\path (top-|current bounding box.west)-- 
+                %      node[anchor=south,rotate=90] {throughput} 
+                %      (bot-|current bounding box.west);
+                % legend
+                \path (top|-current bounding box.north)--
+                      coordinate(legendpos)
+                      (bot|-current bounding box.north);
+                \matrix[
+                    matrix of nodes,
+                    anchor=south,
+                    draw,
+                    inner sep=0.2em,
+                    draw
+                  ]at([yshift=1ex]legendpos)
+                  {
+                    \ref{plots:plot51}& Sebesség X &[5pt] 
+                    \ref{plots:plot52}& Sebesség Y &[5pt]\\
+                  };
+                
+                %\centering
+            \end{tikzpicture}
+            \end{center}
+        \end{subfigure}
+        }
+        
+        \ifthenelse{\equal{\plotRotSpeed}{*}}
+        { }
+        { 
+        %-------------------------------------------------Fordulasi Sebesseg Adatok---------------
+        \newline
+        \input{\mand { \GlobalPath}{Pos.tex}}
+        \pgfplotstableread{PositionOrientation.dat}{\position}
+        
+        \input{\mand{\GlobalPath}{ImuA.tex}}
+        \pgfplotstableread{ImuA.dat}{\imua}
+        
+        \begin{subfigure}{\textwidth}
+            \begin{center}
+
+            
+            \begin{tikzpicture}
+                \pgfplotsset{every axis plot/.append style={very thick}}
+                \setcaptionsubtype
+            
+                % megjelenites beallitasai
+            
+                \begin{groupplot}[%
+                        ,group style={%
+                            ,group name=my plots
+                            ,group size=1 by 1
+                            ,vertical sep=2cm,
+                            ,horizontal sep = 0cm,
+                            ,ylabels at=edge left
+                        }
+                        ,width=14.5cm
+                        ,height=10cm
+                        ,try min ticks=5
+                        ,ylabel={\bfseries{\emph{\degree/s}}}
+                        ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                        %,zlabel={\bfseries{\emph{m}}}
+                        ,grid=both
+                        ,every both grid/.style={gray, opacity=0.5}
+                        ,view={0}{90}
+                        %,xtick distance=10
+                        %,ytick distance=10
+                        ,ylabel style={rotate=-90}
+                        %xmin=0,xmax=0.65,
+                        %ymin=0,ymax=0.65,
+                       % zmin=-5,zmax=60,
+                        ]
+                    %% ide jonnek a adatok.            
+                                
+                    %\nextgroupplot[ylabel=\emph{A}, ylabel style={rotate=-90}]
+                    \nextgroupplot[]
+                            \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaZ] {\position}; \label{plots:plot61}
+                            \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y expr=\thisrow{gZ}*-1] {\imua}; \label{plots:plot62}
+                         %%   \addplot[red,quiver={u=u,v=v}] table [header=true, x=poseX, y=poseY, u=poseX, v=poseY] {\position};
+        
+        
+        
+        
+            \end{groupplot}
+            
+                %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+                %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+                %    node {Testing of Parameters 1}
+                %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+                %    node {Testing of Parameters 2};
+                
+                % legend
+                \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{Robot Forgási Sebessége 
+                \label{subplot:\figlabelb}}};
+                
+                        %\path (top-|current bounding box.west)-- 
+                %      node[anchor=south,rotate=90] {throughput} 
+                %      (bot-|current bounding box.west);
+                % legend
+                \path (top|-current bounding box.north)--
+                      coordinate(legendpos)
+                      (bot|-current bounding box.north);
+                \matrix[
+                    matrix of nodes,
+                    anchor=south,
+                    draw,
+                    inner sep=0.2em,
+                    draw
+                  ]at([yshift=1ex]legendpos)
+                  {
+                    \ref{plots:plot61}& LIDAR  &[5pt] 
+                    \ref{plots:plot62}& Giroszkop  &[5pt]\\
+                };
+                
+               % \centering
+            \end{tikzpicture}
+            \end{center}
+            
+        \end{subfigure}
+        }
+        
+        \renewcommand{\figlabela}{*}
+        \renewcommand{\figlabelb}{*}
+        
+        % Caption
+        \ifthenelse{\equal{\captionn}{*}}
+        {}
+        {\captionof{figure}{\captionn}}
+        \renewcommand{\captionn}{*}
+
+    
+    \end{figure}

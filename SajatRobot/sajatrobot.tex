@@ -1,0 +1,50 @@
+\chapter{A rendszer implementálása}
+A robot egy négykerekű kültéri mobilis robot $4W-SSMR$ amelynek négy különálló csiga áttétel, és egy DC motor mozgat.
+
+\begin{table}[H]
+\center
+    \begin{tabular}{llll}
+        \hline
+        Paraméter               & érték     & Mértékegység     \\ \hline
+        Szélesség               & 80        &   $[cm]$         \\
+        Hosszúság               & 80        &   $[cm]$         \\
+        Magasság                & 40        &   $[cm]$         \\
+        Önsúly                  & 54        &   $[kg]$         \\
+        Max sebessége           & 25        &   $[cm/s]$       \\
+        Max fordulási sebesség  &25         &   $[\degree/s]$  \\
+        Kerék-átmérő            &40         &   $[cm]$       \\
+        Maximális 
+        kerék forgatónyomaték   &1000       &   $[N/m]$        \\ 
+    \end{tabular}
+\end{table}
+
+A roboton egy performáns számítógép felelős a ROSmaster és egyéb kiszolgáló nodok fűtatásáért, a rendszerhez, USB \ref{fig:CmodA7architektura} csatlakozóval kapcsolódó modulok:
+\begin{table}[H]
+\center
+    \begin{tabular}{llll}
+        \hline
+        Modulnév            & Leírás     \\ \hline
+        2xFPGA                          &   \multicolumn{2}{p{12cm}|}{\raggedright CmodA7 $https://reference.digilentinc.com/reference/programmable-logic/cmod-a7/reference-manual$ }      \\
+        IMU                       &   \multicolumn{2}{p{12cm}|}{\raggedright ESP8266 arduino alapú rendszer,
+        SPI protokollon keresztül olvassa az IMU mert értékeit,
+        átalakítás után string formában uart protokollon
+        küldődik a kiszolgáló ROS nodnak }       \\
+        GPS                     &  \multicolumn{2}{p{12cm}|}{\raggedright Uart porton NMEA protokoll alapján
+        ROS node fogadja az értékeket. }        \\
+        LIDAR                          & \multicolumn{2}{p{12cm}|}{\raggedright Leírás:
+        $https://www.robotshop.com/media/files/pdf2/rpk-02-datasheet.pdf$,
+        gyártó által biztosított ROS
+        $http://wiki.ros.org/rplidar$
+        integráció.     }   \\
+       
+    \end{tabular}
+\end{table}
+
+
+
+\input{SajatRobot/FPGAmodulok/RendszerModel.tex}
+\newpage
+\input{SajatRobot/ROS/rosmodulok.tex}
+
+\newpage
+\input{SajatRobot/PalyaKovetes/Palyakovetes.tex}

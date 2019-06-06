@@ -1,0 +1,29 @@
+\begin{equation}
+\label{eq:eloirtnyomatek}
+\tau = W_rD\overline{B}\begin{bmatrix}
+\overline{M}u+\overline{C}\eta +\overline{R}
+\end{bmatrix} + I_w \dot\Omega 
+\end{equation}
+
+\begin{equation}
+    \label{eq:controllertorque1}
+    u = \dot \eta_d + K_\eta e_\eta  + \sigma_\eta  
+\end{equation}
+
+\begin{equation}
+    e_\eta = \eta _d - \eta
+\end{equation}
+
+\begin{equation}
+    e_\eta = \begin{bmatrix}
+e_v & e_w 
+\end{bmatrix}^T \in \mathbb{R}^2
+,\quad
+\sigma_\eta = \begin{bmatrix}
+\sigma_v & \sigma_w 
+\end{bmatrix}^T \in \mathbb{R}^2
+,\quad
+\sigma_v = \rho _v sgn(e_v)
+, \quad
+\sigma_w = \rho _w sgn(e_w)
+\end{equation}

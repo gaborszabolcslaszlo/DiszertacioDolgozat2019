@@ -1,0 +1,30 @@
+
+
+\renewcommand{\sources}{}
+\renewcommand{\captionn}{Kep a felszinrol}
+\renewcommand{\figlabel}{figm}
+
+
+\begin{kep}
+    \begin{figure}[H]%
+    \begin{center}
+    
+    \subfloat[label a]{
+        {\includegraphics[width=9cm]{\mand{\GlobalPath}{talaj1.jpg}} }
+        \label{fig:ex3-a}
+    }%
+    
+    \ifthenelse{\equal{\secondImage}{*}}
+    {}
+    {
+        \qquad
+        \subfloat[label b]{{\includegraphics[width=9cm]{\mand{\GlobalPath}{talaj1.jpg}} }}%
+    }
+  
+    \label{fig:example}%
+    \end{center}
+\end{figure}
+\end{kep}
+
+\renewcommand{\secondImage}{*}
+

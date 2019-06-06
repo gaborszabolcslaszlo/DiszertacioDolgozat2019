@@ -1,0 +1,278 @@
+
+
+\documentclass[12pt,a4paper]{book}
+
+\usepackage[margin=8mm]{geometry}
+\PassOptionsToPackage{defaults=hu-min,classmod=unchanged}{magyar.ldf}
+\usepackage[magyar,english]{babel}
+\usepackage{tikz,pgfplots}
+
+%\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+\usepackage[T1,T2A]{fontenc}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{mathptmx}
+\usepackage{geometry}
+\usepackage{ifthen}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{capt-of}
+\usepackage[section]{placeins}
+\usepackage{dblfnote}
+\usepackage{nomencl}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{filecontents}
+\usetikzlibrary{shapes,arrows,positioning,calc}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{datatool, filecontents}
+\usepackage{svg}
+%\usepackage{luacode}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{pgfplotstable, booktabs}
+\usepackage{datatool,fp}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{blindtext}
+\usepackage{titlesec}
+%\usepackage[svgnames]{xcolor}
+%\usepackage{newtxtext,newtxmath}
+%\usepackage{etoolbox}
+
+
+
+\makeatletter
+% \patchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+\patchcmd{\@makechapterhead}{\huge}{\large}{}{}% for \chapter
+\patchcmd{\@makechapterhead}{\Huge}{\large}{}{}% for \chapter
+\patchcmd{\@makeschapterhead}{\Huge}{\large}{}{}% for \chapter*
+\makeatother
+
+
+%----------------------------XML stilus
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type}% list your attributes here
+}
+
+% From egreg at https://tex.stackexchange.com/questions/335483/retrieving-substring-of-dtlfetch
+\newcommand{\DTLfetchsave}[5]{%
+  \edtlgetrowforvalue{#2}{\dtlcolumnindex{#2}{#3}}{#4}%
+  \dtlgetentryfromcurrentrow{\dtlcurrentvalue}{\dtlcolumnindex{#2}{#5}}%
+  \let#1\dtlcurrentvalue
+}
+
+
+\usetikzlibrary{pgfplots.groupplots, matrix}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{%
+    compat=1.12,
+    minor grid style={dashed,red},
+    major grid style={dotted,green!50!black},
+    select coords between index/.style 2 args={
+    x filter/.code={
+        \ifnum\coordindex<#1\def\pgfmathresult{}\fi
+        \ifnum\coordindex>#2\def\pgfmathresult{}\fi
+    }
+}}
+\usepackage{subfig}
+\captionsetup[subfigure]{labelfont={it,bf},textfont={it,bf},labelformat=parens,labelsep=space}
+\usepackage{siunitx}
+\usepackage{listings}
+
+
+
+\tikzset{
+block/.style = {draw, fill=white, rectangle, minimum height=3em, minimum width=3em},
+tmp/.style  = {coordinate}, 
+sum/.style= {draw, fill=white, circle, node distance=1cm},
+input/.style = {coordinate},
+output/.style= {coordinate},
+pinstyle/.style = {pin edge={to-,thin,black}
+}}
+
+\newenvironment{kep}
+{   \begin{center}
+
+    \end{center}
+}
+
+
+
+\title{Kűltéri mobilis robot}								
+\author{Gábor Szabolcs László}							
+\date{20 Nov 2018}	
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+%\rhead{Share\LaTeX}
+%\lhead{Guides and tutorials}
+\rfoot{\center \thepage}
+
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=25mm,
+ right=25mm,
+ top=20mm,
+ bottom=25mm,
+ headheight=15mm
+ }
+ 
+%%Formating figure cross references 
+\makeatletter
+\renewcommand\p@figure{ábra \thesection.\arabic{figure}\expandafter\@gobble}
+\makeatother
+ 
+\def\mand#1#2{#1#2} % "macro and"
+ 
+\newcommand\xname{*}
+\newcommand\x{*}
+\newcommand\y{*}
+\newcommand\z{*}
+\newcommand\img{*}
+\newcommand\imgSecond{*}
+\newcommand\sources{*}
+\newcommand\captionn{*}
+\newcommand\watherProf{*}
+\newcommand\sebesseg{*}
+\newcommand\weight{*}
+\newcommand\AcAndGy{*}
+\newcommand\GPS{*}
+\newcommand\figlabel{*}
+\newcommand{\figlabela}{*}
+\newcommand{\figlabelb}{*}
+\newcommand{\figlabelc}{*}
+\newcommand\svg{*}
+\newcommand{\idoFelirat}{*}
+\newcommand{\AbraFelirat}{*}
+\newcommand{\GlobalPath}{*}
+\newcommand{\GlobalPathA}{*}
+\newcommand{\GlobalPathB}{*}
+\newcommand{\GlobalPathC}{*}
+\newcommand{\secondImage}{*}
+\newcommand{\nth}{1}
+\newcommand{\palya}{*}
+\newcommand{\palyaA}{*}
+\newcommand{\palyaB}{*}
+\newcommand{\palyaC}{*}
+
+\newcommand{\coefA}{1}
+\newcommand{\coefB}{1}
+\newcommand{\coefC}{1}
+
+\newcommand{\aspectratioPic}{1}
+\newcommand{\rotationAnglePic}{0}
+\newcommand{\plotRotSpeed}{true}
+\newcommand{\plotSpeed}{true}
+%%\setfootsepline{.8pt}
+
+% Egyqnlet referencia stilus.
+\newcommand*{\myeqref}[2][egyenlet~]{%
+  \hyperref[{#2}]{#1(\ref*{#2})}%
+}
+\def\equationautorefname#1#2\null{%
+  Eq.#1(#2\null)%
+}
+
+% Egyqnlet referencia stilus intervalum.
+\newcommand*{\myeqrefinterval}[3][egyenletek~]{%
+  \hyperref[{#2}]{#1(\ref*{#2})-(\ref*{#3})}%
+}
+
+
+\DFNalwaysdouble % Double colon footnotes.
+
+%\input{JelolesekEsRovditesek.tex}
+\pgfplotsset{compat=1.12}
+\usepgfplotslibrary{external} % creates a tight self-contained pdf figure for each tikzpicture
+\tikzexternalize % comment out to debug if latex errors: generates the external pdf
+\tikzset{external/force remake} % otherwise will use external pdf if it exists
+\tikzset{png export/.style={
+	external/system call={
+		pdflatex \tikzexternalcheckshellescape
+			-halt-on-error -interaction=batchmode -jobname "\image" "\texsource";
+		convert -units pixelsperinch -density 150 "\image.pdf" "\image.png";
+		convert -units pixelsperinch -density 600 "\image.pdf" "\image-600.png";
+}}}
+\tikzset{png export}
+\tikzsetexternalprefix{tikz/} % output the pdf to an existing directory (needs to exist)
+
+
+
+\begin{document}
+
+\renewcommand{\idoFelirat}{$Id$\H{o}$(s)$}
+
+%\tracingall
+
+%\input{Fedolap/Fedolap.tex}\newpage
+
+%\input{Declaratie.tex}
+
+\input{Extras.tex}
+\input{Kivonat.tex}
+\input{Abstract.tex}
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables\newpage
+
+\printnomenclature[2cm] \newpage
+
+
+
+
+\input{Bevezeto/Bevezeto.tex}\newpage
+\input{AktualisTudomany/AktTudomany.tex}\newpage
+\input{SajatRobot/sajatrobot.tex}\newpage
+
+\input{Meresek/Meres1.tex}\newpage
+
+\input{KiertekelesEsEredmenyek.tex}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

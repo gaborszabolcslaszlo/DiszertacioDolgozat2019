@@ -1,0 +1,87 @@
+\makenomenclature
+%% This removes the main title:
+\renewcommand{\nomname}{}
+%% this modifies item separation:
+\setlength{\nomitemsep}{8pt}
+%% this part defines the groups:
+%----------------------------------------------
+\usepackage{etoolbox}
+\renewcommand\nomgroup[1]{%
+  \item[\bfseries
+  \ifstrequal{#1}{R}{Rövidítsek}{%
+  \ifstrequal{#1}{J}{Jelölősek}{
+    \ifstrequal{#1}{B}{Number Sets}{%
+    \ifstrequal{#1}{C}{Other Symbols}{}}
+  }}%
+  \ifstrequal{#1}{F}{Fizikai Konstansok}{%
+    \ifstrequal{#1}{B}{Number Sets}{%
+    \ifstrequal{#1}{C}{Other Symbols}{}
+  }}%
+]\vspace{8pt}} % this is to add vertical space between the groups.
+%----------------------------------------------
+
+% This will add the units
+%----------------------------------------------
+\newcommand{\nomunit}[1]{%
+\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+%----------------------------------------------
+
+\nomenclature[R]{\textbf{ROS}}{Robot Operation System}
+\nomenclature[R]{\textbf{DSC}}{Distributed Control System}
+\nomenclature[R]{\textbf{GUID}}{Globally Unique Identifier -globálisan egyedi azonosító}
+\nomenclature[R]{\textbf{SMC}}{Sliding Mode Control - Csuszas alapu szabalyzas}
+\nomenclature[R]{\textbf{CTM}}{Computed Torque Method - Kiszamitott Nyomatekok modszere}
+\nomenclature[R]{\textbf{VFO}}{Vector Field Orientation - Vektor alapu iranymeghatas}
+\nomenclature[R]{\textbf{DDV}}{Diferential Driven Vehicles}
+\nomenclature[R]{\textbf{ICR}}{Instantaneous Center of Rotation - pillanatnyi forgás-középpont}
+\nomenclature[R]{\textbf{HLC}}{Hight Level Controller - magaszintu szabalyozo}
+\nomenclature[R]{\textbf{OMP}}{Outdor Mobile Robot - kulteri mobilis robot}
+\nomenclature[R]{\textbf{IMO}}{in my opinion}
+\nomenclature[R]{\textbf{OP}}{original poster}
+\nomenclature[R]{\textbf{COM}}{Center Of Mass}
+\nomenclature[R]{\textbf{COG}}{Center Of Geometry}
+\nomenclature[R]{\textbf{MR}}{Mobilis Robot }
+\nomenclature[R]{\textbf{AMR}}{Autonomus Mobilis Robot }
+\nomenclature[R]{\textbf{VNR}}{Vonatkoztatási Rendszer }
+\nomenclature[R]{\textbf{UART}}{két vezetékes(Tx,Rx) két irányú kommunikáció}
+\nomenclature[R]{\textbf{HLC}}{Angol elnevezésből származó rövidítése a Magasszintű szabályzónak (High Level Controller}
+
+\nomenclature[R]{\textbf{URDF}}{Unified Robot Description Format, xml alapú robotleiró nyelv}
+
+\nomenclature[R]{\textbf{AMCL}}{Adaptive Monte Carlo Localization}
+
+\nomenclature[R]{\textbf{LIDAR}}{Light Detection and Ranging, 2D vagy 3D lézeres kép alkotó műszer}
+
+\nomenclature[R]{\textbf{IMU}}{Inertial Measurement Unit gravitációs gyorsulást és szög elfordulást mérő szenzor.}
+
+\nomenclature[R]{\textbf{SSMR}}{Skid-Steered Mobile Robot - csúszókormányzású mobilis robot.}
+
+\nomenclature[R]{\textbf{4W-SSMR}}{4Wheel Skid-Steered Mobile Robot - 4 kerekű csúszókormányzású mobilis robot.}
+
+
+
+\nomenclature[J]{$k$}{$k$ $\in(F, B) $ ahol F és B a robot első és hátulsó oldali kerekek jeleni. }
+\nomenclature[J]{$i$}{$i$ $\in(L, R) $ ahol L és R a robot bal és jobb oldali kerekek jeleni. }
+\nomenclature[J]{$n$}{$n$ $\in(G, R) $ ahol G és R világ és robot vonatkoztatási rendszer. }
+\nomenclature[J]{$^n\S_i_k$}{Valemilyen $\S$ fizikai menyiseg a $n$ vonatkoztatási rendszerben,az $in$ indexek a mennyiség helyet jelöli.}
+\nomenclature[J]{$h$}{Plank constant}
+\nomenclature[J]{$X$}{A robot x tengelyen mert pozicioja\nomunit{$\, m$}}
+\nomenclature[J]{$Y$}{A robot y tengelyen mert pozicioja\nomunit{$\, m$}}
+\nomenclature[J]{$\theta$}{A robot z tengelyen x tengelyel bezart szoge\nomunit{$\, rad$}}
+\nomenclature[J]{$F$}{erők\nomunit{$\, N$}}
+\nomenclature[J]{$q_2$}{A $MR$ állapot vektora $q \in \mathbb{R}^3$ $q$ = [X Y $\theta$] ahol a X es Y  a robot x iletve y tengelyen mert pozicja}
+
+\nomenclature[J]{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/IRQSymbol.svg}}{Megszakitas a proceszornak.}
+\nomenclature[J]{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/AISymbol.svg}}{Analog bemenet.}
+\nomenclature[J]{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/DISymbol.svg}}{Digitalis bemenet.}
+\nomenclature[J]{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/DOSymbol.svg}}{Digitalis kimenet.}
+\nomenclature[J]{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/uBSymbol.svg}}{Micriblaze proceszor cimtartomanyaban levo regiszter.}
+\nomenclature[J]{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/DmuxSymbol.svg}}{Digitalis tobbites multiplexer.}
+\nomenclature[J]{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/SmuxSymbol.svg}}{Multiplexert szelektalo regiszter.}
+
+\nomenclature[F, 02]{$c$}{Speed of light in a vacuum inertial system 
+\nomunit{$299,792,458\, m/s$}}
+\nomenclature[F, 03]{$h$}{Plank Constant
+\nomunit{$6.62607 \times 10^{-34}\, Js$}}
+\nomenclature[F, 01]{$g$}{Gravitational Constant 
+\nomunit{$6.67384 \times 10^{-11}\, N \cdot m^2/kg^2$}}

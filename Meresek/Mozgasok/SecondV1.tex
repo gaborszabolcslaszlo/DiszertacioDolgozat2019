@@ -1,0 +1,222 @@
+    %2
+    \begin{figure}[H]
+        %\ContinuedFloat
+        %-------------------------------------------------Pozicio X es Y Adatok---------------
+       % \newline
+        \begin{subfigure}{\textwidth}
+        \begin{center}
+           \input{\mand{\GlobalPath}{Pos.tex}}
+            \pgfplotstableread{PositionOrientation.dat}{\pos}
+            \centering
+            \begin{tikzpicture}
+            \pgfplotsset{every axis plot/.append style={very thick}}
+            \setcaptionsubtype
+            
+            % megjelenites beallitasai
+            
+            \begin{groupplot}[%
+                        ,group style={%
+                            ,group name=my plots
+                            ,group size=1 by 1
+                            ,vertical sep=2cm,
+                            ,horizontal sep = 0cm,
+                            ,ylabels at=edge left
+                        }
+                        ,width=14.5cm
+                        ,height=6cm
+                        ,try min ticks=5
+                        ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                        %,ylabel={\bfseries{\emph{A}}}
+                        %,zlabel={\bfseries{\emph{kg}}}
+                        ,grid=both
+                        ,every both grid/.style={gray, opacity=0.5}
+                        ,view={0}{90},
+                        %,xtick distance=10
+                        %,ytick distance=0.4
+                        %,minor tick num=5
+                        %xmin=0,xmax=0.65,
+                        %ymin=0,ymax=0.65,
+                        %zmin=-5,zmax=60,
+                        ]
+            %% ide jonnek a adatok.            
+                        
+            \nextgroupplot[ylabel=\emph{m}, ylabel style={rotate=-90}]
+             \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=poseX] {\pos};\label{plots:plot21}
+             %\addlegendentry{Pozíció X [m]} 
+             \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=poseY]{\pos};\label{plots:plot22}                            %\addlegendentry{Pozíció Y [m]} 
+            \end{groupplot}
+            
+            %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+            %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+            %    node {Testing of Parameters 1}
+            %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+            %    node {Testing of Parameters 2};
+            
+            % legend
+            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{Robot Pozíció Tengelyekre           \label{subplot:\figlabela}}};
+            
+            %\path (top-|current bounding box.west)-- 
+                %      node[anchor=south,rotate=90] {throughput} 
+                %      (bot-|current bounding box.west);
+                % legend
+                \path (top|-current bounding box.north)--
+                      coordinate(legendpos)
+                      (bot|-current bounding box.north);
+                \matrix[
+                    matrix of nodes,
+                    anchor=south,
+                    draw,
+                    inner sep=0.2em,
+                    draw
+                  ]at([yshift=1ex]legendpos)
+                  {
+                    \ref{plots:plot21}&Pozíció X [m] &[5pt]
+                    \ref{plots:plot22}&Pozíció Y [m] &[5pt]\\
+                };
+            
+            %\centering
+            \end{tikzpicture}
+            \end{center}
+        \end{subfigure}
+        
+        %-------------------------------------------------Palya Adatok---------------
+      %  \newline
+        \begin{subfigure}{\textwidth}
+           \begin{center}
+            \input{\mand{\GlobalPath}{/Pos.tex}}
+            \pgfplotstableread{PositionOrientation.dat}{\position}
+            
+            \begin{tikzpicture}
+                \pgfplotsset{every axis plot/.append style={very thick}}
+                \setcaptionsubtype
+            
+                % megjelenites beallitasai
+            
+                \begin{groupplot}[%
+                        ,group style={%
+                            ,group name=my plots
+                            ,group size=1 by 1
+                            ,vertical sep=2cm,
+                            ,horizontal sep = 0cm,
+                            ,ylabels at=edge left
+                        }
+                        ,width=14.5cm
+                        ,height=9cm
+                        %,try min ticks=5
+                        ,xlabel={\bfseries{\emph{m}}}
+                        ,ylabel={\bfseries{\emph{m}}}
+                        ,zlabel={\bfseries{\emph{\idoFelirat}}}
+                        ,grid=both
+                        ,every both grid/.style={gray, opacity=0.5}
+                        ,view={45}{45}
+                        %,xtick distance=0.25
+                        %,ytick distance=0.25
+                        %,minor tick num=5
+                        ,xticklabel style={rotate=45},
+                        ,ylabel style={rotate=-90}
+                        %xmin=0,xmax=0.65,
+                        %ymin=0,ymax=0.65,
+                       % zmin=-5,zmax=60,
+                        ]
+                    %% ide jonnek a adatok.            
+                                
+                    %\nextgroupplot[ylabel=\emph{A}, ylabel style={rotate=-90}]
+                    \nextgroupplot[]
+                           % \addplot3 []  table [header=true, x=poseX, y=poseY, z=Time] {\position};
+                           
+                            \addplot [color=blue,each nth point={\nth}] table [header=true, x=poseX, y=poseY] {\position};
+                            
+                            %\addplot [color=blue] table [header=true, x=poseX, y=poseY] {\position};
+                         %%   \addplot[red,quiver={u=u,v=v}] table [header=true, x=poseX, y=poseY, u=poseX, v=poseY] {\position};
+        
+        
+        
+        
+            \end{groupplot}
+            
+                %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+                %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+                %    node {Testing of Parameters 1}
+                %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+                %    node {Testing of Parameters 2};
+                
+                % legend
+                \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{Robot Által Leirt Pálya     \label{subplot:\figlabelb}}};
+                
+                %\centering
+            \end{tikzpicture}
+            \end{center}
+    \end{subfigure}
+        
+        %-------------------------------------------------Orientacio Adatok---------------
+       % \newline
+        \begin{subfigure}{\textwidth}
+        \begin{center}
+        \input{\mand{\GlobalPath}{Pos.tex}}
+        \pgfplotstableread{PositionOrientation.dat}{\pos}
+        
+        \begin{tikzpicture}
+        \pgfplotsset{every axis plot/.append style={very thick}}
+        \setcaptionsubtype
+        
+        % megjelenites beallitasai
+        
+        \begin{groupplot}[%
+                    ,group style={%
+                        ,group name=my plots
+                        ,group size=1 by 1
+                        ,vertical sep=2cm,
+                        ,horizontal sep = 0cm,
+                        ,ylabels at=edge left
+                    }
+                    ,width=14.5cm
+                    ,height=5cm
+                    ,try min ticks=5
+                    ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                    %,ylabel={\bfseries{\emph{A}}}
+                    %,zlabel={\bfseries{\emph{kg}}}
+                    ,grid=both
+                    ,every both grid/.style={gray, opacity=0.5}
+                    ,view={0}{90},
+                    %,xtick distance=10
+                    %,ytick distance=20
+                    %,minor tick num=5
+                    %xmin=0,xmax=0.65,
+                    %ymin=0,ymax=0.65,
+                    %zmin=-5,zmax=60,
+                    ]
+        %% ide jonnek a adatok.            
+                    
+        \nextgroupplot[ylabel=\emph{$[\degree]$}], ylabel style={rotate=-90}]
+        \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=orZ] {\pos};\label{plots:plot41}
+        \end{groupplot}
+        
+        %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+        %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+        %    node {Testing of Parameters 1}
+        %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+        %    node {Testing of Parameters 2};
+        
+        % legend
+        \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{Orientáció \label{subplot:\figlabelc}}};
+        
+        
+       % \centering
+        \end{tikzpicture}
+        \end{center}
+        \end{subfigure}
+    
+        
+        % Caption
+        \ifthenelse{\equal{\captionn}{*}}
+        {}
+        {\captionof{figure}{\captionn}}
+        \renewcommand{\captionn}{*}
+        \label{subplot:\figlabel}
+       
+    \end{figure}
+    
+        \renewcommand{\figlabel}{*}
+        \renewcommand{\figlabela}{*}
+        \renewcommand{\figlabelb}{*}
+        \renewcommand{\figlabelc}{*}

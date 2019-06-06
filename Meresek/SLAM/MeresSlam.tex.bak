@@ -1,0 +1,46 @@
+
+\input{Meresek/SLAM/Pos.tex}
+\pgfplotstableread{PositionOrientation.dat}{\pos}
+
+\begin{figure}
+
+\tikzsetnextfilename{\figlabel}
+
+\begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[width=1\textwidth]{Meresek/SLAM/terkep1.jpg}};
+    \begin{scope}[x={(image.south east)},y={(image.north west)}]
+         \draw[fill=green,ultra thick,rounded corners] (0.42,0.06) rectangle (0.38,0.09);
+         \draw[fill=red,ultra thick,rounded corners] (0.27,0.83) rectangle (0.23,0.86);
+         %\draw[help lines,xstep=.1,ystep=.1] (0,0) grid (1,1);
+
+		  \begin{axis}[
+		  	,width=17cm
+       		,height=17cm
+       	   ,ylabel={\bfseries{\emph{[m]}}}
+           ,xlabel={\bfseries{\emph{[m]}}}
+           ,ylabel style={rotate=-90}
+           ,grid=both
+           ,every both grid/.style={gray, opacity=0.9}
+    	   ,grid style={line width=.9pt, draw=gray!10}
+		  ]
+		 \addplot [color=blue,each nth point={10}] table [header=true, x=poseX, y=poseY]
+		  {\pos};
+		  \end{axis}
+    \end{scope}
+   
+    
+\end{tikzpicture}
+
+
+   
+     
+    % Caption
+    \ifthenelse{\equal{\captionn}{*}}
+    {}
+    {\captionof{figure}{\captionn}}
+    \renewcommand{\captionn}{*}
+    \label{fig:\figlabel}
+    
+
+\end{figure}
+

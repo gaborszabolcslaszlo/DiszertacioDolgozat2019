@@ -1,0 +1,74 @@
+\lhead{Meresek a Robottal}
+\section{Meresek}
+Ebben a fejezetben tanulmányozásra kerül a robot viselkedése abban az estekben ha valamely kerék meghibásodik, és ezáltal nem megfelelően működik.
+Hasonló eset történt a Marson a Spitit mars roverrel (2006,Március,13) \cite{SpititWheel1} amikor az első jobb kereke meghibásodott. A megoldás az volt hogy a robot mozgása optimálisabb lesz energia felhasználás szempontjából ha háttal megy. Az energia ellátása is véges volt, kiszolgáltatott volt a napsütésnek,a nap elemekre rakodót por miatt csökkentek a ayok hatásfoka így sokkal alaposabb mozgás pálya tervezésre volt szükség.
+Problémák adódtak a homokos talajjal is, a Spirit mars járonak, kerekei a homokba süllyedtek és beragadtak, a földi irányító csoport egy másolat segítségével próbálta kimozdítani a csapdaból.
+A hasonló eseteket elkerülhetők lennének, ha ismerve a robot korlátait olyan mozgás pályát határoznak meg amellyel elkerulhetjuek ezen akadajokat, vagy időben detektálhatjuk ezen problémákat pl: homokba süllyedés érzékelése.
+
+
+A robottal a következő méréseket fogjuk elvégezni:
+\begin{enumerate}[label=(\alph*)]
+\item BL kerék blokált
+\item BL és BR kerék blokált
+\item BL kerék maximálisan pörög
+\item BL és BR kerék maximálisan pörög
+\end{enumerate}
+
+
+\subsection{Differenciális Forgás Vízszintes Talajon}
+
+Diferencialis forgasnak nevezuk azt amikor a jobb es ball oldali kerekek sebesege megegyezo, csak iranyukban elenkezo, igy a robot belso teruleten belul jon letre a ICR pont a COG kozeleben kelene legyen \ref{fig:SMR4WKinematics}. 
+
+
+%%globalis paremeterek a meresek kirajzolasahoz.
+\input{Meresek/Mozgasok/ConfigV1.tex}
+
+
+\input{Meresek/Mozgasok/HibasMukodes/R_0_L_1/main.tex}
+\input{Meresek/Mozgasok/NormalMukodes/DiferencialisanHelybeKavicsos/main.tex}
+
+\input{Meresek/Mozgasok/KorpalyanMozgas.tex}
+
+
+
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/GyergyoFuvesUdvar/M1/}
+\renewcommand{\plotRotSpeed}{o}
+\renewcommand{\plotSpeed}{o}
+%\input{Meresek/Mozgasok/PlotMozgasokV1.tex}
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/M6/}
+%\input{Meresek/Mozgasok/PlotMozgasokV1.tex}
+
+%\subsection{Szoba Elore}
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/SzobaElore/}
+%\input{Meresek/Mozgasok/PlotMozgasokV1.tex}
+
+%\subsection{Szoba Balra Diff}
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/SzobaBalraDiff/}
+%\input{Meresek/Mozgasok/PlotMozgasokV1.tex}
+
+%\subsubsection{Eredmények Ertekelese}
+%\input{Meresek/Mozgasok/KiertekelesV1.tex}
+
+%-----------------------------SLAM-----------
+
+\input{Meresek/Mozgasok/HomokosDomb/main.tex}
+
+
+
+\newpage
+
+\subsection{Ismeretlen terep terkepezese es robot lokalzalasa (SLAM)}
+
+
+\begin{figure}[H]
+  \label{fig:hatsoudvarmap}
+  \includegraphics{tikz/hatsoudvarmap.pdf}
+  \caption{Terkep keszitese mikozben taviranyitassal halad a robot.}
+\end{figure}
+
+
+
+

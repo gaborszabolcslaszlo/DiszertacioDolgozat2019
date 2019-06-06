@@ -1,0 +1,105 @@
+\begin{equation}
+\label{eq:eromodelglobal1}
+m\ddot{X} = \xi F_x\cos \theta -\xi F_{sx}\cos \theta + \xi F_{sy} \sin\theta
+\end{equation}
+
+\begin{equation}
+\label{eq:eromodelglobal2}
+m\ddot{Y} = \xi F_x\sin \theta -\xi F_{sx}\sin \theta - \xi F_{sy} \cos \theta
+\end{equation}
+
+\begin{equation}
+\label{eq:eromodelglobal3}
+I\ddot{\theta} = M_{a}+ M_{r},
+\end{equation}
+
+\begin{equation*}
+\xi = \begin{bmatrix}
+1 & 1 & 1 & 1
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation*}
+F_{sx} = \begin{bmatrix}
+F_{sxFL} & F_{sxBL} & F_{sxFR} & F_{sxBR}
+\end{bmatrix}^T
+, \quad
+F_{sy} = \begin{bmatrix}
+F_{syFL} & F_{syBL} & F_{syFR} & F_{syBR}
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation*}
+    F_{sxik}=N_{ik} \mu_{xik} S_{xik}
+    ,\quad
+    F_{sy}=N_{ik} \mu_{yik} S_{y{ik}}
+\end{equation*}
+
+\begin{equation*}
+\mu _x = \begin{bmatrix}
+\mu _{xFL} & 
+\mu _{xBL} & 
+\mu _{xFR} & 
+\mu _{xBR}
+\end{bmatrix}^T
+,\quad
+\mu _y = \begin{bmatrix}
+\mu _{yFL}& 
+\mu _{yBL}& 
+\mu _{yFR}&
+\mu _{yBR}
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation*}
+S_x=\begin{bmatrix}
+sgn(V_{xFL})&& 
+sgn(V_{xBL})&& 
+sgn(V_{xFR})&& 
+sgn(V_{xBR})
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation*}
+S_y=\begin{bmatrix}
+sgn(V_{yFL})&& 
+sgn(V_{yBL})&& 
+sgn(V_{yFR})&& 
+sgn(V_{yBR})
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation}
+M_r=M_{rx}+M_{ry}
+\end{equation}
+
+\begin{equation}
+M_{rx}=K^T_xF_{sx},M_{ry}=K^T_yF_{sy}, M_a = K^T_xF_x
+\end{equation}
+
+\begin{equation*}
+K_x =\begin{bmatrix}
+a & a & b & b
+\end{bmatrix}^T
+,\quad
+K_y =\begin{bmatrix}
+c & d & c & d
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation*}
+F_x= \begin{bmatrix}
+F_{FL}&& 
+F_{BL}&& 
+F_{FR}&& 
+F_{BR}
+\end{bmatrix}^T
+\end{equation*}
+
+\begin{equation*}
+    F = \begin{bmatrix}
+    F_{FL}+F_{BL} &&
+    F_{FR}+F_{BR}
+    \end{bmatrix}^T
+\end{equation*}
+

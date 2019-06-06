@@ -1,0 +1,201 @@
+ %1
+    \begin{figure}
+    
+        %-------------------------------------------------Joint Adatok---------------
+        \begin{subfigure}{\textwidth}
+            \begin{center}
+        
+            \input{\mand{\GlobalPath}{L.tex}}
+            \pgfplotstableread{NodeLeft.dat}{\leftNode}
+
+            
+            \input{\mand{\GlobalPath}{R.tex}}
+            \pgfplotstableread{NodeRight.dat}{\rightNode}
+
+        
+            \begin{tikzpicture}
+            \pgfplotsset{every axis plot/.append style={very thick}}
+            \setcaptionsubtype
+            
+            % megjelenites beallitasai
+            
+            \begin{groupplot}[%
+                        ,group style={%
+                            ,group name=my plots
+                            ,group size=2 by 2
+                            ,vertical sep=1.8cm,
+                            ,horizontal sep = 2.4cm,
+                            ,ylabels at=edge left
+                        }
+                        ,width=7cm
+                        ,height=6cm
+                        ,try min ticks=5
+                        ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                        ,zlabel={\bfseries{\emph{kg}}}
+                        %%ha kell y felirat az elso ketore
+                        %,ylabel={\bfseries{\degree$/s$}}
+                        %,ylabel style={rotate=-90}
+                        %,xtick={0,10,...,60},
+                        %,minor tick num=5
+                        %,xtick distance=10
+                        %,ytick distance=25
+                        ,grid=major%both
+                        ,every both grid/.style={gray, opacity=0.7},
+                        view={0}{90},
+                        legend columns=2,
+                        %xmin=0,xmax=0.65,
+                        %ymin=0,ymax=0.65,
+                       % zmin=-5,zmax=60,
+                        ]
+            %% ide jonnek a adatok. 
+            
+            %ha kell felirat be kell teni a nextplot[] parameterei koze
+            % \nextgroupplot[ylabel=\degree$/s$, ylabel style={rotate=-90},legend to name={CommonLegend},legend style={legend columns=2}]
+            \nextgroupplot[]
+                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaA] {\leftNode};\label{plots:plot3}
+                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortA] {\leftNode};\label{plots:plot4}
+                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaA] {\leftNode}; \label{plots:plot1}
+                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmA] {\leftNode};\label{plots:plot2}
+                \coordinate (top) at (rel axis cs:0,1);% coordinate at top of the first plot
+            
+            \nextgroupplot[]
+                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaA] {\rightNode};
+                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortA] {\rightNode};
+                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaA] {\rightNode};
+                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmA] {\rightNode};
+                    
+            \nextgroupplot[]
+                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaB] {\leftNode};
+                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortB] {\leftNode};
+                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaB] {\leftNode};
+                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmB] {\leftNode};
+                   
+            \nextgroupplot[]
+                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaB] {\rightNode};
+                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortB] {\rightNode};
+                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaB] {\rightNode};
+                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmB] {\rightNode};
+                \coordinate (bot) at (rel axis cs:1,0);% coordinate at bottom of the last plot
+            \end{groupplot}
+            
+            %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+            %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+            %    node {Testing of Parameters 1}
+            %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+            %    node {Testing of Parameters 2};
+            
+            % legend
+            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{FL\label{subplot:one}}};
+            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c2r1.north) {\caption[]{FR\label{subplot:two}}};
+            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r2.north) {\caption[]{BL\label{subplot:three}}};
+            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c2r2.north) {\caption[]{BR\label{subplot:four}}};
+            
+            %\path (top-|current bounding box.west)-- 
+            %      node[anchor=south,rotate=90] {throughput} 
+            %      (bot-|current bounding box.west);
+            % legend
+            \path (top|-current bounding box.north)--
+                  coordinate(legendpos)
+                  (bot|-current bounding box.north);
+            \matrix[
+                matrix of nodes,
+                anchor=south,
+                draw,
+                inner sep=0.2em,
+                draw
+              ]at([yshift=1ex]legendpos)
+              {
+                \ref{plots:plot1}& Aktualis Szogsebesseg [\degree$/s$]&[5pt]
+                \ref{plots:plot2}& PWM [$\%$] &[5pt]
+                \ref{plots:plot3}& Eloirt Omega [\degree$/s]$
+                \ref{plots:plot4}& Energia $[Watt]$ &[5pt]\\
+            };
+           % \centering
+            \end{tikzpicture}
+            \end{center}
+        \end{subfigure}
+        
+        \iffalse
+        %-------------------------------------------------Power Adatok---------------
+        \newline
+        \begin{subfigure}{\textwidth}
+        \begin{center}
+        \input{\mand{\GlobalPath}{Power.tex}}
+        \pgfplotstableread{Power.dat}{\power}
+        
+        
+        \begin{tikzpicture}
+        \pgfplotsset{every axis plot/.append style={very thick}}
+        \setcaptionsubtype
+        
+        % megjelenites beallitasai
+        
+        \begin{groupplot}[%
+                    ,group style={%
+                        ,group name=my plots
+                        ,group size=1 by 1
+                        ,vertical sep=2cm,
+                        ,horizontal sep = 0cm,
+                        ,ylabels at=edge left
+                    }
+                    ,width=14.5cm
+                    ,height=6cm
+                    ,try min ticks=5
+                    ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                    %,ylabel={\bfseries{\emph{A}}}
+                    %,zlabel={\bfseries{\emph{kg}}}
+                    ,grid=both
+                    ,every both grid/.style={gray, opacity=0.5}
+                    ,view={0}{90},
+                    %,xtick distance=10
+                    %,minor tick num=5
+                    %,ytick distance=5
+                    %xmin=0,xmax=0.65,
+                    %ymin=0,ymax=0.65,
+                    %zmin=-5,zmax=60,
+                    ]
+        %% ide jonnek a adatok.            
+                    
+        \nextgroupplot[ylabel=\emph{}, ylabel style={rotate=-90}]
+         \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=voltage] {\power};\label{plots:plot11}
+         \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=current]{\power};\label{plots:plot12}
+         \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=power] {\power};\label{plots:plot13}
+        \end{groupplot}
+        
+        %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
+        %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
+        %    node {Testing of Parameters 1}
+        %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
+        %    node {Testing of Parameters 2};
+        
+        % legend
+        \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{Energia Fogyasztas\label{subplot:one}}};
+        
+        %\path (top-|current bounding box.west)-- 
+            %      node[anchor=south,rotate=90] {throughput} 
+            %      (bot-|current bounding box.west);
+            % legend
+            \path (top|-current bounding box.north)--
+                  coordinate(legendpos)
+                  (bot|-current bounding box.north);
+            \matrix[
+                matrix of nodes,
+                anchor=south,
+                draw,
+                inner sep=0.2em,
+                draw
+              ]at([yshift=1ex]legendpos)
+              {
+                \ref{plots:plot11}&  Akumlator Feszultsege [V]&[5pt]
+                \ref{plots:plot12}& Akkumlator Arama [A] &[5pt]
+                \ref{plots:plot13}& Teljesitmeny [W] \\
+            };
+        
+        %\centering
+        \end{tikzpicture}
+        \end{center}
+        \end{subfigure}
+        % Caption
+        %\caption[]{$SSMR-4W$ tipusu robot kereknyomoerok kerekenkeni változása a sulypont fuggvenyeben}\label{abserror}
+        \fi
+    \end{figure}

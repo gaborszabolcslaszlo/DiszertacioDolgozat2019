@@ -1,0 +1,3797 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  6 JUN 2019 12:12
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**\def\tikzexternalrealjob{main}\input{main}
+(./main.tex (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/sha
+re/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texm
+f-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/ge
+neric/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen111
+\pgfutil@tempdimb=\dimen112
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share
+/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/sha
+re/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen115
+\pgf@y=\dimen116
+\pgf@xa=\dimen117
+\pgf@ya=\dimen118
+\pgf@xb=\dimen119
+\pgf@yb=\dimen120
+\pgf@xc=\dimen121
+\pgf@yc=\dimen122
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count91
+\c@pgf@countb=\count92
+\c@pgf@countc=\count93
+\c@pgf@countd=\count94
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count95
+\pgfsyssoftpath@bigbuffer@items=\count96
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/shar
+e/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texl
+ive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/t
+exmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen123
+\pgfmath@count=\count97
+\pgfmath@box=\box27
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmat
+hfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count98
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen124
+\pgf@picmaxx=\dimen125
+\pgf@picminy=\dimen126
+\pgf@picmaxy=\dimen127
+\pgf@pathminx=\dimen128
+\pgf@pathmaxx=\dimen129
+\pgf@pathminy=\dimen130
+\pgf@pathmaxy=\dimen131
+\pgf@xx=\dimen132
+\pgf@xy=\dimen133
+\pgf@yx=\dimen134
+\pgf@yy=\dimen135
+\pgf@zx=\dimen136
+\pgf@zy=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen138
+\pgf@path@lasty=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen140
+\pgf@shorten@start@additional=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count99
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen143
+\pgf@pt@y=\dimen144
+\pgf@pt@temp=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen146
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen147
+\pgf@sys@shading@range@num=\count100
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen148
+\pgf@nodesepend=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/shar
+e/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/te
+xmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf
+-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic
+/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen150
+\pgffor@skip=\dimen151
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count101
+\pgfplotmarksize=\dimen152
+)
+\tikz@lastx=\dimen153
+\tikz@lasty=\dimen154
+\tikz@lastxsaved=\dimen155
+\tikz@lastysaved=\dimen156
+\tikzleveldistance=\dimen157
+\tikzsiblingdistance=\dimen158
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count102
+\tikznumberofchildren=\count103
+\tikznumberofcurrentchild=\count104
+\tikz@fig@count=\count105
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count106
+\pgfmatrixcurrentcolumn=\count107
+\pgf@matrix@numberofcolumns=\count108
+)
+\tikz@expandcount=\count109
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/
+texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/sha
+re/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks28
+\t@pgfplots@tokb=\toks29
+\t@pgfplots@tokc=\toks30
+\pgfplots@tmpa=\dimen159
+\c@pgfplots@coordindex=\count110
+\c@pgfplots@scanlineindex=\count111
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count112
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count113
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count114
+\t@pgfplotstable@a=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count115
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (
+/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen160
+\pgfdecoratedremainingdistance=\dimen161
+\pgfdecoratedinputsegmentcompleteddistance=\dimen162
+\pgfdecoratedinputsegmentremainingdistance=\dimen163
+\pgf@decorate@distancetomove=\dimen164
+\pgf@decorate@repeatstate=\count116
+\pgfdecorationsegmentamplitude=\dimen165
+\pgfdecorationsegmentlength=\dimen166
+)
+\tikz@lib@dec@box=\box37
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count117
+\pgfplots@xmin@reg=\dimen167
+\pgfplots@xmax@reg=\dimen168
+\pgfplots@ymin@reg=\dimen169
+\pgfplots@ymax@reg=\dimen170
+\pgfplots@zmin@reg=\dimen171
+\pgfplots@zmax@reg=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks32
+\inpenc@posthook=\toks33
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-hungarian/magyar.ldf
+Language: hungarian 2017/08/30 v1.5c Magyar support from the babel v3.7 system
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count118
+\U@D=\dimen173
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count119
+)
+Package babel Info: Making ` an active character on input line 2801.
+\c@footnote@add=\count120
+\c@footnote@ch=\count121
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.sty
+Package: t1enc 1994/06/01 Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+) (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+(/usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2423 (decimal 9251)
+))
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip43
+\multirow@cntb=\count122
+\multirow@dima=\skip44
+\bigstrutjot=\dimen174
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count123
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip47
+\f@nch@O@elh=\skip48
+\f@nch@O@erh=\skip49
+\f@nch@O@olh=\skip50
+\f@nch@O@orh=\skip51
+\f@nch@O@elf=\skip52
+\f@nch@O@erf=\skip53
+\f@nch@O@olf=\skip54
+\f@nch@O@orf=\skip55
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen175
+\enit@toks=\toks34
+\enit@inbox=\box38
+\enitdp@description=\count124
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count125
+\float@exts=\toks35
+\float@box=\box39
+\@float@everytoks=\toks36
+\@floatcapt=\box40
+) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/usr/share/texlive/texmf-dist/tex/latex/yafoot/dblfnote.sty
+Package: dblfnote 1999/07/14 v1.0 
+\c@DFNsloppiness=\count126
+\DFNcolumnsep=\dimen176
+\DFNcolumnwidth=\dimen177
+\dfn@fnht=\dimen178
+\dfn@fnmaxdp=\dimen179
+\dfn@dima=\dimen180
+\dfn@dimb=\dimen181
+\dfn@ins=\box41
+\dfn@boxa=\box42
+\dfn@boxb=\box43
+\dfn@output=\toks37
+) (/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen182
+\nom@tempdim=\dimen183
+\nomitemsep=\skip57
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip58
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen184
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen185
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count127
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count128
+\leftroot@=\count129
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count130
+\DOTSCASE@=\count131
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box44
+\strutbox@=\box45
+\big@size=\dimen186
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count132
+\c@MaxMatrixCols=\count133
+\dotsspace@=\muskip10
+\c@parentequation=\count134
+\dspbrk@lvl=\count135
+\tag@help=\toks39
+\row@=\count136
+\column@=\count137
+\maxfields@=\count138
+\andhelp@=\toks40
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks41
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen193
+\epsfysize=\dimen194
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+)
+\@linkdim=\dimen195
+\Hy@linkcounter=\count139
+\Hy@pagecounter=\count140
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count141
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count142
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen196
+\Fld@menulength=\count143
+\Field@Width=\dimen197
+\Fld@charsize=\dimen198
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count144
+\c@Item=\count145
+\c@Hfootnote=\count146
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count147
+\c@bookmark@seq@number=\count148
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip61
+) (/usr/share/texlive/texmf-dist/tex/latex/filecontents/filecontents.sty
+Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
+eX document
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box46
+\pgfnodeparttwobox=\box47
+\pgfnodepartthreebox=\box48
+\pgfnodepartfourbox=\box49
+\pgfnodeparttwentybox=\box50
+\pgfnodepartnineteenbox=\box51
+\pgfnodeparteighteenbox=\box52
+\pgfnodepartseventeenbox=\box53
+\pgfnodepartsixteenbox=\box54
+\pgfnodepartfifteenbox=\box55
+\pgfnodepartfourteenbox=\box56
+\pgfnodepartthirteenbox=\box57
+\pgfnodeparttwelvebox=\box58
+\pgfnodepartelevenbox=\box59
+\pgfnodeparttenbox=\box60
+\pgfnodepartninebox=\box61
+\pgfnodeparteightbox=\box62
+\pgfnodepartsevenbox=\box63
+\pgfnodepartsixbox=\box64
+\pgfnodepartfivebox=\box65
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen199
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool.sty
+Package: datatool 2017/11/12 v2.29 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texl
+ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
+)
+\XKV@depth=\count149
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count150
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count151
+) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/sha
+re/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count152
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count153
+\FP@xia=\count154
+\FP@xib=\count155
+\FP@xfa=\count156
+\FP@xfb=\count157
+\FP@rega=\count158
+\FP@regb=\count159
+\FP@regs=\count160
+\FP@times=\count161
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count162
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks45
+\@dtl@tmpcount=\count163
+\dtl@tmplength=\skip62
+\dtl@sortresult=\count164
+\@dtl@numgrpsepcount=\count165
+\@dtl@datatype=\count166
+\dtl@codeA=\count167
+\dtl@codeB=\count168
+\@dtl@foreach@level=\count169
+)
+\dtlcolumnnum=\count170
+\dtlrownum=\count171
+\@dtl@before=\toks46
+\@dtl@after=\toks47
+\@dtl@colhead=\toks48
+\dtlcurrentrow=\toks49
+\dtlbeforerow=\toks50
+\dtlafterrow=\toks51
+\dtlforeachlevel=\count172
+\c@DTLrowi=\count173
+\c@DTLrowii=\count174
+\c@DTLrowiii=\count175
+\c@DTLrow=\count176
+\dtl@rowi=\count177
+\dtl@rowii=\count178
+\dtl@rowiii=\count179
+\@dtl@curi=\toks52
+\@dtl@previ=\toks53
+\@dtl@nexti=\toks54
+\@dtl@curii=\toks55
+\@dtl@previi=\toks56
+\@dtl@nextii=\toks57
+\@dtl@curiii=\toks58
+\@dtl@previii=\toks59
+\@dtl@nextiii=\toks60
+\@dtl@elements=\count180
+\@dtl@list=\toks61
+\@dtl@rowa=\toks62
+\@dtl@rowb=\toks63
+\@dtl@toksA=\toks64
+\@dtl@toksB=\toks65
+\@dtl@write=\write4
+\@dtl@read=\read2
+\dtl@entrycr=\count181
+\dtl@omitlines=\count182
+) (/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2017/11/29 v2.01 (include SVG pictures)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+\c@svg@param@lastpage=\count183
+\c@svg@param@currpage=\count184
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "tikz/KorP0703c.w18")...executed.
+
+(./tikz/KorP0703c.w18)
+runsystem(rm -- "tikz/KorP0703c.w18")...executed.
+
+)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
+
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count185
+\lst@gtempboxa=\box66
+\lst@token=\toks66
+\lst@length=\count186
+\lst@currlwidth=\dimen256
+\lst@column=\count187
+\lst@pos=\count188
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
+\lst@newlines=\count189
+\lst@lineno=\count190
+\lst@maxwidth=\dimen259
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count191
+\lst@skipnumbers=\count192
+\lst@framebox=\box67
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count193
+) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty (/usr/sha
+re/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplotstable 2017/06/05 v1.15 Table typesetting and Pretty-printing (
+1.15)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code
+.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.colt
+ype.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen260
+\extrarowheight=\dimen261
+\NC@list=\toks67
+\extratabsurround=\skip63
+\backup@length=\skip64
+)) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen262
+\lightrulewidth=\dimen263
+\cmidrulewidth=\dimen264
+\belowrulesep=\dimen265
+\belowbottomsep=\dimen266
+\aboverulesep=\dimen267
+\abovetopsep=\dimen268
+\cmidrulesep=\dimen269
+\cmidrulekern=\dimen270
+\defaultaddspace=\dimen271
+\@cmidla=\count194
+\@cmidlb=\count195
+\@aboverulesep=\dimen272
+\@belowrulesep=\dimen273
+\@thisruleclass=\count196
+\@lastruleclass=\count197
+\@thisrulewidth=\dimen274
+) (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count198
+\calc@Bcount=\count199
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count266
+\calc@Cskip=\skip67
+)
+\c@@todonotes@numberoftodonotes=\count267
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks68
+\c@algorithm=\count268
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count269
+\c@ALG@rem=\count270
+\c@ALG@nested=\count271
+\ALG@tlm=\skip68
+\ALG@thistlm=\skip69
+\c@ALG@Lnr=\count272
+\c@ALG@blocknr=\count273
+\c@ALG@storecount=\count274
+\c@ALG@tmpcounter=\count275
+\ALG@tmplength=\skip70
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count276
+\c@Blindtext=\count277
+\c@blind@countparstart=\count278
+\blind@countxx=\count279
+\blindtext@numBlindtext=\count280
+\blind@countyy=\count281
+\c@blindlist=\count282
+\c@blindlistlevel=\count283
+\c@blindlist@level=\count284
+\blind@listitem=\count285
+\c@blind@listcount=\count286
+\c@blind@levelcount=\count287
+\blind@mathformula=\count288
+\blind@Mathformula=\count289
+\c@blind@randomcount=\count290
+\c@blind@randommax=\count291
+\c@blind@pangramcount=\count292
+\c@blind@pangrammax=\count293
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box68
+\beforetitleunit=\skip71
+\aftertitleunit=\skip72
+\ttl@plus=\dimen277
+\ttl@minus=\dimen278
+\ttl@toksa=\toks69
+\titlewidth=\dimen279
+\titlewidthlast=\dimen280
+\titlewidthfirst=\dimen281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.gr
+oupplots.code.tex
+\pgfplots@group@current@plot=\count294
+\pgfplots@group@current@row=\count295
+\pgfplots@group@current@column=\count296
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.gr
+oupplots.code.tex
+\pgfplots@group@current@plot=\count297
+\pgfplots@group@current@row=\count298
+\pgfplots@group@current@column=\count299
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen282
+\captionmargin@=\dimen283
+\captionwidth=\dimen284
+\caption@tempdima=\dimen285
+\caption@indent=\dimen286
+\caption@parindent=\dimen287
+\caption@hangindent=\dimen288
+)
+\c@ContinuedFloat=\count300
+Package caption Info: hungarian babel option is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count301
+\sf@farskip=\skip73
+\sf@captopadj=\dimen289
+\sf@capskip=\skip74
+\sf@nearskip=\skip75
+\c@subfigure=\count302
+\c@subfigure@save=\count303
+\c@lofdepth=\count304
+\c@subtable=\count305
+\c@subtable@save=\count306
+\c@lotdepth=\count307
+\sf@top=\skip76
+\sf@bottom=\skip77
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/share/texl
+ive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count308
+\l_tmpa_int=\count309
+\l_tmpb_int=\count310
+\g_tmpa_int=\count311
+\g_tmpb_int=\count312
+\g__intarray_font_int=\count313
+\g__prg_map_int=\count314
+\c_log_iow=\count315
+\l_iow_line_count_int=\count316
+\l__iow_line_target_int=\count317
+\l__iow_one_indent_int=\count318
+\l__iow_indent_int=\count319
+\c_zero_dim=\dimen290
+\c_max_dim=\dimen291
+\l_tmpa_dim=\dimen292
+\l_tmpb_dim=\dimen293
+\g_tmpa_dim=\dimen294
+\g_tmpb_dim=\dimen295
+\c_zero_skip=\skip78
+\c_max_skip=\skip79
+\l_tmpa_skip=\skip80
+\l_tmpb_skip=\skip81
+\g_tmpa_skip=\skip82
+\g_tmpb_skip=\skip83
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count320
+\c__fp_leading_shift_int=\count321
+\c__fp_middle_shift_int=\count322
+\c__fp_trailing_shift_int=\count323
+\c__fp_big_leading_shift_int=\count324
+\c__fp_big_middle_shift_int=\count325
+\c__fp_big_trailing_shift_int=\count326
+\c__fp_Bigg_leading_shift_int=\count327
+\c__fp_Bigg_middle_shift_int=\count328
+\c__fp_Bigg_trailing_shift_int=\count329
+\c__fp_rand_size_int=\count330
+\c__fp_rand_four_int=\count331
+\c__fp_rand_eight_int=\count332
+\l__sort_length_int=\count333
+\l__sort_min_int=\count334
+\l__sort_top_int=\count335
+\l__sort_max_int=\count336
+\l__sort_true_max_int=\count337
+\l__sort_block_int=\count338
+\l__sort_begin_int=\count339
+\l__sort_end_int=\count340
+\l__sort_A_int=\count341
+\l__sort_B_int=\count342
+\l__sort_C_int=\count343
+\l__tl_build_start_index_int=\count344
+\l__tl_build_index_int=\count345
+\l__tl_analysis_normal_int=\count346
+\l__tl_analysis_index_int=\count347
+\l__tl_analysis_nesting_int=\count348
+\l__tl_analysis_type_int=\count349
+\l__regex_internal_a_int=\count350
+\l__regex_internal_b_int=\count351
+\l__regex_internal_c_int=\count352
+\l__regex_balance_int=\count353
+\l__regex_group_level_int=\count354
+\l__regex_mode_int=\count355
+\c__regex_cs_in_class_mode_int=\count356
+\c__regex_cs_mode_int=\count357
+\l__regex_catcodes_int=\count358
+\l__regex_default_catcodes_int=\count359
+\c__regex_catcode_D_int=\count360
+\c__regex_catcode_S_int=\count361
+\c__regex_catcode_L_int=\count362
+\c__regex_catcode_O_int=\count363
+\c__regex_catcode_A_int=\count364
+\c__regex_all_catcodes_int=\count365
+\l__regex_show_lines_int=\count366
+\l__regex_min_state_int=\count367
+\l__regex_max_state_int=\count368
+\l__regex_left_state_int=\count369
+\l__regex_right_state_int=\count370
+\l__regex_capturing_group_int=\count371
+\l__regex_min_pos_int=\count372
+\l__regex_max_pos_int=\count373
+\l__regex_curr_pos_int=\count374
+\l__regex_start_pos_int=\count375
+\l__regex_success_pos_int=\count376
+\l__regex_curr_char_int=\count377
+\l__regex_curr_catcode_int=\count378
+\l__regex_last_char_int=\count379
+\l__regex_case_changed_char_int=\count380
+\l__regex_curr_state_int=\count381
+\l__regex_step_int=\count382
+\l__regex_min_active_int=\count383
+\l__regex_max_active_int=\count384
+\l__regex_replacement_csnames_int=\count385
+\l__regex_match_count_int=\count386
+\l__regex_min_submatch_int=\count387
+\l__regex_submatch_int=\count388
+\l__regex_zeroth_submatch_int=\count389
+\g__regex_trace_regex_int=\count390
+\c_empty_box=\box69
+\l_tmpa_box=\box70
+\l_tmpb_box=\box71
+\g_tmpa_box=\box72
+\g_tmpb_box=\box73
+\l__box_top_dim=\dimen296
+\l__box_bottom_dim=\dimen297
+\l__box_left_dim=\dimen298
+\l__box_right_dim=\dimen299
+\l__box_top_new_dim=\dimen300
+\l__box_bottom_new_dim=\dimen301
+\l__box_left_new_dim=\dimen302
+\l__box_right_new_dim=\dimen303
+\l__box_internal_box=\box74
+\l__coffin_internal_box=\box75
+\l__coffin_internal_dim=\dimen304
+\l__coffin_offset_x_dim=\dimen305
+\l__coffin_offset_y_dim=\dimen306
+\l__coffin_x_dim=\dimen307
+\l__coffin_y_dim=\dimen308
+\l__coffin_x_prime_dim=\dimen309
+\l__coffin_y_prime_dim=\dimen310
+\c_empty_coffin=\box76
+\l__coffin_aligned_coffin=\box77
+\l__coffin_aligned_internal_coffin=\box78
+\l_tmpa_coffin=\box79
+\l_tmpb_coffin=\box80
+\l__coffin_display_coffin=\box81
+\l__coffin_display_coord_coffin=\box82
+\l__coffin_display_pole_coffin=\box83
+\l__coffin_display_offset_dim=\dimen311
+\l__coffin_display_x_dim=\dimen312
+\l__coffin_display_y_dim=\dimen313
+\l__coffin_bounding_shift_dim=\dimen314
+\l__coffin_left_corner_dim=\dimen315
+\l__coffin_right_corner_dim=\dimen316
+\l__coffin_bottom_corner_dim=\dimen317
+\l__coffin_top_corner_dim=\dimen318
+\l__coffin_scaled_total_height_dim=\dimen319
+\l__coffin_scaled_width_dim=\dimen320
+) (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count391
+\l__driver_tmp_box=\box84
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count392
+\g__xparse_grabber_int=\count393
+\l__xparse_m_args_int=\count394
+\l__xparse_mandatory_args_int=\count395
+\l__xparse_v_nesting_int=\count396
+)
+Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box85
+\l__siunitx_tmp_dim=\dimen321
+\l__siunitx_tmp_int=\count397
+\l__siunitx_number_mantissa_length_int=\count398
+\l__siunitx_number_uncert_length_int=\count399
+\l__siunitx_round_int=\count400
+\l__siunitx_process_decimal_int=\count401
+\l__siunitx_process_uncertainty_int=\count402
+\l__siunitx_process_fixed_int=\count403
+\l__siunitx_process_integer_min_int=\count404
+\l__siunitx_process_precision_int=\count405
+\l__siunitx_group_min_int=\count406
+\l__siunitx_angle_marker_box=\box86
+\l__siunitx_angle_unit_box=\box87
+\l__siunitx_angle_marker_dim=\dimen322
+\l__siunitx_angle_unit_dim=\dimen323
+\l__siunitx_unit_int=\count407
+\l__siunitx_unit_denominator_int=\count408
+\l__siunitx_unit_numerator_int=\count409
+\l__siunitx_unit_prefix_int=\count410
+\l__siunitx_unit_prefix_base_int=\count411
+\l__siunitx_unit_prefix_gram_int=\count412
+\l__siunitx_number_product_int=\count413
+\c__siunitx_one_fill_skip=\skip84
+\l__siunitx_table_unit_align_skip=\skip85
+\l__siunitx_table_exponent_dim=\dimen324
+\l__siunitx_table_integer_dim=\dimen325
+\l__siunitx_table_mantissa_dim=\dimen326
+\l__siunitx_table_marker_dim=\dimen327
+\l__siunitx_table_result_dim=\dimen328
+\l__siunitx_table_uncert_dim=\dimen329
+\l__siunitx_table_fill_pre_dim=\dimen330
+\l__siunitx_table_fill_post_dim=\dimen331
+\l__siunitx_table_fill_mid_dim=\dimen332
+\l__siunitx_table_pre_box=\box88
+\l__siunitx_table_post_box=\box89
+\l__siunitx_table_mantissa_box=\box90
+\l__siunitx_table_result_box=\box91
+\l__siunitx_table_number_align_skip=\skip86
+\l__siunitx_table_text_align_skip=\skip87
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7250.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7253.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7256.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7259.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7262.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7265.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7268.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7283.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7292.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7301.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7310.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7322.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7334.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7346.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7349.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7364.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7376.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numInBookmark with sig. 'om' on line 7423.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7425.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIInBookmark with sig. 'omom' on line 7427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7429.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7431.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7432.
+.................................................
+\g__file_internal_ior=\read3
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (483.69684pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (731.23582pt) is ignored.
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.ex
+ternal.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibrar
+yexternal.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zexternalshared.code.tex))
+Package pgfplots external lib: loading complementary code for your PGF version.
+..
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2015/08/29  (rcs-revision 1.22)
+\pgfexternal@startupbox=\box92
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_tikzlibraryexternal.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_tikzexternalshared.code.tex)))
+No auxiliary output files.
+
+\w@pgfexternal@auxout=\write5
+Package TikZ externalization: calling \geometry{driver=none} during externaliza
+tion.
+
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (455.24411pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (717.00946pt) is ignored.
+
+No file tikz/KorP0703c.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Try loading font information for T2A+ptm on input line 238.
+
+LaTeX Font Info:    No file T2Aptm.fd. on input line 238.
+
+LaTeX Font Warning: Font shape `T2A/ptm/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 238.
+
+*geometry* detected driver: <none>
+*geometry* verbose mode - [ preamble ] result:
+* driver: \Gm@driver 
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=717.00946pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-77.9174pt
+* \headheight=42.67912pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/contex
+t/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count414
+\scratchdimen=\dimen333
+\scratchbox=\box93
+\nofMPsegments=\count415
+\nofMParguments=\count416
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count417
+\MPscratchDim=\dimen334
+\MPnumerator=\count418
+\makeMPintoPDFobject=\count419
+\everyMPtoPDFconversion=\toks71
+)
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.15} (current compat level: 1.12).
+
+
+LaTeX Warning: Please use \usepackage{t1enc} with
+               \usepackage[hungarian]{babel}, to get accented chars hyphenated.
+
+
+
+Package hungarian.ldf Warning: No effect on fancyhdr.sty,
+(hungarian.ldf)                please load it before \usepackage[hungarian]{bab
+el}.
+
+\AtBeginShipoutBox=\box94
+Package hyperref Info: Link coloring OFF on input line 238.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count420
+)
+LaTeX Info: Redefining \ref on input line 238.
+LaTeX Info: Redefining \pageref on input line 238.
+LaTeX Info: Redefining \nameref on input line 238.
+LaTeX Info: Redefining \celsius on input line 238.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 238
+.
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 238.
+Package gensymb Info: Using \upOmega for \ohm on input line 238.
+
+Package gensymb Warning: Not defining \micro.
+
+\c@lstlisting=\count421
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+) (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+LaTeX Info: Redefining \cal on input line 582.
+LaTeX Info: Redefining \mit on input line 583.
+)
+\c__siunitx_mathsf_int=\count422
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 23
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 23
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 23
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 23
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 238.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 238.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 238.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 238.
+\c__siunitx_mathtt_int=\count423
+(./Extras.tex
+
+LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
+(Font)              using `T2A/ptm/m/n' instead on input line 3.
+
+) (./Kivonat.tex) (./Abstract.tex)
+No file tikz/KorP0703c.nls.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+LaTeX Font Warning: Font shape `T2A/ptm/m/sc' undefined
+(Font)              using `T2A/ptm/m/n' instead on input line 272.
+
+(./Meresek/Meres1.tex
+
+Package natbib Warning: Citation `SpititWheel1' on page 8 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Reference `fig:SMR4WKinematics' on page 8 undefined on input lin
+e 20.
+
+(./Meresek/Mozgasok/ConfigV1.tex) (./Meresek/Mozgasok/HibasMukodes/R_0_L_1/main
+.tex
+
+LaTeX Warning: Reference `fig:Left0Right50b' on page 8 undefined on input line 
+3.
+
+The command '\includegraphics []{tikz/Left0Right50a.pdf}' has been optimized aw
+ay. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left0Right50b.pdf}' has been optimized aw
+ay. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left0Right50c.pdf}' has been optimized aw
+ay. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left0Right50d.pdf}' has been optimized aw
+ay. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left0Right50e.pdf}' has been optimized aw
+ay. Use '/tikz/external/optimize=false' to disable this.
+
+LaTeX Warning: Reference `fig:SMR4WKinematics' on page 9 undefined on input lin
+e 53.
+
+) (./Meresek/Mozgasok/NormalMukodes/DiferencialisanHelybeKavicsos/main.tex
+
+LaTeX Warning: Reference `fig:Left_n50Right50a' on page 9 undefined on input li
+ne 2.
+
+The command '\includegraphics []{tikz/Left_n50Right50x.pdf}' has been optimized
+ away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left_n50Right50a.pdf}' has been optimized
+ away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left_n50Right50b.pdf}' has been optimized
+ away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left_n50Right50c.pdf}' has been optimized
+ away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/Left_n50Right50d.pdf}' has been optimized
+ away. Use '/tikz/external/optimize=false' to disable this.
+) (./Meresek/Mozgasok/KorpalyanMozgas.tex (./Meresek/Mozgasok/NormalMukodes/Kor
+palya_07_05_Kavicsos/main.tex
+
+LaTeX Warning: Reference `fig:KorP0705a' on page 9 undefined on input line 2.
+
+The command '\includegraphics []{tikz/KorP0705x.pdf}' has been optimized away. 
+Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/KorP0705a.pdf}' has been optimized away. 
+Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/KorP0705b.pdf}' has been optimized away. 
+Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/KorP0705c.pdf}' has been optimized away. 
+Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/KorP0705d.pdf}' has been optimized away. 
+Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/KorP0705e.pdf}' has been optimized away. 
+Use '/tikz/external/optimize=false' to disable this.
+
+LaTeX Warning: Reference `fig:SMR4WKinematics' on page 10 undefined on input li
+ne 56.
+
+) (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/main.tex (./Meresek
+/Mozgasok/Kerekadatok.tex (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavi
+csos/L.tex
+
+LaTeX Warning: Overwriting file `./NodeLeft.dat'.
+
+\openout15 = `NodeLeft.dat'.
+
+
+)
+PGFPlots: reading {NodeLeft.dat}
+(./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/R.tex
+
+LaTeX Warning: Overwriting file `./NodeRight.dat'.
+
+\openout15 = `NodeRight.dat'.
+
+
+)
+PGFPlots: reading {NodeRight.dat}
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./Meresek/Mozgasok/PozicioKulon.tex (./Meresek/Mozgasok/NormalMukodes/Korpal
+ya_07_03_Kavicsos/Pos.tex
+
+LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
+
+\openout15 = `PositionOrientation.dat'.
+
+
+)
+PGFPlots: reading {PositionOrientation.dat}
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./Meresek/Mozgasok/Palya.tex (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_0
+3_Kavicsos/Pos.tex
+
+LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
+
+\openout15 = `PositionOrientation.dat'.
+
+
+)
+PGFPlots: reading {PositionOrientation.dat}
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./Meresek/Mozgasok/Orientacio.tex (./Meresek/Mozgasok/NormalMukodes/Korpalya
+_07_03_Kavicsos/Pos.tex
+
+LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
+
+\openout15 = `PositionOrientation.dat'.
+
+
+)
+PGFPlots: reading {PositionOrientation.dat}
+\openout5 = `tikz/KorP0703c.dpth'.
+
+NOTE: coordinate (0.89522,0.11990) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.04719,-0.23616) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.19912,-0.02086) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.35924,0.11984) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.51124,-0.24596) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.66325,0.20401) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.82322,0.44943) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.97523,-0.00371) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.13524,0.06215) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.28718,-0.16342) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.43912,-0.10147) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.59916,0.21416) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.75112,-0.13355) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.90338,-0.06560) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.06320,-0.19876) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.21528,-0.09104) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.36726,-0.08259) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52770,-0.04893) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.67923,-0.12160) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.83105,0.37804) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.99102,0.09188) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.14337,-0.20920) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.30311,-0.19783) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.45513,-0.23419) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.60716,-0.10918) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.76714,0.06062) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (4.91917,0.02180) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.07119,-0.04465) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.23119,0.04778) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.38315,0.22800) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.53516,0.17595) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.69524,-0.12841) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (5.84697,0.29971) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.00736,-0.02217) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.15921,0.18938) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.31112,-0.15331) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.47112,0.21031) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.62320,-0.29442) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.77514,-0.07467) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (6.93506,-0.10516) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.08713,0.45451) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.24703,0.29314) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.39911,-0.36943) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.55107,-0.92563) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.71124,-1.06374) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (7.86312,-0.97300) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.01502,-1.73561) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.17510,-2.50959) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.32736,-2.81279) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.48711,-3.88069) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.63911,-4.55716) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.79111,-4.80242) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (8.95100,-5.46593) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (9.10307,-6.46281) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (9.26308,-8.15254) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (9.41513,-8.11093) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (9.56708,-9.12429) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (9.72710,-9.86381) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (9.87908,-10.98792) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (10.03910,-12.07263) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (10.19113,-12.56348) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (10.34308,-12.90679) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (10.50304,-13.78390) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (10.65515,-14.23152) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (10.81512,-15.11573) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (10.96703,-16.00461) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (11.12716,-17.01083) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (11.27904,-17.58055) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (11.43093,-18.59311) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (11.59103,-19.47413) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (11.74303,-20.47286) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (11.90303,-20.51469) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (12.05508,-21.00144) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (12.21500,-21.39713) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (12.36696,-22.34182) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (12.51890,-22.63345) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (12.67924,-22.81352) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (12.83104,-22.92570) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (12.99101,-23.73294) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (13.14294,-24.37479) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (13.30311,-24.51153) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (13.45497,-25.42175) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (13.61489,-26.13465) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (13.76685,-25.89718) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (13.92688,-26.65479) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (14.07897,-26.90521) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (14.23900,-27.25866) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (14.39116,-27.94334) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (14.55115,-28.24671) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (14.70296,-28.82201) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (14.86291,-29.73561) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (15.01502,-29.78424) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (15.16698,-30.41554) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (15.32691,-30.93464) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (15.47902,-31.66927) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (15.63918,-32.14967) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (15.79096,-32.55705) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (15.95084,-33.25043) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (16.10301,-33.63303) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (16.26297,-34.47871) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (16.41493,-34.93448) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (16.56694,-35.49319) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (16.72694,-35.71656) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (16.87891,-37.11784) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (17.03891,-37.74811) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (17.19102,-38.54377) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (17.35089,-39.51647) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (17.50296,-40.32910) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (17.66295,-41.77322) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (17.81515,-42.14877) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (17.96692,-43.58691) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (18.12684,-44.86339) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (18.27893,-45.76047) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (18.43884,-46.80242) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (18.59092,-47.16598) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (18.75095,-48.80370) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (18.90291,-49.60619) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (19.06295,-49.55606) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (19.21486,-50.50553) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (19.37494,-50.55914) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (19.52698,-50.61116) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (19.68698,-50.91556) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (19.83886,-51.79884) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (19.99085,-52.03154) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (20.15089,-52.51552) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (20.30296,-53.70857) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (20.46280,-54.18682) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (20.61495,-54.49677) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (20.76705,-54.86645) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (20.92705,-55.47084) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (21.07890,-56.12115) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (21.23884,-57.28712) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (21.39083,-57.79113) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (21.54274,-58.50803) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (21.70286,-58.99226) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (21.85491,-59.62690) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (22.01496,-60.74074) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (22.16695,-60.14206) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (22.32700,-61.12563) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (22.47892,-61.66287) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (22.63077,-62.34152) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (22.79084,-62.80884) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (22.94294,-63.35356) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (23.10284,-64.13294) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (23.25488,-64.57207) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (23.41480,-64.86760) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (23.56698,-66.09577) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (23.71876,-66.74139) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (23.87863,-67.85985) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (24.03073,-68.97768) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (24.19080,-69.96018) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (24.34279,-70.62897) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (24.50291,-71.41425) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (24.65487,-72.19901) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (24.80679,-72.62530) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (24.96688,-73.86683) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (25.11906,-74.45013) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (25.27882,-75.24705) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (25.43089,-76.14467) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (25.58287,-76.69336) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (25.74299,-76.91698) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (25.89485,-77.75644) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (26.05471,-78.31627) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (26.20679,-78.99125) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (26.36690,-80.62134) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (26.51885,-80.90349) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (26.67875,-81.92952) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (26.83075,-82.75474) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (26.99078,-82.92028) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (27.14271,-83.92650) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (27.29488,-85.10386) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (27.45489,-85.57473) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (27.60688,-86.53107) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (27.76688,-86.69092) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (27.91886,-87.62808) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (28.07091,-87.88954) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (28.23070,-88.57800) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (28.38268,-89.21859) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (28.54282,-90.05903) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (28.69473,-90.64888) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (28.84669,-90.31625) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (29.00680,-91.23128) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (29.15886,-91.89056) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (29.31880,-92.40951) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (29.47068,-93.27930) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (29.63085,-93.81328) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (29.78275,-94.09742) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (29.93468,-94.39543) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (30.09472,-94.40109) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (30.24665,-94.30197) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (30.40672,-94.98193) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (30.55864,-95.59659) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (30.71871,-96.41837) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (30.87073,-97.67857) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (31.02283,-97.35304) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (31.18273,-97.75777) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (31.33476,-98.81134) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (31.49482,-99.92704) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (31.64662,-100.04468) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (31.79878,-100.72961) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (31.95871,-101.11522) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (32.11082,-101.59169) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (32.27073,-102.46519) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (32.42260,-103.63340) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (32.57474,-103.85748) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (32.73475,-105.21085) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (32.88673,-105.26748) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (33.04675,-105.40286) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (33.19875,-106.38651) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (33.35084,-107.15035) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (33.51080,-107.88276) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (33.66261,-108.35533) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (33.81458,-109.07742) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (33.97459,-109.16287) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (34.12686,-109.92329) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (34.27861,-110.70398) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (34.43869,-111.88334) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (34.59060,-112.51412) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (34.75067,-112.92800) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (34.90256,-114.63129) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (35.05461,-115.81348) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (35.21471,-116.27622) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (35.36676,-116.21086) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (35.52673,-116.98833) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (35.67865,-118.86466) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (35.83063,-118.66430) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (35.99057,-119.32900) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (36.14257,-120.22436) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (36.29466,-120.79517) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (36.45461,-121.08188) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (36.60668,-122.73596) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (36.75865,-123.30221) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (36.91856,-124.14836) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (37.07057,-125.09565) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (37.22275,-125.84153) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (37.38258,-127.67970) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (37.53476,-128.16038) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (37.68666,-129.67100) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (37.84665,-130.52163) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (37.99855,-130.71553) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (38.15866,-131.57234) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (38.31053,-132.50102) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (38.46280,-133.98580) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (38.62260,-134.50391) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (38.77465,-135.51700) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (38.92669,-135.79625) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (39.08665,-136.69555) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (39.23857,-138.14798) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (39.39058,-138.57355) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (39.55053,-139.61368) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (39.70252,-139.52665) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (39.85449,-140.61056) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (40.01452,-140.49729) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (40.16660,-141.95242) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (40.32665,-141.91917) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (40.47861,-142.90973) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (40.63053,-143.82597) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (40.79054,-144.56390) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (40.94259,-145.12474) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (41.09466,-146.32117) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (41.25454,-146.38838) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (41.40656,-147.47292) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (41.56657,-148.60533) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (41.71850,-148.83784) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (41.87053,-149.42183) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (42.03058,-148.54821) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (42.18251,-148.59628) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (42.33455,-148.52596) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (42.49452,-149.60557) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (42.64658,-149.97490) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (42.80649,-151.29234) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (42.95853,-154.06453) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (43.11857,-155.99144) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (43.27054,-156.65765) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (43.42269,-157.97394) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (43.58254,-159.56096) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (43.73447,-160.11057) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (43.89430,-160.91604) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (44.04652,-161.47258) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (44.20657,-161.39130) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (44.35851,-162.42149) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (44.51847,-162.93065) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (44.67046,-163.64669) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (44.82241,-164.22981) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (44.98243,-164.88837) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (45.13449,-165.13113) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (45.28648,-165.01032) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (45.44640,-166.07997) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (45.59843,-166.75114) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (45.75849,-167.71312) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (45.91053,-167.97625) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (46.06241,-168.55808) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (46.22231,-169.28008) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (46.37449,-169.97583) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (46.53449,-170.51542) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (46.68643,-171.17160) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (46.83854,-171.47438) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (46.99872,-170.77309) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (47.15048,-172.06483) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (47.31041,-172.73282) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (47.46241,-172.95342) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (47.61453,-174.97550) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (47.77441,-175.70674) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (47.92641,-175.60158) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (48.07841,-175.50182) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (48.23845,-176.92884) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (48.39038,-178.14080) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (48.55049,-178.78562) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (48.70249,-179.60486) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (48.85443,-180.18185) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (49.01438,-181.17964) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (49.16660,-180.88771) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (49.31848,-182.36426) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (49.47840,-183.84722) has been dropped because of a coordinate
+ filter. (see also unbounded coords=jump). 
+NOTE: coordinate (49.63030,175.41412) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (49.78258,175.10431) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (49.94242,174.22301) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (50.09445,173.05614) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (50.24644,172.36025) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (50.40641,170.50323) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (50.55838,170.93275) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (50.71834,170.00490) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (50.87036,169.23859) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (51.02241,168.01095) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (51.18235,168.01550) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (51.33444,166.57139) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (51.49444,165.76596) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (51.64641,165.35495) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (51.79835,164.42931) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (51.95834,162.90320) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (52.11034,162.47078) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (52.26249,161.99118) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (52.42236,160.30921) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (52.57441,158.66866) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (52.73441,158.41024) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (52.88632,158.45233) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (53.04652,157.09415) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (53.19846,156.14455) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (53.35846,154.77970) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (53.51037,154.34037) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (53.67043,153.74761) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (53.82222,153.06081) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (53.98216,153.12685) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (54.13433,151.54398) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (54.29438,150.82824) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (54.44648,150.16241) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (54.60635,149.08115) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (54.75835,148.98089) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (54.91846,148.08128) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (55.07033,147.35105) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (55.23040,146.25926) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (55.38243,145.45101) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (55.54237,145.64228) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (55.69437,144.66585) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (55.85445,144.30678) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (56.00639,143.54667) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (56.16630,142.82178) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (56.32636,141.91505) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (56.47844,141.09166) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (56.63835,139.64284) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (56.79837,139.19644) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (56.95041,136.84597) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (57.11032,135.69776) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (57.26233,135.88300) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (57.42230,135.27567) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (57.57442,134.35243) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (57.73430,134.39635) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (57.88638,133.67144) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (58.03830,132.48953) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (58.19835,131.70150) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (58.35030,131.16305) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (58.51017,130.64200) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (58.66236,130.65349) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (58.81427,128.83473) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (58.97437,128.21202) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (59.12637,127.25098) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (59.27826,127.10847) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (59.43832,127.06791) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (59.59036,126.27149) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (59.74219,126.20870) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (59.90232,125.69588) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (60.05414,125.24192) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (60.20631,125.79647) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (60.36629,125.14144) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (60.51836,123.18708) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (60.67826,122.89780) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (60.83010,122.46667) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (60.98233,122.10234) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (61.14226,121.44699) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (61.29433,120.47535) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (61.45429,119.83140) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (61.60615,120.07500) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (61.75816,118.22111) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (61.91802,117.69534) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (62.07018,116.30939) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (62.23021,115.39748) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (62.38217,114.49613) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (62.54216,113.28044) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (62.69429,112.72580) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (62.85422,111.56310) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (63.00606,110.76384) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (63.15833,109.94211) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (63.31821,108.82924) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (63.47022,108.09023) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (63.63020,107.78649) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (63.78204,107.02644) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (63.93404,106.39889) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (64.09406,105.12720) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (64.24629,104.39150) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (64.40618,103.25244) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (64.55810,103.00028) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (64.71026,102.01935) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (64.87019,101.35030) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (65.02221,100.71994) has been dropped because of a coordinate 
+filter. (see also unbounded coords=jump). 
+NOTE: coordinate (65.18206,99.45473) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (65.33417,99.11389) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (65.48615,98.15746) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (65.64626,97.31200) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (65.79816,96.60776) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (65.95812,95.86033) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (66.11010,95.29838) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (66.27022,94.76988) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (66.42206,93.59928) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (66.58214,92.48034) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (66.73407,91.75599) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (66.88612,91.73383) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (67.04632,90.85803) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (67.19817,90.01732) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (67.35813,89.57081) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (67.50998,88.82562) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (67.67034,88.41138) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (67.82207,87.26025) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (67.98210,86.28670) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (68.13407,85.83324) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (68.28614,85.30454) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (68.44604,84.42176) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (68.59801,83.60103) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (68.75810,83.15180) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (68.91017,82.31528) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (69.07011,81.80118) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (69.22211,81.67443) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (69.38213,80.95435) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (69.53408,80.15938) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (69.69387,79.39387) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (69.84612,77.78091) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (70.00610,76.95972) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (70.15809,76.43651) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (70.31006,75.44672) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (70.47005,74.50805) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (70.62225,74.43137) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (70.78196,73.65727) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (70.93408,73.17353) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (71.08605,72.67943) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (71.24610,72.14907) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (71.39805,71.28078) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (71.55799,70.58504) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (71.71012,69.79041) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (71.86998,69.39716) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (72.02208,68.82740) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (72.18210,68.38588) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (72.33410,67.65826) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (72.48615,67.47354) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (72.64595,66.84180) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (72.79805,66.05936) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (72.95796,65.48705) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (73.10996,64.47379) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (73.27007,63.72210) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (73.42200,63.01659) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (73.58197,62.03794) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (73.73401,61.20083) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (73.88588,60.26176) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (74.04589,59.39298) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (74.19786,58.37020) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (74.35809,57.80135) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (74.51003,57.61632) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (74.67004,56.70072) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (74.82204,55.87602) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (74.97405,55.38530) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (75.13395,54.35760) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (75.28589,53.80002) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (75.44595,52.34413) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (75.59805,51.63098) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (75.75000,50.97674) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (75.91000,49.97226) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (76.06200,49.27357) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (76.22200,48.47319) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (76.37394,47.95668) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (76.52603,47.31243) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (76.68604,46.77295) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (76.83790,46.40563) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (76.99798,45.92262) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (77.14994,44.92820) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (77.30993,44.89728) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (77.46233,44.09361) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (77.61388,43.55233) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (77.77396,42.86926) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (77.92598,42.35258) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (78.08590,41.73923) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (78.23795,41.08445) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (78.39787,40.35789) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (78.54998,40.60280) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (78.70174,39.14935) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (78.86192,37.90004) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (79.01396,37.46059) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (79.17391,36.40558) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (79.32595,35.59139) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (79.47809,34.99225) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (79.63789,34.06366) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (79.78994,33.43306) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (79.94994,32.36191) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (80.10187,31.89762) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (80.25392,31.36405) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (80.41397,30.37476) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (80.56595,28.98381) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (80.72592,28.89307) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (80.87783,28.36369) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (81.03007,29.05603) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (81.18991,29.46064) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (81.34191,29.95802) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (81.50196,30.56223) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (81.65393,31.00522) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (81.80587,31.50521) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (81.96585,32.36530) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (82.11776,33.44827) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (82.26990,34.21978) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (82.42979,35.00960) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (82.58183,36.33375) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (82.73393,36.52742) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (82.89382,37.52299) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (83.04590,38.02701) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (83.19798,38.83540) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (83.35791,39.60707) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (83.50988,40.54536) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (83.66181,40.73418) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (83.82173,41.49603) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (83.97373,42.37105) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (84.12583,43.41313) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (84.28574,44.43592) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (84.43793,45.06424) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (84.58985,45.87174) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (84.74986,47.82297) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (84.90182,48.58394) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (85.05386,49.55186) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (85.21391,50.69435) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (85.36585,51.74789) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (85.51772,53.06924) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (85.67783,54.30701) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (85.83045,55.16290) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (85.98990,55.45830) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (86.14172,55.64286) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (86.29381,55.65960) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (86.45378,55.72685) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (86.60575,55.66470) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (86.75784,55.51321) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (86.91783,55.29418) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (87.06974,55.65601) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (87.22179,55.20291) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (87.37386,54.48668) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (87.53387,54.58397) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (87.68576,54.49448) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (87.83788,54.17989) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (87.99785,52.50787) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (88.14981,52.29729) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (88.30170,51.38801) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (88.46177,51.20527) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (88.61382,51.39727) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (88.76601,50.50599) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (88.92564,50.31378) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (89.07772,50.02835) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (89.22970,50.00143) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (89.38971,49.63505) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (89.54183,48.77870) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (89.69374,48.54843) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (89.85372,48.68536) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (90.00564,48.07778) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (90.15772,47.92580) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (90.31782,47.21270) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (90.46972,47.13917) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (90.62972,46.97432) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (90.78186,46.99445) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (90.93374,46.10939) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (91.09369,45.73266) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (91.24573,45.29847) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (91.39771,45.25463) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (91.55783,45.30296) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (91.70961,44.86417) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (91.86967,45.27103) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (92.02173,44.69284) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (92.18171,44.33700) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (92.33362,44.26522) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (92.48572,43.77929) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (92.64575,43.00117) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (92.79766,42.50781) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (92.95773,42.70543) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (93.10971,42.58614) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (93.26978,42.38743) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (93.42164,41.93661) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (93.57386,41.53476) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (93.73363,41.79714) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (93.88549,40.72442) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (94.04554,40.68270) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (94.19769,41.86064) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (94.34968,42.17799) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (94.50958,42.73432) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (94.66176,43.35609) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (94.82168,42.84927) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (94.97376,42.83094) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (95.13367,42.76907) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (95.28563,42.80219) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (95.44566,42.29163) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (95.59757,42.75677) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (95.75759,42.92533) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (95.90976,42.87250) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (96.06968,42.74742) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (96.22173,42.92125) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (96.37372,43.44716) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (96.53368,42.73135) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (96.68566,42.78124) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (96.84561,43.02019) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (96.99768,42.51913) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (97.15773,42.58742) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (97.30959,43.23990) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (97.46962,42.95002) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (97.62168,42.74338) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (97.78162,42.50217) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (97.93347,42.82923) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (98.09366,42.79610) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (98.24560,42.83189) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (98.40566,42.82340) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (98.55761,42.36153) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (98.71758,42.72070) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (98.86959,42.56859) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (99.02953,42.70928) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (99.18171,42.67220) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (99.34159,42.46222) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (99.49348,42.66725) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (99.65382,42.63479) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (99.80555,43.15328) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+
+LaTeX Font Warning: Font shape `T2A/ptm/bx/it' undefined
+(Font)              using `T2A/ptm/bx/n' instead on input line 40.
+
+[11
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./Meresek/Mozgasok/Szogs
+ebesseg.tex (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/Pos.tex
+
+LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
+
+\openout15 = `PositionOrientation.dat'.
+
+
+)
+PGFPlots: reading {PositionOrientation.dat}
+(./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/ImuA.tex
+
+LaTeX Warning: Overwriting file `./ImuA.dat'.
+
+\openout15 = `ImuA.dat'.
+
+
+)
+PGFPlots: reading {ImuA.dat}
+
+Package pgfplots Warning: Table 'ImuA.dat' has non-unique column name 'aX'. Onl
+y the first occurence can be accessed via column names. on input line 10.
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./Meresek/Mozgasok/LinearisSebesseg.tex (./Meresek/Mozgasok/NormalMukodes/Ko
+rpalya_07_03_Kavicsos/Pos.tex
+
+LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
+
+\openout15 = `PositionOrientation.dat'.
+
+
+)
+PGFPlots: reading {PositionOrientation.dat}
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
+
+LaTeX Warning: Reference `fig:SMR4WKinematics' on page 11 undefined on input li
+ne 46.
+
+)) (./Meresek/Mozgasok/HomokosDomb/main.tex (./picture.tex
+The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
+nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
+' to disable this.
+) (./picture.tex
+The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
+nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
+' to disable this.
+)
+The command '\includegraphics []{tikz/HlejtoKerek.pdf}' has been optimized away
+. Use '/tikz/external/optimize=false' to disable this.
+)
+The command '\includegraphics []{tikz/hatsoudvarmap.pdf}' has been optimized aw
+ay. Use '/tikz/external/optimize=false' to disable this.
+) (./KiertekelesEsEredmenyek.tex
+1. fejezet.
+)
+No file tikz/KorP0703c.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 112.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 287.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
+ ) 
+Here is how much of TeX's memory you used:
+ 51405 strings out of 492982
+ 1163716 string characters out of 6134896
+ 2070082 words of memory out of 5000000
+ 54041 multiletter control sequences out of 15000+600000
+ 560888 words of font info for 97 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,13n,108p,10410b,2095s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texli
+ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tikz/KorP0703c.pdf (1 page, 38594 bytes).
+PDF statistics:
+ 34 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

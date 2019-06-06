@@ -1,0 +1,93 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--entry type for "RosSerial" isn't style-file defined
+--line 31 of file references.bib
+Warning--entry type for "ROSControlExample" isn't style-file defined
+--line 64 of file references.bib
+Warning--entry type for "ROSArduino2013" isn't style-file defined
+--line 72 of file references.bib
+Warning--string name "april" is undefined
+--line 75 of file references.bib
+Warning--entry type for "SpititWheel1" isn't style-file defined
+--line 146 of file references.bib
+Warning--entry type for "DualPortRam" isn't style-file defined
+--line 154 of file references.bib
+Repeated entry---line 164 of file references.bib
+ : @online{rosserial
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "rosjoy" isn't style-file defined
+--line 172 of file references.bib
+Warning--entry type for "roshectormap" isn't style-file defined
+--line 181 of file references.bib
+Warning--entry type for "parameterserver" isn't style-file defined
+--line 189 of file references.bib
+Warning--entry type for "rosTF" isn't style-file defined
+--line 197 of file references.bib
+Warning--entry type for "rosURDF" isn't style-file defined
+--line 205 of file references.bib
+Warning--entry type for "rosJoint" isn't style-file defined
+--line 213 of file references.bib
+Warning--entry type for "rosLink" isn't style-file defined
+--line 222 of file references.bib
+Warning--entry type for "matlabhwmmodel" isn't style-file defined
+--line 230 of file references.bib
+Too many commas in name 1 of "Araújo, André Portugal, David Couceiro, Micael Rocha, Rui" for entry ROSArduino2013
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Araújo, André Portugal, David Couceiro, Micael Rocha, Rui" for entry ROSArduino2013
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Morgan Quigley, Brian Gerkey, Kevin Watts, Blaise Gassend" for entry rosjoy
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Araújo, André Portugal, David Couceiro, Micael Rocha, Rui" for entry ROSArduino2013
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Araújo, André Portugal, David Couceiro, Micael Rocha, Rui" for entry ROSArduino2013
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in lentin2015
+Too many commas in name 1 of "Morgan Quigley, Brian Gerkey, Kevin Watts, Blaise Gassend" for entry rosjoy
+while executing---line 1090 of file plain.bst
+Warning--empty publisher in Torjancki4Mobilerobot
+You've used 22 entries,
+            2118 wiz_defined-function locations,
+            601 strings with 6705 characters,
+and the built_in function-call counts, 5629 in all, are:
+= -- 498
+> -- 256
+< -- 2
++ -- 104
+- -- 82
+* -- 302
+:= -- 938
+add.period$ -- 55
+call.type$ -- 22
+change.case$ -- 103
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 207
+empty$ -- 526
+format.name$ -- 82
+if$ -- 1195
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 12
+newline$ -- 101
+num.names$ -- 45
+pop$ -- 187
+preamble$ -- 1
+purify$ -- 85
+quote$ -- 0
+skip$ -- 175
+stack$ -- 0
+substring$ -- 214
+swap$ -- 33
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 80
+warning$ -- 2
+while$ -- 48
+width$ -- 24
+write$ -- 202
+(There were 7 error messages)

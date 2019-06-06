@@ -1,0 +1,80 @@
+
+\begin{figure}[H]
+\centering
+   \tikzsetnextfilename{\figlabel}
+   \begin{tikzpicture}
+        \pgfplotsset{every axis plot/.append style={very thick}}
+        \pgfplotsset{every axis legend/.append style={
+        at={(0.5,1.03)},
+        anchor=south}}
+        
+        \begin{axis}[
+        		 ,name=mygraph
+                ,width=14.5cm
+                ,height=6cm
+                %,try min ticks=5
+                ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                ,ylabel={\bfseries{\emph{[\degree/s]}}}
+                %,ylabel style={rotate=-90}
+                ,grid=both
+                ,every both grid/.style={gray, opacity=0.5}
+                ,view={45}{45}
+                %,xtick distance=0.3
+                %,ytick distance=0.25
+                %,minor tick num=5
+                %,xticklabel style={rotate=45},
+                ,ylabel style={rotate=-90}
+                %xmin=0,xmax=0.65,
+                %ymin=0,ymax=0.65,
+               % zmin=-5,zmax=60,
+                ,legend columns=-1
+              ]
+              
+             \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=Omega] {\sysid};
+             \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=sysResp]{\sysid};
+             \legend{\bfseries{\emph{Mért}},\bfseries{\emph{Becsült}}}
+         
+         \end{axis}
+
+
+        \pgfplotsset{every axis plot/.append style={very thick}}
+        \pgfplotsset{every axis legend/.append style={
+        at={(0.5,1.03)},
+        anchor=south}}
+        
+        \begin{axis}[
+                ,width=14.5cm
+                ,height=5cm
+                %,try min ticks=5
+                ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                ,ylabel={\bfseries{\emph{PWM}}}
+                %,ylabel style={rotate=-90}
+                ,grid=both
+                ,every both grid/.style={gray, opacity=0.5}
+                ,view={45}{45}
+                %,xtick distance=0.3
+                %,ytick distance=0.25
+                %,minor tick num=5
+                %,xticklabel style={rotate=45},
+                ,ylabel style={rotate=-90}
+                %xmin=0,xmax=0.65,
+                %ymin=0,ymax=0.65,
+               % zmin=-5,zmax=60,
+                ,legend columns=-1
+                ,at=(mygraph.below south west), anchor=above north west
+              ]
+              
+              \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=PWM] {\sysid};                  
+              \legend{\bfseries{\emph{PWM bemenet}}}
+         
+         \end{axis}
+    \end{tikzpicture}
+
+    % Caption
+    \ifthenelse{\equal{\captionn}{*}}
+    {}
+    {\captionof{figure}{\captionn}}
+    \renewcommand{\captionn}{*}
+    \label{fig:\figlabel}
+\end{figure}
+

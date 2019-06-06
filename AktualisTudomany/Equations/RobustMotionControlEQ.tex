@@ -1,0 +1,46 @@
+\begin{equation}
+\label{eq:dinamiceqgeneral}
+    M(q)\ddot q+
+R(\dot q)+F_d = B(q)F + A^T\lambda 
+\end{equation}
+
+\begin{equation*}
+M=\begin{bmatrix}
+m & 0 & 0\\ 
+0 & m & 0\\ 
+0 & 0 & I
+\end{bmatrix},\quad
+B(q)=\begin{bmatrix}
+\cos\theta  & \cos\theta \\
+\sin\theta  & \sin\theta \\
+-a &  b
+\end{bmatrix},\quad
+D=\begin{bmatrix}
+1 & 1 & 0 & 0\\ 
+0 & 0 & 1 & 1
+\end{bmatrix}^T, \quad
+R(\dot q)=\begin{bmatrix}
+\xi F_{sx}\cos\theta-\xi F_{sy}\sin\theta \\ 
+\xi F_{sx}\sin\theta-\xi F_{sy}\cos\theta\\ 
+M_r
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation}
+\label{eq:allapotokdupladerivalt}
+    \ddot q = S(q) \dot\eta + \dot S(q)\eta 
+\end{equation}
+
+\begin{equation}
+\label{eq:dinamicmodelgenericsimplified}
+\bar{M}\dot\eta+\bar{C}\eta+\bar{R}+\bar{F_d}=\bar{B}F
+\end{equation}
+
+\begin{equation*}
+\bar{M}=S^TMS, \quad
+\bar{C}= S^TM \dot S, \quad
+\bar{R}=S^T\dot R,  \quad
+\bar{F_d}=S^TF_d,\quad
+\bar{B}=S^TB 
+\end{equation*}
+

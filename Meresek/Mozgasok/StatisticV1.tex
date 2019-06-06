@@ -1,0 +1,37 @@
+\DTLsetseparator{ = }% Set the separator between the columns. Could be
+% anything you like. Whitespaces are not trimmed, so you have to set
+%them as part of the separator.
+
+\input{\mand{\GlobalPath}{Statistic.tex}}
+
+        %\input{\mand{\GlobalPath}{Pos.tex}}
+        %\pgfplotstableread{PositionOrientation.dat}{\pos}
+
+\DTLdeletedb{mydataStat}
+\DTLloaddb[noheader, keys={thekey,thevalue}]{mydataStat}{statistic.dat}
+% Loads mydata.dat with column headers 'thekey' and 'thevalue'
+
+\renewcommand{\missingcommand}[1]{\DTLfetch{mydataStat}{thekey}{#1}{thevalue}}
+
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{llll}
+        \hline
+        Tulajdonság          & Node  & érték                                & Mértékegység                      \\ \hline
+        Ossz sebesseg hiba   & FL & \missingcommand{SumErrorSpeedFL}        &   $[\degree/s]$                   \\
+                             & BL & \missingcommand{SumErrorSpeedBL}        &   $[\degree/s]$                   \\
+                             & FR & \missingcommand{SumErrorSpeedFR}        &   $[\degree/s]$                   \\
+                             & BR & \missingcommand{SumErrorSpeedBR}        &   $[\degree/s]$                   \\
+        Energia  fogyasztasa & FL & \missingcommand{PowerConsuptionFL}      &   $[W]$                           \\
+                             & BL & \missingcommand{PowerConsuptionBL}      &   $[W]$                           \\
+                             & FR & \missingcommand{PowerConsuptionFR}      &   $[W]$                           \\
+                             & BR & \missingcommand{PowerConsuptionBR}      &   $[W]$                           \\
+        Sulypont X           &    & \missingcommand{SulyPontX}              &   $[m]$                           \\
+        Sulypont Y           &    & \missingcommand{SulyPontY}              &   $[m]$                           \\
+        Ossz fordulas        &    & \missingcommand{Elfordulas}           &   $[\degree]$                     \\
+        Megtett ut           &    & \missingcommand{Elmozdulas}              &   $[m]$                           \\
+        Max Sebesseg         &    & \missingcommand{MaxSebesseg}            &   $[m\s]$                         \\
+        Max ford Sebesseg    &    & \missingcommand{MaxFordulasiSebesseg}   &   $[\degree/s]$                   \\
+    \end{tabular}
+    \end{center}
+\end{table}
