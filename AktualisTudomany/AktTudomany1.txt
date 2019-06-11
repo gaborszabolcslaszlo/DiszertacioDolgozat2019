@@ -1,0 +1,29 @@
+\FloatBarrier
+
+\chapter{Bibliográfiai tanulmány}
+
+\section{Robotok}
+Az olyan gépek, amelyeket arra terveztek, hogy bizonyos feladatokat automatikusan elvégezzenek gyorsabban és pontosabban mit az emberek. Manapság már sok típusú robot létezik, ezek közül néhány repül, földön gurul vagy mászik, de léteznek mar emberhez hasonlóak is.
+
+A robotok legel?ször a második világháború alatt jelentek meg mint irányított bombák. A háború után W.Grey Walter neurologus fejlesztett ki egy kisméret? robotot (Elmer and Elsie) mely fényszenzorral, es nyomásszenzorral volt ellátva. 1961-1963 Johns Hopkins Beast robot képes volt a fal menten végigmenni és megtálalni a tölt?állomást. 1970 -ben Shakey robot képes volt kamera segítségével egy vonalat követni. A 1990 után a fejlesztések felgyorsultak es azóta mar robot jár a naprendszer más bolygóján is.
+
+Ezen dolgozat csak a $MR$ típusú robotokkal fog részletesebben kitérni. A $MR$ típusú robotok képesek a saját pozíciójukat megváltoztatni a környezetükhöz képest. Az $AMR$ típusú robotok képesek saját környezetük felderítésére ismeretlen környezetben is különböz? szenzorokat használva melyekkel kepések a környezetük paramétereinek a megmérésére. Az $AMR$ típusú robotokat manapság leginkább tároló helységekben használjak ahol anyagokat palettákat vagy különböz? dolgokat kel egyik helyszínr?l a másikra szállítani (például Mobile Industrial Robots ApS vállalat fejlesztései).
+
+\section{Mobilis Robotok Helyváltoztatása}
+A $MR$ kerekekkel, hernyótalpakkal, vagy lábakkal képesek helyüket megváltoztatni. A leginkább használatos es robusztusnak bizonyult kültéri terepen a kerekek es a hernyótalpak.
+Legismertebb robot felépítések: packboot pl: iRobo510,
+négy hagyományos kerek pl: husky, négy kormányozható kerek, hat kerek, amib?l négy kormányozható pl: Curiosity Mars Rover.
+Az utóbbi években a kerek fogalma is újraértelmez?d?t, a hagyományos kerekek pl: RHex Rough-Terrain amely a kerek es a lábak keveréke.
+
+
+\section{Kültéri mobilis robotok}
+
+
+\input{MobilisRobotok/iRobo/iRobot510.tex}
+\input{MobilisRobotok/clearpathrobotics/husky.tex}
+\input{MobilisRobotok/EcoRobotix/ecoRobotix.tex}
+\input{MobilisRobotok/Spirit/Spirit.tex}
+\input{AktualisTudomany/ROS.tex} \newpage
+
+\input{AktualisTudomany/RobotModel.tex}
+
