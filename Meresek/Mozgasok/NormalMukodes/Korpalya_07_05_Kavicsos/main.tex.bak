@@ -1,5 +1,5 @@
-\subsection{Kavicsos talajon korpalyan 7 5}
-A \ref{fig:KorP0705a} megfigyelhető amint a robot kavicsos talajon differenciálisan fordul 60 másodpercen keresztül, ezalatt háromszor teljen korbefordul. A palyat tekintve letrejon egy oldaliranyu mozgás is igy 0.4m kerul odebb. Az oldaliranyu mozgas a nem egyenlo surlodasok es eroeloszlasok miatt jon letre.
+\subsection{Kavicsos talajon korpalyan 50/15}
+A \ref{fig:KorP0705a} megfigyelhető amint a robot kavicsos talajon differenciálisan fordul 80 másodpercen keresztül, ezalatt másfélszer körbefordul.
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos/}
 \renewcommand{\secondImage}{*}
@@ -12,62 +12,50 @@ A \ref{fig:KorP0705a} megfigyelhető amint a robot kavicsos talajon differenciá
 
 \begin{figure}[H]
   \includegraphics{tikz/KorP0705x.pdf}
-  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, keréksebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705x}  
 \end{figure}
 
 
 \begin{figure}[H]
   \includegraphics{tikz/KorP0705a.pdf}
-  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s }
+  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705a}  
 \end{figure}
 
 
 \begin{figure}[H]
   \includegraphics{tikz/KorP0705b.pdf}
-  \caption{$SSMR-4W$ típusú robot altal leirt palya, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+  \caption{$SSMR-4W$ típusú robot altal leirt palya, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705b}
 \end{figure}
 
+A körpalyán mozgás során a robot eltér a szabályos körtöl, és  látható a \ref{fig:KorP0705b} ábrán. A mérések nyilthurokan törének, nincs szabályzókör a pozicióra és a sebességkre.
+A szögsebességet tekintve a robot 7\degree/s szögsebességet generál.
+
+
+%\begin{figure}[H]
+%  \includegraphics{tikz/KorP0705c.pdf}
+%  \caption{$SSMR-4W$ típusú robot orientacioja, kerekszögsebességek %BL=FL=50\degree/s és a FR=BR=15\degree/s}
+%  \label{fig:KorP0705c}
+%\end{figure}
+
 
 \begin{figure}[H]
-  \includegraphics{tikz/KorP0705c.pdf}
-  \caption{$SSMR-4W$ típusú robot orientacioja, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
-  \label{fig:KorP0705c}
-\end{figure}
-
-
-\begin{figure}[H]
-  \includegraphics{tikz/KorP0705d.pdf}
-  \caption{$SSMR-4W$ típusú robot fordulasi szogsebessege, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+\begin{center}
+  \includegraphics[scale=0.8]{tikz/KorP0705d.pdf}
+\end{center}
+  \caption{$SSMR-4W$ típusú robot fordulasi szögsebessége, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705d}
 \end{figure}
 
 
 \begin{figure}[H]
-  \includegraphics{tikz/KorP0705e.pdf}
-  \caption{$SSMR-4W$ típusú robot egyenesvonalu sebessegei, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+\begin{center}
+  \includegraphics[scale=0.8]{tikz/KorP0705e.pdf}
+\end{center}
+  \caption{$SSMR-4W$ típusú robot egyenesvonalú sebességei, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705e}
 \end{figure}
 
-
-A mozgas nyilt hurokban tortenik nincsen a pozicio vagy a rogsebeseg szabalyozva.
-A robot $ICR$ pontja a $K_{BL}$ es $K_{FL}$ pontokat oszekoto tengelyen helyezkedik el \ref{fig:SMR4WKinematics}.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+A robot sebességét tekintve a \ref{fig:KorP0705e} látható hogy szinuszosan változuk a pozicióhoz hasonlóan,a robot kiss sebességü mozgása miatt a mérés zajos.

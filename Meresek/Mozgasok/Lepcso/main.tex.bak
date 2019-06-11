@@ -1,6 +1,6 @@
 \subsection{Lepcson}
 
-A kovetkező méresek soran a robot egy 40 \degree lepcson lefele es felfele is mozog a lepcsore meroleges iranyban. A robot viselkedese a mozgas soran, lefele konyeden megy gond nelkul, felfele viszont a kerekek a kovetkezo lepcsofok ellerol lecsusza viszaesnek.
+
 
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso}
@@ -13,29 +13,45 @@ A kovetkező méresek soran a robot egy 40 \degree lepcson lefele es felfele is 
 %\input{Meresek/Mozgasok/FirstV1.tex}
 
 
+A kovetkező méresek soran a robot egy 40 \degree lepcson lefele és felfele is mozog a lepcsőre merőleges irányban. A robot viselkedése a mozgás során, lefele könyeden megy gond nélkül, felfele viszont a kerekek a következő lépcsöfok élléről lecsusza viszaesnek.
+
+A \ref{fig:LepcsoLexx} latható amit a lépcsőn lefele, a mozgato motrok mért értékei. és a \ref{fig:LepcsoFelxx} viszafele mozgás során a mért értékek. A beavatkozó jel nagysága 10\% -al  nagyobb viszafele mozgas során. A mérések elvegzésekor a hajtást végző motrok a kisebbik átételfokozatban voltak, igy nagyobb forgatónyomatékot adtak le.
+
 \begin{figure}[H]
   \includegraphics{tikz/LepcsoLexx.pdf}
-  \caption{}
+  \caption{Lépcsőn lefele mozgás.}
   \label{fig:LepcsoLexx}
 \end{figure}
 
+A roboton IMU szenzora által mért értékek mutatjak amint a $g=9.81 m/s^2$ gravitácios gyorsulás megjelenik a $aZ$ tengelyen \ref{fig:ImuLepcsoLe1}. Kezdetben a robot vizszinteshez közeli állapotban van X és Y.  A lépcson lefele mozgás során a $g$ fokoatosan átevődik az $aX$ tengelyre is amiat, hogy a robot előre dől. A robot három lépcsofokon halad át ami látható az ábrán is.
+
 \begin{figure}[H]
-  \includegraphics{tikz/ImuLepcsoLe1.pdf}
-  \caption{}
+  \begin{center}
+  	\includegraphics[scale=0.8]{tikz/ImuLepcsoLe1.pdf}
+  \end{center}
+  \caption{Lépcsön lefele mozgás, három lépcsőfok.}
   \label{fig:ImuLepcsoLe1}
 \end{figure}
 
 \begin{figure}[H]
+  \begin{center}
+  	\includegraphics[scale=0.8]{tikz/ImuLepcsoFel1.pdf}
+  \end{center}
+  \caption{Lépcsőn felfele mozgás, kétlépcsőfok.}
+  \label{fig:ImuLepcsoFel1}
+\end{figure}
+
+A lépcson felfele mozgás során a robot az eloző állapotból indul visszafele. Azokban a pillanatokban amikor a kerekek lecsusznak a lepcső éléről a kerekek szögsebessége megnő mert a surlodási erő lecsökken.  
+
+Az \ref{fig:LepcsoFelxx} az $FL$ és $FR$ kerekeken nagyobb beavatkozójel esik, amiatt hogy megnő a merőleges nyomoerő.
+
+\begin{figure}[H]
   \includegraphics{tikz/LepcsoFelxx.pdf}
-  \caption{}
+  \caption{Lépcsőn felfele mozgás}
   \label{fig:LepcsoFelxx}
 \end{figure}
 
-\begin{figure}[H]
-  \includegraphics{tikz/ImuLepcsoFel1.pdf}
-  \caption{}
-  \label{fig:ImuLepcsoFel1}
-\end{figure}
+
 
 
 

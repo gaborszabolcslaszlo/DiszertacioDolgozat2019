@@ -1,10 +1,8 @@
-\subsection{Kavicsos talajon korpalyan mozgas}
+\input{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos/main.tex}
 
+\input{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/main.tex}
 
-\input{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos/main.tex};
-\input{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/main.tex};
-
-------------------------------------
+\subsection{Kavicsos talajon, a körpályák összehasonlitása}
 
 
 \begin{figure}[H]
