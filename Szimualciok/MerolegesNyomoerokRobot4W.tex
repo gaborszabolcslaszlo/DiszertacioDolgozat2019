@@ -40,7 +40,8 @@ every node/.style={mapped color!50!black,fill=white},
 \addplot3 [surf,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zFL] {\pistonkinetics};
 \end{axis}
 \end{tikzpicture}
-\caption[]{Kerek nyomoero valtozasa a sulypont fugvenyeben}\label{abserror}
+\caption[]{Kerek nyomoero valtozasa a sulypont fugvenyeben ha $\alpha=0 es \beta=0$}
+\label{fig:FRnyomoeroszim}
 
 \end{figure}
 
@@ -81,20 +82,20 @@ every node/.style={mapped color!50!black,fill=white},
 
 \nextgroupplot%
 \addplot3 [contour gnuplot={number=7},
-        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zFL] {\pistonkinetics};
+        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zFR] {\pistonkinetics};
 \label{plots:InstC}
 
 \nextgroupplot%
-\addplot3 [contour gnuplot={number=14},
-        thick,mesh/rows=196, mesh/cols=14, mesh/check=false,contour/label distance=50pt] table [header=true, x = x, y=y, z=F_zFR] {\pistonkinetics};
+\addplot3 [contour gnuplot={number=7},
+        thick,mesh/rows=196, mesh/cols=14, mesh/check=false,contour/label distance=50pt] table [header=true, x = x, y=y, z=F_zFL] {\pistonkinetics};
 
 \nextgroupplot%
-\addplot3 [contour gnuplot={number=14},
-        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zBL] {\pistonkinetics};
+\addplot3 [contour gnuplot={number=1},
+        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zBR] {\pistonkinetics};
  
 \nextgroupplot%       
 \addplot3 [contour gnuplot={number=14},
-        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zBR] {\pistonkinetics};
+        thick,mesh/rows=196, mesh/cols=14,mesh/check=false ] table [header=true, x = x, y=y, z=F_zBL] {\pistonkinetics};
 
 
 \end{groupplot}
@@ -114,7 +115,8 @@ every node/.style={mapped color!50!black,fill=white},
 \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r2.north) {\caption[]{BL\label{subplot:three}}};
 \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c2r2.north) {\caption[]{BR\label{subplot:four}}};
 \end{tikzpicture}
-\caption[]{$SSMR-4W$ tipusu robot kereknyomoerok kerekenkeni változása a sulypont fuggvenyeben}\label{abserror}
+\caption[]{$SSMR-4W$ tipusu robot kereknyomoerok kerekenkeni változása a sulypont fuggvenyeben}
+\label{fig:NyomoeroSzim4Wheel}
 
 \end{figure}
 \end{kep}

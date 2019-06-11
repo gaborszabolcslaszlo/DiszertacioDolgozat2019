@@ -1,10 +1,35 @@
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso/Le/}
+
+\renewcommand{\figlabel}{LepcsoLexx}
+\renewcommand{\nth}{2}
+%\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+\renewcommand{\figlabel}{ImuLepcsoLe1}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/ImuV1.tex}
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso/Fel/}
+
+\renewcommand{\figlabel}{LepcsoFelxx}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+\renewcommand{\figlabel}{ImuLepcsoFel1}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/ImuV1.tex}
+
+
+\iffalse
 \input{Meresek/SLAM/MeresSlam.tex}
 
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/HomokosDomb/}
 \renewcommand{\figlabel}{HlejtoKerek}
 \renewcommand{\nth}{2}
-\input{Meresek/Mozgasok/Kerekadatok.tex}
+%\input{Meresek/Mozgasok/Kerekadatok.tex}
 
 
 \begin{figure}[H]
@@ -91,8 +116,12 @@
 	\input{Meresek/Mozgasok/LinearisSebesseg.tex}
 
 
+
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/HibasMukodes/R_0_L_1/}
 
+	\renewcommand{\figlabel}{Left0Right50x}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Kerekadatok.tex}
 	\renewcommand{\figlabel}{Left0Right50a}
 	\renewcommand{\nth}{2}
 	\input{Meresek/Mozgasok/PozicioKulon.tex}
@@ -136,4 +165,4 @@
 	\renewcommand{\figlabel}{Left_n50Right50d}
 	\renewcommand{\nth}{2}
 	\input{Meresek/Mozgasok/Szogsebesseg.tex}
-
+\fi

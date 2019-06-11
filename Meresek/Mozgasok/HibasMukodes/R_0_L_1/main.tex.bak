@@ -1,6 +1,6 @@
 \subsection{Feloldali kerekek blokolva kavicsos talajon}
 
-A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szogsebeseggel forognak. Az eredmenyek alapjan a \ref{fig:Left0Right50b} lathato a robot altal leirt palya. A mozgas soran tobb mint 360 \degree ot fordult es mondhatni korpalyat irt le. A talajjal valo surlodasok miatt a robot nem tokeletesen fordul ez lathato abbol is hogy a masodszori fordulas mar az elozo palyatol eltero pozicioban talalhato. 
+A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szogsebeseggel forognak. Az eredmenyek alapjan a \ref{fig:Left0Right50b} lathato a robot altal leirt palya. A mozgas soran tobb mint 360 \degree ot fordult es mondhatni korpalyat irt le. A talajjal valo surlodasok miatt a robot nem tokeletesen fordul ez lathato abbol is hogy a masodszori fordulas mar az elozo palyatol eltero. 
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/HibasMukodes/R_0_L_1/}
 \renewcommand{\secondImage}{*}
@@ -11,9 +11,12 @@ A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szogs
 %1
 %\input{Meresek/Mozgasok/FirstV1.tex}
 
+
+
+
 \begin{figure}[H]
   \includegraphics{tikz/Left0Right50a.pdf}
-  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
+  \caption{$SSMR-4W$ típusú robot pozicioja, X es Y tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree/s}
     \label{fig:Left0Right50a}
 \end{figure}
 
@@ -25,6 +28,9 @@ A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szogs
   \label{fig:Left0Right50b}
 \end{figure}
 
+A meres soran a fordulasi szogsebesseg 9\degree/s lathato a \ref{fig:Left0Right50c} abran. A LIDAR es HectorMap segistegevel mert abszolut szogsebesseg zajosabb mint a giroszkop altal mert. A lidar altar mert szogsebesseg elonyosebb mert a zajokat nem kell megintegralni ahoz hogy megkapjuk a szogsebesseget a gyroszkoppal elentetben.
+
+A linearis sebesegeket tekintve \ref{fig:Left0Right50d} szinuszosan valtoznak, az X es Y kovot megfigyelheto egy 90\degree eltolodas. A keruleti sebesseg 0.1 m/s koruli.
 
 \begin{figure}[H]
   \includegraphics{tikz/Left0Right50c.pdf}
@@ -47,11 +53,6 @@ A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szogs
   \label{fig:Left0Right50e}  
 \end{figure}
 
-
-
-
-A mozgas nyilt hurokban tortenik nincsen a pozicio vagy a rogsebeseg szabalyozva.
-A robot $ICR$ pontja a $K_{BL}$ es $K_{FL}$ pontokat oszekoto tengelyen helyezkedik el \ref{fig:SMR4WKinematics}.
 
 
 

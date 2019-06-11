@@ -1,4 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  6 JUN 2019 19:20
+<<<<<<< Updated upstream
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  11 JUN 2019 18:45
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  11 JUN 2019 00:41
+>>>>>>> Stashed changes
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -69,11 +73,6 @@ Package babel Info: Making : an active character on input line 2783.
 Package babel Info: Making ` an active character on input line 2801.
 \c@footnote@add=\count94
 \c@footnote@ch=\count95
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/sh
 are/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/tex
 mf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/g
@@ -2054,10 +2053,13 @@ gfsupp_tikzexternalshared.code.tex)))
 
 (./main.aux
 
-LaTeX Warning: Label `abserror' multiply defined.
+LaTeX Warning: Label `fig:DinamicSpeedController' multiply defined.
 
 
 LaTeX Warning: Label `fig:Left0Right50d' multiply defined.
+
+
+LaTeX Warning: Label `fig:HlejtoKerek' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -2289,156 +2291,174 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 242.
 \c__siunitx_mathtt_int=\count424
-(./Extras.tex
+(./JelolesekEsRovditesek.tex
+\@nomenclaturefile=\write6
+\openout6 = `main.nlo'.
+
+Writing nomenclature file main.nlo
+)
 
 LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 3.
+(Font)              using `T2A/ptm/m/n' instead on input line 260.
 
-[1
+(./main.toc [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./Kivonat.tex [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.8 \end{titlepage}
-                    [1]) (./Abstract.texpdfTeX warning (ext4): destination with
- the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \begin{titlepage}
-                      [2
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 \end{titlepage}
-                    [1])pdfTeX warning (ext4): destination with the same identi
-fier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.256 \tableofcontents
-                       [2
-
-] (./main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
-[3] [4
-
-] (./main.lof
-Overfull \hbox (5.34747pt too wide) in paragraph at lines 27--27
- [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@ \OT1/ztmcm/m/n/12 4\OM
-L/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot for-du-lasi szogsebess
-ege, kerek-sebessegek BL=FL=0 
+[2] (./main.lof
+Overfull \hbox (24.39691pt too wide) in paragraph at lines 34--34
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot ori-ent-aci-o-ja, k
+e-rek-se-bes-se-gek BL=FL=0 es a FR=BR= 
  []
 
 
-Overfull \hbox (15.39784pt too wide) in paragraph at lines 28--28
- [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@ \OT1/ztmcm/m/n/12 4\OM
-L/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot egye-nesvon-alu sebess
-egei, kerek-sebessegek BL=FL=0 
- []
-
-[5]
-Overfull \hbox (3.38962pt too wide) in paragraph at lines 33--33
- [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@ \OT1/ztmcm/m/n/12 4\OM
-L/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot for-du-lasi szogsebess
-ege, kerek-sebessegek BL=FL=- 
+Overfull \hbox (5.08774pt too wide) in paragraph at lines 35--35
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot for-du-la-si szog-s
+e-bes-se-ge, ke-rek-se-bes-se-gek BL=FL=0 
  []
 
 
-Overfull \hbox (5.34747pt too wide) in paragraph at lines 38--38
- [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@ \OT1/ztmcm/m/n/12 4\OM
-L/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot for-du-lasi szogsebess
-ege, kerek-sebessegek BL=FL=0 
+Overfull \hbox (15.1381pt too wide) in paragraph at lines 36--36
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot egye-nes-vo-na-lu s
+e-bes-se-gei, ke-rek-se-bes-se-gek BL=FL=0 
+ []
+
+[3
+
+]
+Overfull \hbox (3.12988pt too wide) in paragraph at lines 41--41
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot for-du-la-si szog-s
+e-bes-se-ge, ke-rek-se-bes-se-gek BL=FL=- 
  []
 
 
-Overfull \hbox (15.39784pt too wide) in paragraph at lines 39--39
- [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@ \OT1/ztmcm/m/n/12 4\OM
-L/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot egye-nesvon-alu sebess
-egei, kerek-sebessegek BL=FL=0 
+Overfull \hbox (24.39691pt too wide) in paragraph at lines 45--45
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot ori-ent-aci-o-ja, k
+e-rek-se-bes-se-gek BL=FL=0 es a FR=BR= 
  []
 
 
-Overfull \hbox (5.34747pt too wide) in paragraph at lines 44--44
- [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@ \OT1/ztmcm/m/n/12 4\OM
-L/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot for-du-lasi szogsebess
-ege, kerek-sebessegek BL=FL=0 
+Overfull \hbox (5.08774pt too wide) in paragraph at lines 46--46
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot for-du-la-si szog-s
+e-bes-se-ge, ke-rek-se-bes-se-gek BL=FL=0 
  []
 
 
-Overfull \hbox (15.39784pt too wide) in paragraph at lines 45--45
- [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@ \OT1/ztmcm/m/n/12 4\OM
-L/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot egye-nesvon-alu sebess
-egei, kerek-sebessegek BL=FL=0 
+Overfull \hbox (15.1381pt too wide) in paragraph at lines 47--47
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot egye-nes-vo-na-lu s
+e-bes-se-gei, ke-rek-se-bes-se-gek BL=FL=0 
+ []
+
+
+Overfull \hbox (24.39691pt too wide) in paragraph at lines 51--51
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot ori-ent-aci-o-ja, k
+e-rek-se-bes-se-gek BL=FL=0 es a FR=BR= 
+ []
+
+
+Overfull \hbox (5.08774pt too wide) in paragraph at lines 52--52
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot for-du-la-si szog-s
+e-bes-se-ge, ke-rek-se-bes-se-gek BL=FL=0 
+ []
+
+
+Overfull \hbox (15.1381pt too wide) in paragraph at lines 53--53
+ [][] [][]$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@[] \OT1/ztmcm/m/n/12 4\
+OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bot egye-nes-vo-na-lu s
+e-bes-se-gei, ke-rek-se-bes-se-gek BL=FL=0 
  []
 
 )
-\tf@lof=\write7
-\openout7 = `main.lof'.
+\tf@lof=\write8
+\openout8 = `main.lof'.
 
-[6] (./main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
-
-[7
-
-]
 No file main.nls.
-(./Bevezeto/Bevezeto.tex [8
-
-]
-Chapter 1.
+(./Bevezeto/Bevezeto.tex [4]
+fejezet 1.
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\H' on input line 1.
 
+) (./AktualisTudomany/AktTudomany.tex [5
+<<<<<<< Updated upstream
 
-Overfull \hbox (18.68597pt too wide) in paragraph at lines 4--5
-[]\T2A/ptm/bx/n/12 A dol-go-zat c^^Aelja hogy felder^^A^^Ytse az aktu^^Aalis le
-g-mod-ernebb tech-nik^^Aakat ame-lyeket robotokon
- []
-
-) [9] (./AktualisTudomany/AktTudomany.tex [10
+] [6
 
 ]
-Chapter 2.
+fejezet 2.
 
-Overfull \hbox (20.31343pt too wide) in paragraph at lines 6--7
-\T2A/ptm/bx/n/12 A olyan gepek ame-lyeket arra ter-veztek hogy bi-zonyos fe-lad
-a-tokat au-tomatiku-san elv^^Aegezzenek
+Overfull \hbox (32.06444pt too wide) in paragraph at lines 11--12
+\T2A/ptm/bx/n/12 Az olyan g^^Aepek, ame-lye-ket ar-ra ter-vez-tek, hogy bi-zo-n
+yos fel-ada-to-kat au-to-ma-ti-ku-san elv^^Aegezzenek
  []
 
-(./MobilisRobotok/iRobo/iRobot510.tex (./picture.tex [11]
-<MobilisRobotok/iRobo/iRobo510.jpg, id=376, 602.25pt x 401.5pt>
+
+Overfull \hbox (6.87494pt too wide) in paragraph at lines 19--20
+\T2A/ptm/bx/n/12 t^^A^^Ypus^^Au ro-bo-tok k^^Aepesek saj^^Aat k^^Dornyezet^^Duk
+ fel-der^^A^^Yt^^Aes^^Aere is-me-ret-len k^^Dornyezetben is k^^Dul^^Donb^^Doz^^
+Eo
+ []
+
+
+Overfull \hbox (4.06972pt too wide) in paragraph at lines 19--20
+\T2A/ptm/bx/n/12 go-kat, pa-lett^^Aakat vagy k^^Dul^^Donb^^Doz^^Eo dol-go-kat k
+el egyik helysz^^A^^Ynr^^Eol a m^^Aasikra sz^^Aall^^A^^Ytani (p^^Aeld^^Aaul
+ []
+
+(./MobilisRobotok/iRobo/iRobot510.tex (./picture.tex [7]
+<MobilisRobotok/iRobo/iRobo510.jpg, id=426, 602.25pt x 401.5pt>
+=======
+
+] [6
+
+]
+fejezet 2.
+
+Overfull \hbox (20.31343pt too wide) in paragraph at lines 6--7
+\T2A/ptm/bx/n/12 A olyan ge-pek ame-lye-ket ar-ra ter-vez-tek hogy bi-zo-nyos f
+el-ada-to-kat au-to-ma-ti-ku-san elv^^Aegezzenek
+ []
+
+(./MobilisRobotok/iRobo/iRobot510.tex (./picture.tex [7]
+<MobilisRobotok/iRobo/iRobo510.jpg, id=428, 602.25pt x 401.5pt>
+>>>>>>> Stashed changes
 File: MobilisRobotok/iRobo/iRobo510.jpg Graphic file (type jpg)
 <use MobilisRobotok/iRobo/iRobo510.jpg>
 Package pdftex.def Info: MobilisRobotok/iRobo/iRobo510.jpg  used on input line 
 10.
 (pdftex.def)             Requested size: 227.62206pt x 151.75064pt.
 ) (./MobilisRobotok/tableTemplate.tex)) (./MobilisRobotok/clearpathrobotics/hus
-ky.tex
-Overfull \hbox (1.71494pt too wide) in paragraph at lines 15--16
-\T2A/ptm/bx/n/12 Nagy teher bi-rasu kul-teri mo-bilis robot, legink^^Aabb ku-ta
-t^^Aasi c^^Aelokra al-ka-lmas, nagy kerekny-
- []
-
-(./picture.tex
-<MobilisRobotok/clearpathrobotics/husky.jpg, id=377, 349.305pt x 145.54375pt>
+ky.tex (./picture.tex
+<<<<<<< Updated upstream
+<MobilisRobotok/clearpathrobotics/husky.jpg, id=427, 349.305pt x 145.54375pt>
+=======
+<MobilisRobotok/clearpathrobotics/husky.jpg, id=429, 349.305pt x 145.54375pt>
+>>>>>>> Stashed changes
 File: MobilisRobotok/clearpathrobotics/husky.jpg Graphic file (type jpg)
 <use MobilisRobotok/clearpathrobotics/husky.jpg>
 Package pdftex.def Info: MobilisRobotok/clearpathrobotics/husky.jpg  used on in
 put line 10.
 (pdftex.def)             Requested size: 273.14923pt x 113.81902pt.
 ) (./MobilisRobotok/tableTemplate.tex)) (./MobilisRobotok/EcoRobotix/ecoRobotix
-.tex [12 <./MobilisRobotok/iRobo/iRobo510.jpg> <./MobilisRobotok/clearpathrobot
-ics/husky.jpg>] (./picture.tex
-<MobilisRobotok/EcoRobotix/ecorobotix.jpg, id=382, 548.0475pt x 506.6428pt>
+.tex [8 <./MobilisRobotok/iRobo/iRobo510.jpg> <./MobilisRobotok/clearpathroboti
+cs/husky.jpg>] (./picture.tex
+<<<<<<< Updated upstream
+<MobilisRobotok/EcoRobotix/ecorobotix.jpg, id=432, 548.0475pt x 506.6428pt>
+=======
+<MobilisRobotok/EcoRobotix/ecorobotix.jpg, id=434, 548.0475pt x 506.6428pt>
+>>>>>>> Stashed changes
 File: MobilisRobotok/EcoRobotix/ecorobotix.jpg Graphic file (type jpg)
 <use MobilisRobotok/EcoRobotix/ecorobotix.jpg>
 Package pdftex.def Info: MobilisRobotok/EcoRobotix/ecorobotix.jpg  used on inpu
@@ -2446,7 +2466,11 @@ t line 10.
 (pdftex.def)             Requested size: 227.62206pt x 210.43065pt.
 ) (./MobilisRobotok/tableTemplate.tex)) (./MobilisRobotok/Spirit/Spirit.tex (./
 picture.tex
-<MobilisRobotok/Spirit/spirit.jpg, id=383, 722.7pt x 578.16pt>
+<<<<<<< Updated upstream
+<MobilisRobotok/Spirit/spirit.jpg, id=433, 722.7pt x 578.16pt>
+=======
+<MobilisRobotok/Spirit/spirit.jpg, id=435, 722.7pt x 578.16pt>
+>>>>>>> Stashed changes
 File: MobilisRobotok/Spirit/spirit.jpg Graphic file (type jpg)
 <use MobilisRobotok/Spirit/spirit.jpg>
 Package pdftex.def Info: MobilisRobotok/Spirit/spirit.jpg  used on input line 1
@@ -2455,65 +2479,128 @@ Package pdftex.def Info: MobilisRobotok/Spirit/spirit.jpg  used on input line 1
 
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
-[13 <./MobilisRobotok/EcoRobotix/ecorobotix.jpg>]) (./MobilisRobotok/tableTempl
-ate.tex)) (./AktualisTudomany/ROS.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+[9 <./MobilisRobotok/EcoRobotix/ecorobotix.jpg>]) (./MobilisRobotok/tableTempla
+te.tex)) (./AktualisTudomany/ROS.tex (./picture.tex
+<<<<<<< Updated upstream
+<AktualisTudomany/rosmech1.jpg, id=442, 574.39594pt x 369.63094pt>
+=======
+<AktualisTudomany/rosmech1.jpg, id=444, 574.39594pt x 369.63094pt>
+>>>>>>> Stashed changes
+File: AktualisTudomany/rosmech1.jpg Graphic file (type jpg)
+<use AktualisTudomany/rosmech1.jpg>
+Package pdftex.def Info: AktualisTudomany/rosmech1.jpg  used on input line 10.
+(pdftex.def)             Requested size: 318.66948pt x 205.07426pt.
 
-Overfull \hbox (2.79266pt too wide) in paragraph at lines 7--8
-\T2A/ptm/bx/n/12 ROS haszn^^Aalata egy ^^Auj robot fe-jleszt^^Aes^^Aeben mert m
-^^Aar elk^^Aesz^^A^^Ytett cso-magokat haszn^^Aalhatunk
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10 <./MobilisRobotok/Spirit/spirit.jpg>]) (./picture.tex
+<<<<<<< Updated upstream
+<AktualisTudomany/rosmech2.jpg, id=449, 574.39594pt x 369.63094pt>
+=======
+<AktualisTudomany/rosmech2.jpg, id=451, 574.39594pt x 369.63094pt>
+>>>>>>> Stashed changes
+File: AktualisTudomany/rosmech2.jpg Graphic file (type jpg)
+<use AktualisTudomany/rosmech2.jpg>
+Package pdftex.def Info: AktualisTudomany/rosmech2.jpg  used on input line 10.
+(pdftex.def)             Requested size: 318.66948pt x 205.07426pt.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+
+Overfull \hbox (2.79266pt too wide) in paragraph at lines 30--31
+\T2A/ptm/bx/n/12 ROS haszn^^Aalata egy ^^Auj ro-bot fej-leszt^^Aes^^Aeben mert 
+m^^Aar elk^^Aesz^^A^^Ytett cso-ma-go-kat haszn^^Aalhatunk
  []
 
-
-Underfull \vbox (badness 2035) has occurred while \output is active []
-
-[14 <./MobilisRobotok/Spirit/spirit.jpg>]
-Overfull \hbox (12.13863pt too wide) in paragraph at lines 33--34
-\T2A/ptm/bx/n/12 hardware_interface::JointStateHandle-t. A []^^Aabra 2.4.5[] l^
-^Aathat^^Ao read() ^^Aes write() f^^Duggv^^Aenyeken
+[11 <./AktualisTudomany/rosmech1.jpg> <./AktualisTudomany/rosmech2.jpg>]
+Overfull \hbox (12.3206pt too wide) in paragraph at lines 56--57
+\T2A/ptm/bx/n/12 hardware_interface::JointStateHandle-t. A []^^Aabra 2.4.7[] l^
+^Aathat^^Ao re-ad() ^^Aes write() f^^Duggv^^Aenyeken
  []
 
 (./picture.tex
-<AktualisTudomany/roscontrol.png, id=416, 455.2441pt x 351.67606pt>
+<<<<<<< Updated upstream
+<AktualisTudomany/roscontrol.png, id=476, 455.2441pt x 351.67606pt>
+=======
+<AktualisTudomany/roscontrol.png, id=478, 455.2441pt x 351.67606pt>
+>>>>>>> Stashed changes
 File: AktualisTudomany/roscontrol.png Graphic file (type png)
 <use AktualisTudomany/roscontrol.png>
 Package pdftex.def Info: AktualisTudomany/roscontrol.png  used on input line 10
 .
 (pdftex.def)             Requested size: 455.24411pt x 351.69128pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1024) has occurred while \output is active []
+<<<<<<< Updated upstream
 
-[15]) (./Meresek/Figure1.tex)) [16 <./AktualisTudomany/roscontrol.png>] (./Aktu
-alisTudomany/RobotModel.tex (./picture.tex
-<SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg, id=445, 996.72375pt x 563.85657pt
+[12]) [13 <./AktualisTudomany/roscontrol.png>]) [14] (./AktualisTudomany/RobotM
+odel.tex
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 15.
+
+
+=======
+
+[12]) [13 <./AktualisTudomany/roscontrol.png>]) [14] (./AktualisTudomany/RobotM
+odel.tex
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 15.
+
+
+>>>>>>> Stashed changes
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 15.
+
+(./picture.tex
+<<<<<<< Updated upstream
+<SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg, id=514, 996.72375pt x 563.85657pt
+=======
+<SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg, id=516, 996.72375pt x 563.85657pt
+>>>>>>> Stashed changes
 >
 File: SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg Graphic file (type jpg)
 <use SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg>
 Package pdftex.def Info: SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg  used on i
 nput line 10.
 (pdftex.def)             Requested size: 455.24411pt x 257.53596pt.
-) [17 <./SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg>] (./picture.tex
-<SajatRobot/SzerkAbrak/LejtoOldalrol.jpg, id=455, 943.27406pt x 630.10406pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[15]) (./picture.tex
+<<<<<<< Updated upstream
+<SajatRobot/SzerkAbrak/LejtoOldalrol.jpg, id=523, 943.27406pt x 630.10406pt>
+=======
+<SajatRobot/SzerkAbrak/LejtoOldalrol.jpg, id=525, 943.27406pt x 630.10406pt>
+>>>>>>> Stashed changes
 File: SajatRobot/SzerkAbrak/LejtoOldalrol.jpg Graphic file (type jpg)
 <use SajatRobot/SzerkAbrak/LejtoOldalrol.jpg>
 Package pdftex.def Info: SajatRobot/SzerkAbrak/LejtoOldalrol.jpg  used on input
  line 10.
 (pdftex.def)             Requested size: 227.62206pt x 152.0453pt.
 ) (./picture.tex
-<SajatRobot/SzerkAbrak/LejtoSzembol.png, id=456, 1037.37563pt x 618.05907pt>
+<<<<<<< Updated upstream
+<SajatRobot/SzerkAbrak/LejtoSzembol.png, id=524, 1037.37563pt x 618.05907pt>
+=======
+<SajatRobot/SzerkAbrak/LejtoSzembol.png, id=526, 1037.37563pt x 618.05907pt>
+>>>>>>> Stashed changes
 File: SajatRobot/SzerkAbrak/LejtoSzembol.png Graphic file (type png)
 <use SajatRobot/SzerkAbrak/LejtoSzembol.png>
 Package pdftex.def Info: SajatRobot/SzerkAbrak/LejtoSzembol.png  used on input 
 line 10.
 (pdftex.def)             Requested size: 227.62206pt x 135.61504pt.
-) (./AktualisTudomany/Equations/MerloegesNyomoEroEq.tex [18 <./SajatRobot/Szerk
-Abrak/LejtoOldalrol.jpg> <./SajatRobot/SzerkAbrak/LejtoSzembol.png>]) (./Szimua
-lciok/MerolegesNyomoerokRobot4W.tex (./Szimualciok/MerolegesNyomoero.tex
+
+Underfull \vbox (badness 3088) has occurred while \output is active []
+
+[16 <./SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg> <./SajatRobot/SzerkAbrak/Le
+jtoOldalrol.jpg>]) (./AktualisTudomany/Equations/MerloegesNyomoEroEq.tex [17 <.
+/SajatRobot/SzerkAbrak/LejtoSzembol.png>]) (./Szimualciok/MerolegesNyomoerokRob
+ot4W.tex (./Szimualciok/MerolegesNyomoero.tex
 
 LaTeX Warning: Overwriting file `./MerolegesNyomoeroCalc.dat'.
 
@@ -2561,41 +2648,49 @@ gure1-600.png";)...executed.
 
 \openout3 = `main.auxlock'.
 
-
-Underfull \vbox (badness 6461) has occurred while \output is active []
-
-[19 <./tikz/main-figure0.pdf>]) [20 <./tikz/main-figure1.pdf>] (./AktualisTudom
-any/Equations/DinamicsEq.tex)
-Overfull \hbox (2.75685pt too wide) in paragraph at lines 107--108
-[]\T2A/ptm/bx/n/12 Az $\OML/ztmcm/m/it/12 ICR$ \T2A/ptm/bx/n/12 pont helyzete a
- $[]\OML/ztmcm/m/it/12 V[]$ \T2A/ptm/bx/n/12 sebess^^Aeg vek-torokra mer^^Eoleg
-es egye-ne-sek metsz^^Aes pontj^^Aaban
+[18 <./tikz/main-figure0.pdf>]) (./AktualisTudomany/Equations/DinamicsEq.tex [1
+9 <./tikz/main-figure1.pdf>])
+Overfull \hbox (2.75685pt too wide) in paragraph at lines 89--90
+[]\T2A/ptm/bx/n/12 Az $\OML/ztmcm/m/it/12 ICR$ \T2A/ptm/bx/n/12 pont hely-ze-te
+ a $[]\OML/ztmcm/m/it/12 V[]$ \T2A/ptm/bx/n/12 se-bess^^Aeg vek-to-rok-ra mer^^
+Eoleges egye-ne-sek metsz^^Aes pontj^^Aaban
  []
 
 (./picture.tex
-<SajatRobot/SzerkAbrak/robot4wSebModel_seb.jpg, id=526, 1169.11781pt x 1277.522
+<<<<<<< Updated upstream
+<SajatRobot/SzerkAbrak/robot4wSebModel_seb.jpg, id=610, 1169.11781pt x 1277.522
+=======
+<SajatRobot/SzerkAbrak/robot4wSebModel_seb.jpg, id=612, 1169.11781pt x 1277.522
+>>>>>>> Stashed changes
 81pt>
 File: SajatRobot/SzerkAbrak/robot4wSebModel_seb.jpg Graphic file (type jpg)
 <use SajatRobot/SzerkAbrak/robot4wSebModel_seb.jpg>
 Package pdftex.def Info: SajatRobot/SzerkAbrak/robot4wSebModel_seb.jpg  used on
  input line 10.
 (pdftex.def)             Requested size: 455.24411pt x 497.45216pt.
-[21])
-Overfull \hbox (16.11258pt too wide) in paragraph at lines 118--121
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[20])
+Overfull \hbox (13.945pt too wide) in paragraph at lines 100--103
 \OML/ztmcm/m/it/12 VNR$ \T2A/ptm/bx/n/12 -be. A $\OML/ztmcm/m/it/12 COM$ \T2A/p
-tm/bx/n/12 pont sebess^^Aeg^^Aenek y kom-po-nense megad-hat^^Ao az []egyen-let 
-(2.15[])[] seg^^A^^Yts^^Aeg^^Aevel.
+tm/bx/n/12 pont se-bess^^Aeg^^Aenek y kom-po-nen-se meg-ad-hat^^Ao az []egyen-l
+et (2.15[])[] seg^^A^^Yts^^Aeg^^Aevel.
  []
 
-(./AktualisTudomany/Equations/KinematikEq.tex [22 <./SajatRobot/SzerkAbrak/robo
+(./AktualisTudomany/Equations/KinematikEq.tex [21 <./SajatRobot/SzerkAbrak/robo
 t4wSebModel_seb.jpg>])
-Overfull \hbox (3.41595pt too wide) in paragraph at lines 130--131
-[]\T2A/ptm/bx/n/12 Az []egyen-letek (2.19[])-(2.21[])[] le^^A^^Yrj^^Aak a robot
- mozg^^Aas^^Aat a glob^^Aalis rend-szer-ben, fel-haszn^^Aalva
+Overfull \hbox (3.15622pt too wide) in paragraph at lines 112--113
+[]\T2A/ptm/bx/n/12 Az []egyen-le-tek (2.19[])-(2.21[])[] le^^A^^Yrj^^Aak a ro-b
+ot mozg^^Aas^^Aat a glob^^Aalis rend-szer-ben, fel-haszn^^Aalva
  []
 
 (./picture.tex
-<SajatRobot/SzerkAbrak/robot4wDinamic.jpg, id=548, 1226.33156pt x 1117.92656pt>
+<<<<<<< Updated upstream
+<SajatRobot/SzerkAbrak/robot4wDinamic.jpg, id=629, 1226.33156pt x 1117.92656pt>
+=======
+<SajatRobot/SzerkAbrak/robot4wDinamic.jpg, id=631, 1226.33156pt x 1117.92656pt>
+>>>>>>> Stashed changes
 
 File: SajatRobot/SzerkAbrak/robot4wDinamic.jpg Graphic file (type jpg)
 <use SajatRobot/SzerkAbrak/robot4wDinamic.jpg>
@@ -2605,22 +2700,16 @@ t line 10.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[23]) (./AktualisTudomany/Equations/EroModelEq.tex [24 <./SajatRobot/SzerkAbrak
+[22]) (./AktualisTudomany/Equations/EroModelEq.tex [23 <./SajatRobot/SzerkAbrak
 /robot4wDinamic.jpg>]) (./AktualisTudomany/Equations/RobustMotionControlEQ.tex
 Overfull \hbox (46.60457pt too wide) detected at line 27
-\OML/ztmcm/m/it/12 M \OT1/ztmcm/m/n/12 = [] \OML/ztmcm/m/it/12 ;  B\OT1/ztmcm/m
-/n/12 (\OML/ztmcm/m/it/12 q\OT1/ztmcm/m/n/12 ) = [] \OML/ztmcm/m/it/12 ;  D \OT
-1/ztmcm/m/n/12 = [][] \OML/ztmcm/m/it/12 ;  R\OT1/ztmcm/m/n/12 ([]) = []
+\OML/ztmcm/m/it/12 M \OT1/ztmcm/m/n/12 =[] [] \OML/ztmcm/m/it/12 ;  B\OT1/ztmcm
+/m/n/12 (\OML/ztmcm/m/it/12 q\OT1/ztmcm/m/n/12 ) =[] [] \OML/ztmcm/m/it/12 ;  D
+ \OT1/ztmcm/m/n/12 =[] [][] \OML/ztmcm/m/it/12 ;  R\OT1/ztmcm/m/n/12 ([]) =[] [
+]
  []
 
-)
-Overfull \hbox (8.72745pt too wide) in paragraph at lines 158--159
-\T2A/ptm/bx/n/12 jelet kisz^^Aam^^A^^Ythatjuk ha az []egyen-let (2.28[])[]-t ha
-szn^^Aaljuk. Jel^^Dolje a $\OML/ztmcm/m/it/12 K[]$ \T2A/ptm/bx/n/12 a szab^^Aal
-yz^^Ao param^^Aeterei.
- []
-
-[25] (./pictureFromTex.tex (./SajatRobot/SzerkAbrak/SebContRefNyom.tex
+) [24] (./pictureFromTex.tex (./SajatRobot/SzerkAbrak/SebContRefNyom.tex
 \openout3 = `main.auxlock'.
 
 ===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
@@ -2636,266 +2725,9 @@ gure2-600.png";)...executed.
 
 \openout3 = `main.auxlock'.
 
-)) (./AktualisTudomany/Equations/ControllerTorqueHL.tex)
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\H' on input line 170.
-
-(./AktualisTudomany/Equations/ArtificialTroqueMethod.tex [26 <./tikz/main-figur
-e2.pdf>]))) [27] (./SajatRobot/sajatrobot.tex [28
-
-]
-Chapter 3.
-(./SajatRobot/FPGAmodulok/RendszerModel.tex [29] (./picture.tex
-<SajatRobot/SzerkAbrak/cmoda7modulok.jpg, id=645, 1333.98375pt x 1160.335pt>
-File: SajatRobot/SzerkAbrak/cmoda7modulok.jpg Graphic file (type jpg)
-<use SajatRobot/SzerkAbrak/cmoda7modulok.jpg>
-Package pdftex.def Info: SajatRobot/SzerkAbrak/cmoda7modulok.jpg  used on input
- line 10.
-(pdftex.def)             Requested size: 455.24411pt x 395.97821pt.
-) (./picture.tex
-<SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg, id=647, 857.2025pt x 1176.395pt>
-File: SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg Graphic file (type jpg)
-<use SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg>
-Package pdftex.def Info: SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg  used on i
-nput line 10.
-(pdftex.def)             Requested size: 455.24411pt x 624.76086pt.
-
-Underfull \vbox (badness 1337) has occurred while \output is active []
-
-[30 <./SajatRobot/SzerkAbrak/cmoda7modulok.jpg>]) (./picture.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[31 <./SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg>]
-<SajatRobot/FPGAmodulok/ProtokolDiagram.jpg, id=658, 583.17876pt x 162.6075pt>
-File: SajatRobot/FPGAmodulok/ProtokolDiagram.jpg Graphic file (type jpg)
-<use SajatRobot/FPGAmodulok/ProtokolDiagram.jpg>
-Package pdftex.def Info: SajatRobot/FPGAmodulok/ProtokolDiagram.jpg  used on in
-put line 10.
-(pdftex.def)             Requested size: 455.24411pt x 126.94002pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
- [][][]\T2A/ptm/m/n/10 specialis karak-terek ame-lyek jelzik az
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-[]|\T2A/ptm/bx/n/12 Mintavetelezesi pe-ri-o-dus [ms]
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 65--66
-\T2A/ptm/bx/n/12 az FPGA mert ertekeket, ku-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]|\T2A/ptm/bx/n/12 Valaszhato sz-a-b-a-lyzo ti-pu-sok
- []
-
-
-Underfull \hbox (badness 4279) in paragraph at lines 67--68
-\T2A/ptm/bx/n/12 ha-j-ta-sonkent 0=Szoft-vare PID
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 67--68
-\T2A/ptm/bx/n/12 szogsebesseg, 1=Hard-ver PID
- []
-
-
-Underfull \hbox (badness 6893) in paragraph at lines 67--68
-\T2A/ptm/bx/n/12 szogsebesseg, 2=Szoftver PID
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-[]|\T2A/ptm/bx/n/12 inkrementalis szen-zor jeleit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\T2A/ptm/bx/n/12 fel-do-gozo mudul szamo-lasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-[]|\T2A/ptm/bx/n/12 szogsebeseg sz-a-b-a-lyzo, PID
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-[]|\T2A/ptm/bx/n/12 szogsebeseg sz-a-b-a-lyzo, PID
- []
-
-
-Overfull \hbox (11.14279pt too wide) in paragraph at lines 61--75
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[32 <./SajatRobot/FPGAmodulok/ProtokolDiagram.jpg>] (./picture.tex
-<SajatRobot/FPGAmodulok/UartUML.jpg, id=667, 793.96625pt x 925.4575pt>
-File: SajatRobot/FPGAmodulok/UartUML.jpg Graphic file (type jpg)
-<use SajatRobot/FPGAmodulok/UartUML.jpg>
-Package pdftex.def Info: SajatRobot/FPGAmodulok/UartUML.jpg  used on input line
- 10.
-(pdftex.def)             Requested size: 455.24411pt x 530.6512pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[33]) [34 <./SajatRobot/FPGAmodulok/UartUML.jpg>]) [35] (./SajatRobot/ROS/rosmo
-dulok.tex
-Underfull \hbox (badness 5939) in paragraph at lines 15--16
-\T2A/ptm/bx/n/12 tov^^Aabb^^A^^Yt a ROS oper^^Aaci^^Aos rend-szer-ben
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 16--17
-[]|\T2A/ptm/bx/n/12 Feladata sz^^Doveges form^^Aaban ^^Aerkez^^Eo ada-
- []
-
-
-Underfull \hbox (badness 6032) in paragraph at lines 16--17
-\T2A/ptm/bx/n/12 tok fel-dol-goz^^Aasa ^^Aes a ROS kere-trend-
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 18--19
-\T2A/ptm/bx/n/12 gad^^Aasa. Meg-val^^Aos^^A^^Ytja a $\OML/ztmcm/m/it/12 DeadMan
-Switch$
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 18--19
-\T2A/ptm/bx/n/12 t amely el^^Eo^^A^^Yrja a robot lin-earis mozg^^Aasi
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 24--25
-[]|[]\T2A/ptm/bx/n/12 Atalak^^A^^Ytja a robot sebess^^Aeg ^^Aallapotait ^^Aes
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 24--25
-\T2A/ptm/bx/n/12 kisz^^Aamolja ny^^A^^Ylt hurokban a szab^^Aalyzok
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[36]
-Underfull \hbox (badness 3919) in paragraph at lines 36--37
-[]|\T2A/ptm/bx/n/12 Minden ^^Duzenet tar-tal-maz egy
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 53--54
-[]|\T2A/ptm/bx/n/12 el^^Eo^^A^^Yrt sz^^Dog poz^^A^^Yci^^Ao A robot Z
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 54--55
-\T2A/ptm/bx/n/12 =1 manu^^Aalis ir^^Aany^^A^^Yt^^Aas joy-stick
- []
-
-
-Overfull \hbox (1.35269pt too wide) in paragraph at lines 31--57
-\T2A/ptm/bx/n/12 Az al^^Aabbi t^^Aabl^^Aazatban l^^Aathatjuk a ROS oper^^Aaci^^
-Aos rend-szer ^^Aaltal szolg^^Aaltatott .msg ^^Duzenetek
- []
-
-
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
-[37] (./picture.tex
-Package svg Info: Last page of `./svg-inkscape/rosgraph_svg-tex.pdf' is 1 on in
-put line 10.
-(./svg-inkscape/rosgraph_svg-tex.pdf_tex
-<./svg-inkscape/rosgraph_svg-tex.pdf, id=705, page=1, 1821.04988pt x 976.3961pt
->
-File: ./svg-inkscape/rosgraph_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/rosgraph_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/rosgraph_svg-tex.pdf , page1 used on in
-put line 56.
-(pdftex.def)             Requested size: 637.33897pt x 341.72885pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[38])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[39 <./svg-inkscape/rosgraph_svg-tex.pdf>]
-Overfull \hbox (10.02844pt too wide) in paragraph at lines 79--80
-[]\T2A/ptm/bx/n/12 A glob^^Aalis en-ged^^Aelyez^^Eo jel a []^^Aabra 3.2.6[] Mas
--ter-Live En-able, /glob-alEn-able t^^A^^Ypus^^Au ^^Duzenettel
- []
-
-
-Overfull \hbox (14.65335pt too wide) in paragraph at lines 79--80
-\T2A/ptm/bx/n/12 jelet az FPGA mod-ul-nak. A Hard-ver-Live jel in-form^^Aaci^^A
-ot szolg^^Aaltat a t^^Dobbi ROS k^^Dornyezetben
- []
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\H' on input line 81.
-
-
-Overfull \hbox (7.97491pt too wide) in paragraph at lines 82--83
-\T2A/ptm/bx/n/12 A /re-f-Vals ti-pusu ^^Duzenetben megkapjuk min-den egyes mo-t
-or el^^Eo^^A^^Yrt ^^Aerteket an-nak f^^Doveny^^Aeben
- []
-
-(./picture.tex
-<SajatRobot/ROS/NodeUML.jpg, id=725, 716.6775pt x 1056.94875pt>
-File: SajatRobot/ROS/NodeUML.jpg Graphic file (type jpg)
-<use SajatRobot/ROS/NodeUML.jpg>
-Package pdftex.def Info: SajatRobot/ROS/NodeUML.jpg  used on input line 10.
-(pdftex.def)             Requested size: 455.24411pt x 671.39691pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[40])
-Overfull \hbox (12.22081pt too wide) in paragraph at lines 91--94
-\T2A/ptm/bx/n/12 A vonatkoz-tat^^Aasi rend-sz-ereket sz^^Duks^^Aegesek mert a s
-zen-zorok ^^Aes bea-vatkoz^^Ao eszk^^Doz^^Dok poz^^A^^Yci^^Aoja
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[41 <./SajatRobot/ROS/NodeUML.jpg>]
-Overfull \hbox (12.15945pt too wide) in paragraph at lines 96--98
-[]\T2A/ptm/bx/n/12 r^^Dogz^^A^^Ytett poz^^A^^Yci^^Ao ^^Aes sz^^Dogek, sz-abads^
-^Aagok 0: Szen-zorok laser, BODY_link, wheel_odom,
- []
-
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 109
-.
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [42] (./picture.tex
-Package svg Info: Last page of `./svg-inkscape/frames_svg-tex.pdf' is 1 on inpu
-t line 10.
-(./svg-inkscape/frames_svg-tex.pdf_tex
-<./svg-inkscape/frames_svg-tex.pdf, id=778, page=1, 1463.46677pt x 898.80869pt>
-
-File: ./svg-inkscape/frames_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/frames_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/frames_svg-tex.pdf , page1 used on inpu
-t line 56.
-(pdftex.def)             Requested size: 682.86617pt x 419.39548pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[43]) (./SajatRobot/PIDHangolasa/PIDtuning.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[44 <./svg-inkscape/frames_svg-tex.pdf>] (./SajatRobot/PIDHangolasa/MeasuremetS
-imulinkWheel.tex
+)) (./AktualisTudomany/Equations/ControllerTorqueHL.tex) (./AktualisTudomany/Eq
+uations/ArtificialTroqueMethod.tex [25 <./tikz/main-figure2.pdf>]) (./pictureFr
+omTex.tex (./SajatRobot/SzerkAbrak/SebContRefOmega.tex
 \openout3 = `main.auxlock'.
 
 ===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
@@ -2911,8 +2743,350 @@ gure3-600.png";)...executed.
 
 \openout3 = `main.auxlock'.
 
+)))) (./SajatRobot/sajatrobot.tex [26 <./tikz/main-figure3.pdf>]
+fejezet 3.
+(./SajatRobot/FPGAmodulok/RendszerModel.tex [27
+
+] (./picture.tex
+<<<<<<< Updated upstream
+<SajatRobot/SzerkAbrak/cmoda7modulok.jpg, id=739, 1333.98375pt x 1160.335pt>
+=======
+<SajatRobot/SzerkAbrak/cmoda7modulok.jpg, id=741, 1333.98375pt x 1160.335pt>
+>>>>>>> Stashed changes
+File: SajatRobot/SzerkAbrak/cmoda7modulok.jpg Graphic file (type jpg)
+<use SajatRobot/SzerkAbrak/cmoda7modulok.jpg>
+Package pdftex.def Info: SajatRobot/SzerkAbrak/cmoda7modulok.jpg  used on input
+ line 10.
+(pdftex.def)             Requested size: 455.24411pt x 395.97821pt.
+) [28 <./SajatRobot/SzerkAbrak/cmoda7modulok.jpg>]
+<<<<<<< Updated upstream
+<tikz/UartCom.pdf, id=749, 614.295pt x 794.97pt>
+=======
+<tikz/UartCom.pdf, id=751, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
+File: tikz/UartCom.pdf Graphic file (type pdf)
+<use tikz/UartCom.pdf>
+Package pdftex.def Info: tikz/UartCom.pdf  used on input line 37.
+(pdftex.def)             Requested size: 500.77129pt x 396.86652pt.
+
+Overfull \hbox (52.32716pt too wide) in paragraph at lines 37--38
+[][] 
+ []
+
+(./picture.tex
+<<<<<<< Updated upstream
+<SajatRobot/FPGAmodulok/UartUML.jpg, id=753, 793.96625pt x 925.4575pt>
+=======
+<SajatRobot/FPGAmodulok/UartUML.jpg, id=755, 793.96625pt x 925.4575pt>
+>>>>>>> Stashed changes
+File: SajatRobot/FPGAmodulok/UartUML.jpg Graphic file (type jpg)
+<use SajatRobot/FPGAmodulok/UartUML.jpg>
+Package pdftex.def Info: SajatRobot/FPGAmodulok/UartUML.jpg  used on input line
+ 10.
+(pdftex.def)             Requested size: 455.24411pt x 530.6512pt.
+[29 <./tikz/UartCom.pdf>])
+<<<<<<< Updated upstream
+<tikz/VivadoHL.pdf, id=779, 614.295pt x 794.97pt>
+=======
+<tikz/VivadoHL.pdf, id=781, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
+File: tikz/VivadoHL.pdf Graphic file (type pdf)
+<use tikz/VivadoHL.pdf>
+Package pdftex.def Info: tikz/VivadoHL.pdf  used on input line 50.
+(pdftex.def)             Requested size: 546.29153pt x 707.01161pt.
+
+Overfull \hbox (91.04742pt too wide) in paragraph at lines 50--51
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[30 <./SajatRobot/FPGAmodulok/UartUML.jpg>]
+Overfull \vbox (14.50214pt too high) has occurred while \output is active []
+
+[31 <./tikz/VivadoHL.pdf, page is rotated 270 degrees>]
+Overfull \hbox (17.12991pt too wide) in paragraph at lines 61--63
+\T2A/ptm/bx/n/12 microB-la-ze pro-ce-szor az $\OML/ztmcm/m/it/12 axi[]bram[]ctr
+l[]\OT1/ztmcm/m/n/12 0$ \T2A/ptm/bx/n/12 mo-du-lon ke-resz-tul be-le-irod-nak a
+ $\OML/ztmcm/m/it/12 blk[]mem[]gen[]\OT1/ztmcm/m/n/12 1$
+ []
+
+<<<<<<< Updated upstream
+<tikz/Controllers.pdf, id=814, 614.295pt x 794.97pt>
+=======
+<tikz/Controllers.pdf, id=816, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
+File: tikz/Controllers.pdf Graphic file (type pdf)
+<use tikz/Controllers.pdf>
+Package pdftex.def Info: tikz/Controllers.pdf  used on input line 73.
+(pdftex.def)             Requested size: 500.77129pt x 267.77162pt.
+
+Overfull \hbox (52.32716pt too wide) in paragraph at lines 73--74
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[32]
+<<<<<<< Updated upstream
+<tikz/B.pdf, id=821, 614.295pt x 794.97pt>
+=======
+<tikz/B.pdf, id=823, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
+File: tikz/B.pdf Graphic file (type pdf)
+<use tikz/B.pdf>
+Package pdftex.def Info: tikz/B.pdf  used on input line 81.
+(pdftex.def)             Requested size: 500.77129pt x 531.41994pt.
+
+Overfull \hbox (52.32716pt too wide) in paragraph at lines 81--82
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[33 <./tikz/Controllers.pdf>]
+Overfull \hbox (1.70204pt too wide) in paragraph at lines 88--89
+\T2A/ptm/bx/n/12 je-le-ni meg. A $\OML/ztmcm/m/it/12 pimpid[]B$ \T2A/ptm/bx/n/1
+2 mo-dul FP-GA ala-pu PID sza-baly-zo mo-dul, $\OML/ztmcm/m/it/12 ServoMotorGea
+rBox[]B$
+ []
+
+[34 <./tikz/B.pdf>] (./picture.tex
+<<<<<<< Updated upstream
+<SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg, id=862, 857.2025pt x 1176.395pt>
+=======
+<SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg, id=864, 857.2025pt x 1176.395pt>
+>>>>>>> Stashed changes
+File: SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg Graphic file (type jpg)
+<use SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg>
+Package pdftex.def Info: SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg  used on i
+nput line 10.
+(pdftex.def)             Requested size: 455.24411pt x 624.76086pt.
+<<<<<<< Updated upstream
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+=======
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+>>>>>>> Stashed changes
+[35]) (./picture.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[36 <./SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg>]
+<<<<<<< Updated upstream
+<SajatRobot/FPGAmodulok/ProtokolDiagram.jpg, id=872, 603.25375pt x 655.44875pt>
+=======
+<SajatRobot/FPGAmodulok/ProtokolDiagram.jpg, id=874, 603.25375pt x 655.44875pt>
+>>>>>>> Stashed changes
+
+File: SajatRobot/FPGAmodulok/ProtokolDiagram.jpg Graphic file (type jpg)
+<use SajatRobot/FPGAmodulok/ProtokolDiagram.jpg>
+Package pdftex.def Info: SajatRobot/FPGAmodulok/ProtokolDiagram.jpg  used on in
+put line 10.
+(pdftex.def)             Requested size: 455.24411pt x 494.62575pt.
+) [37 <./SajatRobot/FPGAmodulok/ProtokolDiagram.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]|\T2A/ptm/bx/n/12 Mintavetelezesi pe-ri-o-dus [ms]
+ []
+
+
+Overfull \hbox (11.14279pt too wide) in paragraph at lines 140--154
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[38]
+Underfull \vbox (badness 2772) has occurred while \output is active []
+
+[39]) [40] (./SajatRobot/ROS/rosmodulok.tex
+<<<<<<< Updated upstream
+<tikz/RobotUserLan.jpg, id=901, 423.5825pt x 289.08pt>
+=======
+<tikz/RobotUserLan.jpg, id=903, 423.5825pt x 289.08pt>
+>>>>>>> Stashed changes
+File: tikz/RobotUserLan.jpg Graphic file (type jpg)
+<use tikz/RobotUserLan.jpg>
+Package pdftex.def Info: tikz/RobotUserLan.jpg  used on input line 22.
+(pdftex.def)             Requested size: 423.58147pt x 289.07928pt.
+
+Package caption Warning: \label without proper reference on input line 48.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `Tab:nodok' on page 41 undefined on input line 28.
+
+
+LaTeX Warning: Reference `FPGAcomuSection' on page 41 undefined on input line 3
+6.
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 37--38
+[]|\T2A/ptm/bx/n/12 Feladata sz^^Doveges form^^Aaban ^^Aerkez^^Eo ada-
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 39--40
+[]|\T2A/ptm/bx/n/12 Feladata a joystick-tol ^^Aerkez^^Eo pa-ran-csok
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 39--40
+\T2A/ptm/bx/n/12 fo-gad^^Aasa. Meg-val^^Aos^^A^^Ytja a $\OML/ztmcm/m/it/12 Dead
+ManSwitch$
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 45--46
+[]|[]\T2A/ptm/bx/n/12 Atalak^^A^^Ytja a ro-bot se-bess^^Aeg ^^Aallapotait ^^Aes
+
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 45--46
+\T2A/ptm/bx/n/12 ke-re-ke ugyan-azt a re-fe-ren-cia ^^Aert^^Aeket kell
+ []
+
+[41 <./tikz/RobotUserLan.jpg>]
+Underfull \hbox (badness 3919) in paragraph at lines 57--58
+[]|\T2A/ptm/bx/n/12 Minden ^^Duzenet tar-tal-maz egy
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 75--76
+\T2A/ptm/bx/n/12 =1 ma-nu^^Aalis ir^^Aany^^A^^Yt^^Aas joys-tick
+ []
+
+
+Overfull \hbox (1.35269pt too wide) in paragraph at lines 52--78
+\T2A/ptm/bx/n/12 Az al^^Aabbi t^^Aabl^^Aazatban l^^Aathatjuk a ROS oper^^Aaci^^
+Aos rend-szer ^^Aaltal szolg^^Aaltatott .msg ^^Duzenetek
+ []
+
+[42]
+
+LaTeX Warning: Reference `ROSgraph' on page 43 undefined on input line 80.
+
+(./picture.tex
+Package svg Info: Last page of `./svg-inkscape/rosgraph_svg-tex.pdf' is 1 on in
+put line 10.
+(./svg-inkscape/rosgraph_svg-tex.pdf_tex
+<<<<<<< Updated upstream
+<./svg-inkscape/rosgraph_svg-tex.pdf, id=920, page=1, 1821.04988pt x 976.3961pt
+=======
+<./svg-inkscape/rosgraph_svg-tex.pdf, id=922, page=1, 1821.04988pt x 976.3961pt
+>>>>>>> Stashed changes
+>
+File: ./svg-inkscape/rosgraph_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/rosgraph_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/rosgraph_svg-tex.pdf , page1 used on in
+put line 56.
+(pdftex.def)             Requested size: 637.33897pt x 341.72885pt.
 )
-<tikz/NFsysIdent.pdf, id=822, 454.18082pt x 354.22438pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[43])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[44 <./svg-inkscape/rosgraph_svg-tex.pdf>]
+Overfull \hbox (16.40529pt too wide) in paragraph at lines 95--97
+[]\T2A/ptm/bx/n/12 A []^^Aabra 3.3.11[] di-ag-ram a kom-mu-nik^^Aaci^^Ao no-de 
+tech-ni-kai meg-val^^Aos^^A^^Yt^^Aas^^Aat lat-hat-juk. K^^Dul^^Don^^Aall^^Ao
+ []
+
+(./picture.tex
+<<<<<<< Updated upstream
+<SajatRobot/ROS/NodeUML.jpg, id=939, 716.6775pt x 1056.94875pt>
+=======
+<SajatRobot/ROS/NodeUML.jpg, id=941, 716.6775pt x 1056.94875pt>
+>>>>>>> Stashed changes
+File: SajatRobot/ROS/NodeUML.jpg Graphic file (type jpg)
+<use SajatRobot/ROS/NodeUML.jpg>
+Package pdftex.def Info: SajatRobot/ROS/NodeUML.jpg  used on input line 10.
+(pdftex.def)             Requested size: 455.24411pt x 671.39691pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[45])
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 108.
+
+
+Overfull \hbox (1.77507pt too wide) in paragraph at lines 109--110
+\T2A/ptm/bx/n/12 A /ref-Vals ti-pu-su ^^Duzenetben meg-ad-juk min-den egyes mo-
+tor el^^Eo^^A^^Yrt ^^Aerteket an-nak f^^Doveny^^Aeben
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[46 <./SajatRobot/ROS/NodeUML.jpg>]
+Overfull \hbox (22.4017pt too wide) in paragraph at lines 113--116
+\T2A/ptm/bx/n/12 A vo-nat-koz-tat^^Aasi rend-sze-re-ket sz^^Duks^^Aegesek mert 
+a szen-zo-rok ^^Aes be-avat-koz^^Ao eszk^^Doz^^Dok egym^^Aashoz
+ []
+
+
+Overfull \hbox (10.60109pt too wide) in paragraph at lines 118--120
+[]\T2A/ptm/bx/n/12 r^^Dogz^^A^^Ytett poz^^A^^Yci^^Ao ^^Aes sz^^Dogek, sza-bads^
+^Aagok 0: Szen-zo-rok la-ser, BO-DY_link, wheel_odom,
+ []
+
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 131
+.
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [47] (./picture.tex
+Package svg Info: Last page of `./svg-inkscape/frames_svg-tex.pdf' is 1 on inpu
+t line 10.
+(./svg-inkscape/frames_svg-tex.pdf_tex
+<<<<<<< Updated upstream
+<./svg-inkscape/frames_svg-tex.pdf, id=987, page=1, 1463.46677pt x 898.80869pt>
+=======
+<./svg-inkscape/frames_svg-tex.pdf, id=989, page=1, 1463.46677pt x 898.80869pt>
+>>>>>>> Stashed changes
+
+File: ./svg-inkscape/frames_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/frames_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/frames_svg-tex.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 682.86617pt x 419.39548pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[48]) (./SajatRobot/PIDHangolasa/PIDtuning.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[49 <./svg-inkscape/frames_svg-tex.pdf>] (./SajatRobot/PIDHangolasa/MeasuremetS
+imulinkWheel.tex
+\openout3 = `main.auxlock'.
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "tikz/main-figure4" "\def\tikzexternalr
+ealjob{main}\input{main}"; convert -units pixelsperinch -density 150 "tikz/main
+-figure4.pdf" "tikz/main-figure4.png"; convert -units pixelsperinch -density 60
+0 "tikz/main-figure4.pdf" "tikz/main-figure4-600.png";' ========
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "tikz/main-figure4" "\def\tikzexternalrealjob{main}\input{main}"; convert -uni
+ts pixelsperinch -density 150 "tikz/main-figure4.pdf" "tikz/main-figure4.png"; 
+convert -units pixelsperinch -density 600 "tikz/main-figure4.pdf" "tikz/main-fi
+gure4-600.png";)...executed.
+
+\openout3 = `main.auxlock'.
+
+)
+<<<<<<< Updated upstream
+<tikz/NFsysIdent.pdf, id=1039, 454.18082pt x 354.22438pt>
+=======
+<tikz/NFsysIdent.pdf, id=1041, 454.18082pt x 354.22438pt>
+>>>>>>> Stashed changes
 File: tikz/NFsysIdent.pdf Graphic file (type pdf)
 <use tikz/NFsysIdent.pdf>
 Package pdftex.def Info: tikz/NFsysIdent.pdf  used on input line 22.
@@ -2920,8 +3094,12 @@ Package pdftex.def Info: tikz/NFsysIdent.pdf  used on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45 <./tikz/main-figure3.pdf>]
-<tikz/KFsysIdent.pdf, id=840, 442.61461pt x 355.76714pt>
+[50 <./tikz/main-figure4.pdf>]
+<<<<<<< Updated upstream
+<tikz/KFsysIdent.pdf, id=1053, 442.61461pt x 355.76714pt>
+=======
+<tikz/KFsysIdent.pdf, id=1055, 442.61461pt x 355.76714pt>
+>>>>>>> Stashed changes
 File: tikz/KFsysIdent.pdf Graphic file (type pdf)
 <use tikz/KFsysIdent.pdf>
 Package pdftex.def Info: tikz/KFsysIdent.pdf  used on input line 42.
@@ -2929,7 +3107,7 @@ Package pdftex.def Info: tikz/KFsysIdent.pdf  used on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[46 <./tikz/NFsysIdent.pdf>])) [47 <./tikz/KFsysIdent.pdf>] (./SajatRobot/Palya
+[51 <./tikz/NFsysIdent.pdf>])) [52 <./tikz/KFsysIdent.pdf>] (./SajatRobot/Palya
 Kovetes/Palyakovetes.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 4.
@@ -2937,110 +3115,128 @@ put line 4.
 LaTeX Font Warning: Font shape `T2A/ptm/m/sc' undefined
 (Font)              using `T2A/ptm/m/n' instead on input line 7.
 
-)) [48] (./Meresek/Meres1.tex
-Overfull \hbox (21.15892pt too wide) in paragraph at lines 3--7
-\T2A/ptm/bx/n/12 Mar-son a Spi-tit mars rover-rel (2006,M^^Aarcius,13) [[]] ami
-kor az els^^Eo jobb kereke meghib^^Aasodott.
- []
-
-
-Overfull \hbox (19.74901pt too wide) in paragraph at lines 3--7
-\T2A/ptm/bx/n/12 pontj^^Aab^^Aol ha h^^Aattal megy. Az en-er-gia ell^^Aat^^Aasa
- is v^^Aeges volt, kiszolg^^Aaltatott volt a naps^^Dut^^Aesnek,a
- []
-
-(./Meresek/Mozgasok/ConfigV1.tex) (./Meresek/Mozgasok/HibasMukodes/R_0_L_1/main
-.tex
-<tikz/Left0Right50a.pdf, id=893, 433.63908pt x 191.60384pt>
+)) (./Meresek/Meres1.tex [53] (./Meresek/Mozgasok/ConfigV1.tex) (./Meresek/Mozg
+asok/HibasMukodes/R_0_L_1/main.tex
+<<<<<<< Updated upstream
+<tikz/Left0Right50a.pdf, id=1108, 433.63908pt x 191.60384pt>
+=======
+<tikz/Left0Right50a.pdf, id=1110, 433.63908pt x 191.60384pt>
+>>>>>>> Stashed changes
 File: tikz/Left0Right50a.pdf Graphic file (type pdf)
 <use tikz/Left0Right50a.pdf>
-Package pdftex.def Info: tikz/Left0Right50a.pdf  used on input line 15.
+Package pdftex.def Info: tikz/Left0Right50a.pdf  used on input line 18.
 (pdftex.def)             Requested size: 433.63802pt x 191.60336pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[49]
-<tikz/Left0Right50b.pdf, id=903, 428.97064pt x 275.11885pt>
+<<<<<<< Updated upstream
+<tikz/Left0Right50b.pdf, id=1109, 428.97064pt x 275.11885pt>
+=======
+<tikz/Left0Right50b.pdf, id=1111, 428.97064pt x 275.11885pt>
+>>>>>>> Stashed changes
 File: tikz/Left0Right50b.pdf Graphic file (type pdf)
 <use tikz/Left0Right50b.pdf>
-Package pdftex.def Info: tikz/Left0Right50b.pdf  used on input line 22.
+Package pdftex.def Info: tikz/Left0Right50b.pdf  used on input line 25.
 (pdftex.def)             Requested size: 428.96959pt x 275.11816pt.
-<tikz/Left0Right50c.pdf, id=904, 409.38446pt x 139.186pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[54 <./tikz/Left0Right50a.pdf>]
+<<<<<<< Updated upstream
+<tikz/Left0Right50c.pdf, id=1139, 409.38446pt x 139.186pt>
+=======
+<tikz/Left0Right50c.pdf, id=1141, 409.38446pt x 139.186pt>
+>>>>>>> Stashed changes
 File: tikz/Left0Right50c.pdf Graphic file (type pdf)
 <use tikz/Left0Right50c.pdf>
-Package pdftex.def Info: tikz/Left0Right50c.pdf  used on input line 30.
+Package pdftex.def Info: tikz/Left0Right50c.pdf  used on input line 36.
 (pdftex.def)             Requested size: 409.38345pt x 139.18565pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[50 <./tikz/Left0Right50a.pdf> <./tikz/Left0Right50b.pdf>]
-<tikz/Left0Right50d.pdf, id=942, 421.65128pt x 308.9914pt>
+<<<<<<< Updated upstream
+<tikz/Left0Right50d.pdf, id=1140, 421.65128pt x 308.9914pt>
+=======
+<tikz/Left0Right50d.pdf, id=1142, 421.65128pt x 308.9914pt>
+>>>>>>> Stashed changes
 File: tikz/Left0Right50d.pdf Graphic file (type pdf)
 <use tikz/Left0Right50d.pdf>
-Package pdftex.def Info: tikz/Left0Right50d.pdf  used on input line 38.
+Package pdftex.def Info: tikz/Left0Right50d.pdf  used on input line 44.
 (pdftex.def)             Requested size: 421.65024pt x 308.99063pt.
-<tikz/Left0Right50e.pdf, id=943, 437.8016pt x 308.8318pt>
-File: tikz/Left0Right50e.pdf Graphic file (type pdf)
-<use tikz/Left0Right50e.pdf>
-Package pdftex.def Info: tikz/Left0Right50e.pdf  used on input line 45.
-(pdftex.def)             Requested size: 437.80052pt x 308.83104pt.
-
-Underfull \hbox (badness 1048) in paragraph at lines 46--46
-[]\T2A/ptm/bx/n/12 Figure 3.14. |$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@
- \OT1/ztmcm/m/n/12 4\OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot
- egye-nesvon-alu sebessegei, kerek-sebessegek
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[51 <./tikz/Left0Right50c.pdf> <./tikz/Left0Right50d.pdf>]) (./Meresek/Mozgasok
-/NormalMukodes/DiferencialisanHelybeKavicsos/main.tex
-<tikz/Left_n50Right50x.pdf, id=983, 496.7639pt x 400.95699pt>
+[55 <./tikz/Left0Right50b.pdf> <./tikz/Left0Right50c.pdf>]
+<<<<<<< Updated upstream
+<tikz/Left0Right50e.pdf, id=1175, 437.8016pt x 308.8318pt>
+=======
+<tikz/Left0Right50e.pdf, id=1177, 437.8016pt x 308.8318pt>
+>>>>>>> Stashed changes
+File: tikz/Left0Right50e.pdf Graphic file (type pdf)
+<use tikz/Left0Right50e.pdf>
+Package pdftex.def Info: tikz/Left0Right50e.pdf  used on input line 51.
+(pdftex.def)             Requested size: 437.80052pt x 308.83104pt.
+) (./Meresek/Mozgasok/NormalMukodes/DiferencialisanHelybeKavicsos/main.tex [56 
+<./tikz/Left0Right50d.pdf> <./tikz/Left0Right50e.pdf>]
+<<<<<<< Updated upstream
+<tikz/Left_n50Right50x.pdf, id=1218, 496.7639pt x 400.95699pt>
+=======
+<tikz/Left_n50Right50x.pdf, id=1220, 496.7639pt x 400.95699pt>
+>>>>>>> Stashed changes
 File: tikz/Left_n50Right50x.pdf Graphic file (type pdf)
 <use tikz/Left_n50Right50x.pdf>
-Package pdftex.def Info: tikz/Left_n50Right50x.pdf  used on input line 11.
+Package pdftex.def Info: tikz/Left_n50Right50x.pdf  used on input line 13.
 (pdftex.def)             Requested size: 496.76268pt x 400.956pt.
 
-Overfull \hbox (41.51857pt too wide) in paragraph at lines 11--12
+Overfull \hbox (41.51857pt too wide) in paragraph at lines 13--14
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[52 <./tikz/Left0Right50e.pdf>]
-<tikz/Left_n50Right50a.pdf, id=1007, 433.64711pt x 191.59581pt>
+<<<<<<< Updated upstream
+<tikz/Left_n50Right50a.pdf, id=1219, 433.64711pt x 191.59581pt>
+=======
+<tikz/Left_n50Right50a.pdf, id=1221, 433.64711pt x 191.59581pt>
+>>>>>>> Stashed changes
 File: tikz/Left_n50Right50a.pdf Graphic file (type pdf)
 <use tikz/Left_n50Right50a.pdf>
-Package pdftex.def Info: tikz/Left_n50Right50a.pdf  used on input line 18.
+Package pdftex.def Info: tikz/Left_n50Right50a.pdf  used on input line 20.
 (pdftex.def)             Requested size: 433.64604pt x 191.59534pt.
-<tikz/Left_n50Right50b.pdf, id=1008, 428.98369pt x 295.19984pt>
-File: tikz/Left_n50Right50b.pdf Graphic file (type pdf)
-<use tikz/Left_n50Right50b.pdf>
-Package pdftex.def Info: tikz/Left_n50Right50b.pdf  used on input line 26.
-(pdftex.def)             Requested size: 428.98262pt x 295.19913pt.
-
-Underfull \vbox (badness 1038) has occurred while \output is active []
-
-[53 <./tikz/Left_n50Right50x.pdf> <./tikz/Left_n50Right50a.pdf>]
-<tikz/Left_n50Right50c.pdf, id=1055, 409.39148pt x 139.186pt>
-File: tikz/Left_n50Right50c.pdf Graphic file (type pdf)
-<use tikz/Left_n50Right50c.pdf>
-Package pdftex.def Info: tikz/Left_n50Right50c.pdf  used on input line 34.
-(pdftex.def)             Requested size: 409.39047pt x 139.18565pt.
-<tikz/Left_n50Right50d.pdf, id=1056, 428.84717pt x 308.99641pt>
-File: tikz/Left_n50Right50d.pdf Graphic file (type pdf)
-<use tikz/Left_n50Right50d.pdf>
-Package pdftex.def Info: tikz/Left_n50Right50d.pdf  used on input line 41.
-(pdftex.def)             Requested size: 428.84612pt x 308.99565pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[54 <./tikz/Left_n50Right50b.pdf> <./tikz/Left_n50Right50c.pdf>]) (./Meresek/Mo
-zgasok/KorpalyanMozgas.tex (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kav
-icsos/main.tex
-<tikz/KorP0705x.pdf, id=1091, 496.7639pt x 400.961pt>
+[57 <./tikz/Left_n50Right50x.pdf>]
+<<<<<<< Updated upstream
+<tikz/Left_n50Right50b.pdf, id=1247, 428.98369pt x 295.19984pt>
+=======
+<tikz/Left_n50Right50b.pdf, id=1249, 428.98369pt x 295.19984pt>
+>>>>>>> Stashed changes
+File: tikz/Left_n50Right50b.pdf Graphic file (type pdf)
+<use tikz/Left_n50Right50b.pdf>
+Package pdftex.def Info: tikz/Left_n50Right50b.pdf  used on input line 27.
+(pdftex.def)             Requested size: 428.98262pt x 295.19913pt.
+<<<<<<< Updated upstream
+<tikz/Left_n50Right50c.pdf, id=1248, 409.39148pt x 139.186pt>
+=======
+<tikz/Left_n50Right50c.pdf, id=1250, 409.39148pt x 139.186pt>
+>>>>>>> Stashed changes
+File: tikz/Left_n50Right50c.pdf Graphic file (type pdf)
+<use tikz/Left_n50Right50c.pdf>
+Package pdftex.def Info: tikz/Left_n50Right50c.pdf  used on input line 35.
+(pdftex.def)             Requested size: 409.39047pt x 139.18565pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[58 <./tikz/Left_n50Right50a.pdf> <./tikz/Left_n50Right50b.pdf>]
+<<<<<<< Updated upstream
+<tikz/Left_n50Right50d.pdf, id=1285, 428.84717pt x 308.99641pt>
+=======
+<tikz/Left_n50Right50d.pdf, id=1287, 428.84717pt x 308.99641pt>
+>>>>>>> Stashed changes
+File: tikz/Left_n50Right50d.pdf Graphic file (type pdf)
+<use tikz/Left_n50Right50d.pdf>
+Package pdftex.def Info: tikz/Left_n50Right50d.pdf  used on input line 42.
+(pdftex.def)             Requested size: 428.84612pt x 308.99565pt.
+) (./Meresek/Mozgasok/KorpalyanMozgas.tex (./Meresek/Mozgasok/NormalMukodes/Kor
+palya_07_05_Kavicsos/main.tex
+<<<<<<< Updated upstream
+<tikz/KorP0705x.pdf, id=1287, 496.7639pt x 400.961pt>
+=======
+<tikz/KorP0705x.pdf, id=1289, 496.7639pt x 400.961pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0705x.pdf Graphic file (type pdf)
 <use tikz/KorP0705x.pdf>
 Package pdftex.def Info: tikz/KorP0705x.pdf  used on input line 14.
@@ -3050,27 +3246,40 @@ Overfull \hbox (41.51857pt too wide) in paragraph at lines 14--15
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[55 <./tikz/Left_n50Right50d.pdf>]
-<tikz/KorP0705a.pdf, id=1112, 436.19965pt x 192.37672pt>
+[59 <./tikz/Left_n50Right50c.pdf> <./tikz/Left_n50Right50d.pdf>]
+<<<<<<< Updated upstream
+<tikz/KorP0705a.pdf, id=1324, 436.19965pt x 192.37672pt>
+=======
+<tikz/KorP0705a.pdf, id=1326, 436.19965pt x 192.37672pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0705a.pdf Graphic file (type pdf)
 <use tikz/KorP0705a.pdf>
 Package pdftex.def Info: tikz/KorP0705a.pdf  used on input line 21.
 (pdftex.def)             Requested size: 436.19858pt x 192.37624pt.
-<tikz/KorP0705b.pdf, id=1113, 417.79286pt x 275.11783pt>
+<<<<<<< Updated upstream
+<tikz/KorP0705b.pdf, id=1325, 417.79286pt x 275.11783pt>
+=======
+<tikz/KorP0705b.pdf, id=1327, 417.79286pt x 275.11783pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0705b.pdf Graphic file (type pdf)
 <use tikz/KorP0705b.pdf>
 Package pdftex.def Info: tikz/KorP0705b.pdf  used on input line 28.
 (pdftex.def)             Requested size: 417.79182pt x 275.11716pt.
-[56 <./tikz/KorP0705x.pdf> <./tikz/KorP0705a.pdf>]
-<tikz/KorP0705c.pdf, id=1157, 423.13283pt x 146.94899pt>
+[60 <./tikz/KorP0705x.pdf> <./tikz/KorP0705a.pdf>]
+<<<<<<< Updated upstream
+<tikz/KorP0705c.pdf, id=1369, 423.13283pt x 146.94899pt>
+=======
+<tikz/KorP0705c.pdf, id=1371, 423.13283pt x 146.94899pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0705c.pdf Graphic file (type pdf)
 <use tikz/KorP0705c.pdf>
 Package pdftex.def Info: tikz/KorP0705c.pdf  used on input line 35.
 (pdftex.def)             Requested size: 423.13179pt x 146.94862pt.
-<tikz/KorP0705d.pdf, id=1158, 442.01636pt x 309.76529pt>
+<<<<<<< Updated upstream
+<tikz/KorP0705d.pdf, id=1370, 442.01636pt x 309.76529pt>
+=======
+<tikz/KorP0705d.pdf, id=1372, 442.01636pt x 309.76529pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0705d.pdf Graphic file (type pdf)
 <use tikz/KorP0705d.pdf>
 Package pdftex.def Info: tikz/KorP0705d.pdf  used on input line 42.
@@ -3078,25 +3287,26 @@ Package pdftex.def Info: tikz/KorP0705d.pdf  used on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[57 <./tikz/KorP0705b.pdf> <./tikz/KorP0705c.pdf>]
-<tikz/KorP0705e.pdf, id=1193, 451.54999pt x 309.60167pt>
+[61 <./tikz/KorP0705b.pdf> <./tikz/KorP0705c.pdf>]
+<<<<<<< Updated upstream
+<tikz/KorP0705e.pdf, id=1405, 451.54999pt x 309.60167pt>
+=======
+<tikz/KorP0705e.pdf, id=1407, 451.54999pt x 309.60167pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0705e.pdf Graphic file (type pdf)
 <use tikz/KorP0705e.pdf>
 Package pdftex.def Info: tikz/KorP0705e.pdf  used on input line 49.
 (pdftex.def)             Requested size: 451.54889pt x 309.6009pt.
 
-Underfull \hbox (badness 1048) in paragraph at lines 50--50
-[]\T2A/ptm/bx/n/12 Figure 3.25. |$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@
- \OT1/ztmcm/m/n/12 4\OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot
- egye-nesvon-alu sebessegei, kerek-sebessegek
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[58 <./tikz/KorP0705d.pdf>]) (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_K
+[62 <./tikz/KorP0705d.pdf>]) (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_K
 avicsos/main.tex
-<tikz/KorP0703x.pdf, id=1215, 496.7639pt x 400.95699pt>
+<<<<<<< Updated upstream
+<tikz/KorP0703x.pdf, id=1427, 496.7639pt x 400.95699pt>
+=======
+<tikz/KorP0703x.pdf, id=1429, 496.7639pt x 400.95699pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0703x.pdf Graphic file (type pdf)
 <use tikz/KorP0703x.pdf>
 Package pdftex.def Info: tikz/KorP0703x.pdf  used on input line 16.
@@ -3109,8 +3319,12 @@ Overfull \hbox (41.51857pt too wide) in paragraph at lines 16--17
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[59 <./tikz/KorP0705e.pdf>]
-<tikz/KorP0703a.pdf, id=1239, 422.44826pt x 191.60583pt>
+[63 <./tikz/KorP0705e.pdf>]
+<<<<<<< Updated upstream
+<tikz/KorP0703a.pdf, id=1452, 422.44826pt x 191.60583pt>
+=======
+<tikz/KorP0703a.pdf, id=1454, 422.44826pt x 191.60583pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0703a.pdf Graphic file (type pdf)
 <use tikz/KorP0703a.pdf>
 Package pdftex.def Info: tikz/KorP0703a.pdf  used on input line 23.
@@ -3118,13 +3332,21 @@ Package pdftex.def Info: tikz/KorP0703a.pdf  used on input line 23.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[60 <./tikz/KorP0703x.pdf>]
-<tikz/KorP0703b.pdf, id=1267, 417.78986pt x 275.11783pt>
+[64 <./tikz/KorP0703x.pdf>]
+<<<<<<< Updated upstream
+<tikz/KorP0703b.pdf, id=1479, 417.78986pt x 275.11783pt>
+=======
+<tikz/KorP0703b.pdf, id=1481, 417.78986pt x 275.11783pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0703b.pdf Graphic file (type pdf)
 <use tikz/KorP0703b.pdf>
 Package pdftex.def Info: tikz/KorP0703b.pdf  used on input line 31.
 (pdftex.def)             Requested size: 417.78883pt x 275.11716pt.
-<tikz/KorP0703c.pdf, id=1268, 409.38245pt x 144.97662pt>
+<<<<<<< Updated upstream
+<tikz/KorP0703c.pdf, id=1480, 409.38245pt x 144.97662pt>
+=======
+<tikz/KorP0703c.pdf, id=1482, 409.38245pt x 144.97662pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0703c.pdf Graphic file (type pdf)
 <use tikz/KorP0703c.pdf>
 Package pdftex.def Info: tikz/KorP0703c.pdf  used on input line 38.
@@ -3132,29 +3354,34 @@ Package pdftex.def Info: tikz/KorP0703c.pdf  used on input line 38.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[61 <./tikz/KorP0703a.pdf> <./tikz/KorP0703b.pdf>]
-<tikz/KorP0703d.pdf, id=1302, 428.8552pt x 308.98839pt>
+[65 <./tikz/KorP0703a.pdf> <./tikz/KorP0703b.pdf>]
+<<<<<<< Updated upstream
+<tikz/KorP0703d.pdf, id=1514, 428.8552pt x 308.98839pt>
+=======
+<tikz/KorP0703d.pdf, id=1516, 428.8552pt x 308.98839pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0703d.pdf Graphic file (type pdf)
 <use tikz/KorP0703d.pdf>
 Package pdftex.def Info: tikz/KorP0703d.pdf  used on input line 45.
 (pdftex.def)             Requested size: 428.85414pt x 308.98763pt.
-<tikz/KorP0703e.pdf, id=1303, 437.79962pt x 308.83379pt>
+<<<<<<< Updated upstream
+<tikz/KorP0703e.pdf, id=1515, 437.79962pt x 308.83379pt>
+=======
+<tikz/KorP0703e.pdf, id=1517, 437.79962pt x 308.83379pt>
+>>>>>>> Stashed changes
 File: tikz/KorP0703e.pdf Graphic file (type pdf)
 <use tikz/KorP0703e.pdf>
 Package pdftex.def Info: tikz/KorP0703e.pdf  used on input line 51.
 (pdftex.def)             Requested size: 437.79855pt x 308.83302pt.
 
-Underfull \hbox (badness 1048) in paragraph at lines 52--52
-[]\T2A/ptm/bx/n/12 Figure 3.31. |$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^^@
- \OT1/ztmcm/m/n/12 4\OML/ztmcm/m/it/12 W$ \T2A/ptm/bx/n/12 t^^A^^Ypus^^Au robot
- egye-nesvon-alu sebessegei, kerek-sebessegek
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[62 <./tikz/KorP0703c.pdf> <./tikz/KorP0703d.pdf>])
-<tikz/KorpalyakKavicsos.pdf, id=1341, 406.16945pt x 456.33588pt>
+[66 <./tikz/KorP0703c.pdf> <./tikz/KorP0703d.pdf>])
+<<<<<<< Updated upstream
+<tikz/KorpalyakKavicsos.pdf, id=1554, 406.16945pt x 456.33588pt>
+=======
+<tikz/KorpalyakKavicsos.pdf, id=1556, 406.16945pt x 456.33588pt>
+>>>>>>> Stashed changes
 File: tikz/KorpalyakKavicsos.pdf Graphic file (type pdf)
 <use tikz/KorpalyakKavicsos.pdf>
 Package pdftex.def Info: tikz/KorpalyakKavicsos.pdf  used on input line 11.
@@ -3162,41 +3389,121 @@ Package pdftex.def Info: tikz/KorpalyakKavicsos.pdf  used on input line 11.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[63 <./tikz/KorP0703e.pdf>] (./Meresek/Mozgasok/HomokosDomb/main.tex (./picture
+[67 <./tikz/KorP0703e.pdf>] (./Meresek/Mozgasok/HomokosDomb/main.tex (./picture
 .tex
-<Meresek/Mozgasok/HomokosDomb/kep1.jpg, id=1367, 722.7pt x 542.025pt>
+<<<<<<< Updated upstream
+<Meresek/Mozgasok/HomokosDomb/kep1.jpg, id=1582, 722.7pt x 542.025pt>
+=======
+<Meresek/Mozgasok/HomokosDomb/kep1.jpg, id=1584, 722.7pt x 542.025pt>
+>>>>>>> Stashed changes
 File: Meresek/Mozgasok/HomokosDomb/kep1.jpg Graphic file (type jpg)
 <use Meresek/Mozgasok/HomokosDomb/kep1.jpg>
 Package pdftex.def Info: Meresek/Mozgasok/HomokosDomb/kep1.jpg  used on input l
 ine 10.
 (pdftex.def)             Requested size: 318.66948pt x 239.0045pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[64 <./tikz/KorpalyakKavicsos.pdf>]) (./picture.tex
-<Meresek/Mozgasok/HomokosDomb/kep2.jpg, id=1391, 3276.24pt x 2457.18pt>
+[68 <./tikz/KorpalyakKavicsos.pdf>]) (./picture.tex
+<<<<<<< Updated upstream
+<Meresek/Mozgasok/HomokosDomb/kep2.jpg, id=1606, 3276.24pt x 2457.18pt>
+=======
+<Meresek/Mozgasok/HomokosDomb/kep2.jpg, id=1608, 3276.24pt x 2457.18pt>
+>>>>>>> Stashed changes
 File: Meresek/Mozgasok/HomokosDomb/kep2.jpg Graphic file (type jpg)
 <use Meresek/Mozgasok/HomokosDomb/kep2.jpg>
 Package pdftex.def Info: Meresek/Mozgasok/HomokosDomb/kep2.jpg  used on input l
 ine 10.
 (pdftex.def)             Requested size: 318.66948pt x 238.98357pt.
 )
-<tikz/HlejtoKerek.pdf, id=1392, 496.7639pt x 400.95999pt>
+<<<<<<< Updated upstream
+<tikz/HlejtoKerek.pdf, id=1607, 496.7639pt x 400.95999pt>
+=======
+<tikz/HlejtoKerek.pdf, id=1609, 496.7639pt x 400.95999pt>
+>>>>>>> Stashed changes
 File: tikz/HlejtoKerek.pdf Graphic file (type pdf)
 <use tikz/HlejtoKerek.pdf>
-Package pdftex.def Info: tikz/HlejtoKerek.pdf  used on input line 30.
+Package pdftex.def Info: tikz/HlejtoKerek.pdf  used on input line 37.
 (pdftex.def)             Requested size: 496.76268pt x 400.959pt.
 
-Overfull \hbox (41.51857pt too wide) in paragraph at lines 30--31
+Overfull \hbox (41.51857pt too wide) in paragraph at lines 37--38
 [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[65 <./Meresek/Mozgasok/HomokosDomb/kep1.jpg> <./Meresek/Mozgasok/HomokosDomb/k
-ep2.jpg>]) [66 <./tikz/HlejtoKerek.pdf>]
-<tikz/hatsoudvarmap.pdf, id=1423, 503.14476pt x 510.55241pt>
+[69 <./Meresek/Mozgasok/HomokosDomb/kep1.jpg> <./Meresek/Mozgasok/HomokosDomb/k
+ep2.jpg>]) (./Meresek/Mozgasok/Lepcso/main.tex
+<<<<<<< Updated upstream
+<tikz/LepcsoLexx.pdf, id=1612, 504.7126pt x 463.44241pt>
+=======
+<tikz/LepcsoLexx.pdf, id=1614, 504.7126pt x 463.44241pt>
+>>>>>>> Stashed changes
+File: tikz/LepcsoLexx.pdf Graphic file (type pdf)
+<use tikz/LepcsoLexx.pdf>
+Package pdftex.def Info: tikz/LepcsoLexx.pdf  used on input line 15.
+(pdftex.def)             Requested size: 504.71136pt x 463.44127pt.
+
+Overfull \hbox (49.46725pt too wide) in paragraph at lines 15--16
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[70 <./tikz/HlejtoKerek.pdf>]
+<<<<<<< Updated upstream
+<tikz/ImuLepcsoLe1.pdf, id=1639, 412.52318pt x 301.57869pt>
+=======
+<tikz/ImuLepcsoLe1.pdf, id=1641, 412.52318pt x 301.57869pt>
+>>>>>>> Stashed changes
+File: tikz/ImuLepcsoLe1.pdf Graphic file (type pdf)
+<use tikz/ImuLepcsoLe1.pdf>
+Package pdftex.def Info: tikz/ImuLepcsoLe1.pdf  used on input line 21.
+(pdftex.def)             Requested size: 412.52216pt x 301.57794pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[71 <./tikz/LepcsoLexx.pdf>]
+<<<<<<< Updated upstream
+<tikz/LepcsoFelxx.pdf, id=1661, 504.7126pt x 464.47627pt>
+=======
+<tikz/LepcsoFelxx.pdf, id=1663, 504.7126pt x 464.47627pt>
+>>>>>>> Stashed changes
+File: tikz/LepcsoFelxx.pdf Graphic file (type pdf)
+<use tikz/LepcsoFelxx.pdf>
+Package pdftex.def Info: tikz/LepcsoFelxx.pdf  used on input line 27.
+(pdftex.def)             Requested size: 504.71136pt x 464.47513pt.
+
+Overfull \hbox (49.46725pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[72 <./tikz/ImuLepcsoLe1.pdf>]
+<<<<<<< Updated upstream
+<tikz/ImuLepcsoFel1.pdf, id=1685, 463.52974pt x 347.93388pt>
+=======
+<tikz/ImuLepcsoFel1.pdf, id=1687, 463.52974pt x 347.93388pt>
+>>>>>>> Stashed changes
+File: tikz/ImuLepcsoFel1.pdf Graphic file (type pdf)
+<use tikz/ImuLepcsoFel1.pdf>
+Package pdftex.def Info: tikz/ImuLepcsoFel1.pdf  used on input line 33.
+(pdftex.def)             Requested size: 463.52861pt x 347.93303pt.
+
+Overfull \hbox (8.2845pt too wide) in paragraph at lines 33--34
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[73 <./tikz/LepcsoFelxx.pdf>]) [74 <./tikz/ImuLepcsoFel1.pdf>]
+<<<<<<< Updated upstream
+<tikz/hatsoudvarmap.pdf, id=1730, 503.14476pt x 510.55241pt>
+=======
+<tikz/hatsoudvarmap.pdf, id=1732, 503.14476pt x 510.55241pt>
+>>>>>>> Stashed changes
 File: tikz/hatsoudvarmap.pdf Graphic file (type pdf)
 <use tikz/hatsoudvarmap.pdf>
 Package pdftex.def Info: tikz/hatsoudvarmap.pdf  used on input line 68.
@@ -3206,52 +3513,62 @@ Overfull \hbox (47.89941pt too wide) in paragraph at lines 68--69
 [][] 
  []
 
-) [67 <./tikz/hatsoudvarmap.pdf>] (./KiertekelesEsEredmenyek.tex [68
+) (./KiertekelesEsEredmenyek.tex [75 <./tikz/hatsoudvarmap.pdf>] [76
 
 ]
-Chapter 4.
+fejezet 4.
 
-Overfull \hbox (9.23958pt too wide) in paragraph at lines 3--8
-\T2A/ptm/bx/n/12 mu-nik^^Aaci^^Aot, glob^^Aalis en-ged^^Aelyez^^Eo jel, ezeket 
-a mod-u-lokat Sys-tem Generator-ban val^^Aos^^A^^Ytottam
+Overfull \hbox (8.72011pt too wide) in paragraph at lines 3--8
+\T2A/ptm/bx/n/12 mu-nik^^Aaci^^Aot, glob^^Aalis en-ged^^Aelyez^^Eo jel, eze-ket
+ a mo-du-lo-kat Sys-tem Generator-ban val^^Aos^^A^^Ytottam
  []
 
-) (./main.bbl [69] [70
+) (./main.bbl [77] [78
 
 ]
 
 LaTeX Font Warning: Font shape `T2A/ptm/m/it' undefined
 (Font)              using `T2A/ptm/m/n' instead on input line 11.
 
-[71])
+[79])
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 112.
 See the caption package documentation for explanation.
 
-[72]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+[80]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F6A175F5A70752626FB81FD1C3CCEC78;2785.
+(rerunfilecheck)             Checksum: 2588EC213E09911CB3857588002DF2C3;3672.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 52381 strings out of 492982
- 1175296 string characters out of 6134896
- 1529027 words of memory out of 5000000
- 54513 multiletter control sequences out of 15000+600000
+<<<<<<< Updated upstream
+ 52520 strings out of 492982
+ 1178037 string characters out of 6134896
+ 1535562 words of memory out of 5000000
+=======
+ 52521 strings out of 492982
+ 1178054 string characters out of 6134896
+ 1535560 words of memory out of 5000000
+>>>>>>> Stashed changes
+ 54612 multiletter control sequences out of 15000+600000
  571097 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,16n,108p,10376b,2317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,16n,108p,10376b,2307s stack positions out of 5000i,500n,10000p,200000b,80000s
+<<<<<<< Updated upstream
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -3268,10 +3585,36 @@ ype1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super
 usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (76 pages, 6193958 bytes).
+Output written on main.pdf (80 pages, 6705784 bytes).
 PDF statistics:
- 1579 PDF objects out of 1728 (max. 8388607)
- 1415 compressed objects within 15 object streams
- 308 named destinations out of 1000 (max. 500000)
- 561 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1892 PDF objects out of 2073 (max. 8388607)
+ 1646 compressed objects within 17 object streams
+ 339 named destinations out of 1000 (max. 500000)
+=======
+pdfTeX warning (dest): name{figure.caption.72} has been referenced but does n
+ot exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+ftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (80 pages, 6705535 bytes).
+PDF statistics:
+ 1894 PDF objects out of 2073 (max. 8388607)
+ 1648 compressed objects within 17 object streams
+ 340 named destinations out of 1000 (max. 500000)
+>>>>>>> Stashed changes
+ 727 words of extra memory for PDF output out of 10000 (max. 10000000)
 

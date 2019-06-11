@@ -1,62 +1,47 @@
-    %3
+   
+    
     \begin{figure}[H]
         %\ContinuedFloat
         
-        \newline
+            \tikzsetnextfilename{\figlabel}   
     
             \centering
              \input{\mand{\GlobalPath}{ImuA.tex}}
             \pgfplotstableread{ImuA.dat}{\imua}
             
-            %-------------------------------------------------Sebesseg Adatok---------------
-            \begin{tikzpicture}
-                \pgfplotsset{every axis plot/.append style={very thick}}
-                \setcaptionsubtype
             
-                % megjelenites beallitasai
-            
-                \begin{groupplot}[%
-                        ,group style={%
-                            ,group name=my plots
-                            ,group size=1 by 1
-                            ,vertical sep=2cm,
-                            ,horizontal sep = 0cm,
-                            ,ylabels at=edge left
-                        }
-                        ,width=14.5cm
-                        ,height=10cm
-                        ,try min ticks=5
-                        ,ylabel={\bfseries{\emph{$m/s$}}}
-                        ,xlabel={\bfseries{\emph{\idoFelirat}}}
-                        %,zlabel={\bfseries{\emph{m}}}
-                        ,grid=both
-                        ,every both grid/.style={gray, opacity=0.5}
-                        ,view={0}{90}
-                        ,xtick distance=10
-                        ,ytick distance=2
-                        ,ylabel style={rotate=-90}
-                        %xmin=0,xmax=0.65,
-                        %ymin=0,ymax=0.65,
-                       % zmin=-5,zmax=60,
-                        ]
-                    %% ide jonnek a adatok.            
-                                
-                    %\nextgroupplot[ylabel=\emph{A}, ylabel style={rotate=-90}]
-                    \nextgroupplot[]
-                            \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y expr=\thisrow{aX}] {\imua}; \label{plots:plot91}
-                            \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y expr=\thisrow{aY}] {\imua}; \label{plots:plot92}
-                            \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y expr=\thisrow{aZ}] {\imua}; \label{plots:plot93}
-                         %%   \addplot[red,quiver={u=u,v=v}] table [header=true, x=poseX, y=poseY, u=poseX, v=poseY] {\position};
+             \begin{tikzpicture}
+    
+        \pgfplotsset{every axis plot/.append style={very thick}}
+        \pgfplotsset{every axis legend/.append style={
+        at={(0.5,1.03)},
+        anchor=south}}
         
-        
-        
-        
-            \end{groupplot}
-            
-               % \centering
-            \end{tikzpicture}
-
-        % Caption
-        \caption[]{\AbraFelirat}\label{abserror}
+        \begin{axis}[
+                ,width=14.5cm
+                ,height=10cm
+                ,try min ticks=5
+                ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                ,ylabel={\bfseries{\emph{$m/{s^2}$}}}
+                %,zlabel={\bfseries{\emph{kg}}}
+                ,grid=both
+                ,every both grid/.style={gray, opacity=0.5}
+                ,view={0}{90},
+                %,xtick distance=10
+                %,ytick distance=20
+                %,minor tick num=5
+                %xmin=0,xmax=0.65,
+                %ymin=0,ymax=0.65,
+                %zmin=-5,zmax=60,
+                ,legend columns=-1
+              ]
+              
+               \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y expr=\thisrow{aX}] {\imua}; \addlegendentry {aX}
+                            \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y expr=\thisrow{aY}] {\imua}; \addlegendentry {aY}
+                            \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y expr=\thisrow{aZ}] {\imua}; \addlegendentry {aZ}
+            %\legend{\bfseries{\emph{Pozíció X}},\bfseries{\emph{Pozíció Y}}}
+         
+         \end{axis}
+    \end{tikzpicture}
     
     \end{figure}

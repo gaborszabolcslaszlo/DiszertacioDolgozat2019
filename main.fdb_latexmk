@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1559771877 "main.aux" "main.bbl" "main" 1559771877
+["bibtex main"] 1560191142 "main.aux" "main.bbl" "main" 1560191142
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1559771861 1387 510569305003f75acf69b5f86a1bf2ba ""
+  "main.aux" 1560190993 32435 2c17c2f4bce13afa473b1a4247916004 ""
   "main.bcf" 0 -1 0 ""
-  "references.bib" 1559757501 9330 f571e3bbe0d8e472790255672a4e0c29 ""
+  "references.bib" 1559945149 10137 922a8dc97212f93f9ba25d4c8d80309c ""
   (generated)
-  "main.bbl"
   "main.blg"
+  "main.bbl"
 ["pdflatex"] 1559771877 "main.tex" "main.pdf" "main" 1559771877
   "/etc/texmf/web2c/texmf.cnf" 1547394486 1101 af7716885e081ab43982cab7b4672c1a ""
   "/home/laca/.texlive2017/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1559155023 3220 0e417eaf233b160335902e97259a6c77 ""
@@ -338,11 +338,11 @@
   "main.toc" 1559771861 477 f83ee0052f5fe5000070c3b25fc3e03f ""
   "tikz/myfigurdddtttte.md5" 1559771564 62 f14ed8befaec4ea5a5fa1a87bb3bb64d ""
   (generated)
-  "main.out"
-  "main.pdf"
-  "main.log"
-  "main.lof"
-  "main.auxlock"
-  "main.lot"
-  "main.aux"
   "main.toc"
+  "main.log"
+  "main.out"
+  "main.lof"
+  "main.lot"
+  "main.pdf"
+  "main.aux"
+  "main.auxlock"

@@ -1,0 +1,168 @@
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso/Le/}
+
+\renewcommand{\figlabel}{LepcsoLexx}
+\renewcommand{\nth}{2}
+%\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+\renewcommand{\figlabel}{ImuLepcsoLe1}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/ImuV1.tex}
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso/Fel/}
+
+\renewcommand{\figlabel}{LepcsoFelxx}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+\renewcommand{\figlabel}{ImuLepcsoFel1}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/ImuV1.tex}
+
+
+\iffalse
+\input{Meresek/SLAM/MeresSlam.tex}
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/HomokosDomb/}
+\renewcommand{\figlabel}{HlejtoKerek}
+\renewcommand{\nth}{2}
+%\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+
+\begin{figure}[H]
+  \includegraphics{tikz/HlejtoKerek.pdf}
+  \caption{}
+  \label{fig:HlejtoKerek}
+\end{figure}
+
+
+\renewcommand{\nth}{10}
+\input{SajatRobot/PIDHangolasa/NF.tex}
+\pgfplotstableread{TfSysIdent.dat}{\sysid}
+\input{SajatRobot/PIDHangolasa/SysIdentPlot.tex} 
+
+\renewcommand{\nth}{10}
+\input{SajatRobot/PIDHangolasa/KF.tex}
+\pgfplotstableread{TfSysIdent.dat}{\sysid}
+\input{SajatRobot/PIDHangolasa/SysIdentPlot.tex} 
+
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos}
+\renewcommand{\GlobalPathA}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos}
+\renewcommand{\palya}{A}
+\renewcommand{\palyaA}{B}
+\renewcommand{\figlabel}{KorpalyakKavicsos}
+\renewcommand{\nth}{5}
+\renewcommand{\coefA}{-1}
+\renewcommand{\coefB}{1}
+\renewcommand{\coefC}{1}
+\input{Meresek/Mozgasok/TobbPalya.tex}
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/}
+
+	\renewcommand{\figlabel}{KorP0703x}
+	\renewcommand{\nth}{10}
+	\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+	\renewcommand{\figlabel}{KorP0703a}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/PozicioKulon.tex}
+
+	\renewcommand{\figlabel}{KorP0703b}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Palya.tex}
+
+	\renewcommand{\figlabel}{KorP0703c}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Orientacio.tex}
+
+	\renewcommand{\figlabel}{KorP0703d}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Szogsebesseg.tex}
+
+	\renewcommand{\figlabel}{KorP0703e}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/LinearisSebesseg.tex}
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos/}
+
+	\renewcommand{\figlabel}{KorP0705x}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Kerekadatok.tex
+
+	\renewcommand{\figlabel}{KorP0705a}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/PozicioKulon.tex}
+
+	\renewcommand{\figlabel}{KorP0705b}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Palya.tex}
+
+	\renewcommand{\figlabel}{KorP0705c}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Orientacio.tex}
+
+	\renewcommand{\figlabel}{KorP0705d}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Szogsebesseg.tex}
+
+	\renewcommand{\figlabel}{KorP0705e}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/LinearisSebesseg.tex}
+
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/HibasMukodes/R_0_L_1/}
+
+	\renewcommand{\figlabel}{Left0Right50x}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Kerekadatok.tex}
+	\renewcommand{\figlabel}{Left0Right50a}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/PozicioKulon.tex}
+
+	\renewcommand{\figlabel}{Left0Right50b}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Palya.tex}
+
+	\renewcommand{\figlabel}{Left0Right50c}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Orientacio.tex}
+
+	\renewcommand{\figlabel}{Left0Right50d}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Szogsebesseg.tex}
+
+	\renewcommand{\figlabel}{Left0Right50e}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/LinearisSebesseg.tex}
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes}
+
+	\renewcommand{\figlabel}{Left_n50Right50x}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+
+	\renewcommand{\figlabel}{Left_n50Right50a}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/PozicioKulon.tex}
+
+	\renewcommand{\figlabel}{Left_n50Right50b}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Palya.tex}
+
+	\renewcommand{\figlabel}{Left_n50Right50c}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Orientacio.tex}
+
+	\renewcommand{\figlabel}{Left_n50Right50d}
+	\renewcommand{\nth}{2}
+	\input{Meresek/Mozgasok/Szogsebesseg.tex}
+\fi

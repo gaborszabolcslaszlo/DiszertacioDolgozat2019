@@ -4,7 +4,7 @@
 
 \usepackage[margin=8mm]{geometry}
 \PassOptionsToPackage{defaults=hu-min,classmod=unchanged}{magyar.ldf}
-\usepackage[magyar,english]{babel}
+\usepackage[magyar]{babel}
 \usepackage{tikz,pgfplots}
 
 %\documentclass{article}
@@ -53,7 +53,7 @@
 \usepackage{titlesec}
 %\usepackage[svgnames]{xcolor}
 %\usepackage{newtxtext,newtxmath}
-%\usepackage{etoolbox}
+\usepackage{etoolbox}
 
 
 
@@ -241,7 +241,11 @@ pinstyle/.style = {pin edge={to-,thin,black}
 
 \begin{document}
 
+\input{JelolesekEsRovditesek.tex}
+
 \renewcommand{\idoFelirat}{$Id$\H{o}$(s)$}
+
+%\input{compileFigures.tex}
 
 %\tracingall
 
@@ -249,26 +253,26 @@ pinstyle/.style = {pin edge={to-,thin,black}
 
 %\input{Declaratie.tex}
 
-\input{Extras.tex}
-\input{Kivonat.tex}
-\input{Abstract.tex}
+%\input{Extras.tex}
+%\input{Kivonat.tex}
+%\input{Abstract.tex}
 
 \tableofcontents
 
 \listoffigures
 
-\listoftables\newpage
+%\listoftables
 
-\printnomenclature[2cm] \newpage
+%\printnomenclature[2cm] \newpage
+\printnomenclature
 
 
 
+\input{Bevezeto/Bevezeto.tex}
+\input{AktualisTudomany/AktTudomany.tex}
+\input{SajatRobot/sajatrobot.tex}
 
-\input{Bevezeto/Bevezeto.tex}\newpage
-\input{AktualisTudomany/AktTudomany.tex}\newpage
-\input{SajatRobot/sajatrobot.tex}\newpage
-
-\input{Meresek/Meres1.tex}\newpage
+\input{Meresek/Meres1.tex}
 
 \input{KiertekelesEsEredmenyek.tex}
 

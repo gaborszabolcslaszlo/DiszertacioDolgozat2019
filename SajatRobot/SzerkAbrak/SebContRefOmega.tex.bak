@@ -1,0 +1,31 @@
+\tikzstyle{block} = [draw, fill=blue!20, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{system} = [draw, fill=white!20, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, fill=white!20, circle, node distance=1cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+
+% The block diagram code is probably more verbose than necessary
+\begin{tikzpicture}[auto, node distance=2cm,>=latex']
+    % We start by placing the blocks
+    \node [input, name=input] {};
+    \node [sum, right of=input] (sum) {};
+    \node [system, right of=sum] (controller) {Controller};
+    \node [system, right of=controller, %pin={[pinstyle]above:Disturbances},
+            node distance=3cm] (robot) {4W-SSMR};
+    % We draw an edge between the controller and robot block to 
+    % calculate the coordinate u. We need it to place the measurement block. 
+    \draw [->] (controller) -- node[name=u] {$\Omega$} (robot);
+    \node [output, right of=robot] (output) {};
+    \coordinate [below of=u] (tmp);
+
+    % Once the nodes are placed, connecting them is easy. 
+    \draw [draw,->] (input) -- node {$\eta_d$} (sum);
+    \draw [->] (sum) -- node {$e_\eta$} (controller);
+    \draw [->] (robot) -- node [name=y] {$\eta$}(output);
+    \draw [->] (y) |- (tmp) -| node[pos=0.99] {$-$} 
+        node [near end] {$$} (sum);
+\end{tikzpicture}
+

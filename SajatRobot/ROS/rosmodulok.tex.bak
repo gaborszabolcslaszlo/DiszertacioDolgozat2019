@@ -2,9 +2,30 @@
 \section{ROS}
 
 A roboton levő számítógépen Ubuntu 16.4 linux operációs rendszer fut, és ROS lunar keret rendszerben fejlesztet programok megoldjak:
--FPGA ROS kommunikációt, -távirányítás, -heartbeat biztonsági funkcionalitás,-IMU szenzor adatainak a beategyüttese,-térképezés és lokalizálás.
+-FPGA ROS kommunikációt, -távirányítás, -heartbeat biztonsági funkcionalitás,-IMU szenzor adatainak a beategyüttese,-térképezés és lokalizálás LIDAR alapjan.
 
-Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő relációk, a nodok és a topikok leírását a 
+A robot iranyitasat megtehetjuk azaltal hogy csatlakozunk a roboton wifin keresztul a robothoz. Az iranyitashoz szukseges egy szamitogep amelyre kell legyen telepitve a ROS. A kilens gepen fognak futni a kovetkezo felhasznaloi eszkozok:
+-a rendszerben futo progrmok altal loggolt uzeneteket szurhetjuk es tekinthetjuk meg valosidobne.
+-parametereket bealithatjuk egy grafikus felhasznaloi felulet segitsegevel ($dinamic\_reconfigure$).-rviz amelyel megjeleniti a robot 3D modeljet a terkepen a robot aktualis poziciojaban es iranyaban a kornyezetehez viszonytiva.
+-$JuglerPlot$ segitsegele online abrazolhatuk mert ertekeket mint pl.: a szabalyzokorokben mert ertekeket.
+
+Jelenleg ket mukodesi mod kozul valszthatunk:
+
+	-taviranyitorol iranyitva.A taviranyiton talahato egy joystick amely segitsegevel a robotnak referencia sebesegeket irhatunk elo. A hozzarendelt referencia rendszerhez kepest az X tengelyen m/s sebeseget adunk meg, mig a Z tengelye koruk \degree/s forgasi sebeseget adunk meg.
+A taviranyiton get gom folyamatosan lenyomva tartasaval a deadman kapcsolot valosithatjuk meg. Abban az esetben ha mindket gomb nincsen lenyomva a szabalyzok mukodese es a pwm generatorok kimenete letiltva marad.
+
+	-automata mod, itt rviz program segitsegevel eloirhatunk egy referencia poziciot es iranyt ahova szeretnenk hogy a robot eljuson. Ezalatt a taviranyiton a deadman kapcsolokat lenyomva kell tartanunk. A referencia ertekeke megadhatjuk rviz hasznalata nelkul azaltal hogy a megfelelo tipusu es nevu uzenetet bekuldjuk a ROS rendszerbe.
+
+
+
+\begin{figure}[H]
+  \includegraphics{tikz/RobotUserLan.jpg}
+  \caption{Robothoz csatlakozas a Wifi-n keresztul.}
+  \label{fig:RobotUserLan}
+\end{figure}
+
+
+Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő relációk. A nodok és a topikok leírását a \ref{Tab:nodok}
 
 \begin{table}[H]
 \centering
@@ -12,7 +33,7 @@ Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő re
 \hline Node Nev & Tipus & Leiras \\ \hline
   /R es /L      &  FPGA
   Communication
-  Modul     &  Jobboldali FPGA-val való kommunikációért felelős. Adatokat fogad/küld  a \ref{FPGAcomuSection} fejezetben leírt protokoll alapján, amelyeket továbbít a ROS operációs rendszerben működő nodoknak.     \\
+  Modul     &  Az FPGA-val való kommunikációért felelős. Adatokat fogad/küld  a \ref{FPGAcomuSection} fejezetben leírt protokoll alapján, amelyeket továbbít a ROS operációs rendszerben működő nodoknak.     \\
   /ImuInBoxA       &    Imuxxxx   &  Feladata szöveges formában érkező adatok feldolgozása és a ROS keretrendszerbe integrálását oldja meg. Mert fizikai menyiségek:       \\
   /WheelOdometry       &       &   Kerekek mozgásából számolt robot elméleti pozíciója a térben     \\
   /TeleopJot      &       & Feladata a joystick-tol érkező parancsok fogadása. Megvalósítja a $Dead Man Switch$ gomb kezelését létrehoz egy globálisan engedélyező jelet a /setEMS-t és a /TeleopSig-t amely előírja a robot linearis mozgási sebességét és a forgási sebességét a Z tengely körül.  \\
@@ -23,8 +44,8 @@ Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő re
   /Measurement & & merésék elvégzésére szolgáló node, amely egy élőre beállított intervallumokban az megadat referenciaértékeket küld ki az FPGA ban levő szabályzóknak.\\
   /TelepoController & & Átalakítja a robot sebesség állapotait és kiszámolja nyílt hurokban a szabályzok előírt értékeit. Abban az esetben ha a /movebase nodot használjuk, ez megoldja a robot pozíció szabályzását a térképen, így a $/cmd_vel$ csomagot csak átalakítja /refVals csomaggá azáltal hogy azonos oldalon levő kereke ugyanazt a referencia értéket kell követniük.
   
-  
 \end{tabular}
+ \label{Tab:nodok} 
 \end{table}
 
 \subsection{Uzenet tipusok (.msg)}
@@ -56,7 +77,7 @@ Az alábbi táblázatban láthatjuk a ROS operációs rendszer által szolgálta
 \end{tabular}
 \end{table}
 
-
+A \ref{ROSgraph} abran lathatjuk a nodok es az uzenetek kozti kapcsolatot.
 
 \renewcommand{\img}{SajatRobot/ROS/rosgraph.svg}
 \renewcommand{\sources}{*}
@@ -69,17 +90,14 @@ Az alábbi táblázatban láthatjuk a ROS operációs rendszer által szolgálta
 
 \subsection{FPGA komunikacios modul ROS oldali integracio}
 
-A ROS biztosít a fejlesztőknek egy megoldást amelyek kepések újonnan létrehozót robot integrálását ROS környezetben \cite{RosSerial}. Előnye hogy gyorsan látványos eredményt érhetünk el, de a működés sebességben és az üzenetek méretében is korlátozott. Ezen hátrányokból kifolyólag sajátos integráció volt szükséges amely integrálta az FPGA UART kommunikáció protokollt a ROS keretrendszerben működő más modulokhoz.
+A ROS biztosít a fejlesztőknek egy megoldást amelyek kepések újonnan létrehozót robot integrálását ROS környezetben \cite{RosSerial}. Előnye hogy gyorsan látványos eredményt érhetünk el, de a működés sebességben és az üzenetek méretében is korlátozott. Ezen hátrányokból kifolyólag sajátos integráció  szükséges amely integrálta az FPGA UART kommunikáció protokollt a ROS keretrendszerben működő más modulokhoz.
 
-A \ref{fig:ROStoUart} diagram a kommunikáció node technikai megvalósítását, különálló szál gondoskodik az UART adatok lóvasasáról és írásáról. Az üzenetek értelemizéset egy külön szál végzi és hívja fel a kiszolgáló fövenyeket.
+A \ref{fig:ROStoUart} diagram a kommunikáció node technikai megvalósítását lathatjuk. Különálló szál gondoskodik az UART adatok olvasasáról és írásáról. Az üzenetek értelemizéset egy külön szál végzi és hívja fel a kiszolgáló fövenyeket.
 A paraméterek helyes beállításáról a ParamThread szál gondoskodik, paraméterek helyes beállításáról FPGA oldalon. Abban az esetben ha a hardver kap egy uj paramétert a \ref{fig:MicroblazeSoft} alapján az FPGA visszaküldi a kapott paramétert, a visszajelzésből a eldönthető hogy a paraméter  a hardverben helyesen beállítódott-e. Abban az esetben ha nem megfelelő újraküldődik mindaddig amíg nem sikeres a beállítás.
 
-A paraméterek kezelésére a ROS paraméter szerver a felelős \cite{parameterserver}, abban az esetben ha egy paraméter megváltozott amely az illető nodehoz köthető akkor a \ref{fig:ROStoUart} ábrán látható ParameterValtozott esemény előidézi a  megváltozott paraméter elküldését az FPGAnak.
+A paraméterek kezelésére a ROS paraméter szerver a felelős \cite{parameterserver}, abban az esetben ha egy paraméter megváltozott amely az illető nodehoz köthető akkor a \ref{fig:ROStoUart} ábrán látható ParameterValtozott esemény előidézi a  megváltozott paraméter ertekenek az elküldését  FPGAnak iranyaba.
 
 A globális engedélyező jel a \ref{fig:ROStoUart} MasterLive Enable,  /globalEnable típusú üzenettel engedélyezhetjük a szabályzok működését, a folyamatos működéshez 500ms periódussal kell érkeznie. Abban az esetben ha a központi számítógép valami okból leállna akkor a hardveres szabályzok is leállnak. A node 300ms periódussal küldi tovább az engedélyező jelet az FPGA modulnak. A HardverLive jel információt szolgáltat a többi ROS környezetben futó és a működés szempontjából kritikus nodenak hogy az adott modul megfelelően működik e. Ezen információ birtokában a HeartBeat node leállítja a rendszert ha egyik FPGA modul nem válaszol.
-
-\subsection{Előirt értékek}
-A /refVals tipusu üzenetben megkapjuk minden egyes motor előírt érteket annak fövenyében $\degree/s$ ha sebesség alapján szabályzunk vagy $N/m$ előírt nyomaték alapján szabályzunk.
 
 \renewcommand{\img}{SajatRobot/ROS/NodeUML.jpg}
 \renewcommand{\sources}{*}
@@ -87,8 +105,12 @@ A /refVals tipusu üzenetben megkapjuk minden egyes motor előírt érteket anna
 \renewcommand{\figlabel}{ROStoUart}
 \input{picture.tex}
 
+\subsection{Előirt értékek}
+A /refVals tipusu üzenetben megadjuk minden egyes motor előírt érteket annak fövenyében $\degree/s$ ha sebesség alapján szabályzunk vagy $N/m$ előírt nyomaték alapján szabályzunk.
+
+
 \subsection{Vonatkoztatási Rendszerek }
-A  vonatkoztatási rendszereket szükségesek mert a szenzorok és beavatkozó eszközök pozíciója és egymáshoz viszonyított helyzete is változhat. Sok esetben szükséges ismernünk egy adott eszköznek a múltbeli helyzetét, vagy egy másik vonatkoztatási rendszerhez képest a pozícióját vagy irányát. A ROS biztosít egy tf \cite{rosTF} nevű csomagot amely megvalósítja a szűkséges eszközöket. 
+A  vonatkoztatási rendszereket szükségesek mert a szenzorok és beavatkozó eszközök egymáshoz viszonyított helyzete es pozicioja is változhat. Sok esetben szükséges ismernünk egy adott eszköznek a múltbeli helyzetét, vagy egy másik vonatkoztatási rendszerhez képest a pozícióját vagy irányát. A ROS biztosít egy tf \cite{rosTF} nevű csomagot amely megvalósítja a szűkséges transzformalasokat a $VNR$-k kozott. 
 A \ref{fig:ROSframes} látható a kialakított vonatkoztatási rendszerek a roboton amely hűen modellezi a fizikai robot kialakítását.
 A vonatkoztatási rendszereket két csoportba oszthatok:
 
@@ -103,8 +125,8 @@ A robot base\_link az helymeghatározás odom, és az odometria a térképhez ma
 
 A robot modellt ROS környezetben URDF robot leíró, xml alapú fájlal tehetjük meg, \cite{rosURDF}
 \cite{rosJoint} \cite{rosLink}.
-Az <origin> tag az xzy paraméter alatt megadhatjuk a csukló pozícióját mindhárom tengelyen méterben kifejezve a <parent> tagban szereplő linkhez képest. Az rpy paraméter alatt az elfordulásokat rendre x, y, z tengelyek mentén radiánban.
-Az <axis> tagban beállíthatjuk a kényszereket, jelen esetben csak az y tengely körüli forgás engedélyezett. 
+Az <origin> tag az xzy paraméter alatt megadhatjuk a csukló pozícióját mindhárom tengelyen méterben kifejezve a <parent> tagban szereplő linkhez képest. Az rpy paraméter alatt az elfordulásokat rendre x, y, z tengelyek mentén radiánban kifejezve.
+Az <axis> tagban beállíthatjuk a kényszereket, jelen esetben csak az y tengely körüli forgás engedélyezett a kerekek eseteben. 
 Az <link> tagban robot elemeket hozhatunk létre. Az alábbi XML-ben látható a robot fizikai leírása amely megfelel a valós szerkezetnek.
 \begin{lstlisting}[language=XML]
 <robot name="mobile_robot_platform_4Wheel">
@@ -162,6 +184,9 @@ Az <link> tagban robot elemeket hozhatunk létre. Az alábbi XML-ben látható a
 	</joint> 
 </robot>
 \end{lstlisting}
+
+A \ref{fig:ROSframes} lathatjuk hogy a robot torzset a $BODY\_link$ alkotja, amelyhez kapcsolodnak a kerekek: $BL\_link,FL\_link,BR\_link,FR\_link$. A $base\_link$ es a $BODY\_link$ egybesnek. A szenzorok a $laser$ amely a lidarnak fele meg, $ImuALink$ IMU szenzor ezek a $base\_link$-hez kapcsolodnak.
+A $map$ VNR a terkepnek amelyen meghatarozuk a robot poziciojat $odom$.
 
 \renewcommand{\img}{SajatRobot/ROS/frames.svg}
 \renewcommand{\sources}{*}

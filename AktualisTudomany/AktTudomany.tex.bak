@@ -1,0 +1,30 @@
+\FloatBarrier
+
+\chapter{Bibliográfiai tanulmány}
+
+\section{Robotok}
+A olyan gepek amelyeket arra terveztek hogy bizonyos feladatokat automatikusan elvégezzenek gyorsabban és pontosabban mit az emberek. Manapsag mar sok tipusu robot letezik, ezekozul nehany repul, foldon gurul vagy maszik, de leteznek mar emberhez hasonlok is.
+
+A robotok legeloszor a masodik vilaghaboru alatt jelentek meg mint iranyitott bombak. A haboru utan W.Grey Walter neurologus fejlesztett ki egy kismeretu robotot (Elmer and Elsie) mely fenyszenzorral, es nyomasszenzorral volt elatva. 1961-1963 Johns Hopkins Beast robot kepes volt a fal menten végigmenni és megtalalni a toltoalomast. 1970 -ben Shakey the robot kepes volt kamera segitsegevel egy vonalat kovetni. A 1990 utan a fejlesztesek felgyorsultak es azota mar robot jar a naprendszerunk szamos bolygojan.
+
+Ezen dolgozat csak a $MR$ típusú robotokkal fog reszletesebben kiterni. A $MR$ tipusu robotok kepesek a sajat poziciojukat megvaltoztani a kornyezetukhoz kepest. Az $AMR$ tipusu robotok kepesek sajat kornyezetuk felderitesere ismeretlen kornyezetben is kulombozo szenzorokat hasznalva melyekkel kepések a kornyezetuk parametereinek a megmeresere. Az $AMR$ tipusu robotokat manapsag leginkabb tarolo helysegekben hasznaljak ahol anyagokat paletakat vagy kulombozo dolgokat kell szallitani pl(Mobile Industrial Robots ApS valalat fejlesztesei).
+
+\section{Mobilis Robotok Helyváltoztatása}
+A $MR$ kerekekkel, hernyotalpakkal, vagy labakkal kepesek helyuket megvaltoztatni. A leginkabb hasznalatos es robusztusnak bizonyult kulteri terepen a kerekek es a herbyutalpak.
+Legismertebb robot felepitesek: packboot pl: iRobo510,
+negy kerek pl: husky, negy kormanyozhato kerek, hat kerek amibol negy kormanyozhato pl: Curiosity Mars Rover.
+Az utobi evekben a kerek fogalma is ujraertelmezodot, a hagyomanyos kerekek pl: RHex Rough-Terrain amely a kerek es a lebak kevereke.
+
+
+\section{Kültéri mobilis robotok}
+
+
+\input{MobilisRobotok/iRobo/iRobot510.tex}
+\input{MobilisRobotok/clearpathrobotics/husky.tex}
+\input{MobilisRobotok/EcoRobotix/ecoRobotix.tex}
+\input{MobilisRobotok/Spirit/Spirit.tex}
+\input{AktualisTudomany/ROS.tex} \newpage
+
+\input{AktualisTudomany/RobotModel.tex}
+
+

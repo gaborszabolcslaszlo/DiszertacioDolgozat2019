@@ -1,0 +1,51 @@
+\subsection{Lepcson}
+
+A kovetkező méresek soran a robot egy 40 \degree lepcson lefele es felfele is mozog a lepcsore meroleges iranyban. A robot viselkedese a mozgas soran, lefele konyeden megy gond nelkul, felfele viszont a kerekek a kovetkezo lepcsofok ellerol lecsusza viszaesnek.
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso}
+\renewcommand{\secondImage}{*} 
+
+%kep a talajrol
+%\input{Meresek/Mozgasok/KepekAFelszinrol.tex}
+
+%1
+%\input{Meresek/Mozgasok/FirstV1.tex}
+
+
+\begin{figure}[H]
+  \includegraphics{tikz/LepcsoLexx.pdf}
+  \caption{}
+  \label{fig:LepcsoLexx}
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics{tikz/ImuLepcsoLe1.pdf}
+  \caption{}
+  \label{fig:ImuLepcsoLe1}
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics{tikz/LepcsoFelxx.pdf}
+  \caption{}
+  \label{fig:LepcsoFelxx}
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics{tikz/ImuLepcsoFel1.pdf}
+  \caption{}
+  \label{fig:ImuLepcsoFel1}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,31 +1,9 @@
-\begin{figure}[H]
-    %\ContinuedFloat
-    %-------------------------------------------------Pozicio X es Y Adatok---------------
-   % \newline
 
-	\input{ \mand{\GlobalPath}{L.tex} }
-	\pgfplotstableread{NodeLeft.dat}{\leftNode}
-
-
-	\input{\mand{\GlobalPath}{R.tex}}
-	\pgfplotstableread{NodeRight.dat}{\rightNode}
-
-    
-    \tikzsetnextfilename{\figlabel}
-    
-    \begin{tikzpicture}
-    
-            \pgfplotsset{every axis plot/.append style={very thick}}
-            \setcaptionsubtype
-       \begin{groupplot}[%
-                        ,group style={%
-                            ,group name=my plots
-                            ,group size=2 by 2
-                            ,vertical sep=1.8cm,
-                            ,horizontal sep = 2.4cm,
-                            ,ylabels at=edge left
-                        }
-                        ,width=7cm
+\pgfkeys{/pgf/number format/.cd,fixed,precision=3}
+\pgfplotsset{
+    compat=1.3, 
+    every axis/.append style={scale only axis, axis on top,
+    					 ,width=7cm
                         ,height=6cm
                         ,try min ticks=5
                         ,xlabel={\bfseries{\emph{\idoFelirat}}}
@@ -40,83 +18,87 @@
                         ,grid=major%both
                         ,every both grid/.style={gray, opacity=0.7},
                         view={0}{90},
-                        legend columns=2,
                         %xmin=0,xmax=0.65,
                         %ymin=0,ymax=0.65,
                        % zmin=-5,zmax=60,
-                        ]
-            %% ide jonnek a adatok. 
-            
-            %ha kell felirat be kell teni a nextplot[] parameterei koze
-            % \nextgroupplot[ylabel=\degree$/s$, ylabel style={rotate=-90},legend to name={CommonLegend},legend style={legend columns=2}]
-            \nextgroupplot[]
-                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortA] {\leftNode};\label{plots:plot4}
-                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaA] {\leftNode}; \label{plots:plot1}
-                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmA] {\leftNode};\label{plots:plot2}
-                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaA] {\leftNode};\label{plots:plot3}
-                \coordinate (top) at (rel axis cs:0,1);% coordinate at top of the first plot
-            
-            \nextgroupplot[]
-                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortA] {\rightNode};
-                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaA] {\rightNode};
-                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmA] {\rightNode};
-                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaA] {\rightNode};
-                    
-            \nextgroupplot[]
-                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortB] {\leftNode};
-                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaB] {\leftNode};
-                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmB] {\leftNode};
-                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaB] {\leftNode};
-                   
-            \nextgroupplot[]
-                \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortB] {\rightNode};
-                \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaB] {\rightNode};
-                \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmB] {\rightNode};
-                \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaB] {\rightNode};
-                \coordinate (bot) at (rel axis cs:1,0);% coordinate at bottom of the last plot
-            \end{groupplot}
-            
-            %\path [nodes={anchor=south,rotate=90,font=\large\bfseries,midway}]
-            %  (my plots c1r1.outer north west)--(my plots c1r2.outer south west)
-            %    node {Testing of Parameters 1}
-            %  (my plots c2r1.outer north west)--(my plots c2r2.outer south west)
-            %    node {Testing of Parameters 2};
-            
-            % legend
-            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r1.north) {\caption[]{FL\label{subplot:one}}};
-            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c2r1.north) {\caption[]{FR\label{subplot:two}}};
-            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c1r2.north) {\caption[]{BL\label{subplot:three}}};
-            \node[text width=.5\linewidth,align=center,anchor=south] at (my plots c2r2.north) {\caption[]{BR\label{subplot:four}}};
-            
-            %\path (top-|current bounding box.west)-- 
-            %      node[anchor=south,rotate=90] {throughput} 
-            %      (bot-|current bounding box.west);
-            % legend
-            \path (top|-current bounding box.north)--
-                  coordinate(legendpos)
-                  (bot|-current bounding box.north);
-            \matrix[
-                matrix of nodes,
-                anchor=south,
-                draw,
-                inner sep=0.2em,
-                draw
-              ]at([yshift=1ex]legendpos)
-              {
-                \ref{plots:plot1}& Aktualis Szogsebesseg [\degree/s]&[5pt]
-                \ref{plots:plot2}& PWM [\%] &[5pt]
-                \ref{plots:plot3}& Eloirt Omega [\degree/s] &[5pt]
-                \ref{plots:plot4}& Energia [Watt] &[5pt]\\
-            };
-    \end{tikzpicture}
+                        ,legend columns=-1
+                        ,anchor=above north west
+    }
+}
+
+\begin{figure}[H]
+    %\ContinuedFloat
+    %-------------------------------------------------Pozicio X es Y Adatok---------------
+   % \newline
+
+	\input{\mand{\GlobalPath}{L.tex}}
+	\pgfplotstableread{NodeLeft.dat}{\leftNode}
+
+
+	\input{\mand{\GlobalPath}{R.tex}}
+	\pgfplotstableread{NodeRight.dat}{\rightNode}
 
     
+    \tikzsetnextfilename{\figlabel}
+    
+    \begin{tikzpicture}
+     
+    
+    \pgfplotsset{every axis plot/.append style={very thick}}
+    \pgfplotsset{every axis legend/.append style={at={(0.5,1.03)}}}  
+            
+
+   \begin{axis}[name=plot1,yshift=7.8cm,xshift=0cm]
+    \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortA] {\leftNode};\label{plots:plot4}
+    \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaA] {\leftNode}; \label{plots:plot3}
+    \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmA] {\leftNode};\label{plots:plot2}
+    \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaA] {\leftNode};\label{plots:plot1}
+       
+                 \end{axis}
+                 
+    \begin{axis}[name=plot2,yshift=9cm,xshift=8cm,legend style={at={(1.0,1.2)}}]
+        \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortA] {\rightNode};\addlegendentry {Energia [Watt]}
+        \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaA] {\rightNode};\addlegendentry {Aktuális Szögsebesség [$\degree$/s]}
+        \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmA] {\rightNode};\addlegendentry {PWM [$\%$] }
+        \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaA] {\rightNode};\addlegendentry {Előírt Szögsebesség [$\degree$/s]}
+    \end{axis}
+    
+        \begin{axis}[name=plot4,yshift=0cm,xshift=8cm]%at={(700,-1065)}]
+    \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortB] {\rightNode};
+    \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaB] {\rightNode};
+    \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmB] {\rightNode};
+    \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaB] {\rightNode};             
+    \end{axis} 
+   
+    
+    \begin{axis}[name=plot3,yshift=0cm,xshift=0cm]
+      \addplot [color=black,each nth point={\nth}] table [header=true, x=Time, y=effortB] {\leftNode};
+      \addplot [color=blue,each nth point={\nth}] table [header=true, x=Time, y=omegaB] {\leftNode};
+      \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=pwmB] {\leftNode};
+      \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=refOmegaB] {\leftNode};
+    \end{axis}
+    
+                   
+
+              
+            \node[text width=.5\linewidth,align=center,anchor=south] at (plot1.north) {FL};
+            \node[text width=.5\linewidth,align=center,anchor=south] at (plot2.north) {FR};
+            \node[text width=.5\linewidth,align=center,anchor=south] at (plot3.north) {BL};
+            \node[text width=.5\linewidth,align=center,anchor=south] at (plot4.north) {BR};
+
+    
+           
+                
+
+
+    \end{tikzpicture}
+    %\ref{widelegend}
     % Caption
     %\ifthenelse{\equal{\captionn}{*}}
     %{}
     %{\captionof{figure}{\captionn}}
     %\renewcommand{\captionn}{*}
-    %\label{subplot:\figlabel}
+    %\label{fig:\figlabel}
     
 \end{figure}
 
