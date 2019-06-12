@@ -1,0 +1,66 @@
+<<<<<<< Updated upstream
+=======
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1.}{\ignorespaces iRobo 510 lanctalpas packbootForr\IeC {\'a}s:\relax }}{8}{figure.caption.3}
+\contentsline {figure}{\numberline {2.2.}{\ignorespaces N\IeC {\'e}gy kerek\IeC {\H u} mobilis platform.Forr\IeC {\'a}s:\relax }}{8}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3.}{\ignorespaces ecorobotix mez\IeC {\H o}gazdas\IeC {\'a}gi robotForr\IeC {\'a}s:\relax }}{9}{figure.caption.5}
+\contentsline {figure}{\numberline {2.4.}{\ignorespaces Spirit nevu Marsj\IeC {\'a}r\IeC {\'o} robot.Forr\IeC {\'a}s:\relax }}{10}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5.}{\ignorespaces ROS kommunicacios mechanizmus szervizhivasokraForr\IeC {\'a}s:\relax }}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6.}{\ignorespaces ROS kommunicacios mechanizmus adatfolyamokraForr\IeC {\'a}s:\relax }}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {2.7.}{\ignorespaces Ros Control modulokForr\IeC {\'a}s:\relax }}{13}{figure.caption.9}
+\contentsline {figure}{\numberline {2.8.}{\ignorespaces Mer\IeC {\H o}leges nyom\IeC {\'o}er\IeC {\H o} a talajra $4W-SSMR$ t\IeC {\'\i }pus\IeC {\'u} robot eset\IeC {\'e}ben.\relax }}{16}{figure.caption.10}
+\contentsline {figure}{\numberline {2.9.}{\ignorespaces $4W-SSMR$ t\IeC {\'\i }pus\IeC {\'u} robot lejt\IeC {\H o}n felfele oldal n\IeC {\'e}zetb\IeC {\H o}l.\relax }}{16}{figure.caption.11}
+\contentsline {figure}{\numberline {2.10.}{\ignorespaces $4W-SSMR$ t\IeC {\'\i }pus\IeC {\'u} robot lejt\IeC {\H o}n els\IeC {\H o} n\IeC {\'e}zetb\IeC {\H o}l.\relax }}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {2.13.}{\ignorespaces Kinematikai modell az $4W-SSMR$ t\IeC {\'\i }pus\IeC {\'u} robotnak.\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {2.14.}{\ignorespaces Kinematikai modell az $SSMR$ t\IeC {\'\i }pus\IeC {\'u} $MR$ robotnak.\relax }}{23}{figure.caption.17}
+\contentsline {figure}{\numberline {2.15.}{\ignorespaces Kinematikai modell az $SSMR$ t\IeC {\'\i }pus\IeC {\'u} $MR$ robotnak.\relax }}{25}{figure.caption.18}
+\contentsline {figure}{\numberline {2.16.}{\ignorespaces Kinematikai modell az $SSMR$ t\IeC {\'\i }pus\IeC {\'u} $MR$ robotnak.\relax }}{26}{figure.caption.19}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1.}{\ignorespaces CmodA7 FPGA-ban kialak\IeC {\'\i }tott architekt\IeC {\'u}ra amely a szenzorok \IeC {\'e}s motor hajt\IeC {\'a}sok kezel\IeC {\'e}sre hivatott \relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {3.2.}{\ignorespaces FPGA ban megvalositott komunikacios protokol a \ref {fig:FPGAcomuSection} leirt protokol alapjan.\relax }}{29}{figure.caption.24}
+\contentsline {figure}{\numberline {3.3.}{\ignorespaces FPGA hardver/MicroBlaze proceszor es ROS node kozti komunikacio megvalistiasa UART protokol alapjan \relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {3.4.}{\ignorespaces FPGA ban megvalositott szoftproceszor rendszer, legfelso negyzet.\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {3.5.}{\ignorespaces FPGA ban megvalositott szabalyzok A es B\relax }}{33}{figure.caption.27}
+\contentsline {figure}{\numberline {3.6.}{\ignorespaces FPGA controller mag.\relax }}{34}{figure.caption.28}
+\contentsline {figure}{\numberline {3.7.}{\ignorespaces MicroBlaze proceszoron futo szoftver diagramja\relax }}{36}{figure.caption.29}
+\contentsline {figure}{\numberline {3.8.}{\ignorespaces FPGA komunikacios protokol altalanos csomag szerkezet\relax }}{37}{figure.caption.30}
+\contentsline {figure}{\numberline {3.9.}{\ignorespaces Robothoz csatlakozas a Wifi-n keresztul.\relax }}{41}{figure.caption.33}
+\contentsline {figure}{\numberline {3.10.}{\ignorespaces ROS graph\relax }}{44}{figure.caption.36}
+\contentsline {figure}{\numberline {3.11.}{\ignorespaces ROS integr\IeC {\'a}l\IeC {\'a}sa Uart protokolhoz.\relax }}{46}{figure.caption.37}
+\contentsline {figure}{\numberline {3.12.}{\ignorespaces A megvalositott robot VNR-k k\IeC {\"o}zti rel\IeC {\'a}ci\IeC {\'o} \relax }}{49}{figure.caption.38}
+\contentsline {figure}{\numberline {3.13.}{\ignorespaces Nagy fokozat Hammerstein-Wiener becsult model valasza, es a mert ertekek.\relax }}{51}{figure.caption.39}
+\contentsline {figure}{\numberline {3.14.}{\ignorespaces Kis fokozat Hammerstein-Wiener becsult model valasza, es a mert ertekek.\relax }}{52}{figure.caption.40}
+\contentsline {figure}{\numberline {3.15.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot pozicioja, X es Y tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{54}{figure.caption.41}
+\contentsline {figure}{\numberline {3.16.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot altal leirt palya, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{55}{figure.caption.42}
+\contentsline {figure}{\numberline {3.17.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot orientacioja, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{55}{figure.caption.43}
+\contentsline {figure}{\numberline {3.18.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot fordulasi szogsebessege, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{56}{figure.caption.44}
+\contentsline {figure}{\numberline {3.19.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot egyenesvonalu sebessegei, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{56}{figure.caption.45}
+\contentsline {figure}{\numberline {3.20.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot mozg\IeC {\'a}sa, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{57}{figure.caption.46}
+\contentsline {figure}{\numberline {3.21.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot mozg\IeC {\'a}sa, tengelyekre bontva, kereksebessegek BL=FL=-50 es a FR=BR= 50\degree /s\relax }}{58}{figure.caption.47}
+\contentsline {figure}{\numberline {3.22.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot altal leirt palya, kereksebessegek BL=FL=-50 es a FR=BR= 50\degree /s\relax }}{58}{figure.caption.48}
+\contentsline {figure}{\numberline {3.23.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot orientacioja, kereksebessegek BL=FL=-50 es a FR=BR= 50\degree /s\relax }}{59}{figure.caption.49}
+\contentsline {figure}{\numberline {3.24.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot fordulasi szogsebessege, kereksebessegek BL=FL=-50 es a FR=BR= 50\degree /s\relax }}{59}{figure.caption.50}
+\contentsline {figure}{\numberline {3.25.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot mozg\IeC {\'a}sa, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{60}{figure.caption.51}
+\contentsline {figure}{\numberline {3.26.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot mozg\IeC {\'a}sa, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s \relax }}{60}{figure.caption.52}
+\contentsline {figure}{\numberline {3.27.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot altal leirt palya, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{61}{figure.caption.53}
+\contentsline {figure}{\numberline {3.28.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot orientacioja, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{61}{figure.caption.54}
+\contentsline {figure}{\numberline {3.29.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot fordulasi szogsebessege, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{62}{figure.caption.55}
+\contentsline {figure}{\numberline {3.30.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot egyenesvonalu sebessegei, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{63}{figure.caption.56}
+\contentsline {figure}{\numberline {3.31.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot mozg\IeC {\'a}sa, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{64}{figure.caption.57}
+\contentsline {figure}{\numberline {3.32.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot mozg\IeC {\'a}sa, tengelyekre bontva, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s \relax }}{65}{figure.caption.58}
+\contentsline {figure}{\numberline {3.33.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot altal leirt palya, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{65}{figure.caption.59}
+\contentsline {figure}{\numberline {3.34.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot orientacioja, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{66}{figure.caption.60}
+\contentsline {figure}{\numberline {3.35.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot fordulasi szogsebessege, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{66}{figure.caption.61}
+\contentsline {figure}{\numberline {3.36.}{\ignorespaces $SSMR-4W$ t\IeC {\'\i }pus\IeC {\'u} robot egyenesvonalu sebessegei, kereksebessegek BL=FL=0 es a FR=BR= 50\degree /s\relax }}{67}{figure.caption.62}
+\contentsline {figure}{\numberline {3.37.}{\ignorespaces Kulombozo korpalyak\relax }}{68}{figure.caption.63}
+\contentsline {figure}{\numberline {3.38.}{\ignorespaces Homokos domb 1\relax }}{69}{figure.caption.64}
+\contentsline {figure}{\numberline {3.39.}{\ignorespaces Homokos domb 1\relax }}{69}{figure.caption.65}
+\contentsline {figure}{\numberline {3.40.}{\ignorespaces \relax }}{70}{figure.caption.66}
+\contentsline {figure}{\numberline {3.41.}{\ignorespaces \relax }}{71}{figure.caption.67}
+\contentsline {figure}{\numberline {3.42.}{\ignorespaces \relax }}{72}{figure.caption.68}
+\contentsline {figure}{\numberline {3.43.}{\ignorespaces \relax }}{73}{figure.caption.69}
+\contentsline {figure}{\numberline {3.44.}{\ignorespaces \relax }}{74}{figure.caption.70}
+\contentsline {figure}{\numberline {3.45.}{\ignorespaces Terkep keszitese mikozben taviranyitassal halad a robot.\relax }}{75}{figure.caption.71}
+\addvspace {10\p@ }
+>>>>>>> Stashed changes

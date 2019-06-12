@@ -245,7 +245,11 @@ pinstyle/.style = {pin edge={to-,thin,black}
 
 \renewcommand{\idoFelirat}{$Id$\H{o}$(s)$}
 
+<<<<<<< Updated upstream
 \input{compileFigures.tex}
+=======
+%\input{compileFigures.tex}
+>>>>>>> Stashed changes
 
 %\tracingall
 
