@@ -8,7 +8,7 @@ A lejtő meredeksége 45\degree, a szerkezete homokos, nagyobb méretű szilárd
 A lejtőt az FL es FR kerekekkel közelítjük meg, így a BL es BR kerekekre nagyobb merőleges nyomóerő jut.
 A \ref{fig:HlejtoKerek} látható a PWM beavatkozó jelek a BL és BR kerekeken 20\% nagyobb beavatkozó jelet szükséges ugyanannak a referencia jelnek a követésére.
 
-A kereke előirt forgási sebessége 15\degree/s, 0.5m \ref{fig:Hlejto2}  megtétele után a BL és a BR kerek 10 cm mélyen a homokba sülyetek és a robot elakadt \ref{fig:Hlejto1}. Egy másik észrevétel hogy a FL es FR kerek egyáltalan nem sülyedtek be a talajba forgás közben ami a kissebb merőleges nyomóerőnek tulajdonitható. 
+A kereke előirt forgási sebessége 15\degree/s, 0.5m \ref{fig:Hlejto1}  megtétele után a BL és a BR kerek 10 cm mélyen a homokba sülyetek és a robot elakadt \ref{fig:Hlejto1}. Egy másik észrevétel hogy a FL es FR kerek egyáltalan nem sülyedtek be a talajba forgás közben ami a kissebb merőleges nyomóerőnek tulajdonitható. 
 
 %kep a talajrol
 %\input{Meresek/Mozgasok/KepekAFelszinrol.tex}
@@ -22,6 +22,7 @@ A kereke előirt forgási sebessége 15\degree/s, 0.5m \ref{fig:Hlejto2}  megté
 \includegraphics[width=.5\linewidth]{Meresek/Mozgasok/HomokosDomb/kep1.jpg}\hfill
 \includegraphics[width=.5\linewidth]{Meresek/Mozgasok/HomokosDomb/kep2.jpg}
 \caption{Homokbat sülyet kerek 45\degree lejtön, 10 cm mélyen,elakadt robot a lejtőn 0.5m megtett ut után}
+\label{fig:Hlejto1}
 \end{figure}
 
 

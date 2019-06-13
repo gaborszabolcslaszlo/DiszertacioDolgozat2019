@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  12 JUN 2019 16:31
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  11 JUN 2019 00:41
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  13 JUN 2019 15:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2288,29 +2284,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout6 = `tikz/main-figure0.nlo'.
 
 Writing nomenclature file tikz/main-figure0.nlo
-<<<<<<< Updated upstream
-) (./compileFigures.tex (./Meresek/SLAM/MeresSlam.tex (./Meresek/SLAM/Pos.tex
-
-LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
-
-\openout15 = `PositionOrientation.dat'.
-
-
 )
-PGFPlots: reading {PositionOrientation.dat}
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-LaTeX Font Warning: Font shape `T2A/ptm/m/sc' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 34.
-
-))
-=======
-)
->>>>>>> Stashed changes
 
 LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 260.
+(Font)              using `T2A/ptm/m/n' instead on input line 262.
 
 No file tikz/main-figure0.nls.
 (./Bevezeto/Bevezeto.tex
@@ -2321,7 +2298,6 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 
 ) (./AktualisTudomany/AktTudomany.tex
 fejezet 2.
-<<<<<<< Updated upstream
 
 Overfull \hbox (32.06444pt too wide) in paragraph at lines 11--12
 \T2A/ptm/m/n/12 Az olyan g^^Aepek, ame-lye-ket ar-ra ter-vez-tek, hogy bi-zo-ny
@@ -2339,18 +2315,16 @@ o
 Overfull \hbox (4.06972pt too wide) in paragraph at lines 19--20
 \T2A/ptm/m/n/12 go-kat, pa-lett^^Aakat vagy k^^Dul^^Donb^^Doz^^Eo dol-go-kat ke
 l egyik helysz^^A^^Ynr^^Eol a m^^Aasikra sz^^Aall^^A^^Ytani (p^^Aeld^^Aaul
-=======
-
-Overfull \hbox (20.31343pt too wide) in paragraph at lines 6--7
-\T2A/ptm/m/n/12 A olyan ge-pek ame-lye-ket ar-ra ter-vez-tek hogy bi-zo-nyos fe
-l-ada-to-kat au-to-ma-ti-ku-san elv^^Aegezzenek
->>>>>>> Stashed changes
  []
 
 (./MobilisRobotok/iRobo/iRobot510.tex (./picture.tex
 The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
 nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
+
+LaTeX Font Warning: Font shape `T2A/ptm/m/sc' undefined
+(Font)              using `T2A/ptm/m/n' instead on input line 10.
+
 ) (./MobilisRobotok/tableTemplate.tex)) (./MobilisRobotok/clearpathrobotics/hus
 ky.tex (./picture.tex
 The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
@@ -2368,47 +2342,18 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 ) (./MobilisRobotok/tableTemplate.tex)) (./AktualisTudomany/ROS.tex
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `xmlrpc' on page 13 undefined on input line 9.
+Package natbib Warning: Citation `xmlrpc' on page 11 undefined on input line 9.
 
 
 
-Package natbib Warning: Citation `rossubpubexample' on page 13 undefined on inp
+Package natbib Warning: Citation `rossubpubexample' on page 11 undefined on inp
 ut line 10.
 
 
-LaTeX Warning: Reference `fig:rosmech1' on page 13 undefined on input line 11.
+LaTeX Warning: Reference `fig:rosmech1' on page 11 undefined on input line 11.
 
 
-LaTeX Warning: Reference `fig:rosmech2' on page 13 undefined on input line 11.
-
-(./picture.tex
-The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
-nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
-' to disable this.
-) (./picture.tex
-The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
-nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
-' to disable this.
-)
-
-Package natbib Warning: Citation `lentin2015' on page 13 undefined on input lin
-e 30.
-
-
-Package natbib Warning: Citation `NagyPirosKonyv' on page 13 undefined on input
-=======
-Package natbib Warning: Citation `xmlrpc' on page 9 undefined on input line 9.
-
-
-Package natbib Warning: Citation `rossubpubexample' on page 9 undefined on inpu
-t line 10.
-
-
-LaTeX Warning: Reference `fig:rosmech1' on page 9 undefined on input line 11.
-
-
-LaTeX Warning: Reference `fig:rosmech2' on page 9 undefined on input line 11.
+LaTeX Warning: Reference `fig:rosmech2' on page 11 undefined on input line 11.
 
 (./picture.tex
 The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
@@ -2420,12 +2365,11 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-Package natbib Warning: Citation `lentin2015' on page 10 undefined on input lin
+Package natbib Warning: Citation `lentin2015' on page 11 undefined on input lin
 e 30.
 
 
-Package natbib Warning: Citation `NagyPirosKonyv' on page 10 undefined on input
->>>>>>> Stashed changes
+Package natbib Warning: Citation `NagyPirosKonyv' on page 11 undefined on input
  line 30.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -2435,59 +2379,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `lentin2015' on page 13 undefined on input lin
+Package natbib Warning: Citation `lentin2015' on page 11 undefined on input lin
 e 32.
 
 
-Package natbib Warning: Citation `RosSerial' on page 14 undefined on input line
+Package natbib Warning: Citation `RosSerial' on page 12 undefined on input line
  48.
 
 
-Package natbib Warning: Citation `ROSArduino2013' on page 14 undefined on input
+Package natbib Warning: Citation `ROSArduino2013' on page 12 undefined on input
  line 50.
 
 
-Package natbib Warning: Citation `ROSRoboticsByExampleSecEd' on page 14 undefin
+Package natbib Warning: Citation `ROSRoboticsByExampleSecEd' on page 12 undefin
 ed on input line 52.
 
 
-Package natbib Warning: Citation `roscontrol' on page 14 undefined on input lin
+Package natbib Warning: Citation `roscontrol' on page 12 undefined on input lin
 e 56.
 
 
-Package natbib Warning: Citation `ROSControlExample' on page 14 undefined on in
+Package natbib Warning: Citation `ROSControlExample' on page 12 undefined on in
 put line 56.
 
 
-LaTeX Warning: Reference `fig:RosControlDiagram' on page 14 undefined on input 
-=======
-Package natbib Warning: Citation `lentin2015' on page 10 undefined on input lin
-e 32.
-
-
-Package natbib Warning: Citation `RosSerial' on page 10 undefined on input line
- 48.
-
-
-Package natbib Warning: Citation `ROSArduino2013' on page 10 undefined on input
- line 50.
-
-
-Package natbib Warning: Citation `ROSRoboticsByExampleSecEd' on page 10 undefin
-ed on input line 52.
-
-
-Package natbib Warning: Citation `roscontrol' on page 10 undefined on input lin
-e 56.
-
-
-Package natbib Warning: Citation `ROSControlExample' on page 10 undefined on in
-put line 56.
-
-
-LaTeX Warning: Reference `fig:RosControlDiagram' on page 10 undefined on input 
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:RosControlDiagram' on page 12 undefined on input 
 line 56.
 
 (./picture.tex
@@ -2496,56 +2412,48 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:RosControlDiagram' on page 14 undefined on input 
+LaTeX Warning: Reference `fig:RosControlDiagram' on page 12 undefined on input 
 line 64.
 
 
-Package natbib Warning: Citation `DistributedRealTimeControlROS' on page 14 und
-=======
-LaTeX Warning: Reference `fig:RosControlDiagram' on page 11 undefined on input 
-line 64.
-
-
-Package natbib Warning: Citation `DistributedRealTimeControlROS' on page 11 und
->>>>>>> Stashed changes
+Package natbib Warning: Citation `DistributedRealTimeControlROS' on page 12 und
 efined on input line 68.
 
 ) (./AktualisTudomany/RobotModel.tex
 
-Package natbib Warning: Citation `Torjancki4Mobilerobot' on page 12 undefined o
+Package natbib Warning: Citation `Torjancki4Mobilerobot' on page 14 undefined o
 n input line 7.
 
 
-Package natbib Warning: Citation `RobustMotionControl' on page 12 undefined on 
+Package natbib Warning: Citation `RobustMotionControl' on page 14 undefined on 
 input line 7.
 
 
-Package natbib Warning: Citation `Campa2014' on page 12 undefined on input line
+Package natbib Warning: Citation `Campa2014' on page 14 undefined on input line
  7.
 
 
-Package natbib Warning: Citation `Torjancki4Mobilerobot' on page 12 undefined o
+Package natbib Warning: Citation `Torjancki4Mobilerobot' on page 14 undefined o
 n input line 7.
 
 
-Package natbib Warning: Citation `Torjancki4Mobilerobot' on page 12 undefined o
+Package natbib Warning: Citation `Torjancki4Mobilerobot' on page 14 undefined o
 n input line 8.
 
 
-Package natbib Warning: Citation `Campa2014' on page 12 undefined on input line
+Package natbib Warning: Citation `Campa2014' on page 14 undefined on input line
  8.
 
 
-Package natbib Warning: Citation `RobustMotionControl' on page 12 undefined on 
+Package natbib Warning: Citation `RobustMotionControl' on page 14 undefined on 
 input line 8.
 
 
-Package natbib Warning: Citation `RobustMotionControl' on page 12 undefined on 
+Package natbib Warning: Citation `RobustMotionControl' on page 14 undefined on 
 input line 11.
 
 
-Package natbib Warning: Citation `RobustMotionControl' on page 12 undefined on 
+Package natbib Warning: Citation `RobustMotionControl' on page 14 undefined on 
 input line 12.
 
 
@@ -2557,11 +2465,7 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\H' on input line 15.
 
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 16 undefined on i
-=======
-LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 12 undefined on i
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 14 undefined on i
 nput line 17.
 
 (./picture.tex
@@ -2570,11 +2474,7 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:SMR4WLejtoSzembol' on page 16 undefined on input 
-=======
-LaTeX Warning: Reference `fig:SMR4WLejtoSzembol' on page 12 undefined on input 
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:SMR4WLejtoSzembol' on page 14 undefined on input 
 line 25.
 
 (./picture.tex
@@ -2587,39 +2487,21 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 ) (./AktualisTudomany/Equations/MerloegesNyomoEroEq.tex
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `eq:N1' on page 17 undefined on input line 65.
+LaTeX Warning: Reference `eq:N1' on page 15 undefined on input line 65.
 
 
-LaTeX Warning: Reference `fig:SMR4WLejtoSzembol' on page 17 undefined on input 
+LaTeX Warning: Reference `fig:SMR4WLejtoSzembol' on page 15 undefined on input 
 line 84.
 
 
-LaTeX Warning: Reference `eq:N11' on page 17 undefined on input line 149.
+LaTeX Warning: Reference `eq:N11' on page 15 undefined on input line 149.
 
 
-LaTeX Warning: Reference `eq:N12' on page 17 undefined on input line 149.
-
-)
-
-LaTeX Warning: Reference `fig:FRnyomoeroszim' on page 18 undefined on input lin
-=======
-LaTeX Warning: Reference `eq:N1' on page 13 undefined on input line 65.
-
-
-LaTeX Warning: Reference `fig:SMR4WLejtoSzembol' on page 13 undefined on input 
-line 84.
-
-
-LaTeX Warning: Reference `eq:N11' on page 13 undefined on input line 149.
-
-
-LaTeX Warning: Reference `eq:N12' on page 13 undefined on input line 149.
+LaTeX Warning: Reference `eq:N12' on page 15 undefined on input line 149.
 
 )
 
-LaTeX Warning: Reference `fig:FRnyomoeroszim' on page 14 undefined on input lin
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:FRnyomoeroszim' on page 16 undefined on input lin
 e 49.
 
 (./Szimualciok/MerolegesNyomoerokRobot4W.tex (./Szimualciok/MerolegesNyomoero.t
@@ -2640,11 +2522,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-<<<<<<< Updated upstream
-[18
-=======
-[14
->>>>>>> Stashed changes
+[16
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Szimualciok/MerolegesNy
 omoero.tex
@@ -2660,28 +2538,15 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:NyomoeroSzim4Wheel' on page 18 undefined on input
+LaTeX Warning: Reference `fig:NyomoeroSzim4Wheel' on page 16 undefined on input
  line 53.
 
 (./AktualisTudomany/Equations/DinamicsEq.tex)
 
-LaTeX Warning: Reference `fig:SMR4WKinematics' on page 20 undefined on input li
-ne 81.
-=======
-LaTeX Warning: Reference `fig:NyomoeroSzim4Wheel' on page 14 undefined on input
- line 53.
-
-(./AktualisTudomany/Equations/DinamicsEq.tex)
->>>>>>> Stashed changes
-
-LaTeX Warning: Reference `fig:SMR4WKinematics' on page 15 undefined on input li
+LaTeX Warning: Reference `fig:SMR4WKinematics' on page 18 undefined on input li
 ne 81.
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 Overfull \hbox (2.75685pt too wide) in paragraph at lines 89--90
 []\T2A/ptm/bx/n/12 Az $\OML/ztmcm/m/it/12 ICR$ \T2A/ptm/bx/n/12 pont hely-ze-te
  a $[]\OML/ztmcm/m/it/12 V[]$ \T2A/ptm/bx/n/12 se-bess^^Aeg vek-to-rok-ra mer^^
@@ -2694,47 +2559,25 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Hyper reference `eq:allapot' on page 20 undefined on input line 
+LaTeX Warning: Hyper reference `eq:allapot' on page 18 undefined on input line 
 100.
 
 
-LaTeX Warning: Reference `eq:allapot' on page 20 undefined on input line 100.
+LaTeX Warning: Reference `eq:allapot' on page 18 undefined on input line 100.
 
 
-LaTeX Warning: Hyper reference `eq:SebComY' on page 20 undefined on input line 
+LaTeX Warning: Hyper reference `eq:SebComY' on page 18 undefined on input line 
 101.
 
 
-LaTeX Warning: Reference `eq:SebComY' on page 20 undefined on input line 101.
+LaTeX Warning: Reference `eq:SebComY' on page 18 undefined on input line 101.
 
 
-LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 20 undefined
+LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 18 undefined
  on input line 102.
 
 
-LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 20 undefined on in
-=======
-LaTeX Warning: Hyper reference `eq:allapot' on page 15 undefined on input line 
-100.
-
-
-LaTeX Warning: Reference `eq:allapot' on page 15 undefined on input line 100.
-
-
-LaTeX Warning: Hyper reference `eq:SebComY' on page 15 undefined on input line 
-101.
-
-
-LaTeX Warning: Reference `eq:SebComY' on page 15 undefined on input line 101.
-
-
-LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 15 undefined
- on input line 102.
-
-
-LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 15 undefined on in
->>>>>>> Stashed changes
+LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 18 undefined on in
 put line 102.
 
 
@@ -2746,35 +2589,19 @@ tm/bx/n/12 pont se-bess^^Aeg^^Aenek y kom-po-nen-se meg-ad-hat^^Ao az egyen-let
 
 (./AktualisTudomany/Equations/KinematikEq.tex)
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:SMR4WDinamicsModel' on page 21 undefined on input
+LaTeX Warning: Reference `fig:SMR4WDinamicsModel' on page 19 undefined on input
  line 110.
 
 
-LaTeX Warning: Hyper reference `eq:eromodelglobal1' on page 21 undefined on inp
+LaTeX Warning: Hyper reference `eq:eromodelglobal1' on page 19 undefined on inp
 ut line 112.
 
 
-LaTeX Warning: Reference `eq:eromodelglobal1' on page 21 undefined on input lin
+LaTeX Warning: Reference `eq:eromodelglobal1' on page 19 undefined on input lin
 e 112.
 
 
-LaTeX Warning: Reference `eq:eromodelglobal3' on page 21 undefined on input lin
-=======
-LaTeX Warning: Reference `fig:SMR4WDinamicsModel' on page 16 undefined on input
- line 110.
-
-
-LaTeX Warning: Hyper reference `eq:eromodelglobal1' on page 16 undefined on inp
-ut line 112.
-
-
-LaTeX Warning: Reference `eq:eromodelglobal1' on page 16 undefined on input lin
-e 112.
-
-
-LaTeX Warning: Reference `eq:eromodelglobal3' on page 16 undefined on input lin
->>>>>>> Stashed changes
+LaTeX Warning: Reference `eq:eromodelglobal3' on page 19 undefined on input lin
 e 112.
 
 (./picture.tex
@@ -2783,180 +2610,92 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 21 undefined on i
-=======
-LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 16 undefined on i
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 19 undefined on i
 nput line 122.
 
 (./AktualisTudomany/Equations/EroModelEq.tex)
 
-<<<<<<< Updated upstream
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 22 undefined on in
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 20 undefined on in
 put line 128.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 22 undefined on input li
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 20 undefined on input li
 ne 128.
 
 
-Package natbib Warning: Citation `RobustMotionControl' on page 22 undefined on 
+Package natbib Warning: Citation `RobustMotionControl' on page 20 undefined on 
 input line 128.
 
 
-LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 22 undefined
+LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 20 undefined
  on input line 128.
 
 
-LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 22 undefined on in
+LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 20 undefined on in
 put line 128.
 
 
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 22 undefined on in
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 20 undefined on in
 put line 130.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 22 undefined on input li
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 20 undefined on input li
 ne 130.
 
 
-LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 22 undefined on inp
+LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 20 undefined on inp
 ut line 130.
 
 
-LaTeX Warning: Reference `eq:allapotegyszeru' on page 22 undefined on input lin
+LaTeX Warning: Reference `eq:allapotegyszeru' on page 20 undefined on input lin
 e 130.
 
 
-LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 22 undefined
+LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 20 undefined
  on input line 130.
 
 
-LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 22 undefined on in
+LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 20 undefined on in
 put line 130.
 
 
-LaTeX Warning: Hyper reference `eq:SxAeqZero' on page 22 undefined on input lin
+LaTeX Warning: Hyper reference `eq:SxAeqZero' on page 20 undefined on input lin
 e 132.
 
 
-LaTeX Warning: Reference `eq:SxAeqZero' on page 22 undefined on input line 132.
+LaTeX Warning: Reference `eq:SxAeqZero' on page 20 undefined on input line 132.
 
 
 
-LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 22 undefined
+LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 20 undefined
  on input line 132.
 
 
-LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 22 undefined on in
+LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 20 undefined on in
 put line 132.
 
 
-LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 22 undefined on inp
+LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 20 undefined on inp
 ut line 132.
 
 
-LaTeX Warning: Reference `eq:allapotegyszeru' on page 22 undefined on input lin
+LaTeX Warning: Reference `eq:allapotegyszeru' on page 20 undefined on input lin
 e 132.
 
 
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 22 undefined on in
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 20 undefined on in
 put line 132.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 22 undefined on input li
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 20 undefined on input li
 ne 132.
 
 
-LaTeX Warning: Hyper reference `eq:dinamicmodelgenericsimplified' on page 22 un
+LaTeX Warning: Hyper reference `eq:dinamicmodelgenericsimplified' on page 20 un
 defined on input line 132.
 
 
-LaTeX Warning: Reference `eq:dinamicmodelgenericsimplified' on page 22 undefine
-=======
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 17 undefined on in
-put line 128.
-
-
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 17 undefined on input li
-ne 128.
-
-
-Package natbib Warning: Citation `RobustMotionControl' on page 17 undefined on 
-input line 128.
-
-
-LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 17 undefined
- on input line 128.
-
-
-LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 17 undefined on in
-put line 128.
-
-
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 17 undefined on in
-put line 130.
-
-
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 17 undefined on input li
-ne 130.
-
-
-LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 17 undefined on inp
-ut line 130.
-
-
-LaTeX Warning: Reference `eq:allapotegyszeru' on page 17 undefined on input lin
-e 130.
-
-
-LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 17 undefined
- on input line 130.
-
-
-LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 17 undefined on in
-put line 130.
-
-
-LaTeX Warning: Hyper reference `eq:SxAeqZero' on page 17 undefined on input lin
-e 132.
-
-
-LaTeX Warning: Reference `eq:SxAeqZero' on page 17 undefined on input line 132.
-
-
-
-LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 17 undefined
- on input line 132.
-
-
-LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 17 undefined on in
-put line 132.
-
-
-LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 17 undefined on inp
-ut line 132.
-
-
-LaTeX Warning: Reference `eq:allapotegyszeru' on page 17 undefined on input lin
-e 132.
-
-
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 17 undefined on in
-put line 132.
-
-
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 17 undefined on input li
-ne 132.
-
-
-LaTeX Warning: Hyper reference `eq:dinamicmodelgenericsimplified' on page 17 un
-defined on input line 132.
-
-
-LaTeX Warning: Reference `eq:dinamicmodelgenericsimplified' on page 17 undefine
->>>>>>> Stashed changes
+LaTeX Warning: Reference `eq:dinamicmodelgenericsimplified' on page 20 undefine
 d on input line 132.
 
 (./AktualisTudomany/Equations/RobustMotionControlEQ.tex
@@ -2969,35 +2708,19 @@ Overfull \hbox (46.60457pt too wide) detected at line 27
 
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Hyper reference `eq:eloirtnyomatek' on page 23 undefined on inpu
+LaTeX Warning: Hyper reference `eq:eloirtnyomatek' on page 21 undefined on inpu
 t line 142.
 
 
-LaTeX Warning: Reference `eq:eloirtnyomatek' on page 23 undefined on input line
+LaTeX Warning: Reference `eq:eloirtnyomatek' on page 21 undefined on input line
  142.
 
 
-LaTeX Warning: Hyper reference `eq:controllertorque1' on page 23 undefined on i
+LaTeX Warning: Hyper reference `eq:controllertorque1' on page 21 undefined on i
 nput line 142.
 
 
-LaTeX Warning: Reference `eq:controllertorque1' on page 23 undefined on input l
-=======
-LaTeX Warning: Hyper reference `eq:eloirtnyomatek' on page 17 undefined on inpu
-t line 142.
-
-
-LaTeX Warning: Reference `eq:eloirtnyomatek' on page 17 undefined on input line
- 142.
-
-
-LaTeX Warning: Hyper reference `eq:controllertorque1' on page 17 undefined on i
-nput line 142.
-
-
-LaTeX Warning: Reference `eq:controllertorque1' on page 17 undefined on input l
->>>>>>> Stashed changes
+LaTeX Warning: Reference `eq:controllertorque1' on page 21 undefined on input l
 ine 142.
 
 (./pictureFromTex.tex (./SajatRobot/SzerkAbrak/SebContRefNyom.tex
@@ -3005,37 +2728,20 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )) (./AktualisTudomany/Equations/ControllerTorqueHL.tex)
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `SSMRartificialForceMethod' on page 23 undefin
-ed on input line 157.
-=======
-Package natbib Warning: Citation `SSMRartificialForceMethod' on page 18 undefin
+Package natbib Warning: Citation `SSMRartificialForceMethod' on page 21 undefin
 ed on input line 157.
 
->>>>>>> Stashed changes
 
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 18 undefined on in
-put line 157.
-
-<<<<<<< Updated upstream
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 23 undefined on in
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 21 undefined on in
 put line 157.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 23 undefined on input li
-=======
-
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 18 undefined on input li
->>>>>>> Stashed changes
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 21 undefined on input li
 ne 157.
 
 (./AktualisTudomany/Equations/ArtificialTroqueMethod.tex)
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `Campa2014' on page 24 undefined on input line
-=======
-Package natbib Warning: Citation `Campa2014' on page 19 undefined on input line
->>>>>>> Stashed changes
+Package natbib Warning: Citation `Campa2014' on page 22 undefined on input line
  167.
 
 (./pictureFromTex.tex (./SajatRobot/SzerkAbrak/SebContRefOmega.tex
@@ -3044,20 +2750,12 @@ isable this.
 )))) (./SajatRobot/sajatrobot.tex
 fejezet 3.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:CmodA7architektura' on page 25 undefined on input
-=======
-LaTeX Warning: Reference `fig:CmodA7architektura' on page 21 undefined on input
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:CmodA7architektura' on page 23 undefined on input
  line 23.
 
 (./SajatRobot/FPGAmodulok/RendszerModel.tex
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:CmodA7architektura' on page 26 undefined on input
-=======
-LaTeX Warning: Reference `fig:CmodA7architektura' on page 21 undefined on input
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:CmodA7architektura' on page 24 undefined on input
  line 5.
 
 (./picture.tex
@@ -3066,50 +2764,28 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:VivadoHl' on page 26 undefined on input line 28.
+LaTeX Warning: Reference `fig:VivadoHl' on page 24 undefined on input line 28.
 
 
-LaTeX Warning: Reference `fig:VivadoHl' on page 26 undefined on input line 30.
+LaTeX Warning: Reference `fig:VivadoHl' on page 24 undefined on input line 30.
 
 
-LaTeX Warning: Reference `fig:UartComVivaldo' on page 26 undefined on input lin
+LaTeX Warning: Reference `fig:UartComVivaldo' on page 24 undefined on input lin
 e 30.
 
 
-LaTeX Warning: Reference `fig:FPGAuartRos' on page 26 undefined on input line 3
-=======
-LaTeX Warning: Reference `fig:VivadoHl' on page 22 undefined on input line 28.
-
-
-LaTeX Warning: Reference `fig:VivadoHl' on page 22 undefined on input line 30.
-
-
-LaTeX Warning: Reference `fig:UartComVivaldo' on page 22 undefined on input lin
-e 30.
-
-
-LaTeX Warning: Reference `fig:FPGAuartRos' on page 22 undefined on input line 3
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:FPGAuartRos' on page 24 undefined on input line 3
 3.
 
 The command '\includegraphics [width=1.1\columnwidth ,trim=3cm 7cm 1cm 7cm,clip
 ]{tikz/UartCom.pdf}' has been optimized away. Use '/tikz/external/optimize=fals
 e' to disable this.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:FPGAcomuSection' on page 26 undefined on input li
+LaTeX Warning: Reference `fig:FPGAcomuSection' on page 24 undefined on input li
 ne 38.
 
 
-LaTeX Warning: Reference `fig:FPGAcomuSection' on page 26 undefined on input li
-=======
-LaTeX Warning: Reference `fig:FPGAcomuSection' on page 22 undefined on input li
-ne 38.
-
-
-LaTeX Warning: Reference `fig:FPGAcomuSection' on page 22 undefined on input li
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:FPGAcomuSection' on page 24 undefined on input li
 ne 38.
 
 (./picture.tex
@@ -3120,11 +2796,7 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 The command '\includegraphics [width=1.2\columnwidth ]{tikz/VivadoHL.pdf}' has 
 been optimized away. Use '/tikz/external/optimize=false' to disable this.
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `DualPortRam' on page 27 undefined on input li
-=======
-Package natbib Warning: Citation `DualPortRam' on page 23 undefined on input li
->>>>>>> Stashed changes
+Package natbib Warning: Citation `DualPortRam' on page 25 undefined on input li
 ne 61.
 
 
@@ -3135,19 +2807,11 @@ l[]\OT1/ztmcm/m/n/12 0$ \T2A/ptm/bx/n/12 mo-du-lon ke-resz-tul be-le-irod-nak a
  []
 
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:ControllersVivado' on page 27 undefined on input 
+LaTeX Warning: Reference `fig:ControllersVivado' on page 25 undefined on input 
 line 66.
 
 
-LaTeX Warning: Reference `fig:ControllerMag' on page 27 undefined on input line
-=======
-LaTeX Warning: Reference `fig:ControllersVivado' on page 23 undefined on input 
-line 66.
-
-
-LaTeX Warning: Reference `fig:ControllerMag' on page 23 undefined on input line
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:ControllerMag' on page 25 undefined on input line
  68.
 
 The command '\includegraphics [width=1.1\columnwidth ,trim=2cm 9cm 1cm 9cm,clip
@@ -3157,27 +2821,15 @@ The command '\includegraphics [width=1.1\columnwidth ,trim=1cm 4cm 1.8cm 4cm,cl
 ip]{tikz/B.pdf}' has been optimized away. Use '/tikz/external/optimize=false' t
 o disable this.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:ControllerMag' on page 28 undefined on input line
+LaTeX Warning: Reference `fig:ControllerMag' on page 26 undefined on input line
  88.
 
 
-LaTeX Warning: Reference `fig:CmodA7architektura' on page 28 undefined on input
+LaTeX Warning: Reference `fig:CmodA7architektura' on page 26 undefined on input
  line 98.
 
 
-LaTeX Warning: Reference `fig:MicroblazeSoft' on page 28 undefined on input lin
-=======
-LaTeX Warning: Reference `fig:ControllerMag' on page 23 undefined on input line
- 88.
-
-
-LaTeX Warning: Reference `fig:CmodA7architektura' on page 24 undefined on input
- line 98.
-
-
-LaTeX Warning: Reference `fig:MicroblazeSoft' on page 24 undefined on input lin
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:MicroblazeSoft' on page 26 undefined on input lin
 e 100.
 
 (./picture.tex
@@ -3186,11 +2838,7 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:FPGAComCsomagAlt' on page 28 undefined on input l
-=======
-LaTeX Warning: Reference `fig:FPGAComCsomagAlt' on page 24 undefined on input l
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:FPGAComCsomagAlt' on page 26 undefined on input l
 ine 115.
 
 (./picture.tex
@@ -3199,11 +2847,7 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:ControllersVivado' on page 29 undefined on input 
-=======
-LaTeX Warning: Reference `fig:ControllersVivado' on page 25 undefined on input 
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:ControllersVivado' on page 27 undefined on input 
 line 133.
 
 
@@ -3220,19 +2864,11 @@ Overfull \hbox (11.14279pt too wide) in paragraph at lines 140--154
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `AXIuartLite' on page 30 undefined on input li
+Package natbib Warning: Citation `AXIuartLite' on page 28 undefined on input li
 ne 163.
 
 
-LaTeX Warning: Reference `fig:FPGAuartRos' on page 30 undefined on input line 1
-=======
-Package natbib Warning: Citation `AXIuartLite' on page 26 undefined on input li
-ne 163.
-
-
-LaTeX Warning: Reference `fig:FPGAuartRos' on page 26 undefined on input line 1
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:FPGAuartRos' on page 28 undefined on input line 1
 71.
 
 
@@ -3242,23 +2878,13 @@ Underfull \vbox (badness 2772) has occurred while \output is active []
 The command '\includegraphics []{tikz/RobotUserLan.jpg}' has been optimized awa
 y. Use '/tikz/external/optimize=false' to disable this.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:ROSgraph' on page 32 undefined on input line 28.
+LaTeX Warning: Reference `fig:ROSgraph' on page 30 undefined on input line 28.
 
 
-LaTeX Warning: Reference `Tab:nodok' on page 32 undefined on input line 28.
+LaTeX Warning: Reference `Tab:nodok' on page 30 undefined on input line 28.
 
 
-LaTeX Warning: Reference `FPGAcomuSection' on page 32 undefined on input line 3
-=======
-LaTeX Warning: Reference `fig:ROSgraph' on page 28 undefined on input line 28.
-
-
-LaTeX Warning: Reference `Tab:nodok' on page 28 undefined on input line 28.
-
-
-LaTeX Warning: Reference `FPGAcomuSection' on page 28 undefined on input line 3
->>>>>>> Stashed changes
+LaTeX Warning: Reference `FPGAcomuSection' on page 30 undefined on input line 3
 6.
 
 
@@ -3278,40 +2904,21 @@ ManSwitch$
  []
 
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `RosSerial' on page 32 undefined on input line
+Package natbib Warning: Citation `RosSerial' on page 30 undefined on input line
  41.
 
 
-Package natbib Warning: Citation `rosjoy' on page 32 undefined on input line 42
+Package natbib Warning: Citation `rosjoy' on page 30 undefined on input line 42
 .
 
 
-Package natbib Warning: Citation `roshectormap' on page 32 undefined on input l
-ine 43.
-=======
-Package natbib Warning: Citation `RosSerial' on page 28 undefined on input line
- 41.
-
-
-Package natbib Warning: Citation `rosjoy' on page 28 undefined on input line 42
-.
-
-
-Package natbib Warning: Citation `roshectormap' on page 28 undefined on input l
+Package natbib Warning: Citation `roshectormap' on page 30 undefined on input l
 ine 43.
 
->>>>>>> Stashed changes
 
 Underfull \hbox (badness 1005) in paragraph at lines 45--46
 []|[]\T2A/ptm/bx/n/12 Atalak^^A^^Ytja a ro-bot se-bess^^Aeg ^^Aallapotait ^^Aes
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 1005) in paragraph at lines 45--46
-[]|[]\T2A/ptm/bx/n/12 Atalak^^A^^Ytja a ro-bot se-bess^^Aeg ^^Aallapotait ^^Aes
-
-=======
->>>>>>> Stashed changes
  []
 
 
@@ -3342,11 +2949,7 @@ Aos rend-szer ^^Aaltal szolg^^Aaltatott .msg ^^Duzenetek
 Underfull \vbox (badness 7759) has occurred while \output is active []
 
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `ROSgraph' on page 34 undefined on input line 80.
-=======
-LaTeX Warning: Reference `ROSgraph' on page 30 undefined on input line 80.
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:ROSgraph' on page 32 undefined on input line 80.
 
 (./picture.tex
 Package svg Info: Last page of `./svg-inkscape/rosgraph_svg-tex.pdf' is 1 on in
@@ -3360,55 +2963,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `RosSerial' on page 35 undefined on input line
-=======
-Package natbib Warning: Citation `RosSerial' on page 31 undefined on input line
->>>>>>> Stashed changes
+Package natbib Warning: Citation `RosSerial' on page 33 undefined on input line
  93.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 95.
-
-
-=======
-LaTeX Warning: Reference `fig:ROStoUart' on page 32 undefined on input line 95.
+LaTeX Warning: Reference `fig:ROStoUart' on page 34 undefined on input line 95.
 
 
 
-LaTeX Warning: Reference `fig:MicroblazeSoft' on page 32 undefined on input lin
-e 96.
->>>>>>> Stashed changes
-
-LaTeX Warning: Reference `fig:MicroblazeSoft' on page 36 undefined on input lin
+LaTeX Warning: Reference `fig:MicroblazeSoft' on page 34 undefined on input lin
 e 96.
 
-<<<<<<< Updated upstream
-=======
-Package natbib Warning: Citation `parameterserver' on page 32 undefined on inpu
-t line 98.
->>>>>>> Stashed changes
 
-Package natbib Warning: Citation `parameterserver' on page 36 undefined on inpu
+Package natbib Warning: Citation `parameterserver' on page 34 undefined on inpu
 t line 98.
 
-LaTeX Warning: Reference `fig:ROStoUart' on page 32 undefined on input line 98.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 98.
+LaTeX Warning: Reference `fig:ROStoUart' on page 34 undefined on input line 98.
 
 
 
-LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 100
-=======
-
-
-LaTeX Warning: Reference `fig:ROStoUart' on page 32 undefined on input line 100
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:ROStoUart' on page 34 undefined on input line 100
 .
 
 (./picture.tex
@@ -3420,33 +2998,18 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\H' on input line 108.
 
-<<<<<<< Updated upstream
-
-Overfull \hbox (1.77507pt too wide) in paragraph at lines 109--110
-\T2A/ptm/bx/n/12 A /ref-Vals ti-pu-su ^^Duzenetben meg-ad-juk min-den egyes mo-
-tor el^^Eo^^A^^Yrt ^^Aerteket an-nak f^^Doveny^^Aeben
- []
-=======
->>>>>>> Stashed changes
 
 Overfull \hbox (1.77507pt too wide) in paragraph at lines 109--110
 \T2A/ptm/bx/n/12 A /ref-Vals ti-pu-su ^^Duzenetben meg-ad-juk min-den egyes mo-
 tor el^^Eo^^A^^Yrt ^^Aerteket an-nak f^^Doveny^^Aeben
  []
 
-Package natbib Warning: Citation `rosTF' on page 36 undefined on input line 113
+
+Package natbib Warning: Citation `rosTF' on page 34 undefined on input line 113
 .
 
-<<<<<<< Updated upstream
-=======
-Package natbib Warning: Citation `rosTF' on page 32 undefined on input line 113
-.
->>>>>>> Stashed changes
 
-LaTeX Warning: Reference `fig:ROSframes' on page 36 undefined on input line 114
-.
-
-LaTeX Warning: Reference `fig:ROSframes' on page 32 undefined on input line 114
+LaTeX Warning: Reference `fig:ROSframes' on page 34 undefined on input line 114
 .
 
 
@@ -3462,27 +3025,15 @@ Overfull \hbox (10.60109pt too wide) in paragraph at lines 118--120
  []
 
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `rosURDF' on page 37 undefined on input line 1
+Package natbib Warning: Citation `rosURDF' on page 35 undefined on input line 1
 26.
 
 
-Package natbib Warning: Citation `rosJoint' on page 37 undefined on input line 
+Package natbib Warning: Citation `rosJoint' on page 35 undefined on input line 
 127.
 
 
-Package natbib Warning: Citation `rosLink' on page 37 undefined on input line 1
-=======
-Package natbib Warning: Citation `rosURDF' on page 33 undefined on input line 1
-26.
-
-
-Package natbib Warning: Citation `rosJoint' on page 33 undefined on input line 
-127.
-
-
-Package natbib Warning: Citation `rosLink' on page 33 undefined on input line 1
->>>>>>> Stashed changes
+Package natbib Warning: Citation `rosLink' on page 35 undefined on input line 1
 27.
 
 LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 131
@@ -3491,11 +3042,7 @@ LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 131
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:ROSframes' on page 38 undefined on input line 188
-=======
-LaTeX Warning: Reference `fig:ROSframes' on page 34 undefined on input line 188
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:ROSframes' on page 36 undefined on input line 188
 .
 
 (./picture.tex
@@ -3509,16 +3056,10 @@ file }' has been optimized away. Use '/tikz/external/optimize=false' to disable
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) (./SajatRobot/PIDHangolasa/PIDtuning.tex
-<<<<<<< Updated upstream
 Underfull \vbox (badness 10000) has occurred while \output is active []
-=======
-
-Package natbib Warning: Citation `matlabhwmmodel' on page 35 undefined on input
- line 6.
->>>>>>> Stashed changes
 
 
-Package natbib Warning: Citation `matlabhwmmodel' on page 40 undefined on input
+Package natbib Warning: Citation `matlabhwmmodel' on page 38 undefined on input
  line 6.
 
 (./SajatRobot/PIDHangolasa/MeasuremetSimulinkWheel.tex
@@ -3526,21 +3067,13 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:NFsysIdent' on page 40 undefined on input line 19
-=======
-LaTeX Warning: Reference `fig:NFsysIdent' on page 36 undefined on input line 19
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:NFsysIdent' on page 38 undefined on input line 19
 .
 
 The command '\includegraphics []{tikz/NFsysIdent.pdf}' has been optimized away.
  Use '/tikz/external/optimize=false' to disable this.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:KFsysIdent' on page 40 undefined on input line 38
-=======
-LaTeX Warning: Reference `fig:KFsysIdent' on page 36 undefined on input line 38
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:KFsysIdent' on page 38 undefined on input line 38
 .
 
 The command '\includegraphics []{tikz/KFsysIdent.pdf}' has been optimized away.
@@ -3550,29 +3083,17 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 4.
 )) (./Meresek/Meres1.tex
 
-<<<<<<< Updated upstream
-Package natbib Warning: Citation `SpititWheel1' on page 43 undefined on input l
+Package natbib Warning: Citation `SpititWheel1' on page 41 undefined on input l
 ine 4.
 
 
-LaTeX Warning: Reference `fig:SMR4WKinematics' on page 43 undefined on input li
-=======
-Package natbib Warning: Citation `SpititWheel1' on page 38 undefined on input l
-ine 4.
-
-
-LaTeX Warning: Reference `fig:SMR4WKinematics' on page 39 undefined on input li
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:SMR4WKinematics' on page 41 undefined on input li
 ne 20.
 
 (./Meresek/Mozgasok/ConfigV1.tex) (./Meresek/Mozgasok/HibasMukodes/R_0_L_1/main
 .tex
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:Left0Right50b' on page 43 undefined on input line
-=======
-LaTeX Warning: Reference `fig:Left0Right50b' on page 39 undefined on input line
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:Left0Right50b' on page 41 undefined on input line
  3.
 
 The command '\includegraphics []{tikz/Left0Right50a.pdf}' has been optimized aw
@@ -3580,19 +3101,11 @@ ay. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics []{tikz/Left0Right50b.pdf}' has been optimized aw
 ay. Use '/tikz/external/optimize=false' to disable this.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:Left0Right50c' on page 43 undefined on input line
+LaTeX Warning: Reference `fig:Left0Right50c' on page 41 undefined on input line
  31.
 
 
-LaTeX Warning: Reference `fig:Left0Right50d' on page 43 undefined on input line
-=======
-LaTeX Warning: Reference `fig:Left0Right50c' on page 39 undefined on input line
- 31.
-
-
-LaTeX Warning: Reference `fig:Left0Right50d' on page 39 undefined on input line
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:Left0Right50d' on page 41 undefined on input line
  33.
 
 The command '\includegraphics []{tikz/Left0Right50c.pdf}' has been optimized aw
@@ -3603,33 +3116,20 @@ The command '\includegraphics []{tikz/Left0Right50e.pdf}' has been optimized aw
 ay. Use '/tikz/external/optimize=false' to disable this.
 ) (./Meresek/Mozgasok/NormalMukodes/DiferencialisanHelybeKavicsos/main.tex
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:Left_n50Right50a' on page 44 undefined on input l
+LaTeX Warning: Reference `fig:Left_n50Right50a' on page 42 undefined on input l
 ine 2.
 
 
-LaTeX Warning: Reference `fig:Left_n50Right50x' on page 44 undefined on input l
+LaTeX Warning: Reference `fig:Left_n50Right50x' on page 42 undefined on input l
 ine 3.
 
 
-LaTeX Warning: Reference `fig:Left_n50Right50b' on page 44 undefined on input l
+LaTeX Warning: Reference `fig:Left_n50Right50b' on page 42 undefined on input l
 ine 4.
 
 
-LaTeX Warning: Reference `fig:Left_n50Right50a' on page 44 undefined on input l
+LaTeX Warning: Reference `fig:Left_n50Right50a' on page 42 undefined on input l
 ine 7.
-=======
-LaTeX Warning: Reference `fig:Left_n50Right50a' on page 39 undefined on input l
-ine 2.
-
-
-LaTeX Warning: Reference `fig:Left_n50Right50x' on page 39 undefined on input l
-ine 3.
-
-
-LaTeX Warning: Reference `fig:Left_n50Right50b' on page 39 undefined on input l
-ine 4.
->>>>>>> Stashed changes
 
 The command '\includegraphics []{tikz/Left_n50Right50x.pdf}' has been optimized
  away. Use '/tikz/external/optimize=false' to disable this.
@@ -3654,11 +3154,11 @@ o-bot ^^Aaltal le^^A^^Yrt p^^Aalya, ha a ke-rek-sz^^Eogsebess^^Aegek
 The command '\includegraphics []{tikz/Left_n50Right50c.pdf}' has been optimized
  away. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `fig:Left0Right50d' on page 45 undefined on input line
+LaTeX Warning: Reference `fig:Left0Right50d' on page 43 undefined on input line
  43.
 
 
-LaTeX Warning: Reference `fig:Left_n50Right50d' on page 45 undefined on input l
+LaTeX Warning: Reference `fig:Left_n50Right50d' on page 43 undefined on input l
 ine 43.
 
 The command '\includegraphics []{tikz/Left_n50Right50d.pdf}' has been optimized
@@ -3666,11 +3166,7 @@ The command '\includegraphics []{tikz/Left_n50Right50d.pdf}' has been optimized
 ) (./Meresek/Mozgasok/KorpalyanMozgas.tex (./Meresek/Mozgasok/NormalMukodes/Kor
 palya_07_05_Kavicsos/main.tex
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:KorP0705a' on page 45 undefined on input line 2.
-=======
-LaTeX Warning: Reference `fig:KorP0705a' on page 40 undefined on input line 2.
->>>>>>> Stashed changes
+LaTeX Warning: Reference `fig:KorP0705a' on page 43 undefined on input line 2.
 
 The command '\includegraphics []{tikz/KorP0705x.pdf}' has been optimized away. 
 Use '/tikz/external/optimize=false' to disable this.
@@ -3679,8 +3175,7 @@ Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics []{tikz/KorP0705b.pdf}' has been optimized away. 
 Use '/tikz/external/optimize=false' to disable this.
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:KorP0705b' on page 45 undefined on input line 33.
+LaTeX Warning: Reference `fig:KorP0705b' on page 43 undefined on input line 33.
 
 
 The command '\includegraphics [scale=0.8]{tikz/KorP0705d.pdf}' has been optimiz
@@ -3695,12 +3190,8 @@ o-bot for-du-la-si sz^^Dogsebess^^Aege, ke-rek-sz^^Dogsebess^^Aegek
 The command '\includegraphics [scale=0.8]{tikz/KorP0705e.pdf}' has been optimiz
 ed away. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `fig:KorP0705e' on page 45 undefined on input line 61.
+LaTeX Warning: Reference `fig:KorP0705e' on page 43 undefined on input line 61.
 
-=======
-LaTeX Warning: Reference `fig:SMR4WKinematics' on page 41 undefined on input li
-ne 56.
->>>>>>> Stashed changes
 
 ) (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/main.tex
 The command '\includegraphics []{tikz/KorP0703x.pdf}' has been optimized away. 
@@ -3723,19 +3214,18 @@ The command '\includegraphics []{tikz/KorpalyakKavicsos.pdf}' has been optimize
 d away. Use '/tikz/external/optimize=false' to disable this.
 ) (./Meresek/Mozgasok/HomokosDomb/main.tex
 
-<<<<<<< Updated upstream
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\H' on input line 1.
 
 
-LaTeX Warning: Reference `fig:HlejtoKerek' on page 46 undefined on input line 9
+LaTeX Warning: Reference `fig:HlejtoKerek' on page 44 undefined on input line 9
 .
 
 
-LaTeX Warning: Reference `fig:Hlejto2' on page 46 undefined on input line 11.
+LaTeX Warning: Reference `fig:Hlejto1' on page 44 undefined on input line 11.
 
 
-LaTeX Warning: Reference `fig:Hlejto1' on page 46 undefined on input line 11.
+LaTeX Warning: Reference `fig:Hlejto1' on page 44 undefined on input line 11.
 
 The command '\includegraphics [width=.5\linewidth ]{Meresek/Mozgasok/HomokosDom
 b/kep1.jpg}' has been optimized away. Use '/tikz/external/optimize=false' to di
@@ -3747,17 +3237,17 @@ The command '\includegraphics []{tikz/HlejtoKerek.pdf}' has been optimized away
 . Use '/tikz/external/optimize=false' to disable this.
 ) (./Meresek/Mozgasok/Lepcso/main.tex
 
-LaTeX Warning: Reference `fig:LepcsoLexx' on page 47 undefined on input line 18
+LaTeX Warning: Reference `fig:LepcsoLexx' on page 45 undefined on input line 18
 .
 
 
-LaTeX Warning: Reference `fig:LepcsoFelxx' on page 47 undefined on input line 1
+LaTeX Warning: Reference `fig:LepcsoFelxx' on page 45 undefined on input line 1
 8.
 
 The command '\includegraphics []{tikz/LepcsoLexx.pdf}' has been optimized away.
  Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `fig:ImuLepcsoLe1' on page 47 undefined on input line 
+LaTeX Warning: Reference `fig:ImuLepcsoLe1' on page 45 undefined on input line 
 26.
 
 The command '\includegraphics [scale=0.8]{tikz/ImuLepcsoLe1.pdf}' has been opti
@@ -3765,50 +3255,11 @@ mized away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [scale=0.8]{tikz/ImuLepcsoFel1.pdf}' has been opt
 imized away. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `fig:LepcsoFelxx' on page 47 undefined on input line 4
+LaTeX Warning: Reference `fig:LepcsoFelxx' on page 45 undefined on input line 4
 6.
 
 The command '\includegraphics []{tikz/LepcsoFelxx.pdf}' has been optimized away
 . Use '/tikz/external/optimize=false' to disable this.
-=======
-LaTeX Warning: Reference `fig:SMR4WKinematics' on page 42 undefined on input li
-ne 59.
-
-)
-The command '\includegraphics []{tikz/KorpalyakKavicsos.pdf}' has been optimize
-d away. Use '/tikz/external/optimize=false' to disable this.
-) (./Meresek/Mozgasok/HomokosDomb/main.tex
-
-LaTeX Warning: Reference `fig:HlejtoKerek' on page 42 undefined on input line 9
-.
-
-
-LaTeX Warning: Reference `fig:Hlejto2' on page 42 undefined on input line 11.
-
-
-LaTeX Warning: Reference `fig:Hlejto1' on page 42 undefined on input line 12.
-
-(./picture.tex
-The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
-nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
-' to disable this.
-) (./picture.tex
-The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
-nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
-' to disable this.
-)
-The command '\includegraphics []{tikz/HlejtoKerek.pdf}' has been optimized away
-. Use '/tikz/external/optimize=false' to disable this.
-) (./Meresek/Mozgasok/Lepcso/main.tex
-The command '\includegraphics []{tikz/LepcsoLexx.pdf}' has been optimized away.
- Use '/tikz/external/optimize=false' to disable this.
-The command '\includegraphics []{tikz/ImuLepcsoLe1.pdf}' has been optimized awa
-y. Use '/tikz/external/optimize=false' to disable this.
-The command '\includegraphics []{tikz/LepcsoFelxx.pdf}' has been optimized away
-. Use '/tikz/external/optimize=false' to disable this.
-The command '\includegraphics []{tikz/ImuLepcsoFel1.pdf}' has been optimized aw
-ay. Use '/tikz/external/optimize=false' to disable this.
->>>>>>> Stashed changes
 )
 The command '\includegraphics []{tikz/hatsoudvarmap.pdf}' has been optimized aw
 ay. Use '/tikz/external/optimize=false' to disable this.
@@ -3825,30 +3276,23 @@ No file tikz/main-figure0.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 282.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 284.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< Updated upstream
- 52235 strings out of 492982
- 1176444 string characters out of 6134896
- 2056743 words of memory out of 5000000
- 54752 multiletter control sequences out of 15000+600000
-=======
  52190 strings out of 492982
- 1175465 string characters out of 6134896
- 1634715 words of memory out of 5000000
- 54715 multiletter control sequences out of 15000+600000
->>>>>>> Stashed changes
+ 1175497 string characters out of 6134896
+ 1634724 words of memory out of 5000000
+ 54719 multiletter control sequences out of 15000+600000
  572680 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,16n,108p,10410b,2450s stack positions out of 5000i,500n,10000p,200000b,80000s

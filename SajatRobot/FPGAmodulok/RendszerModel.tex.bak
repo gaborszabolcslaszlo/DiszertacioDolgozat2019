@@ -111,7 +111,7 @@ A peremeterek irasa es olvasasa funkcionalitasban, az ujonan erkezet parameter e
 
 
 \subsection{FPGA es UART alapu komunikacios protokol}
-\label{fig:FPGAcomuSection}
+\label{FPGAcomuSection}
 Megvalositva a komunikaciot a kiszolgalo ROS noddal, amely UART protokolra epitett sajat uzenetekbol all \ref{fig:FPGAComCsomagAlt}.
 
 \renewcommand{\img}{SajatRobot/FPGAmodulok/ProtokolDiagram.jpg}

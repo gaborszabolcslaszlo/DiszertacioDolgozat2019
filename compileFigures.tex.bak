@@ -1,31 +1,10 @@
-<<<<<<< Updated upstream
-\input{Meresek/SLAM/MeresSlam.tex}
-
-\iffalse
-
-\renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos}
-\renewcommand{\GlobalPathA}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos}
-\renewcommand{\palya}{50/15}
-\renewcommand{\palyaA}{50/25}
-\renewcommand{\figlabel}{KorpalyakKavicsos}
-\renewcommand{\nth}{5}
-\renewcommand{\coefA}{-1}
-\renewcommand{\coefB}{1}
-\renewcommand{\coefC}{1}
-\input{Meresek/Mozgasok/TobbPalya.tex}
-=======
->>>>>>> Stashed changes
 
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso/Le/}
 
 \renewcommand{\figlabel}{LepcsoLexx}
 \renewcommand{\nth}{2}
-<<<<<<< Updated upstream
-\input{Meresek/Mozgasok/Kerekadatok.tex}
-=======
 %\input{Meresek/Mozgasok/Kerekadatok.tex}
->>>>>>> Stashed changes
 
 \renewcommand{\figlabel}{ImuLepcsoLe1}
 \renewcommand{\nth}{2}
@@ -43,12 +22,43 @@
 \input{Meresek/Mozgasok/ImuV1.tex}
 
 
-<<<<<<< Updated upstream
-=======
 \iffalse
 \input{Meresek/SLAM/MeresSlam.tex}
 
->>>>>>> Stashed changes
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos}
+\renewcommand{\GlobalPathA}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos}
+\renewcommand{\palya}{50/15}
+\renewcommand{\palyaA}{50/25}
+\renewcommand{\figlabel}{KorpalyakKavicsos}
+\renewcommand{\nth}{5}
+\renewcommand{\coefA}{-1}
+\renewcommand{\coefB}{1}
+\renewcommand{\coefC}{1}
+\input{Meresek/Mozgasok/TobbPalya.tex}
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso/Le/}
+
+\renewcommand{\figlabel}{LepcsoLexx}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+\renewcommand{\figlabel}{ImuLepcsoLe1}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/ImuV1.tex}
+
+
+\renewcommand{\GlobalPath}{Meresek/Mozgasok/Lepcso/Fel/}
+
+\renewcommand{\figlabel}{LepcsoFelxx}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/Kerekadatok.tex}
+
+\renewcommand{\figlabel}{ImuLepcsoFel1}
+\renewcommand{\nth}{2}
+\input{Meresek/Mozgasok/ImuV1.tex}
+
+
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/HomokosDomb/}
 \renewcommand{\figlabel}{HlejtoKerek}
@@ -75,20 +85,6 @@
 
 
 
-<<<<<<< Updated upstream
-=======
-\renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos}
-\renewcommand{\GlobalPathA}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos}
-\renewcommand{\palya}{A}
-\renewcommand{\palyaA}{B}
-\renewcommand{\figlabel}{KorpalyakKavicsos}
-\renewcommand{\nth}{5}
-\renewcommand{\coefA}{-1}
-\renewcommand{\coefB}{1}
-\renewcommand{\coefC}{1}
-\input{Meresek/Mozgasok/TobbPalya.tex}
-
->>>>>>> Stashed changes
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/}
 
