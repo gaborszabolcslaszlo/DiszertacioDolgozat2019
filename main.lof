@@ -15,13 +15,13 @@
 \contentsline {figure}{\numberline {2.15.}{\ignorespaces Kinematikai modell az $SSMR$ t\IeC {\'\i }pus\IeC {\'u} $MR$ robotnak.\relax }}{31}{figure.caption.19}
 \contentsline {figure}{\numberline {2.16.}{\ignorespaces Kinematikai modell az $SSMR$ t\IeC {\'\i }pus\IeC {\'u} $MR$ robotnak.\relax }}{32}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1.}{\ignorespaces CmodA7 FPGA-ban kialak\IeC {\'\i }tott architekt\IeC {\'u}ra amely a szenzorok \IeC {\'e}s motor hajt\IeC {\'a}sok kezel\IeC {\'e}sre hivatott \relax }}{34}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2.}{\ignorespaces FPGA ban megvalositott komunikacios protokol a \ref {fig:FPGAcomuSection} leirt protokol alapjan.\relax }}{36}{figure.caption.25}
-\contentsline {figure}{\numberline {3.3.}{\ignorespaces FPGA hardver/MicroBlaze proceszor es ROS node kozti komunikacio megvalistiasa UART protokol alapjan \relax }}{37}{figure.caption.26}
-\contentsline {figure}{\numberline {3.4.}{\ignorespaces FPGA ban megvalositott szoftproceszor rendszer, legfelso negyzet.\relax }}{38}{figure.caption.27}
-\contentsline {figure}{\numberline {3.5.}{\ignorespaces FPGA ban megvalositott szabalyzok A es B\relax }}{40}{figure.caption.28}
-\contentsline {figure}{\numberline {3.6.}{\ignorespaces FPGA controller mag.\relax }}{41}{figure.caption.29}
-\contentsline {figure}{\numberline {3.7.}{\ignorespaces MicroBlaze proceszoron futo szoftver diagramja\relax }}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {3.1.}{\ignorespaces CmodA7 FPGA-ban kialak\IeC {\'\i }tott architekt\IeC {\'u}ra amely a szenzorok \IeC {\'e}s motor hajt\IeC {\'a}sok jeleinek feldolgoz\IeC {\'a}s\IeC {\'a}t \IeC {\'e}s el\IeC {\H o}\IeC {\'a}ll\IeC {\'\i }t\IeC {\'a}s\IeC {\'a}t val\IeC {\'o}s\IeC {\'\i }tja meg \relax }}{34}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2.}{\ignorespaces FPGA ban megval\IeC {\'o}s\IeC {\'\i }tott kommunik\IeC {\'a}ci\IeC {\'o}s modul a \ref {fig:FPGAcomuSection} le\IeC {\'\i }rt protokoll alapj\IeC {\'a}n.\relax }}{36}{figure.caption.25}
+\contentsline {figure}{\numberline {3.3.}{\ignorespaces FPGA hardver/MicroBlaze processzor \IeC {\'e}s ROS node k\IeC {\"o}zti kommunik\IeC {\'a}ci\IeC {\'o} megval\IeC {\'o}s\IeC {\'\i }t\IeC {\'a}sa UART protokoll alapj\IeC {\'a}n \relax }}{37}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4.}{\ignorespaces FPGA ban megval\IeC {\'o}s\IeC {\'\i }tott szoftprocesszor rendszer, legfels\IeC {\H o} n\IeC {\'e}gyzete.\relax }}{38}{figure.caption.27}
+\contentsline {figure}{\numberline {3.5.}{\ignorespaces FPGA-ban megval\IeC {\'o}s\IeC {\'\i }tott szab\IeC {\'a}lyzok A \IeC {\'e}s B\relax }}{40}{figure.caption.28}
+\contentsline {figure}{\numberline {3.6.}{\ignorespaces FPGA controller modul\relax }}{41}{figure.caption.29}
+\contentsline {figure}{\numberline {3.7.}{\ignorespaces MicroBlaze processzoron fut\IeC {\'o} szoftver diagramja\relax }}{43}{figure.caption.30}
 \contentsline {figure}{\numberline {3.8.}{\ignorespaces FPGA komunikacios protokol altalanos csomag szerkezet\relax }}{44}{figure.caption.31}
 \contentsline {figure}{\numberline {3.9.}{\ignorespaces Robothoz csatlakozas a Wifi-n keresztul.\relax }}{48}{figure.caption.34}
 \contentsline {figure}{\numberline {3.10.}{\ignorespaces ROS graph\relax }}{51}{figure.caption.37}

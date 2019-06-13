@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  13 JUN 2019 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  14 JUN 2019 00:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2762,6 +2762,10 @@ Overfull \hbox (46.60457pt too wide) detected at line 27
 
 )
 
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 140.
+
+
 LaTeX Warning: Hyper reference `eq:eloirtnyomatek' on page 21 undefined on inpu
 t line 142.
 
@@ -2809,6 +2813,10 @@ LaTeX Warning: Reference `fig:CmodA7architektura' on page 23 undefined on input
 
 (./SajatRobot/FPGAmodulok/RendszerModel.tex
 
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 3.
+
+
 LaTeX Warning: Reference `fig:CmodA7architektura' on page 24 undefined on input
  line 5.
 
@@ -2819,6 +2827,19 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 )
 
 LaTeX Warning: Reference `fig:VivadoHl' on page 24 undefined on input line 28.
+
+
+Overfull \hbox (34.9602pt too wide) in paragraph at lines 28--29
+\T2A/ptm/bx/n/12 az $\OML/ztmcm/m/it/12 microblaze[]\OT1/ztmcm/m/n/12 0[]\OML/z
+tmcm/m/it/12 local[]memory$\T2A/ptm/bx/n/12 -ban tal^^Aalhat^^Ao. A mem^^Aoria 
+m^^Aerete 24Kbyte 32bit s^^Aavsz^^Aeless^^Aeggel,
+ []
+
+
+Overfull \hbox (24.82317pt too wide) in paragraph at lines 28--29
+\T2A/ptm/bx/n/12 mem^^Aori^^Aaban van ta-rol-va, QS-PI alap^^Au in-terf^^Aessze
+l kap-csol^^Aodik a FP-GA hoz, az $\OML/ztmcm/m/it/12 ExternalMemorys$
+ []
 
 
 LaTeX Warning: Reference `fig:VivadoHl' on page 24 undefined on input line 30.
@@ -2856,8 +2877,8 @@ ne 61.
 
 Overfull \hbox (17.12991pt too wide) in paragraph at lines 61--63
 \T2A/ptm/bx/n/12 microB-la-ze pro-ce-szor az $\OML/ztmcm/m/it/12 axi[]bram[]ctr
-l[]\OT1/ztmcm/m/n/12 0$ \T2A/ptm/bx/n/12 mo-du-lon ke-resz-tul be-le-irod-nak a
- $\OML/ztmcm/m/it/12 blk[]mem[]gen[]\OT1/ztmcm/m/n/12 1$
+l[]\OT1/ztmcm/m/n/12 0$ \T2A/ptm/bx/n/12 mo-du-lon ke-reszt^^Dul be-le-irod-nak
+ a $\OML/ztmcm/m/it/12 blk[]mem[]gen[]\OT1/ztmcm/m/n/12 1$
  []
 
 
@@ -2900,17 +2921,61 @@ The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
 nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
-
-LaTeX Warning: Reference `fig:ControllersVivado' on page 27 undefined on input 
-line 133.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-[]|\T2A/ptm/bx/n/12 Mintavetelezesi pe-ri-o-dus [ms]
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ [][][]\T2A/ptm/m/it/10 speci^^Aalis ka-rak-te-rek ame-lyek jel-zik az
  []
 
 
-Overfull \hbox (11.14279pt too wide) in paragraph at lines 140--154
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ \T2A/ptm/m/it/10 ^^Aertelmez^^Eo sza-ma-ra hogy olyan ka-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ \T2A/ptm/m/it/10 rak-ter k^^Dovetkezik ame-lyet a pro-to-koll
+ []
+
+
+LaTeX Warning: Reference `fig:ControllersVivado' on page 27 undefined on input 
+line 134.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+[]|\T2A/ptm/bx/n/12 Mintav^^Aetelez^^Aesi pe-ri^^Aodus [ms]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+[]|\T2A/ptm/bx/n/12 V^^Aalaszhat^^Ao szab^^Aalyz^^Ao t^^A^^Ypusok
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 147--148
+\T2A/ptm/bx/n/12 hajt^^Aasonk^^Aent 0=Szoft-va-re PID
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+\T2A/ptm/bx/n/12 sz^^Dogsebess^^Aeg, 1=Hard-ver PID
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+\T2A/ptm/bx/n/12 sz^^Dogsebess^^Aeg, 2=Szoft-ver PID
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 149--150
+[]|\T2A/ptm/bx/n/12 Inkrement^^Aalis szen-zor ^^Aaltal ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]|\T2A/ptm/bx/n/12 sz^^Dogsebess^^Aeg szab^^Aalyz^^Ao, PID
+ []
+
+
+Overfull \hbox (11.14279pt too wide) in paragraph at lines 141--155
 [][] 
  []
 
@@ -2919,14 +2984,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package natbib Warning: Citation `AXIuartLite' on page 28 undefined on input li
-ne 163.
+ne 164.
 
 
 LaTeX Warning: Reference `fig:FPGAuartRos' on page 28 undefined on input line 1
-71.
-
-
-Underfull \vbox (badness 2772) has occurred while \output is active []
+72.
 
 ) (./SajatRobot/ROS/rosmodulok.tex
 The command '\includegraphics []{tikz/RobotUserLan.jpg}' has been optimized awa
@@ -3343,23 +3405,22 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 52248 strings out of 492982
- 1176808 string characters out of 6134896
- 1582881 words of memory out of 5000000
- 54762 multiletter control sequences out of 15000+600000
- 575232 words of font info for 133 fonts, out of 8000000 for 9000
+ 52246 strings out of 492982
+ 1176874 string characters out of 6134896
+ 1586302 words of memory out of 5000000
+ 54767 multiletter control sequences out of 15000+600000
+ 572680 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,16n,129p,10410b,3702s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,17n,129p,10410b,3706s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tikz/main-figure1.pdf (1 page, 43702 bytes).
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on tikz/main-figure1.pdf (1 page, 37656 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

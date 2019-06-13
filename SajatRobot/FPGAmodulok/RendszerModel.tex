@@ -32,8 +32,6 @@ Start keret byte érkezésétől kezdve az összes byte négyesével bekerül a 
 
 A kommunikáció folyamatát a \ref{fig:FPGAuartRos} ábra is végigkövethetjük.
 
-A kommunikació  folyamatát a \ref{fig:FPGAuartRos} ábrán is végig követhetjük.
-
 \begin{figure}[H]		
 		%trim = bal also jobb felso
    \fbox{\includegraphics[width=1.1\columnwidth,trim=3cm 7cm 1cm 7cm,clip]{tikz/UartCom.pdf}}
@@ -171,7 +169,7 @@ Az uart sebessége 1MBd \footnote{megabaud} ami megfelel 131072 byte/s adatforga
 
 \subsection{Biztonsagi megoldasok}
 
-Abban az esetben ha kiküldtük az előírt értékeket a modulnak és ezután a kommunikáció megszakadt a modullal akkor a szabályzok próbáljak tartani az előírt érteket annak ellenére is hogy az mar lehet hogy nem aktuális. Erre a célra beépitésre került egy üzenet és egy logika (HeartBeat), a periodikusan érkező üzenet, amely csak a kommunikációs modulhoz érkezik meg, és jelzi hogy a ROS jolmüködik, és fordítva is küldődik periodikus üzenet amely jelzi az FPGA normális működést. Abban az esetben ha a  megszakad leállítja a motorokat és a szabályzókat,  \ref{fig:FPGAuartRos} alapján az Enable(EN) jelet használva.
+Abban az esetben ha kiküldtük az előírt értékeket a modulnak és ezután a kommunikáció megszakadt a modullal akkor a szabályzok próbáljak tartani az előírt érteket annak ellenére is hogy az mar lehet hogy nem aktuális. Erre a célra beépitésre került egy üzenet és egy logika (HeartBeat), a periodikusan érkező üzenet, amely csak a kommunikációs modulhoz érkezik meg, és jelzi hogy a ROS jól működik, és fordítva is küldődik periodikus üzenet amely jelzi az FPGA normális működést. Abban az esetben ha a  megszakad leállítja a motorokat és a szabályzókat,  \ref{fig:FPGAuartRos} alapján az Enable(EN) jelet használva.
 
 \begin{table}[H]
 \center

@@ -10,21 +10,21 @@
 \contentsline {subsection}{\numberline {2.5.2}Sulypont (X,Y) komponensenek a meghatarozasa}{22}{subsection.2.5.2}
 \contentsline {subsubsection}{Meroleges nyomoero alakulasa a sulypont fugvenyeben}{22}{equation.2.5.12}
 \contentsline {subsection}{\numberline {2.5.3}S\IeC {\'u}lypont meghat\IeC {\'a}roz\IeC {\'a}sa m\IeC {\'e}r\IeC {\'e}sekkel}{23}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Kerekek Dinamik\IeC {\'a}ja}{23}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.4}Ker\IeC {\'e}k Dinamik\IeC {\'a}ja}{23}{subsection.2.5.4}
 \contentsline {section}{\numberline {2.6}Kinematikai Modell}{25}{section.2.6}
 \contentsline {section}{\numberline {2.7}Dinamikai Modell}{28}{section.2.7}
 \contentsline {section}{\numberline {2.8}Robot Platform Sebess\IeC {\'e}g Szab\IeC {\'a}lyz\IeC {\'a}sa}{31}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Eloirt nyomatekkal}{31}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.1}El\IeC {\H o}\IeC {\'\i }rt nyomat\IeC {\'e}kkal}{31}{subsection.2.8.1}
 \contentsline {subsubsection}{Mesters\IeC {\'e}ges Er\IeC {\H o} M\IeC {\'o}dszere}{31}{equation.2.8.30}
 \contentsline {subsection}{\numberline {2.8.2}Elirt kerekszogsebessegekkel}{32}{subsection.2.8.2}
 \contentsline {chapter}{\numberline {3}A rendszer implement\IeC {\'a}l\IeC {\'a}sa}{33}{chapter.3}
 \contentsline {section}{\numberline {3.1}Robot felepitese}{33}{section.3.1}
-\contentsline {section}{\numberline {3.2}Alacsony szintu modulok}{34}{section.3.2}
+\contentsline {section}{\numberline {3.2}Alacsony szint\IeC {\H u} modulok}{34}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Microblaze szoftvere}{42}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}FPGA es UART alapu komunikacios protokol}{44}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Paramterek FPGA modul}{45}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Kommunik\IeC {\'a}ci\IeC {\'o} sebess\IeC {\'e}ge}{46}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Biztonsagi megoldasok}{47}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.5}Biztonsagi megoldasok}{46}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}ROS}{48}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Uzenet tipusok (.msg)}{49}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}FPGA komunikacios modul ROS oldali integracio}{52}{subsection.3.3.2}

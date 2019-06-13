@@ -50,7 +50,6 @@ A \ref{fig:FRnyomoeroszim} ábran látható a $FR$ pontban a merőleges nyomóer
 
 \input{Szimualciok/MerolegesNyomoerokRobot4W.tex}
 
-A \ref{fig:NyomoeroSzim4Wheel} ábrán láható a szimuláció mind a négy kerekre.
 
 \subsection{Súlypont meghatározása mérésekkel}
 
@@ -154,7 +153,7 @@ A kerekek előírt nyomatékát megkapjuk ha a  \myeqref{eq:eloirtnyomatek} -t h
 
 
 \subsubsection{Mesterséges Erő Módszere}
-A \cite{SSMRartificialForceMethod} cikk alapján egy másik megközelítést használva modellezi a robot. A $q$ állapotokat meg kiegészíti a jobb és bal oldali kereke szögsebességével. Feltételezi hogy a kerekek sugara $r$ mind a négy kereknél egyenlő, és a $COM$ pont a robot szimmetriatengely helyezkedik el. Jelölje $F$ a ellenálló erők és nyomatékok vektora. Hasonlóképen az  \myeqref{eq:dinamiceqgeneral} -hez a Lagrange egyenletet ír fel a dinamikai modellre. Az $\eta$ tartalmaz az előírt sebességek vektora, az $\eta_{3}$ a sebességek vektora, a 3-dik eleme tartalmazza a generált sebességet amelyet úgy kell előírnunk hogy a hozza tartozó előírt kerek sebesseg nulla legyen.
+A \cite{SSMRartificialForceMethod} cikk alapján egy másik megközelítést használva modellezi a robot. A $q$ állapotokat meg kiegészíti a jobb és bal oldali kereke szögsebességével. Feltételezi hogy a kerekek sugara $r$ mind a négy kereknél egyenlő, és a $COM$ pont a robot szimmetriatengelyén helyezkedik el. Jelölje $F$ a ellenálló erők és nyomatékok vektora. Hasonlóképen az  \myeqref{eq:dinamiceqgeneral} -hez a Lagrange egyenletet ír fel a dinamikai modellre. Az $\eta$ tartalmaz az előírt sebességek vektora, az $\eta_{3}$ a sebességek vektora, a 3-dik eleme tartalmazza a generált sebességet amelyet úgy kell előírnunk hogy a hozza tartozó előírt kerek sebesség nulla legyen.
 Az $u \in \mathbb{R}^3$ a jobb és bal oldali kerekek előírt erőleadása a talajra.
 
 \input{AktualisTudomany/Equations/ArtificialTroqueMethod.tex}
