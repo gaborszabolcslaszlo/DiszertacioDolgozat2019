@@ -1,0 +1,87 @@
+\begin{thenomenclature} 
+
+ \nomgroup{J}
+
+  \item [{$\theta$}]\begingroup A robot z és x tengelyek által bezárt szög\nomunit{$\, rad$}\nomeqref {0}
+		\nompageref{1}
+  \item [{$^nS_{ik}$}]\begingroup Valamilyen $\S$ fizikai mennyiség a $n$ vonatkoztatási rendszerben,az $in$ indexek a mennyiség helyet jelöli.\nomeqref {0}
+		\nompageref{1}
+  \item [{$F$}]\begingroup erők\nomunit{$\, N$}\nomeqref {0}
+		\nompageref{1}
+  \item [{$i$}]\begingroup $i$ $\in(L, R) $ ahol L és R a robot bal és jobb oldali kerekeit jelöli. \nomeqref {0}
+		\nompageref{1}
+  \item [{$k$}]\begingroup $k$ $\in(F, B) $ ahol F és B a robot első és hátulsó oldali kerekeit jelöli. \nomeqref {0}
+		\nompageref{1}
+  \item [{$n$}]\begingroup $n$ $\in(G, R) $ ahol G és R világ és robot vonatkoztatási rendszer. \nomeqref {0}
+		\nompageref{1}
+  \item [{$q_2$}]\begingroup A $MR$ állapot vektora $q \in \mathbb{R}^3$ $q$ = [X Y $\theta$] ahol a X és Y  a robot x illetve y tengelyen mért pocizója, és a $\theta$ a robot orientációja a globális X tengelyhez képest\nomeqref {0}
+		\nompageref{1}
+  \item [{$X$}]\begingroup A robot x tengelyen mért pozíciója\nomunit{$\, m$}\nomeqref {0}
+		\nompageref{1}
+  \item [{$Y$}]\begingroup A robot y tengelyen mért pozíciója\nomunit{$\, m$}\nomeqref {0}
+		\nompageref{1}
+  \item [{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/AISymbol.svg}}]\begingroup Analóg bemenet.\nomeqref {0}
+		\nompageref{1}
+  \item [{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/DISymbol.svg}}]\begingroup Digitális bemenet.\nomeqref {0}
+		\nompageref{1}
+  \item [{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/DmuxSymbol.svg}}]\begingroup Digitális tömbbites multiplexer.\nomeqref {0}
+		\nompageref{1}
+  \item [{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/DOSymbol.svg}}]\begingroup Digitális kimenet.\nomeqref {0}
+		\nompageref{1}
+  \item [{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/IRQSymbol.svg}}]\begingroup Megszakítás a processzornak.\nomeqref {0}
+		\nompageref{1}
+  \item [{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/SmuxSymbol.svg}}]\begingroup Multiplexert szelektáló regiszter.\nomeqref {0}
+		\nompageref{1}
+  \item [{\includesvg[width = 30pt]{SajatRobot/SzerkAbrak/uBSymbol.svg}}]\begingroup Micriblaze processzor cimtartomanyaban levo regiszter.\nomeqref {0}
+		\nompageref{1}
+
+ \nomgroup{R}
+
+  \item [{\textbf{4W-SSMR}}]\begingroup 4Wheel Skid-Steered Mobile Robot - 4 kerekű csúszókormányzású mobilis robot.\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{AMCL}}]\begingroup Adaptíve Monte Carlo Localization\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{AMR}}]\begingroup Autonomus Mobilis Robot \nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{COG}}]\begingroup Center Of Geometry\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{COM}}]\begingroup Center Of Mass\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{CTM}}]\begingroup Computed Torque Method - Kiszámított Nyomatékok módszere\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{DDV}}]\begingroup Diferential Driven Vehicles\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{DSC}}]\begingroup Distributed Control System\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{GUID}}]\begingroup Globally Unique Identifier -globálisan egyedi azonosító\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{HLC}}]\begingroup Angol elnevezésből származó rövidítése a magas szintű szabályzónak (High Level Controller\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{ICR}}]\begingroup Instantaneous Center of Rotation - pillanatnyi forgás-középpont\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{IMO}}]\begingroup in my opinion, saját vélemeny\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{IMU}}]\begingroup Inertial Measurement Unit gravitációs gyorsulást és szög elfordulást mérő szenzor.\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{LIDAR}}]\begingroup Light Detection and Ranging, 2D vagy 3D lézeres kép alkotó műszer\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{MR}}]\begingroup Mobilis Robot \nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{OMP}}]\begingroup Outdor Mobile Robot - kültéri mobilis robot\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{ROS}}]\begingroup Robot Operation System\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{SMC}}]\begingroup Sliding Mode Control - Csuszás alapú szabályzás\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{SSMR}}]\begingroup Skid-Steered Mobile Robot - csúszókormányzású mobilis robot.\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{UART}}]\begingroup két vezetékes(Tx,Rx) két irányú kommunikáció\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{URDF}}]\begingroup Unified Robot Description Format, XML alapú robotleíró nyelv\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{VFO}}]\begingroup Vector Field Orientation - Vektor alapú iránymeghatározás\nomeqref {0}
+		\nompageref{1}
+  \item [{\textbf{VNR}}]\begingroup Vonatkoztatási Rendszer \nomeqref {0}
+		\nompageref{1}
+
+\end{thenomenclature}

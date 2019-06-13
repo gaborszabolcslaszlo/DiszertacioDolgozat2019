@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  13 JUN 2019 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  13 JUN 2019 16:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2299,20 +2299,20 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 ) (./AktualisTudomany/AktTudomany.tex
 fejezet 2.
 
-Overfull \hbox (32.06444pt too wide) in paragraph at lines 11--12
+Overfull \hbox (32.06444pt too wide) in paragraph at lines 12--13
 \T2A/ptm/m/n/12 Az olyan g^^Aepek, ame-lye-ket ar-ra ter-vez-tek, hogy bi-zo-ny
 os fel-ada-to-kat au-to-ma-ti-ku-san elv^^Aegezzenek
  []
 
 
-Overfull \hbox (6.87494pt too wide) in paragraph at lines 19--20
+Overfull \hbox (6.87494pt too wide) in paragraph at lines 16--17
 \T2A/ptm/m/n/12 t^^A^^Ypus^^Au ro-bo-tok k^^Aepesek saj^^Aat k^^Dornyezet^^Duk 
 fel-der^^A^^Yt^^Aes^^Aere is-me-ret-len k^^Dornyezetben is k^^Dul^^Donb^^Doz^^E
 o
  []
 
 
-Overfull \hbox (4.06972pt too wide) in paragraph at lines 19--20
+Overfull \hbox (4.06972pt too wide) in paragraph at lines 16--17
 \T2A/ptm/m/n/12 go-kat, pa-lett^^Aakat vagy k^^Dul^^Donb^^Doz^^Eo dol-go-kat ke
 l egyik helysz^^A^^Ynr^^Eol a m^^Aasikra sz^^Aall^^A^^Ytani (p^^Aeld^^Aaul
  []
@@ -2326,7 +2326,14 @@ LaTeX Font Warning: Font shape `T2A/ptm/m/sc' undefined
 (Font)              using `T2A/ptm/m/n' instead on input line 10.
 
 ) (./MobilisRobotok/tableTemplate.tex)) (./MobilisRobotok/clearpathrobotics/hus
-ky.tex (./picture.tex
+ky.tex
+Overfull \hbox (46.55243pt too wide) in paragraph at lines 15--16
+\T2A/ptm/m/n/12 Nagy te-herb^^A^^Yr^^Aas^^Au k^^Dult^^Aeri mo-bi-lis ro-bot, le
+g-ink^^Aabb ku-tat^^Aasi c^^Aelokra haszn^^Aalj^^Aak, nagy ker^^Aeknyomat^^Aeka
+
+ []
+
+(./picture.tex
 The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
 nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
@@ -2414,6 +2421,12 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 
 LaTeX Warning: Reference `fig:RosControlDiagram' on page 12 undefined on input 
 line 64.
+
+
+Overfull \hbox (5.17801pt too wide) in paragraph at lines 64--65
+\T2A/ptm/bx/n/12 f^^Duggv^^Aenyben kell elk^^Aesz^^A^^Yteni a prog-ra-mo-kat am
+e-lyek kep^^Aesek ki-ol-vas-ni ^^Aes be^^A^^Yrni az eszk^^Dozben
+ []
 
 
 Package natbib Warning: Citation `DistributedRealTimeControlROS' on page 12 und

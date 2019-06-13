@@ -4,17 +4,17 @@
 \section{Robot Operációs Rendszer} 
 A ROS 2007-ben jelent meg, gyorsan elterjedt az egész világon, manapság szinte minden robotokkal foglalkozó cég termékeit kapcsolódnak a ROS-hoz.
 
-A ROS mukodesehez szukseges egy gazda operacios rendszer a UNIX vagy Windows alapu amelyen a kozponti node fut (rosmaster), kezeli a tobbi node kozti komunikaciot, parametereket, servizhivasokat.
+A ROS működéséhez szükséges egy gazda operációs rendszer a UNIX vagy Windows alapú amelyen a központi node fut (rosmaster). A master kezeli a többi node közti kommunikációt, paramétereket, sérvízhívásokat.
 
-A komunikacio a nodok kozozt TCP protokolra epul, amely XML/PRC teknoloiat hasznal, RPC távoli eljáráshívást jelent \cite{xmlrpc}.
-Minden node jelzi a rosmasternek milyen adatokat szeretne mgosztani ezeket az advertise fugvenyhivasok jelzik. A nodok ugyanakkor feliratkozhatnak ezeket a subscribe fugvenyekkel valosithatjuk meg pl.: \cite{rossubpubexample}.
-A szervizhivasok 5 lepeses folyamatbol alnak, lathato a \ref{fig:rosmech1} valamint az adatfolyamok 8 lepesbol \ref{fig:rosmech2}.
+A kommunikáció a nodok közözt TCP protokolra épül, amely XML/PRC teknoloiát használ, RPC távoli eljáráshívást jelent \cite{xmlrpc}.
+Minden node jelzi a rosmasternek milyen adatokat szeretne mgosztani ezeket az advertise függvényhivások jelzik. A nodok ugyanakkor feliratkozhatnak ezeket a subscribe függvényekkel valósíthatjuk meg pl.: \cite{rossubpubexample}.
+A szervízhivások 5 lépéses folyamatból álnak, látható a \ref{fig:rosmech1} valamint az adatfolyamok 8 lepésből \ref{fig:rosmech2}.
 
 
 
 \renewcommand{\img}{AktualisTudomany/rosmech1.jpg}
 \renewcommand{\sources}{Forrás: http://answers.ros.org}
-\renewcommand{\captionn}{ROS kommunicacios mechanizmus szervizhivasokra}
+\renewcommand{\captionn}{ROS kommunikációs mechanizmus szervizhívásokra}
 \renewcommand{\aspectratioPic}{0.7}
 \renewcommand{\figlabel}{rosmech1}
 \input{picture.tex}
@@ -22,19 +22,19 @@ A szervizhivasok 5 lepeses folyamatbol alnak, lathato a \ref{fig:rosmech1} valam
 
 \renewcommand{\img}{AktualisTudomany/rosmech2.jpg}
 \renewcommand{\sources}{Forrás: http://answers.ros.org}
-\renewcommand{\captionn}{ROS kommunicacios mechanizmus adatfolyamokra}
+\renewcommand{\captionn}{ROS kommunikációs mechanizmus adatfolyamokra}
 \renewcommand{\aspectratioPic}{0.7}
 \renewcommand{\figlabel}{rosmech2}
 \input{picture.tex}
 
-A \cite{lentin2015} \cite{NagyPirosKonyv} segítségével megalapozhatjuk a tudásunkat. Számos előnyel rendelkezik a ROS használata egy új robot fejlesztésében mert már elkészített csomagokat használhatunk pl: SLAM \footnote{ Simultaneous Localization and Mapping egyidejű térképezés és lokalizáció}, $AMCL$, vagy előre elkészített eszközök segítenek a fejlesztésben pl: Rviz  \footnote{ROS környezet vizualizációs eszköze}, Gazebo \footnote{ROS környezet szimulációs eszköze}, interfészt biztosít a szenzoroknak és beavatkozóknak pl: $LIDAR$, $IMU$ .
+A \cite{lentin2015} \cite{NagyPirosKonyv} segítségével megalapozhatjuk a tudásunkat. Számos előnyel rendelkezik a ROS használata egy új robot fejlesztésében mert már elkészített eszközöket használhatunk pl: SLAM \footnote{ Simultaneous Localization and Mapping egyidejű térképezés és lokalizáció}, $AMCL$, vagy előre elkészített eszközök segítenek a fejlesztésben pl: Rviz  \footnote{ROS környezet vizualizációs eszköze}, Gazebo \footnote{ROS környezet szimulációs eszköze}, interfészt biztosít a szenzoroknak és beavatkozóknak pl: $LIDAR$, $IMU$ .
 
 A \cite{lentin2015} említést tesz arról hogy más hasonló keret-rendszerekhez képest a ROS stabilabb pl: ha egy modulban futás-idejű hiba lép fel az nem terjed ki a többi csomópontra.
-Egyszerűbb fejlesztést lehetséges azáltal hogy kisebb modulokat fejlesztünk és nem egy nagy több szálon futó kódot. Annak ellenére hogy a forrás-kódja nyílt a keret-rendszernek nagyon jó szupportja van, rengeteg fórumon keresztül kaphatunk megoldásokat az esetleges hibákra. Több teknologiát képes összekapcsolni mint pl.: tensorflow, matlab, simulink, opencv..., V-Rep
+Egyszerűbb fejlesztést lehetséges azáltal hogy kisebb modulokat fejlesztünk és nem egy nagy több szálon futó kódot. Annak ellenére hogy a forrás-kódja nyílt a keret-rendszernek nagyon jó szupportja van, rengeteg fórumon keresztül kaphatunk megoldásokat az esetleges hibákra. Több technológiát képes összekapcsolni mint pl.: tensorflow, matlab, simulink, opencv, V-Rep...
 
 Hátrányai között említhető a Gazebo szimulátor mert a használata nem egyszerű ellentétben a V-Rep \footnote{Robot szimulációs szoftver amely támogatja a ROS-t} programmal. A robot modellezése nem egyszerű dolog, $URDF$ fájl szükséges hozzá, csak SolodWork \footnote{3D modellező szoftver} biztosít  lehetőséget arra hogy modellt exportálhassuk.
 
-\subsection{Uj robot integrációja ROS hoz}
+\subsection{Új robot integrációja ROS-hoz}
 Egy új robot integrációja során meg kell vizsgálni hogy milyen mérési adatok állnak rendelkezésünkre alacsony szinten, a rotációs csukló  paraméterek lehetnek pl: szög pozíció, szög sebesség, kifejtett, nyomaték, ezeket a paramétereket mérhetjük, illetve referenciaként is előírhatjuk. 
 
 Az integrációra több megoldás is lehetséges:
@@ -45,9 +45,9 @@ Az integrációra több megoldás is lehetséges:
 \end{enumerate}
 
 \subsubsection*{Ros Serial}
-Egy megoldás a hardver integrációjára a ROS Serial amely UART, vagy TCP protokollra épulő, soros vagy hálózati kommunikációt használva. Korlátai miatt \cite{RosSerial} nem képes nagy méretű üzentek használatára, valamit a nodok száma is korlátozott lásd. Szükséges a ROS csomagok használata a hardveren ami nem mindig előnyös.
+Egy megoldás a hardver integrációjára a ROS Serial amely UART, vagy TCP protokollra épulő, soros vagy hálózati kommunikációt használva. Korlátai miatt \cite{RosSerial} nem képes nagy méretű üzentek használatára, valamit a nodok száma is korlátozott lásd. Szükséges a ROS csomagok használata a hardveren ami nem mindig előnyös, függőség alakul ki a hardverfejlesztése közben a szoftver irányába.
 
-A \cite{ROSArduino2013} cikkben egy arduino típusú fejlesztő lappal valósítja meg a robot alacsony szintű szabályzását, megemlíti hogy a rosserial-t nem tudja használni a limitációk miatt. A feldolgozó oldalon elkészít egy saját szoftveres modult amely megvalositja a ROS es a hardver kozti kapcsolatot.A kommunikációra soros $UART$ protokollt használ.
+A \cite{ROSArduino2013} cikkben egy arduino típusú fejlesztő lappal valósítja meg a robot alacsony szintű szabályzását, megemlíti hogy a rosserial-t nem tudja használni a limitációk miatt. A feldolgozó oldalon elkészít egy saját szoftveres modult amely megvalósítja a ROS és a hardver közti kapcsolatot.A kommunikációra soros $UART$ protokollt használ.
 
 A \cite{ROSRoboticsByExampleSecEd} könyv 8-ik fejezetben leírja hogyan lehet használni a rosserial-t, arduino valamint Raspberry Pi fejlesztő lapokon de viszont nem tesz említést a hátrányairól.
 
@@ -61,13 +61,13 @@ A ros controller  \cite{roscontrol} használatával összeköthetjük az alacson
 \renewcommand{\figlabel}{RosControlDiagram}
 \input{picture.tex}
 
-A \ref{fig:RosControlDiagram} abran lathato az interfeszek kapcsolatai es a fontosabb fuggvenyhivasok. A hardverel valo integraciot write() es read() fuvenyhivasokkal valosul meg, ebben a ket fugvenyben kell elkesziteni a programokat amelyek kepesek kiplvasni es beirni az eszkozben a kivant jeleket. Itt hasznalhatunk tobb tipusu alacsonszintu komunikacios protokolt pl: TCP,UART.., vagy barmilyen interfeszt amit a gazga operaciosrendszer elismer.
+A \ref{fig:RosControlDiagram} ábrán látható az interfészek kapcsolatai és a fontosabb függvényhívások. A hardverrel való integrációt write() és read() fűvényhívásokkal valósul meg, ebben a két függvényben kell elkészíteni a programokat amelyek kepések kiolvasni és beírni az eszközben a kívánt jeleket. Itt használhatunk több típusú alacsonyszintü kommunikációs protokolt pl: TCP,UART.., vagy bármilyen interfészt amit a gazga operációs rendszer elismer.
 
 \subsection*{Osztott Rendszer}
 
-A  \cite{DistributedRealTimeControlROS} cikkben leír egy megoldást arra hogyan lehetne smart eszközként tekinteni a szenzorokra és beavatkozokra. Osztott rendszert $DSC$ -t alkalmaz, ahol minden szenzornak saját mastere van, ezáltal minden node független lesz a hálózaton. A hálózat konfigurációját teljes mértékben ismerni kell minden nodenak a IP címét, de ezzel a megoldással futásidőben módosíthatjuk a hálózatot, $GUID$ -t használ a új maszter bejelentésre a hálózaton, valamit ezzel is oldja meg az információk áramlását is.
+A  \cite{DistributedRealTimeControlROS} cikkben leír egy megoldást arra hogyan lehetne smart eszközként tekinteni a szenzorokra és beavatkozó modulokra. Osztott rendszert $DSC$ -t alkalmaz, ahol minden szenzornak saját mastere van, ezáltal minden node független lesz a hálózaton. Enelkül a hálózat konfigurációját teljes mértékben ismerni kell minden nodenak a IP címét, de ezzel a megoldással futásidőben módosíthatjuk a hálózatot, $GUID$ -t használ a új maszter bejelentésre a hálózaton, valamit ezzel is oldja meg az információk áramlását is.
 A kommunikációt a mesterek között ROS MultiPeer Architecture (RMPA) nevezet architektúrával oldja meg. Más rendszerekhez képest kétszer jobb időkésést valósított meg. 
-Ami a hátránya, a szenzorok mellett egy mcu is szükséges amely kepés egy operációs rendszert futtatni és egy rós masztert. Valóban robusztusabb modulárisabb lesz a rendszer ezáltal de drágább is. Kisebb rendszereknél mint inkább hátrány mint elöny, de viszont komplex nagy területet lefedő rendszernél előnyös.
+Ami a hátránya, a szenzorok mellett egy mcu is szükséges amely kepés egy operációs rendszert futtatni és egy rós masztert. Valóban robusztusabb modulárisabb lesz a rendszer ezáltal de drágább is. Kisebb rendszereknél, inkább hátrány mint előny, de viszont komplex, térben nagy területet lefedő rendszernél előnyös.
 
 Egy másik hasonló megoldás ahol több ROS masztert lehet összekötni és felügyelni a multimaster\_fkie megoldja a futásidőben való új maszter szinkronizációját, a topikok és a szervizek kezelését is. 
 

@@ -1,16 +1,16 @@
 \chapter{Bevezető}
-A robotokat széles körben alkalmazzák, egyre több feladatra és most már az átlag emberek életében is. Néhány nagyobb vállat mint pl: ABB, Kuka nagy területet foglalt el az iparban robot karok gyártásában.Emellett egyre több kisebb vállalat jelent meg, amelyek háztartási vagy fél katonai eszközöket gyártanak pl.: iRobo. A mezőgazdaságban is probalnak alkalmazni autonóm robotokat pl.: echorobotics amelyek segítségével hatóanyag mentes élelmiszereket állíthatnak elő.
+A robotokat széles körben alkalmazzák, egyre több feladatra és most már az átlag emberek életében is. Néhány nagyobb vállat mint pl: ABB, Kuka nagy területet foglalt el az iparban robot karok gyártásában.Emellett egyre több kisebb vállalat jelent meg, amelyek háztartási vagy fél katonai eszközöket gyártanak pl.: iRobo. A mezőgazdaságban is próbálnak alkalmazni autonóm robotokat pl.: echorobotics amelyek segítségével hatóanyag mentes élelmiszereket állíthatnak elő.
 
-A dolgozat célja hogy felderítse az aktuális legmodernebb technikákat amelyeket robotokon alkalmaznak, és ezeket alkalmazza egy robot kulteri mobilis robot megepitese során.
-Az elozo mar egy hasonlo rendszer kivitelezesekor elkeszitet modulok tovabbfejelesztese es integralasa az uj rendszerbe. A robot mozgasa negy csigaatetel es negy DC motor segitsegevel valosul meg. A motrok szogsebesseget es altaluk felvett aramokat merjuk inkrementalis szenzor es elektromagneses jelensegre alapulo aramero modul segitsegevel.
+A dolgozat célja hogy felderítse az aktuális legmodernebb technikákat amelyeket robotokon alkalmaznak, és ezeket alkalmazza egy kültéri mobilis robot megépítése során.
+Az előzőleg már egy hasonló rendszer kivitelezésekor elteszitek modulok továbbfejlesztése és integrálása az új rendszerbe. A robot mozgása négy csiga áttétel és négy DC motor segítségével valósul meg. A motrok szögsebességét és  felvett arámokat merjük, inkrementális szenzor és elektromágneses jelenségre alapuló aramerő modul segítségével.
 
-A beavatkozo jelet feszultseg formajaban tortenik, amelyet H-hiddal alitunk elo azaltal hogy PWM jelet generalunk.
+A beavatkozás feszültség formájában történik, amelyet H-híddal állítunk elő azáltal hogy PWM jelet generálunk.
 
-Az inkrementalis és aramero szenzorok jeleit FPGA alau fejlesztolapokkal tortenik. A roboton helyetfoglal egy kis meretu szamitogep is amely usb vezetekeken keresztul csatlakozik az FPGA lapokhoz es a robotn talalhato mas szenzorokhoz pl: LIDAR, IMU, GPS..
+Az inkrementális és aramerő szenzorok jeleit FPGA alapú fejlesztőlapokkal oldjuk meg. A roboton helyet foglal egy kis méretű számítógép is amely USB vezetékeken keresztül csatlakozik az FPGA lapokhoz és a roboton található más szenzorokhoz pl: LIDAR, IMU, GPS..
 
-A robot a csigaatetelek miatt nagy nyomatekot tud eloalitani, ami a mozgasi sebesseg rovasara valt. A robot kepes 0.3 m/s sebessegel mozogni elore, es 20 \degree/s forgasi sebeseget generalni sulypontja korul.
+A robot a csiga áttelek miatt nagy nyomatékot tud előállítani, ami a mozgási sebesség rovására vált. A robot kepés 0.3 m/s sebességél mozogni előre, és 20 \degree/s forgási sebességet generálni súlypontja körül.
 
-A dolgozat celja az elkeszitett kulteri mobilis robottal mereseket vegezni kulompbozo terepviszonyok kozott es azokat oszehasonlitani. A terepviszonyok kozzott emlitheto pl: fuves, kavicsos, aszfalt, marvany stb. A mereseket szeretnek osszehasonlitani a terepviszonyok fugvenyeben: a robot mozgasat es az ehez szukseges energia nagysagat, a kornyezeteben okozott behatasok.
+A dolgozat célja az elkészített kültéri mobilis robottal meréseket végezni különböző terepviszonyok között és azokat összehasonlítási. A terepviszonyok mit pl: füves, kavicsos, aszfalt, márvány stb. A meréseket szeretnek összehasonlítani a terepviszonyok függvényében: a robot mozgását és a szükséges energia nagyságát, a környezetében okozott behatások.
 
-A robot SLAM algoritmus segitsegeve dolgozza fel a LIDAR altal mert adatokat es egy 2D terkepet allit elo, amelyen kepes egyidoben behatarolnia poziciojat es a terkepet epiteni is. Ezen meglevo programok hasznalataval kulteri mereseket vegezni, terkepeket kesziteni es majd egy eloirt palyan vegigmenni ezen terepeken a terkepet hasznalva.
+A robot SLAM algoritmus  dolgozza fel a LIDAR által mért adatokat és egy 2D térképet állít elő, amelyen kepés egyidőben behatárolnia pozícióját és a térképet építeni is. Ezen meglevő programok használatával kültéri meréseket végezni, térképeket készíteni és majd egy előírt pályán végigmenni, ezen terepeken a térképet használva.
 

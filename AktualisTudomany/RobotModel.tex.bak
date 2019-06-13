@@ -8,13 +8,13 @@ A mobilis robotok leginkább kerekekkel oldjak meg a helyváltoztatásukat. Egy 
 A \cite{Torjancki4Mobilerobot} \cite{Campa2014} irodalmakban a $HLC$ sebesség referencia jelet ír elő a kerekeken, \cite{RobustMotionControl} a cikkben nyomatékot ír elő amelyet az alacsony szintű szabályozóknak.
 Az $ICR$ meghatározásával választotta. Több dolgot is feltételez: a robot forgásközpontja a robot középpontjában van, a robot azonos oldalán levő kerekek ugyanazzal a szögsebességgel forognak, a négy kerék mindig érintkezik a talajjal és méretben is megegyeznek.
 
-A \cite{RobustMotionControl} kifejezetten a SSMR  jol ismert a robusztus félépítése miatt, nagyon jól alkalmazható terepen. Általában $DDV$ mert a fordulást azáltal oldják meg hogy a jobb és bal oldali kerekek különböző sebességgel vagy különböző iranyu nyomatékot fejtenek ki a talajra.
-A \cite{RobustMotionControl} cikkben alkalmazott technológiaiák: $VFO$
+A \cite{RobustMotionControl} kifejezetten a SSMR  jól ismert a robusztus félépítése miatt, nagyon jól alkalmazható terepen. Általában $DDV$ mert a fordulást azáltal oldják meg hogy a jobb és bal oldali kerekek különböző sebességgel vagy különböző kifejtett nyomatékot fejtenek ki a talajra.
+A \cite{RobustMotionControl} cikkben alkalmazott technológiáiak: $VFO$
 $CTM$ a robot kerekeit szabályzó motoroknak nyomaték van előríva amit követniük kell.
 
 \subsection{Merőleges Nyomóerő (N)} 
 
-A kerekek es a talaj egypontban erintkezik, ezeket a pontokat jelolje a BR,BL,FL,FR a \ref{fig:SMR4WMerolegesNyomoero} abran. Jelolje S a robot sulypontj, G - a sulyabol szarmazo erok a robot alapjahoz rendelt kordinata rendszerben felbontva a harom tengely menten, N a meroleges nyomoero a talajra az adott pontban.
+A kerekek és a talaj egy pontban érintkeznek, ezeket a pontokat jelölje a BR,BL,FL,FR a \ref{fig:SMR4WMerolegesNyomoero} ábrán. Jelölje S a robot súlypontkát, G - a súlyából származó erők a robot alapjához rendelt kordinát rendszerben felbontva a három tengely menten, N a merőleges nyomóerő a talajra az adott pontban.
 
 \renewcommand{\img}{SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg}
 \renewcommand{\sources}{*}
@@ -22,8 +22,8 @@ A kerekek es a talaj egypontban erintkezik, ezeket a pontokat jelolje a BR,BL,FL
 \renewcommand{\figlabel}{SMR4WMerolegesNyomoero}
 \input{picture.tex}
 
-Jelölje az $\alpha$ \ szog ha a lejton felfele halad a robotref{fig:SMR4WLejtoOldalrol}, $\beta$  ha a robot a lejton oldara halad \ref{fig:SMR4WLejtoSzembol}. 
-Ha ismerjuk a robot sulypontjanak a poziciojat mindharom tengelyen akkor kiszamolhatjuk a kerekek meroleges nyomoerejet a talajra a kovetkezo modszerrel.
+Jelölje az $\alpha$ \ szög ha a lejtőn felfele halad a robotref{fig:SMR4WLejtoOldalrol}, $\beta$  ha a robot a lejtőn oldalra halad \ref{fig:SMR4WLejtoSzembol}. 
+Ha ismerjük a robot súlypontjának a pozícióját mindhárom tengelyen akkor kicsuszamolhatjuk a kerekek merőleges nyomóerejét a talajra a következő módszerrel.
 
 
 
@@ -45,16 +45,16 @@ Ha ismerjuk a robot sulypontjanak a poziciojat mindharom tengelyen akkor kiszamo
 
 \subsubsection{Meroleges nyomoero alakulasa a sulypont fugvenyeben}
 
-A tetelezuk fel hogy a robot sulya 28kg, a $BR$ kerek kozebe legyen a (0,0) pont, $W\in(0m,0.6m)$ es $L\in(0m,0.6m)$ erteketekt vehet fel.
-A \ref{fig:FRnyomoeroszim} abran lathato a $FR$ pontban a meroleges nyomoero valtozasa a sulypont poziciojanak a fuggvenyben.
+A tételezzük fel hogy a robot súlya 28kg, a $BR$ kerek közepe legyen a (0,0) pont, $W\in(0m,0.6m)$ és $L\in(0m,0.6m)$ értéket vehet fel.
+A \ref{fig:FRnyomoeroszim} ábran látható a $FR$ pontban a merőleges nyomóerő változása a súlypont pozíciójának a függvényben.
 
 \input{Szimualciok/MerolegesNyomoerokRobot4W.tex}
 
-A \ref{fig:NyomoeroSzim4Wheel} abran lahato a szimulacio mind a negy kerekre.
+A \ref{fig:NyomoeroSzim4Wheel} ábrán láható a szimuláció mind a négy kerekre.
 
 \subsection{Súlypont meghatározása mérésekkel}
 
-A robot mélypont meghatározása egy mérleg segítségéével lemérve sorra minden kerék merőleges nyomóerőjét a talajra nézve. 
+A robot súlypont meghatározása egy mérleg segítségéével lemérve sorra minden kerék merőleges nyomóerőjét a talajra nézve. 
 A mért adatok vízszintes helyzetben:
 
 \begin{table}[H]
@@ -70,7 +70,7 @@ BR &   17,9      & kg
 
 A súlypont pozíciója: $b = 20$ es $c = 30 $
 
-\subsection{Kerekek Dinamikája}
+\subsection{Kerék Dinamikája}
 Az $I_w \in \mathbb{R}^4$ tartalmazza a kerekek inerciáját a forgás tengelyükhöz képest. $\Omega \in \mathbb{R}^4$ a kerekek szögsebessége. A $W_r \in \mathbb{R}^4$ a kerekek sugara, $\tau \in \mathbb{R}^4$ a kerekek forgatónyomatéka.
 
 \input{AktualisTudomany/Equations/DinamicsEq.tex}
@@ -82,7 +82,7 @@ A \ref{fig:SMR4WKinematics} látható a $4W-SSMR$ kinematikai modellje. Néhány
 
 A robot a $ICR$ pont körül fordul, és csak a robothoz rendelt vonatkoztatási rendszer x tengelye menten tud elmozdulni. Az y irányú sebességeket azt okozza hogy a jobb és bal oldali kerekek forgási sebessége eltér és így létrejönne egy oldal irányú csuszás. 
 
-Jelölje a rendre a $K_{ik}$ a kerekek a talajjal való érintkezési pontját, $^RV_{ik}$ a $K_{ik}$ pontok sebességet a robothoz rendelt $VNR$-ben, $^RV_{ikX}$ és $^RV_{ikY}$ rendre a $^RV_{ik}$ sebesség X és Y komponense robothoz rendelt $VNR$-ben. A $^RV_{ikX}$ megfelel a kerekek kerületei sebességének. A $^RV^{COM}_{ik}$ a $COM$ pont sebességet a robothoz rendelt $VNR$-ben, illetve a $^RV^{COM}_{ikX}$ és $^RV^{COM}_{ikY}$ az X és Y komponense. 
+Jelölje a rendre a $K_{ik}$ a kerekek a talajjal való érintkezési pontját, $^RV_{ik}$ a $K_{ik}$ pontok sebességét a robothoz rendelt $VNR$-ben, $^RV_{ikX}$ és $^RV_{ikY}$ rendre a $^RV_{ik}$ sebesség X és Y komponense robothoz rendelt $VNR$-ben. A $^RV_{ikX}$ megfelel a kerekek kerületei sebességének. A $^RV^{COM}_{ik}$ a $COM$ pont sebességet a robothoz rendelt $VNR$-ben, illetve a $^RV^{COM}_{ikX}$ és $^RV^{COM}_{ikY}$ az X és Y komponense. 
 
 A robot és a globális $VNR$ x tengelye között bezárt szög $\theta$ valamint $X$ és $Y$ a robot pozíciója a $O$ ponthoz viszonyítva.
 
@@ -97,7 +97,7 @@ Az $ICR$ pont helyzete a $^RV_{ik}$ sebesség vektorokra merőleges egyenesek me
 A $\dot q$ a $4W-SSMR$ síkban modellezett állapot vektora a globális $VNR$-ben. $^R \omega^{COG}$ az $COG$ pont körüli szögsebesség a robothoz rendelt $VNR$-ben. Az $\eta$ jelölje a bemeneti értékeket.
 A $d$ a $COG$ és a $COM$ pontok közti távolság.
 
-A $COM$ pontban mert értékek az \myeqref{eq:allapot} segítségével szamolhatjuk a globális $VNR$ -be.
+A $COM$ pontban mert értékek az \myeqref{eq:allapot} segítségével számolhatjuk a globális $VNR$ -be.
 A $COM$ pont sebességének y komponense megadható az \myeqref{eq:SebComY} segítségével.
 A nemholomonikus megkötés \myeqref{eq:nemholomonikusmegkotes} biztosítja azt hogy a robot nem tud oldal irányú mozgást végezni.
 
@@ -107,7 +107,7 @@ A nemholomonikus megkötés \myeqref{eq:nemholomonikusmegkotes} biztosítja azt 
 
 \section{Dinamikai Modell} 
 
-A \ref{fig:SMR4WDinamicsModel} látható a $4W-SSMR$-ra ható erők rendszerre. Jelölje a $F_{ik}$ a $K_{ik}$ pontokban a kerekek a talajra kifejtett erőt, $F_{fxik}$ es a $F_{fyik}$ rendre az x és y irányba ható súrlódási erőket a $K_{ik}$ pontokban.
+A \ref{fig:SMR4WDinamicsModel} látható a $4W-SSMR$-ra ható erők rendszerre. Jelölje a $F_{ik}$ a $K_{ik}$ pontokban a kerekek a talajra kifejtett erőt, $F_{fxik}$ és a $F_{fyik}$ rendre az x és y irányba ható súrlódási erőket a $K_{ik}$ pontokban.
 
 Az \myeqrefinterval{eq:eromodelglobal1}{eq:eromodelglobal3} leírják a robot mozgását a globális rendszerben, felhasználva a robot $VNR$ - ben mert erő hatásokat.
 
@@ -117,7 +117,7 @@ Az \myeqrefinterval{eq:eromodelglobal1}{eq:eromodelglobal3} leírják a robot mo
 \renewcommand{\figlabel}{SMR4WDinamicsModel}
 \input{picture.tex}
 
-Az $F_x \in \mathbb{R}^4$ tartalmazza $F_{ik}$ kerekek által a talajra kifejtett erőket. Az $F_{sx} \in \mathbb{R}^4$ es $F_{sy} \in \mathbb{R}^4$ súrlódási erők x és y tengely menten a robot $VNR$-ben.A $F \in \mathbb{R}^2$ tartalmazza a jobb és bal oldali kerek által a talajra kifejtett erők összegét. Jelölje $I$ a robot inerciáját a z tengely körül, $M_a$ nyomatékok összege amelyeket a kerekek hoznak létre, $M_r$ a nyomatékok összege amelyeket a súrlódások hoznak létre. 
+Az $F_x \in \mathbb{R}^4$ tartalmazza $F_{ik}$ kerekek által a talajra kifejtett erőket. Az $F_{sx} \in \mathbb{R}^4$ és $F_{sy} \in \mathbb{R}^4$ súrlódási erők x és y tengely menten a robot $VNR$-ben.A $F \in \mathbb{R}^2$ tartalmazza a jobb és bal oldali kerek által a talajra kifejtett erők összegét. Jelölje $I$ a robot inerciáját a z tengely körül, $M_a$ nyomatékok összege amelyeket a kerekek hoznak létre, $M_r$ a nyomatékok összege amelyeket a súrlódások hoznak létre. 
 
 A $K_x\in \mathbb{R}^4$ és $K_y\in \mathbb{R}^4$ jelölje a súlypont pozíciója a kerek és talaj érintkezési pontokhoz viszonyítva a \ref{fig:SMR4WMerolegesNyomoero} alapján.
 
@@ -137,9 +137,9 @@ Felhasználva a  \myeqref{eq:SxAeqZero} és \myeqref{eq:allapotokdupladerivalt} 
 
 \section{Robot Platform Sebesség Szabályzása}
 
-\subsection{Eloirt nyomatekkal}
+\subsection{Előírt nyomatékkal}
 
-A kerekek előírt nyomatékát megkapjuk ha a  \myeqref{eq:eloirtnyomatek} -t használva. Az $u$ szabályzó jelet kiszámíthatjuk ha az \myeqref{eq:controllertorque1}-t használjuk. Jelölje a $K_\eta$ a szabályzó paraméterei. Csuszás szabályzó  $\sigma_\eta$ parameteri $\rho_v$ linearis sebességért, és $\rho_w$ szögsebességért felelős. Mindkét paraméter nagyobb kell legyen mint a zaj $n$ megfelelő érteké.
+A kerekek előírt nyomatékát megkapjuk ha a  \myeqref{eq:eloirtnyomatek} -t használva. Az $u$ szabályzó jelet kiszámíthatjuk ha az \myeqref{eq:controllertorque1}-t használjuk. Jelölje a $K_\eta$ a szabályzó paraméterei. Csuszás szabályzó  $\sigma_\eta$ paraméteri $\rho_v$ lineáris sebességért, és $\rho_w$ szögsebességért felelős. Mindkét paraméter nagyobb kell legyen mint a zaj $n$ megfelelő érteké.
 
 \renewcommand{\img}{SajatRobot/SzerkAbrak/SebContRefNyom.tex}
 \renewcommand{\sources}{*}
