@@ -1,8 +1,8 @@
 %\lhead{Modulok es kapcsolatok}
 
-\section{Alacsony szintu modulok} 
+\section{Alacsony szintű modulok} 
 
-A roboton alacsonyszintű feladatait amelyek a motor hajtásokhoz kapcsolódó szenzorokat és vezérlő jelek elő allitasara hivatott a kétdaram CmodA7 20T FPGA fejlesztőlap. Négy tengely szogsebesseget kel szabályozni, egy FPGA két hajtást valósít meg. A \ref{fig:CmodA7architektura} alapján egy hajtáshoz tartozó I/O-k:
+A robot alacsonyszintű feladatait, amelyek a motor hajtásához kapcsolódó szenzorokat és vezérlő jelek előállítására hivatott a két darab CmodA7 20T FPGA fejlesztőlap. Négy tengely szögsebességét kel szabályozni, egy FPGA két hajtást valósít meg. A \ref{fig:CmodA7architektura} alapján egy hajtáshoz tartozó I/O-k:
 
 \begin{table}[H]
 \center
@@ -25,12 +25,13 @@ Végálas kapcsoló                 & 1                  & Digitális Input
 \input{picture.tex}
 
 
-A \ref{fig:VivadoHl} a Vivado tervezoprogramban FPGA ban megvalositott proceszor architektura lathato, tartalmaz egy szoft core proceszort (microBlaze) a Xilinx. Az utasitas es az adatmemoria az $microblaze\_0\_local\_memory$ ban talalhato. A memoria merete 24Kbyte 32bit savszeleseggel, amely az FPGA block memoriajabol van osszerakva. A programkod maga egy kulso memoriaban van tarolva ami QSPI alapu interfacevel kapcsolodik a FPGA hoz, az $ExternalMemorys$ kapcsolja be az AXI busz rendszeren keresztul a proceszor memoriacimatartomanyaba. A kulso memoria merete 30MByte. A proceszor mukodesehez szukseges a $ClockAndReset$ modul eloalitja az orajelet ami 100MHz, ezen a frekvencian mukodik az proceszor es a memoria is. Az $mdm\_1$ modul a rendszerben torteno jelek megfigyelesere es a proceszorn futo kod debugolasara hivatott.
+A \ref{fig:VivadoHl} a Vivado tervezőprogramban FPGA- ban megvalósított processzor architektúra látható, tartalmaz egy szoft core processzort (microBlaze) a Xilinx. Az utasítás és az adatmemória az $microblaze\_0\_local\_memory$ -ban tálalható. A memória mérete 24Kbyte 32bit sávszélességgel, amely az FPGA block memóriájából van összerakva. A programkód maga egy külső memóriában van tárolva, ami QSPI alapú interface-al kapcsolódik a FPGA hoz, az $ExternalMemorys$ kapcsolja be az AXI busz rendszeren keresztül a processzor memóriacima tartományába. A külső memória mérete 30MByte. A processzor működéséhez szükséges a $ClockAndReset$ modul előállítja az órajelet, ami 100MHz, ezen a frekvencián működik a processzor és a memória is. Az $mdm\_1$ modul a rendszerben történő jelek megfigyelésére es a processzoron futó kód debugolására hivatott.
 
-A \ref{fig:VivadoHl} abran lathato $UartCom$ modul belso szerkezete lathato az \ref{fig:UartComVivaldo} abran. A modula $uartcommand\_0$ szerepe a komunikacos protokol implmentalasa hardveres szinten, a modul fogadja az UART protokolen 8bit csomagokat. A protokol altal meghatarozott keretezesi bytokat figyelve (Start,Stop,Skip). Ezek paremeterkent megadhatok a microBlaze proceszoren keresztul. A procszor indulaskor bealitja ezeket a kovetkezo ertekekre: Start='S', Stop='P', es Skip='\\'. 
-Start keret byte erkezesetol kezdve az oszess byte negyesevel bekerul a 32bit, 400 byteos, $blk\_mem\_gen\_0$ memoriaba sorfojtonosan. Abban az esetben ha az uzenet megfaladja a 200 byte-t akkor a modul ugytekinti hogy hibas adatok erkeztek es viszater a kiidnulo allapotba. Abban az esetben ha binaris adatokat kuldunk tartalmazhat szpecialis protokol keretezesben resztvevi karaktereket igy ezeket eloti karakter Skip kell hogy legyen. A skip karakterek nem kerulnek bele a memoriaba ezeket a hardver kiveszi.
+A \ref{fig:VivadoHl} abran lathato $UartCom$ modul belső szerkezete látható az \ref{fig:UartComVivaldo} ábrán. A modula $uartcommand\_0$ szerepe a kommunikációs protokoll implmentálása hardveres szinten, a modul fogadja az UART protokollon 8bit csomagokat. A protokoll által meghatározott keretezési bytokat figyelve (Start,Stop,Skip). Ezek paraméterként megadhatok a microBlaze proceszoron keresztül. A processzor induláskor bealítja ezeket a következő értekékre: Start='S', Stop='P', es Skip='\\'. 
+Start keret byte érkezésétől kezdve az öszess byte négyesével bekerül a 32bit, 400 byte-os, $blk\_mem\_gen\_0$ memóriába sorfojtonosan. Abban az esetben, ha az üzenet meghaladja a 200 byte-t, akkor a modul úgy tekinti, hogy hibás adatok érkeztek és visszatér a kiinduló állapotba. Abban az esetben, ha bináris adatokat küldünk, tartalmazhat speciális protokoll keretezésben resztvevő karaktereket,  így ezeket eloti karakter Skip kell hogy legyen. A skip karakterek nem kerülnek bele a memóriába ezeket a hardver kiveszi.
 
-A komunikacio folyamatat a \ref{fig:FPGAuartRos} abra is vegigkovethetjuk.
+
+A kommunikació  folyamatát a \ref{fig:FPGAuartRos} ábrán is végig követhetjük.
 
 \begin{figure}[H]		
 		%trim = bal also jobb felso
@@ -42,13 +43,13 @@ A komunikacio folyamatat a \ref{fig:FPGAuartRos} abra is vegigkovethetjuk.
 
 \renewcommand{\img}{SajatRobot/FPGAmodulok/UartUML.jpg}
 \renewcommand{\sources}{*}
-\renewcommand{\captionn}{FPGA hardver/MicroBlaze proceszor es ROS node kozti komunikacio megvalistiasa UART protokol alapjan }
+\renewcommand{\captionn}{FPGA hardver/MicroBlaze processzor és ROS node közötti kommunikáció megvalósitása UART protokoll alapján }
 \renewcommand{\figlabel}{FPGAuartRos}
 \input{picture.tex}
 
 \begin{figure}[H]
   \includegraphics[width=1.2\columnwidth]{tikz/VivadoHL.pdf}
-  \caption{FPGA ban megvalositott szoftproceszor rendszer, legfelso negyzet.}
+  \caption{FPGA ban megvalósitott szoftproceszor rendszer, legfelső négyzet.}
   \label{fig:VivadoHl}
 \end{figure}
 
