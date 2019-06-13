@@ -1,17 +1,17 @@
 %\lhead{Modulok es kapcsolatok}
 
-\section{Alacsony szintu modulok} 
+\section{Alacsony szintű modulok} 
 
-A roboton alacsonyszintű feladatait amelyek a motor hajtásokhoz kapcsolódó szenzorokat és vezérlő jelek elő allitasara hivatott a kétdaram CmodA7 20T FPGA fejlesztőlap. Négy tengely szogsebesseget kel szabályozni, egy FPGA két hajtást valósít meg. A \ref{fig:CmodA7architektura} alapján egy hajtáshoz tartozó I/O-k:
+A roboton alacsony szintű feladatait amelyek a motor hajtásokhoz kapcsolódó szenzorokat és vezérlő jelek előállítására hivatott a két CmodA7 20T FPGA fejlesztőlap. Négy tengely szögsebességet kell szabályozni, egy FPGA két hajtást valósít meg. A \ref{fig:CmodA7architektura} alapján egy hajtáshoz tartozó I/O-k:
 
 \begin{table}[H]
 \center
 \begin{tabular}{lll}
-\hline Név                            & Darab              & Típus  \\ \hline
-Inkrementális enkoder           & 2           & Digitális Input \\
+\hline Név                            & Darabszám              & Típus  \\ \hline
+Inkrementális szenzor           & 2           & Digitális Input \\
 Árammérő szenzor                & 1                  & Analóg Input \\
 Motor vezérlő                   & 3                  & Digitális Output \\
-Végálas kapcsoló                 & 1                  & Digitális Input        
+Végállás kapcsoló                 & 1                  & Digitális Input        
 \end{tabular}
 \end{table}
 
@@ -20,74 +20,74 @@ Végálas kapcsoló                 & 1                  & Digitális Input
 
 \renewcommand{\img}{SajatRobot/SzerkAbrak/cmoda7modulok.jpg}
 \renewcommand{\sources}{*}
-\renewcommand{\captionn}{CmodA7 FPGA-ban kialakított architektúra amely a szenzorok és motor hajtások kezelésre hivatott }
+\renewcommand{\captionn}{CmodA7 FPGA-ban kialakított architektúra amely a szenzorok és motor hajtások jeleinek feldolgozását és előállítását valósítja meg }
 \renewcommand{\figlabel}{CmodA7architektura}
 \input{picture.tex}
 
 
-A \ref{fig:VivadoHl} a Vivado tervezoprogramban FPGA ban megvalositott proceszor architektura lathato, tartalmaz egy szoft core proceszort (microBlaze) a Xilinx. Az utasitas es az adatmemoria az $microblaze\_0\_local\_memory$ ban talalhato. A memoria merete 24Kbyte 32bit savszeleseggel, amely az FPGA block memoriajabol van osszerakva. A programkod maga egy kulso memoriaban van tarolva ami QSPI alapu interfacevel kapcsolodik a FPGA hoz, az $ExternalMemorys$ kapcsolja be az AXI busz rendszeren keresztul a proceszor memoriacimatartomanyaba. A kulso memoria merete 30MByte. A proceszor mukodesehez szukseges a $ClockAndReset$ modul eloalitja az orajelet ami 100MHz, ezen a frekvencian mukodik az proceszor es a memoria is. Az $mdm\_1$ modul a rendszerben torteno jelek megfigyelesere es a proceszorn futo kod debugolasara hivatott.
+A \ref{fig:VivadoHl} a Vivado tervezőprogramban FPGA-ban megvalósított processzor architektúra látható, tartalmaz egy szoftcore processzort (microBlaze). Az utasítás és az adatmemória az $microblaze\_0\_local\_memory$-ban található. A memória mérete 24Kbyte 32bit sávszélességgel, amely az FPGA block memóriájából van összerakva. A programkód maga egy külső memóriában van tarolva, QSPI alapú interfésszel kapcsolódik a FPGA hoz, az $ExternalMemorys$ kapcsolja be az AXI busz rendszeren keresztül a processzor memória címtartományába. A külső memória mérete 30 MByte. A processzor működéséhez szükséges a $ClockAndReset$ modul előállítja az órajelet ami 100 MHz, ezen a frekvencián működik az processzor és a memória is. Az $mdm\_1$ modul a rendszerben jeleinek és a programkód megfigyelésére hivatott.
 
-A \ref{fig:VivadoHl} abran lathato $UartCom$ modul belso szerkezete lathato az \ref{fig:UartComVivaldo} abran. A modula $uartcommand\_0$ szerepe a komunikacos protokol implmentalasa hardveres szinten, a modul fogadja az UART protokolen 8bit csomagokat. A protokol altal meghatarozott keretezesi bytokat figyelve (Start,Stop,Skip). Ezek paremeterkent megadhatok a microBlaze proceszoren keresztul. A procszor indulaskor bealitja ezeket a kovetkezo ertekekre: Start='S', Stop='P', es Skip='\\'. 
-Start keret byte erkezesetol kezdve az oszess byte negyesevel bekerul a 32bit, 400 byteos, $blk\_mem\_gen\_0$ memoriaba sorfojtonosan. Abban az esetben ha az uzenet megfaladja a 200 byte-t akkor a modul ugytekinti hogy hibas adatok erkeztek es viszater a kiidnulo allapotba. Abban az esetben ha binaris adatokat kuldunk tartalmazhat szpecialis protokol keretezesben resztvevi karaktereket igy ezeket eloti karakter Skip kell hogy legyen. A skip karakterek nem kerulnek bele a memoriaba ezeket a hardver kiveszi.
+A \ref{fig:VivadoHl} ábrán látható $UartCom$ modul belső szerkezete látható az \ref{fig:UartComVivaldo} ábrán. A modul $uartcommand\_0$ szerepe a kommunikációs protokoll implementálása hardveres szinten, a modul fogadja az UART protokollon  érkező 8 bites csomagokat. A protokoll által meghatározott keretezési byte-okat figyelve (Start,Stop,Skip). Ezek paraméterként megadhatok a microBlaze processzoron keresztül. A processzor induláskor beállítja ezeket a következő értékekre: Start='S', Stop='P', es Skip='\\'. 
+Start keret byte érkezésétől kezdve az összes byte négyesével bekerül a 32 bit, 400 byteos, $blk\_mem\_gen\_0$ memóriába jogfolytonosan. Abban az esetben ha az üzenet meghaladja a 200 byte-t akkor a modul úgy tekinti hogy hibás adatok érkeztek és visszatérte a kiinduló állapotba. Abban az esetben ha bináris adatokat küldünk tartalmazhat speciális protokoll keretezésben résztvevő karaktereket így ezeket előtt Skip karakter kell hogy legyen. A skip karakterek nem kerülnek bele a memóriába ezeket a hardver kiveszi és az utána következő karaktert nem értelmezi.
 
-A komunikacio folyamatat a \ref{fig:FPGAuartRos} abra is vegigkovethetjuk.
+A kommunikáció folyamatát a \ref{fig:FPGAuartRos} ábra is végigkövethetjük.
 
 \begin{figure}[H]		
 		%trim = bal also jobb felso
    \fbox{\includegraphics[width=1.1\columnwidth,trim=3cm 7cm 1cm 7cm,clip]{tikz/UartCom.pdf}}
-  \caption{FPGA ban megvalositott komunikacios protokol a 	     \ref{fig:FPGAcomuSection} leirt protokol alapjan.}
+  \caption{FPGA ban megvalósított kommunikációs modul a 	     \ref{fig:FPGAcomuSection} leírt protokoll alapján.}
   \label{fig:UartComVivaldo}
 \end{figure}
 
 
 \renewcommand{\img}{SajatRobot/FPGAmodulok/UartUML.jpg}
 \renewcommand{\sources}{*}
-\renewcommand{\captionn}{FPGA hardver/MicroBlaze proceszor es ROS node kozti komunikacio megvalistiasa UART protokol alapjan }
+\renewcommand{\captionn}{FPGA hardver/MicroBlaze processzor és ROS node közti kommunikáció megvalósítása UART protokoll alapján }
 \renewcommand{\figlabel}{FPGAuartRos}
 \input{picture.tex}
 
 \begin{figure}[H]
   \includegraphics[width=1.2\columnwidth]{tikz/VivadoHL.pdf}
-  \caption{FPGA ban megvalositott szoftproceszor rendszer, legfelso negyzet.}
+  \caption{FPGA ban megvalósított szoftprocesszor rendszer, legfelső négyzete.}
   \label{fig:VivadoHl}
 \end{figure}
 
-A keret veget jelzo byte erkezesekor a modul general egy megszakitast a microBlaze proceszornak az $interupt[0:0]$ kivezetesen keresztul.
-A megszakitas kiszolgalasakor a proceszor kiolvasa az $uartcommand_0$ modulbol az uj uzenet kezdocimet. A proceszor az adatokat az $axi\_bram\_ctrl\_1$ modulon keresztul kepes kiolvasni, az uj uzenetre mutato pointer erteket megkapjuk, ha az $uartcommand_0$ modul proceszor memoriajaba illesztett kezdocimet es a modul altal jelzet kezdocimet osszeadjuk.
-Abban az esetben, ha az adatok feldolgozasa elott uj csomag erkezik a hardver komunikacios modulhoz, elkezdodik annak beirasa a memoriaba, az elozo adatok felulnemirasaval.
+A keret véget jelző byte érkezésekor a modul generál egy megszakítást a microBlaze processzornak az $interupt[0:0]$ kivezetésen keresztül.
+A megszakítás kiszolgálásakor a processzor kiolvassa az $uartcommand_0$ modulból az új üzenet kezdőcímét. A processzor az adatokat az $axi\_bram\_ctrl\_1$ modulon keresztül kepés kiolvasni, az új üzenetre kezdőcímére, mutató pointer értékét megkapjuk, ha az $uartcommand_0$ modul processzor memóriájába illesztésétt kezdőcímét és a modul által jelzet kezdőcímet összeadjuk.
+Abban az esetben, ha az adatok feldolgozása előtt új csomag érkezik a hardver kommunikációs modulhoz, elkezdődik annak beírása a memóriába, az előző adatok felülírás nélkül.
 
-A $uartcommand_0$ modul kimenete $global\_enable[0:0]$ engedelyezo jel, abban az esetben ha nemkap a hardver $SREP$ uzenetet legalabb 300ms kent akkor az engedelyezo jelet alacsonyra alitja vagy ha $SRDP$ uzenet erkezett.
+A $uartcommand_0$ modul kimenete $global\_enable[0:0]$ engedélyező jel, abban az esetben ha nem kap a hardver $SREP$ üzenetet legalább 300ms periódussal, akkor az engedélyező jelet alacsonyra állítja vagy ha $SRDP$ üzenet érkezett.
 
-Az $uartsend\_0$ modul hasonlokeppen mukodik csak az adatok kuldesere hivatott. A microBlaze proceszor az $axi\_bram\_ctrl\_0$ modulon keresztul beleirodnak a $blk\_mem\_gen\_1$ \cite{DualPortRam} 32bites es 400byte meretu meoriaba.
-Az iras vegevel a proceszor bealitja a kuldes felget, amely egy parameter a hardvernek. A modul elkezdi kikuldeni az adatokat. Abban az esetben ha a csomag tartalamz szpecialis protokolt leiro byte-t akkor a modul automatikusan elkuldi elote a Skip karaktert.
+Az $uartsend\_0$ modul hasonlokeppen müködik csak az adatok küldésére hivatott. A microBlaze proceszor az $axi\_bram\_ctrl\_0$ modulon keresztül beleirodnak a $blk\_mem\_gen\_1$ \cite{DualPortRam} 32bites es 400byte méretű memóriába.
+Az írás végével a processzor beállítja a küldés jelet, amely egy paramétere a hardvernek. A modul elkezdi kiküldeni az adatokat. Abban az esetben ha a csomag tartalmaz speciális protokollt leíró byte-t akkor a modul automatikusan elküldi előtte a Skip karaktert.
 
-Az $uartread\_0$ az UART protokol implemetalja FPGA hardverebe, a $sin$ az RX bemenet, a $data[7:0]$ a 8bite szeles adatvezetek ami tartalmaza az utolso berkezet byte uzenetet. A $dataready[0:0]$ felfuto el jelzi az uj adat erkezeset. Az $uartwrite\_0$ modul a $data[7:0]$ 8bites sinen erkezo adatot kuldi ki UART protokol alapjan a $tx[0:0]$ kimenetere abban az esetben ha a $datavalid[0:0]$ bemeneten egy felfuto el erkezik.
+Az $uartread\_0$ az UART protokoll implementálja FPGA hardverebe, a $sin$ az RX bemenet, a $data[7:0]$ a 8 bites szeles adatvezeték ami tartalmazza az utolsó beérkeztt byte-t. A $dataready[0:0]$ felfutó él jelzi az új adat érkezését. Az $uartwrite\_0$ modul a $data[7:0]$ 8bites sinen érkező adatot küldi ki UART protokoll alapján a $tx[0:0]$ kimenetere abban az esetben ha a $datavalid[0:0]$ bemenetén egy felfutó él érkezik.
 
-Az \ref{fig:ControllersVivado} hathato $A$ es $B$ modul feladatuk egy-egy DC motor szabalyzasat lassak el. Mindket modulban ugyan azon alegysegek talalhatok meg az $A$ modul az robot elso, mig a $B$ modul a robot hatso kereket szabalyozza.
+Az \ref{fig:ControllersVivado} látható $A$ és $B$ modul feladatuk egy-egy DC motor szabályzását/vezérlését lássák el. Mindkét modulban ugyan azon alegységek találhatok meg az $A$ modul az robot első, míg a $B$ modul a robot hátsó kerekét szabályozza.
 
-A \ref{fig:ControllerMag} abran lathato a modulok belso szerkezete. A $pwm\_hardver\_B$ PWM jelet allit a $pwm[0:0]$ kimeneten, es egy iranyjelet $dir[0:0]$ a bemeneti 16bites elojeles szambol. A PWM kitoltesi tenyezoje -32000 tol 32000 ig terjed ki az elojel meghatarozza az iranyt mig az abszolut erteke a pwm kitoltesi erteket. A $enable[0:0]$ jel engedelyezi a kimenetet, ha erteke alacsony akkor a pwm kimenet is alacsony.
+A \ref{fig:ControllerMag} ábrán látható az $A$ és $B$ modulok belső szerkezete. A $pwm\_hardver\_B$ PWM jelet állít elő, a $pwm[0:0]$ kimenetre, és egy irányjelet $dir[0:0]$, a bemeneti 16bites előjeles számból áll. A PWM kitöltési tényezője -32000 tol 32000-ig terjed ki (15bit), az előjel meghatározza az irányt míg az abszolút érteke a pwm kitöltési értéket. A $enable[0:0]$ jel engedélyezi a kimenetet, ha érteke alacsony akkor a pwm kimenet is alacsony.
 
 
 \begin{figure}[H]
   		%trim = bal also jobb felso
    \fbox{\includegraphics[width=1.1\columnwidth,trim=2cm 9cm 1cm 9cm,clip]{tikz/Controllers.pdf}}
-  \caption{FPGA ban megvalositott szabalyzok A es B}
+  \caption{FPGA-ban megvalósított szabályzok A és B}
   \label{fig:ControllersVivado}
 \end{figure}
 
-Az $InkrementalisSensor\_B$ axi sinen keresztul kapcsolodik a proceszorhoz, feladata az inkrementalis szenzortol erkezo $A$ es $B$ jeleknek a feldolgozasa. A modul ket jelet kuld ki: $dir[0:0]$ amely a forgas iranyat jelzi, $imp[0:0]$ egy orajelperiodusig tarto felfutojelet kuld ki az inkrementalis szenzor minden egyes elmozdualsara.
+Az $InkrementalisSensor\_B$ axi sínen keresztül kapcsolódik a processzorhoz, feladata az inkrementális szenzortól érkező $A$ és $B$ jeleknek a feldolgozása. A modul két jelet küld ki: $dir[0:0]$ amely a tengely forgás irányát jelzi, $imp[0:0]$ egy órajelperidusig tartó felfutójelet küld ki az inkrementális szenzor minden egyes elmozdulására.
 \begin{figure}[H]
     		%trim = bal also jobb felso
    \fbox{\includegraphics[width=1.1\columnwidth,trim=1cm 4cm 1.8cm 4cm,clip]{tikz/B.pdf}}
-  \caption{FPGA controller mag.}
+  \caption{FPGA controller modul}
   \label{fig:ControllerMag}
 \end{figure}
 
-A $positioncounter\_B$ modul meri a szogsebeseget es a szogpoziciot ido es impulzus szamolasi modszereket hasznalva. A proceszor a sajat mintaavetelezesi frekvenciajaval olvassa ki a modulbol a mert ertekket es alakitja at a kivant mertekegyszegekbe.
+A $positioncounter\_B$ modul meri a szögsebességet és a szögpozíciót idő és impulzus számolási módszert használva. A processzor a saját mintavételezési frekvenciájával olvassa ki a modulból a mert értékeket és átalakítja kivant mértékegységbe.
 
-Az \ref{fig:ControllerMag} abran lathato tobbi modul jelen pilanatban tovabfejlesztesi lehetosegkent jeleni meg. A $pimpid\_B$ modul FPGA alapu PID szabalyzo modul, $ServoMotorGearBox\_B$ a DC motrokon levo fogaskerek kapcsolasi lehetoseget hivatott majd alitan egy szervomotor segitsegevel.
+Az \ref{fig:ControllerMag} ábrán látható többi modul jelen pillanatban továbbfejlesztési lehetőségként jelenik meg. A $pimpid\_B$ modul FPGA alapú PID szabályzó modul, $ServoMotorGearBox\_B$ a DC motrokon levő fogaskerék kapcsolási lehetőséget hivatott majd állítani egy szervomotor segítségével.
 
-A szabalyzok referencia ertekeit a $RefValues$ funkcionalitas biztositja, a megfelelo uzenetek erkezesekor a memoriaba bealitodnak a kivant referencia ertekek, es majd a szoftveres szabalyzok innet olvasak ki. A hardveres szabalyzoknak pedig a beerkezes pillanatban lekuldodik a hardveres moduloknak.
+A szabályzok referencia értékeit a $RefValues$ funkcionalitás biztosítja, a megfelelő üzenetek érkezésekor a memóriába beállítódnak a kívánt referencia értékek, és majd a szoftveres szabályzok kiolvassák. A hardveres szabályzóknak pedig a beérkezés pillanatban leküldődik.
 
 A $Monitors/Controllers$ funkcionalitas egy parameterbol allithato periodusu idozito amely megszakitasokat general a proceszornak. A proceszor ezekre a megszakitasokra szamolja ki a beavatkozi jelek uj ertekeit, valamint a elkuldi a mert,es a kapott referencia erteketk UART on keresztul.
 
@@ -95,15 +95,15 @@ A $Monitors/Controllers$ funkcionalitas egy parameterbol allithato periodusu ido
 
 \subsection{Microblaze szoftvere}
 
-A rendszer tervezesenel a fo koncepcio az volt hogy a rendszer arhitekturaja dinamikus legyen a fejleszhetoseget tekitve, igy a \ref{fig:CmodA7architektura} levo arhitekurat kaptuk.
+A rendszer tervezésénél a fő koncepció az volt hogy a rendszer architekturája dinamikus legyen a fejleszthetőséget tekintve, így a \ref{fig:CmodA7architektura} levő arhitekurát kaptuk.
 
-A microblaze proceszor feladatai hardveres modulok kezdeti allapotainak a beallitasa, szoftveresen furt szabalyzot mukodtetese, az beerkezett uzenetek feldolgozasa. A proceszoron futo szoftvert az \ref{fig:MicroblazeSoft} UML diagram szemleteti.
-A peremeterek irasa es olvasasa funkcionalitasban, az ujonan erkezet parameter ertkenek a bealitasi mente a kovetkezo: az uzenet beleirodik a memoriaba, megszakitas generalodik a proceszor iranyaban, a procesyor feldolgozza az uj uzenetet, eszleli hogy parameter ertekenek a bealitasa tipusu uzenet erkezett, meghivodik az eszt kiszolgalo fuggveny. A tovabiakkban az osszes parameter ujraszamolodik, es ujrakuldodik a hardveres modulok iranyaba. Abban az esetben ha minden sikeresen zajlot a proceszor pozitiv viszajelzst(ACK) uzenetet kuld es viszakulde a bealitott parameter erteket, acelbol hogy a kuldo is megbizonyosodhadjon a parameter helyes bealitasarol.
+A microblaze processzor feladatai hardveres modulok kezdeti állapotainak a beállítása, szoftveresen futó szabályzók működtetése, a beérkezett üzenetek feldolgozása. A processzoron futó szoftvert az \ref{fig:MicroblazeSoft} UML diagram szemlélteti.
+A paraméterek írása és olvasása funkcionalitásban, az új beérkezet paraméter értekének a beállítási mente a következő: az üzenet beleíródik a memóriába, megszakítás generálódik a processzor irányában, a processzor feldolgozza az új üzenetet, észleli hogy paraméter értekének a beállítása típusú üzenet érkezett, meghívódik a kiszolgáló függvény. A továbbiakban az összes paraméter újraszámolódik, és újraküldődik a hardveres modulok irányába. Abban az esetben ha minden sikeresen beállítódott a processzor pozitív visszajelzést(ACK) üzenetet küld és visszaküldi a beállított paraméter értékét, acélból hogy a küldő is megbizonyosodjon a paraméter helyes beállításáról.
 
 
 \renewcommand{\img}{SajatRobot/FPGAmodulok/uBlazeAndFpgaUML.jpg}
 \renewcommand{\sources}{*}
-\renewcommand{\captionn}{MicroBlaze proceszoron futo szoftver diagramja}
+\renewcommand{\captionn}{MicroBlaze processzoron futó szoftver diagramja}
 \renewcommand{\figlabel}{MicroblazeSoft}
 \input{picture.tex}
 
@@ -112,7 +112,7 @@ A peremeterek irasa es olvasasa funkcionalitasban, az ujonan erkezet parameter e
 
 \subsection{FPGA es UART alapu komunikacios protokol}
 \label{FPGAcomuSection}
-Megvalositva a komunikaciot a kiszolgalo ROS noddal, amely UART protokolra epitett sajat uzenetekbol all \ref{fig:FPGAComCsomagAlt}.
+Megvalósítva a kommunikációt a kiszolgáló ROS-node, amely UART protokollra épített saját üzenetekből áll. \ref{fig:FPGAComCsomagAlt}.
 
 \renewcommand{\img}{SajatRobot/FPGAmodulok/ProtokolDiagram.jpg}
 \renewcommand{\sources}{*}
@@ -121,16 +121,17 @@ Megvalositva a komunikaciot a kiszolgalo ROS noddal, amely UART protokolra epite
 \input{picture.tex}
 
 
-A protokol keretek koze foglalt adatok sorendisegere epul. Szpecialis karakterek \footnote{specialis karakterek amelyek jelzik az ertelmezo szamara hogy olyan karakter kovetkezik amelyet a protokol ertelmezeseben nem kell vegrehajtani.} jelzik az uzenet kezdetet es veget jelen esetben az $S$ csomag kezdetet, mig a $P$ a csomag veget jelentik.
-Az csomag tartalmazhat binaris formatumo adatot is ezeket minden esetben a \{ es \} szpecialis karakterek koze kel kerulniuk, mert a koztuk levo adat nem fog ertelemzesre kerulni a feldolgozo altal. Binaris reszt  pl:. struktura tipusu adatra hasznalhatjuk. Mindig a \{ utani elso karakter megadja a binaris adat hoszat igy tudja az ertelmezo hogy hol kell varnia a lezaro karaktert. A binaris szekco hossza nemlehet nagyobb mint 254 byte hosszu, de amenyiben szukseges kiterjeszheto.
+A protokoll keretek közé foglalt adatok rendiségre épül. Speciális karakterek \footnote{speciális karakterek amelyek jelzik az értelmező szamara hogy olyan karakter következik amelyet a protokoll értelmezésében nem kell végrehajtani.} jelzik az üzenet kezdetet és véget jelen esetben az $S$ csomag kezdetét, míg a $P$ a csomag véget jelentik.
+Az csomag tartalmazhat bináris formátumú adatot is ezeket minden esetben a \{ és \} speciális karakterek közé kel kerülniük, mert a köztük levő adat nem fog értelmezésre kerülni a feldolgozó által. Bináris reszt  pl:. struktúra típusú adatra használhatjuk. Mindig a \{ utáni első karakter megadja a bináris adat hosszát így tudja az értelmező hogy hol kell várnia a lezáró karaktert. A bináris szekció hossza nem lehet nagyobb mint 254 byte, de amennyiben szükséges kiterjeszthető.
 
-Minden uzenet tartalmaz egy egyedi azonostot ami meghatarozza az uzenet tipusat ez alapjan tudja eldonteni majd a fogad fel hogy melyik kiszolgalo rutint kell felhivnia. Ezt koveti egy uzenet szamlalo 5 char hoszu mezo amely string formaban tartalmez egy egesz szamot, amley minden kikuldott uzenet utan novelni kell. Az uzenetszamlalo alol kivetelt kepeznek a direkt hardveres uzenetek pl.: $SREP$ es a $SRDP$.
-A hasznos adat tovabbi felepiteset midontjuk el annak fugvenyeben hogy mit szeretnek. Jelen esetben a uzenetipus orientalt parancsokat szerkesztunk amelyekkel a referencia ertekeket, parametereket allitjuk be, valamint binaris szekciot is tartalmazo strukturat kul az FPGA a PC nek amely a szabalzast es monitorizalast szolgalja.
+Minden üzenet tartalmaz egy egyedi azonosítót ami meghatározza az üzenet típusát ez alapján tudja eldönteni majd a fogadott fél hogy melyik kiszolgáló rutint kell felhívnia. Ezt követi egy üzenet számláló 5 char hószú mező amely string formában tartalmaz egy egész számot, amely minden kiküldött üzenet után növelni kell. Az üzenetszámlaló alól kivételt kepéznek a direkt hardveres üzenetek pl.: $SREP$ es a $SRDP$.
+A hasznos adat további felépítését meghatározható annak függvényében hogy mit szeretnénk. Jelen esetben a üzenet típus orientált parancsokat szerkesztünk amelyekkel a referencia értékeket, paramétereket állítjuk be, valamint bináris szekciót is tartalmazó struktúrát küld az FPGA modul PC-nek amely a szabályzást és historizálást szolgálja.
 
 \subsection{Paramterek FPGA modul}
 
-A parameterek segitsegevet tudjuk bealitani a mintavetelezesi periodusokat, az inkrementalis szenzorok felbontasat, a szabalyozok bealitasait is ezaltal oldhatjuk meg. Configuracios parameterek.: valaszhatunk szabalyzotipusokat.
-Az alabbi tablazatban egy leirjuk a ROS-banhasznalt parametereket. A paremeterek nevenek vegen levo $X$ jelolje $A$ vagy $B$, attol fuggoen hogy melyik DC motorhajtashoz tartozik. Az \ref{fig:ControllersVivado}abran lathato modulokat tudjuk configuralni.
+A paraméterek segítségével tudjuk beállítani a mintavételezési periódusokat, az inkrementális szenzorok felbontását, a szabályozok beállítását is ezáltal oldhatjuk meg.
+Konfigurációs paraméterek:
+Az alábbi táblázatban leírjuk a ROS-ban használt paramétereket. A paraméterek nevének végen levő $X$ jelölje $A$ vagy $B$, attól függően hogy melyik DC motorhajtáshoz tartozik. Az \ref{fig:ControllersVivado} ábrán látható modulokat tudjuk konfigurálni.
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
 % \usepackage[normalem]{ulem}
@@ -138,18 +139,18 @@ Az alabbi tablazatban egy leirjuk a ROS-banhasznalt parametereket. A paremeterek
 
 \begin{table}[H]
 \begin{tabular}{lllllp{6cm}}
-\hline \multirow{2}{*}{Id} & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Nev \\ (X lehet A vagy B)\end{tabular}} & \multicolumn{2}{l}{Ertekek} & \multirow{2}{*}{Tipus} & \multirow{2}{*}{Leiras}                                                                                                                      \\
+\hline \multirow{2}{*}{Id} & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Név \\ (X lehet A vagy B)\end{tabular}} & \multicolumn{2}{l}{Értékek} & \multirow{2}{*}{Típus} & \multirow{2}{*}{Leírás}                                                                                                                      \\
                     &                                                                                    & Min         & Max           &                        &                                                                                                                                              \\ \hline
-1                   & TsTimerPeriod                                                                      & 1           & 1000          & int16                  &  Mintavetelezesi periodus {[}ms{]} ban.                                                                                                      \\
-2                   & GetDataPeriodical                                                                  & 0           & 1             & int16                  &  Kapcsolo ha 0 akkor nem kuld az FPGA mert ertekeket, kulomben a TsTimerPeriod periodusi mintavetellel kuld.                                  \\
-3                   & TorqueCoefX                                                                        &             &               & float16                &  Motor aram es nyomatek kozti egyuthato.                                                                                                      \\
-4                   & ActiveControllerX                                                                  & 0           & 65535         & int16                  &  Valaszhato szabalyzo tipusok hajtasonkent 0=Szoftvare PID szogsebesseg, 1=Hardver PID szogsebesseg, 2=Szoftver PID aram, 3=Hardver PID aram  \\
-5                   & MaxControlSiggnalX                                                                 & 0           & 32760         & sint16                 &  A beavatkozo PWM jel maximalis kitoltesi tenyezoje, linearisan 0-\textgreater{}0\% -tol 32760-\textgreater{}100\% -ig.                       \\
-6                   & IncSenzResX                                                                        & 0           & 65535         & int16                  &  Inkrementalis szenzor altal generalt inpulzusok szama egy teljes kerekfordulatra.FPGA oldalon ez a szam 10-el szorzodik.                     \\
-7                   & IncSenzCountDirectionX                                                             & -1          & 1             & sint16                 &  inkrementalis szenzor jeleit feldogozo mudul szamolasi iranyanak valtoztatasara szolgalo egyuthato.                                          \\
-8                   & Kp\_Whell\_PidX                                                                    & 0           &               & float16                &  szogsebeseg szabalyzo, PID erositesi parametere.                                                                                             \\
-9                   & Ti\_Whell\_PidX                                                                    &             &               & float16                &  szogsebeseg szabalyzo, PID integralasi ido.                                                                                                  \\
-10                  & Td\_Whell\_PidX                                                                    &             &               & float16                &  szogsebeseg szabalyzo, PID derivalasi ido.                                                                                                   
+1                   & TsTimerPeriod                                                                      & 1           & 1000          & int16                  &  Mintavételezési periódus {[}ms{]} ban.                                                                                                      \\
+2                   & GetDataPeriodical                                                                  & 0           & 1             & int16                  &  Kapcsoló ha 0 akkor nem küld az FPGA mért értékeket, különben a TsTimerPeriod periódusú mintavétellel küld.                                  \\
+3                   & TorqueCoefX                                                                        &             &               & float16                &  Motor arám és nyomaték közti együttható.                                                                                                      \\
+4                   & ActiveControllerX                                                                  & 0           & 65535         & int16                  &  Válaszható szabályzó típusok hajtásonként 0=Szoftvare PID szögsebesség, 1=Hardver PID szögsebesség, 2=Szoftver PID arám, 3=Hardver PID arám  \\
+5                   & MaxControlSiggnalX                                                                 & 0           & 32760         & sint16                 &  A beavatkozó PWM jel maximális kitöltési tényezője, lineárisan 0-\textgreater{}0\% -tol 32760-\textgreater{}100\% -ig.                       \\
+6                   & IncSenzResX                                                                        & 0           & 65535         & int16                  &  Inkrementális szenzor által generált impulzusok száma egy teljes kerékfordulatra. FPGA oldalon ez a szám 10-el szorzandóik.                     \\
+7                   & IncSenzCountDirectionX                                                             & -1          & 1             & sint16                 &  Inkrementális szenzor jeleit feldolgozó modul számolási iránya állítható be.                                          \\
+8                   & Kp\_Whell\_PidX                                                                    & 0           &               & float16                &  szögsebesség szabályzó, PID erősítési paramétere.                                                                                             \\
+9                   & Ti\_Whell\_PidX                                                                    &             &               & float16                &  szögsebesség szabályzó, PID integrálási idő.                                                                                                  \\
+10                  & Td\_Whell\_PidX                                                                    &             &               & float16                &  szögsebesség szabályzó, PID deriválási idő.                                                                                                   
 \end{tabular}
 \end{table}
 
@@ -160,7 +161,7 @@ Az alabbi tablazatban egy leirjuk a ROS-banhasznalt parametereket. A paremeterek
 
 \subsection{Kommunikáció sebessége}
 
-Az uart sebesege 1MBd \footnote{megabaud} ami megfelel 131072 byte/s adatforgalomnak. A valosagban a komunikacio hibatlanul mukodik 1ms periodussal kuldott 100byte hoszu uzeneteket. Osszehasonlitva $AXI\_UART\_Lite$ \cite{AXIuartLite} modullal elert eredmenyekkel 50ms periodust tudtunk csak elerni ammi annak tudhato be hogy a protoko ertelmezeset a szoftver vegezte es nem a hardver. A FIFO hasznalata elenere sem skerult nagyobb mintavetelezesi sebeseget elerni, hogy nem minden karakter utan generalt proceszor megszakitast csak minden 16-dik karakter utan.
+Az uart sebessége 1MBd \footnote{megabaud} ami megfelel 131072 byte/s adatforgalomnak. A valosagban a komunikáció hibátlanul müködik 1 ms periodussal, küldött 100byte méretü üzeneteket. Összehasonlítva $AXI\_UART\_Lite$ \cite{AXIuartLite} modullal elért eredmények, 50 ms periódust tudtunk csak elérni, mert a protokoll értelmezését a szoftver végezte és nem a hardver. A FIFO használata ellenére sem sikerült kisebb mintavételezési periódust elérni, hogy nem minden karakter után generált processzor megszakítást csak minden 16-dik karakter után.
 
 \begin{equation}
     frekvencia = \frac{131072}{SizeOfPachage}=\frac{131072[byte/s]}{100[byte]}=1310,072 [Hz]
@@ -168,7 +169,7 @@ Az uart sebesege 1MBd \footnote{megabaud} ami megfelel 131072 byte/s adatforgalo
 
 \subsection{Biztonsagi megoldasok}
 
-Abbana az esetben ha kikultuk az elirt ertekeket a modulnak es ezutan a komunikacio megszakadt a modullal akkor a szabalyzok probaljak tartani az elirt erteket annak elenere is hogy az mar lehet hogy ez mar nem akktualis. Erre a celra bepitesre kerult egy uzenet es egy logika (HeartBeat) amely csak a komunikacios modulhoz erkezik meg, es jelzi hogy a ROS jolmukodik, es forditva is.Abban az esetben ha a komunikacio megszakad lealitja a motrokat es a szabalyzokat,  \ref{fig:FPGAuartRos} alapjan az Enable(EN) jel.
+Abban az esetben ha kiküldtük az előírt értékeket a modulnak és ezután a kommunikáció megszakadt a modullal akkor a szabályzok próbáljak tartani az előírt érteket annak ellenére is hogy az mar lehet hogy nem aktuális. Erre a célra beépitésre került egy üzenet és egy logika (HeartBeat), a periodikusan érkező üzenet, amely csak a kommunikációs modulhoz érkezik meg, és jelzi hogy a ROS jolmüködik, és fordítva is küldődik periodikus üzenet amely jelzi az FPGA normális működést. Abban az esetben ha a  megszakad leállítja a motorokat es a szabalyzokat,  \ref{fig:FPGAuartRos} alapjan az Enable(EN) jel.
 
 \begin{table}[H]
 \center
