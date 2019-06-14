@@ -16,7 +16,7 @@
 \BOOKMARK [2][-]{subsection.2.8.1}{Elo\355rt nyomat\351kkal}{section.2.8}% 16
 \BOOKMARK [2][-]{subsection.2.8.2}{Elirt kerekszogsebessegekkel}{section.2.8}% 17
 \BOOKMARK [0][-]{chapter.3}{A rendszer implement\341l\341sa}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Robot felepitese}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.1}{Robot fel\351p\355t\351se}{chapter.3}% 19
 \BOOKMARK [1][-]{section.3.2}{Alacsony szintu modulok}{chapter.3}% 20
 \BOOKMARK [2][-]{subsection.3.2.1}{Microblaze szoftvere}{section.3.2}% 21
 \BOOKMARK [2][-]{subsection.3.2.2}{FPGA es UART alapu komunikacios protokol}{section.3.2}% 22
@@ -25,17 +25,17 @@
 \BOOKMARK [2][-]{subsection.3.2.5}{Biztonsagi megoldasok}{section.3.2}% 25
 \BOOKMARK [1][-]{section.3.3}{ROS}{chapter.3}% 26
 \BOOKMARK [2][-]{subsection.3.3.1}{Uzenet tipusok \(.msg\)}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.2}{FPGA komunikacios modul ROS oldali integracio}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.2}{FPGA kommunik\341ci\363s modul ROS oldali integraci\363}{section.3.3}% 28
 \BOOKMARK [2][-]{subsection.3.3.3}{Eloirt \351rt\351kek}{section.3.3}% 29
 \BOOKMARK [2][-]{subsection.3.3.4}{Vonatkoztat\341si Rendszerek }{section.3.3}% 30
 \BOOKMARK [1][-]{section.3.4}{Kerekek Pid Szabalyzo hangolas}{chapter.3}% 31
 \BOOKMARK [2][-]{subsection.3.4.1}{Kisebik fokozatban}{section.3.4}% 32
-\BOOKMARK [1][-]{section.3.5}{P\341lyak\366vettesi feladatok}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{P\341lyak\366vett\351si feladatok}{chapter.3}% 33
 \BOOKMARK [1][-]{section.3.6}{Meresek}{chapter.3}% 34
 \BOOKMARK [2][-]{subsection.3.6.1}{Differenci\341lis Forg\341s V\355zszintes Talajon}{section.3.6}% 35
 \BOOKMARK [2][-]{subsection.3.6.2}{Feloldali kerekek blokolva kavicsos talajon}{section.3.6}% 36
 \BOOKMARK [2][-]{subsection.3.6.3}{Kavicsos talajon helyben forg\341s}{section.3.6}% 37
-\BOOKMARK [2][-]{subsection.3.6.4}{Kavicsos talajon korpalyan 50/15}{section.3.6}% 38
+\BOOKMARK [2][-]{subsection.3.6.4}{Kavicsos talajon k\366rp\341ly\341n 50/15}{section.3.6}% 38
 \BOOKMARK [2][-]{subsection.3.6.5}{Kavicsos talajon k\366rp\341ly\341n 50/25}{section.3.6}% 39
 \BOOKMARK [2][-]{subsection.3.6.6}{Kavicsos talajon, a k\366rp\341ly\341k \366sszehasonlit\341sa}{section.3.6}% 40
 \BOOKMARK [2][-]{subsection.3.6.7}{Homokos Lejto}{section.3.6}% 41

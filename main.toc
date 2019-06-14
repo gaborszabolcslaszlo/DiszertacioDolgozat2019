@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{Mesters\IeC {\'e}ges Er\IeC {\H o} M\IeC {\'o}dszere}{31}{equation.2.8.30}
 \contentsline {subsection}{\numberline {2.8.2}Elirt kerekszogsebessegekkel}{32}{subsection.2.8.2}
 \contentsline {chapter}{\numberline {3}A rendszer implement\IeC {\'a}l\IeC {\'a}sa}{33}{chapter.3}
-\contentsline {section}{\numberline {3.1}Robot felepitese}{33}{section.3.1}
+\contentsline {section}{\numberline {3.1}Robot fel\IeC {\'e}p\IeC {\'\i }t\IeC {\'e}se}{33}{section.3.1}
 \contentsline {section}{\numberline {3.2}Alacsony szint\IeC {\H u} modulok}{34}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Microblaze szoftvere}{42}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}FPGA es UART alapu komunikacios protokol}{44}{subsection.3.2.2}
@@ -27,17 +27,17 @@
 \contentsline {subsection}{\numberline {3.2.5}Biztonsagi megoldasok}{46}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}ROS}{48}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Uzenet tipusok (.msg)}{49}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}FPGA komunikacios modul ROS oldali integracio}{52}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}FPGA kommunik\IeC {\'a}ci\IeC {\'o}s modul ROS oldali integraci\IeC {\'o}}{52}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}El\IeC {\H o}irt \IeC {\'e}rt\IeC {\'e}kek}{54}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Vonatkoztat\IeC {\'a}si Rendszerek }{54}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}Kerekek Pid Szabalyzo hangolas}{57}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Kisebik fokozatban}{58}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}P\IeC {\'a}lyak\IeC {\"o}vettesi feladatok}{60}{section.3.5}
+\contentsline {section}{\numberline {3.5}P\IeC {\'a}lyak\IeC {\"o}vett\IeC {\'e}si feladatok}{60}{section.3.5}
 \contentsline {section}{\numberline {3.6}Meresek}{61}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Differenci\IeC {\'a}lis Forg\IeC {\'a}s V\IeC {\'\i }zszintes Talajon}{61}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Feloldali kerekek blokolva kavicsos talajon}{61}{subsection.3.6.2}
 \contentsline {subsection}{\numberline {3.6.3}Kavicsos talajon helyben forg\IeC {\'a}s}{64}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Kavicsos talajon korpalyan 50/15}{67}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.4}Kavicsos talajon k\IeC {\"o}rp\IeC {\'a}ly\IeC {\'a}n 50/15}{67}{subsection.3.6.4}
 \contentsline {subsection}{\numberline {3.6.5}Kavicsos talajon k\IeC {\"o}rp\IeC {\'a}ly\IeC {\'a}n 50/25}{70}{subsection.3.6.5}
 \contentsline {subsection}{\numberline {3.6.6}Kavicsos talajon, a k\IeC {\"o}rp\IeC {\'a}ly\IeC {\'a}k \IeC {\"o}sszehasonlit\IeC {\'a}sa}{73}{subsection.3.6.6}
 \contentsline {subsection}{\numberline {3.6.7}Homokos Lejt\IeC {\H o}}{73}{subsection.3.6.7}
