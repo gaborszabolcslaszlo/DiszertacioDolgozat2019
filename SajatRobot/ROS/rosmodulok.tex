@@ -103,18 +103,18 @@ A globális engedélyező jel a \ref{fig:ROStoUart} MasterLive Enable,  /globalE
 \input{picture.tex}
 
 \subsection{Előirt értékek}
-A /refVals tipusu üzenetben megadjuk minden egyes motor előírt érteket annak fövenyében $\degree/s$ ha sebesség alapján szabályzunk vagy $N/m$ előírt nyomaték alapján szabályzunk.
+A /refVals típusú üzenetben megadjuk minden egyes motor előírt értékét annak fövenyében $\degree/s$ hogy sebesség alapján szabályzunk vagy $N/m$ előírt nyomaték alapján.
 
 
 \subsection{Vonatkoztatási Rendszerek }
-A  vonatkoztatási rendszereket szükségesek mert a szenzorok és beavatkozó eszközök egymáshoz viszonyított helyzete es pozicioja is változhat. Sok esetben szükséges ismernünk egy adott eszköznek a múltbeli helyzetét, vagy egy másik vonatkoztatási rendszerhez képest a pozícióját vagy irányát. A ROS biztosít egy tf \cite{rosTF} nevű csomagot amely megvalósítja a szűkséges transzformalasokat a $VNR$-k kozott. 
+A  vonatkoztatási rendszerek szükségesek, mert a szenzorok és beavatkozó eszközök egymáshoz viszonyított helyzete és poziciója is változhat. Sok esetben szükséges ismernünk egy adott eszköznek a múltbeli helyzetét, vagy egy másik vonatkoztatási rendszerhez képest a pozícióját vagy irányát. A ROS biztosít egy tf \cite{rosTF} nevű csomagot amely megvalósítja a szűkséges transzformálásokat a $VNR$-k között. 
 A \ref{fig:ROSframes} látható a kialakított vonatkoztatási rendszerek a roboton amely hűen modellezi a fizikai robot kialakítását.
-A vonatkoztatási rendszereket két csoportba oszthatok:
+A vonatkoztatási rendszereket két csoportba oszthatók:
 
 \begin{enumerate}[label=(\alph*)]
 \item rögzített pozíció és szögek, szabadságok 0:
-Szenzorok laser, BODY\_link, wheel\_odom, ImuALink VNR je a base\_link a globális robot VNR höz:
-\item rögzített pozíció csak szögek változnak, szabadságok 1: Kerekek VNR je: FL\_link, BL\_link, FR\_link, BR\_link a BODY\_link hez képest csak Y korul foroghat.
+Szenzorok laser, BODY\_link, wheel\_odom, ImuALink VNR je a base\_link a globális robot VNR hoz:
+\item rögzített pozíció csak szögek változnak, szabadságok 1: Kerekek VNR je: FL\_link, BL\_link, FR\_link, BR\_link a BODY\_link hez képest csak Y körül foroghat.
 \item pozíció és szög is változik, szabadságok 6:
 A robot base\_link az helymeghatározás odom, és az odometria a térképhez map viszonyítva.
 \end{enumerate}
@@ -122,9 +122,9 @@ A robot base\_link az helymeghatározás odom, és az odometria a térképhez ma
 
 A robot modellt ROS környezetben URDF robot leíró, xml alapú fájlal tehetjük meg, \cite{rosURDF}
 \cite{rosJoint} \cite{rosLink}.
-Az <origin> tag az xzy paraméter alatt megadhatjuk a csukló pozícióját mindhárom tengelyen méterben kifejezve a <parent> tagban szereplő linkhez képest. Az rpy paraméter alatt az elfordulásokat rendre x, y, z tengelyek mentén radiánban kifejezve.
-Az <axis> tagban beállíthatjuk a kényszereket, jelen esetben csak az y tengely körüli forgás engedélyezett a kerekek eseteben. 
-Az <link> tagban robot elemeket hozhatunk létre. Az alábbi XML-ben látható a robot fizikai leírása amely megfelel a valós szerkezetnek.
+Az <origin> tag az xzy paraméter alatt, megadhatjuk a csukló pozícióját mindhárom tengelyen, méterben kifejezve a <parent> tagban szereplő linkhez képest. Az rpy paraméter alatt az elfordulásokat rendre x, y, z tengelyek mentén radiánban kifejezve.
+Az <axis> tagban beállíthatjuk a kényszereket, jelen esetben csak az y tengely körüli forgás engedélyezett, azaz a kerekek esetében. 
+Az <link> tagban robot elemeket hozhatunk létre. Az alábbi XML-ben látható a robot fizikai leírása, amely megfelel a valós szerkezetnek.
 \begin{lstlisting}[language=XML]
 <robot name="mobile_robot_platform_4Wheel">
 	<link name="base_link" > </link>
@@ -182,15 +182,15 @@ Az <link> tagban robot elemeket hozhatunk létre. Az alábbi XML-ben látható a
 </robot>
 \end{lstlisting}
 
-A \ref{fig:ROSframes} lathatjuk hogy a robot torzset a $BODY\_link$ alkotja, amelyhez kapcsolodnak a kerekek: $BL\_link,FL\_link,BR\_link,FR\_link$. A $base\_link$ es a $BODY\_link$ egybesnek. A szenzorok a $laser$ amely a lidarnak fele meg, $ImuALink$ IMU szenzor ezek a $base\_link$-hez kapcsolodnak.
-A $map$ VNR a terkepnek amelyen meghatarozuk a robot poziciojat $odom$.
+A \ref{fig:ROSframes} láthatjuk, hogy a robot törzsét a $BODY\_link$ alkotja, amelyhez kapcsolódnak a kerekek: $BL\_link,FL\_link,BR\_link,FR\_link$. A $base\_link$ és a $BODY\_link$ egybe esnek. A szenzorok a $laser$, amely a lidarnak felel meg, $ImuALink$ IMU szenzor ezek a $base\_link$-hez kapcsolódnak.
+A $map$ VNR a térképnek, amelyen meghatározzuk a robot pozícióját $odom$.
 
 \renewcommand{\img}{SajatRobot/ROS/frames.svg}
 \renewcommand{\sources}{*}
 \renewcommand{\svg}{svg}
 \renewcommand{\aspectratioPic}{1.5}
 \renewcommand{\rotationAnglePic}{90}
-\renewcommand{\captionn}{A megvalositott robot VNR-k közti reláció }
+\renewcommand{\captionn}{A megvalósított robot VNR-k közti reláció }
 \renewcommand{\figlabel}{ROSframes}
 \input{picture.tex}
 
