@@ -1,9 +1,9 @@
 \lhead{Meresek a Robottal}
 \section{Meresek}
-Ebben a fejezetben tanulmányozásra kerül a robot viselkedése abban az estekben ha valamely kerék meghibásodik, és ezáltal nem megfelelően működik.
-Hasonló eset történt a Marson a Spitit mars roverrel (2006,Március,13) \cite{SpititWheel1} amikor az első jobb kereke meghibásodott. A megoldás az volt hogy a robot mozgása optimálisabb lesz energia felhasználás szempontjából ha háttal megy. Az energia ellátása is véges volt, kiszolgáltatott volt a napsütésnek,a nap elemekre rakodót por miatt csökkentek a ayok hatásfoka így sokkal alaposabb mozgás pálya tervezésre volt szükség.
-Problémák adódtak a homokos talajjal is, a Spirit mars járonak, kerekei a homokba süllyedtek és beragadtak, a földi irányító csoport egy másolat segítségével próbálta kimozdítani a csapdaból.
-A hasonló eseteket elkerülhetők lennének, ha ismerve a robot korlátait olyan mozgás pályát határoznak meg amellyel elkerulhetjuek ezen akadajokat, vagy időben detektálhatjuk ezen problémákat pl: homokba süllyedés érzékelése.
+Ebben a fejezetben tanulmányozásra kerül a robot viselkedése abban az estekben, ha valamely kerék meghibásodik, és ezáltal nem megfelelően működik.
+Hasonló eset történt a Marson a Spitit mars roverrel (2006,Március,13) \cite{SpititWheel1} amikor az első jobb kereke meghibásodott. A megoldás az volt, hogy a robot mozgása optimálisabb lesz energia felhasználás szempontjából ha háttal megy. Az energia ellátása is véges volt, kiszolgáltatott volt a napsütésnek,a napelemekre rakodott por miatt csökkentek a azok hatásfoka így sokkal alaposabb mozgás pálya tervezésre volt szükség.
+Problémák adódtak a homokos talajjal is, a Spirit mars járónak, kerekei a homokba süllyedtek és beragadtak, a földi irányító csoport egy másolat segítségével próbálta kimozdítani a csapdaból.
+A hasonló eseteket elkerülhetők lennének, ha ismerve a robot korlátait olyan mozgás pályát határoznak meg, amellyel elkerülhetjük ezen akadályokat, vagy időben detektálhatjuk ezen problémákat pl: homokba süllyedés érzékelése.
 
 
 A robottal a következő méréseket fogjuk elvégezni:
@@ -17,7 +17,7 @@ A robottal a következő méréseket fogjuk elvégezni:
 
 \subsection{Differenciális Forgás Vízszintes Talajon}
 
-Diferencialis forgasnak nevezuk azt amikor a jobb es ball oldali kerekek sebesege megegyezo, csak iranyukban elenkezo, igy a robot belso teruleten belul jon letre a ICR pont a COG kozeleben kelene legyen \ref{fig:SMR4WKinematics}. 
+Differenciális forgásnak nevezzük azt, amikor a jobb és ball oldali kerekek sebessége megegyező, csak irányukban ellenkező, így a robot belső területen belül jön létre a ICR pont a COG közelében kellene legyen \ref{fig:SMR4WKinematics}. 
 
 
 %%globalis paremeterek a meresek kirajzolasahoz.

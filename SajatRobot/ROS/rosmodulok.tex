@@ -3,7 +3,7 @@
 
 A robot irányítását megtehetjük azáltal, hogy csatlakozunk wifin keresztül a robothoz. Az irányításhoz szükséges egy számítógép, amelyre telepítve kell  legyen a ROS. A kliens gépen fognak futni a következő felhasználói eszközök:
 -a rendszerben futó programok által loggolt üzeneteket szűrhetjük és tekinthetjük meg valós időben.
--a paramétereket bealíthatjuk egy grafikus felhasználói felület segítségével ($dinamic\_reconfigure$).-rviz amelyel megjeleniti a robot 3D modelljét a térképen, a robot aktuális pozíciójában es irányában a környezetéhez viszonyítva.
+-a paramétereket bealíthatjuk egy grafikus felhasználói felület segítségével ($dinamic\_reconfigure$).-rviz amelyel megjeleniti a robot 3D modelljét a térképen, a robot aktuális pozíciójában és irányában a környezetéhez viszonyítva.
 -$JuglerPlot$ segitségével online ábrázolhatunk mért értékeket mint pl.: a szabályzókörökben mért értékeket.
 
 Jelenleg két működési mód közül választhatunk:
@@ -11,7 +11,7 @@ Jelenleg két működési mód közül választhatunk:
 	-távirányítóról vezérelve. A távirányítón található egy joystick, amely segítségével a robotnak referencia sebességeket írhatunk elő. A hozzárendelt referencia rendszerhez képest az X tengelyen m/s sebességet adunk meg, míg a Z tengelye körül \degree/s forgási sebességet adunk meg.
 A távirányító két gomb folyamatosan lenyomva tártasával a deadman kapcsolót valósíthatjuk meg. Abban az esetben, ha a két gomb nincsen lenyomva, a szabályzók működése és a pwm generátorok kimenete letiltva marad.
 
-	-automata mód, itt rviz program segítségével előírhatunk egy referencia pozíciót es irányt ahova szeretnénk, hogy a robot eljusson. Ez alatt a távirányítón a deadman kapcsolókat lenyomva kell tartanunk. A referencia értékeket megadhatjuk rviz használata nélkül azáltal, hogy a megfelelő típusú és nevű üzenetet beküldjük a ROS rendszerbe.
+	-automata mód, itt rviz program segítségével előírhatunk egy referencia pozíciót és irányt ahova szeretnénk, hogy a robot eljusson. Ez alatt a távirányítón a deadman kapcsolókat lenyomva kell tartanunk. A referencia értékeket megadhatjuk rviz használata nélkül azáltal, hogy a megfelelő típusú és nevű üzenetet beküldjük a ROS rendszerbe.
 
 
 
@@ -28,7 +28,7 @@ Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő re
 \centering
 \begin{tabular}{lp{3cm}p{8cm}}
 \hline Node Nev & Tipus & Leiras \\ \hline
-  /R es /L      &  FPGA
+  /R és /L      &  FPGA
   Communication
   Modul     &  Az FPGA-val való kommunikációért felelős. Adatokat fogad/küld  a \ref{FPGAcomuSection} fejezetben leírt protokoll alapján, amelyeket továbbít a ROS operációs rendszerben működő nodoknak.     \\
   /ImuInBoxA       &    Imuxxxx   &  Feladata szöveges formában érkező adatok feldolgozása és a ROS keretrendszerbe integrálását oldja meg. Mért fizikai mennyiségek:       \\

@@ -27,7 +27,7 @@ Végállás kapcsoló                 & 1                  & Digitális Input
 
 A \ref{fig:VivadoHl} a Vivado tervezőprogramban FPGA-ban megvalósított processzor architektúra látható, tartalmaz egy szoftcore processzort (microBlaze). Az utasítás és az adatmemória az $microblaze\_0\_local\_memory$-ban található. A memória mérete 24Kbyte 32bit sávszélességgel, amely az FPGA block memóriájából van összerakva. A programkód maga egy külső memóriában van tarolva, QSPI alapú interfésszel kapcsolódik a FPGA hoz, az $ExternalMemorys$ kapcsolja be az AXI busz rendszeren keresztül a processzor memória címtartományába. A külső memória mérete 30 MByte. A processzor működéséhez szükséges a $ClockAndReset$ modul előállítja az órajelet ami 100 MHz, ezen a frekvencián működik az processzor és a memória is. Az $mdm\_1$ modul a rendszerben jeleinek és a programkód megfigyelésére hivatott.
 
-A \ref{fig:VivadoHl} ábrán látható $UartCom$ modul belső szerkezete látható az \ref{fig:UartComVivaldo} ábrán. A modul $uartcommand\_0$ szerepe a kommunikációs protokoll implementálása hardveres szinten, a modul fogadja az UART protokollon  érkező 8 bites csomagokat. A protokoll által meghatározott keretezési byte-okat figyelve (Start,Stop,Skip). Ezek paraméterként megadhatok a microBlaze processzoron keresztül. A processzor induláskor beállítja ezeket a következő értékekre: Start='S', Stop='P', es Skip='\\'. 
+A \ref{fig:VivadoHl} ábrán látható $UartCom$ modul belső szerkezete látható az \ref{fig:UartComVivaldo} ábrán. A modul $uartcommand\_0$ szerepe a kommunikációs protokoll implementálása hardveres szinten, a modul fogadja az UART protokollon  érkező 8 bites csomagokat. A protokoll által meghatározott keretezési byte-okat figyelve (Start,Stop,Skip). Ezek paraméterként megadhatok a microBlaze processzoron keresztül. A processzor induláskor beállítja ezeket a következő értékekre: Start='S', Stop='P', és Skip='\\'. 
 Start keret byte érkezésétől kezdve az összes byte négyesével bekerül a 32 bit, 400 byteos, $blk\_mem\_gen\_0$ memóriába jogfolytonosan. Abban az esetben ha az üzenet meghaladja a 200 byte-t akkor a modul úgy tekinti hogy hibás adatok érkeztek és visszatérte a kiinduló állapotba. Abban az esetben ha bináris adatokat küldünk tartalmazhat speciális protokoll keretezésben résztvevő karaktereket így ezeket előtt Skip karakter kell hogy legyen. A skip karakterek nem kerülnek bele a memóriába ezeket a hardver kiveszi és az utána következő karaktert nem értelmezi.
 
 A kommunikáció folyamatát a \ref{fig:FPGAuartRos} ábra is végigkövethetjük.
@@ -58,7 +58,7 @@ Abban az esetben, ha az adatok feldolgozása előtt új csomag érkezik a hardve
 
 A $uartcommand_0$ modul kimenete $global\_enable[0:0]$ engedélyező jel, abban az esetben ha nem kap a hardver $SREP$ üzenetet legalább 300ms periódussal, akkor az engedélyező jelet alacsonyra állítja vagy ha $SRDP$ üzenet érkezett.
 
-Az $uartsend\_0$ modul hasonlokeppen müködik csak az adatok küldésére hivatott. A microBlaze proceszor az $axi\_bram\_ctrl\_0$ modulon keresztül beleirodnak a $blk\_mem\_gen\_1$ \cite{DualPortRam} 32bites es 400byte méretű memóriába.
+Az $uartsend\_0$ modul hasonlokeppen müködik csak az adatok küldésére hivatott. A microBlaze proceszor az $axi\_bram\_ctrl\_0$ modulon keresztül beleirodnak a $blk\_mem\_gen\_1$ \cite{DualPortRam} 32bites és 400byte méretű memóriába.
 Az írás végével a processzor beállítja a küldés jelet, amely egy paramétere a hardvernek. A modul elkezdi kiküldeni az adatokat. Abban az esetben ha a csomag tartalmaz speciális protokollt leíró byte-t akkor a modul automatikusan elküldi előtte a Skip karaktert.
 
 Az $uartread\_0$ az UART protokoll implementálja FPGA hardverebe, a $sin$ az RX bemenet, a $data[7:0]$ a 8 bites szeles adatvezeték ami tartalmazza az utolsó beérkeztt byte-t. A $dataready[0:0]$ felfutó él jelzi az új adat érkezését. Az $uartwrite\_0$ modul a $data[7:0]$ 8bites sinen érkező adatot küldi ki UART protokoll alapján a $tx[0:0]$ kimenetere abban az esetben ha a $datavalid[0:0]$ bemenetén egy felfutó él érkezik.
@@ -110,7 +110,7 @@ A paraméterek írása és olvasása funkcionalitásban, az új beérkezet param
 
 
 
-\subsection{FPGA es UART alapu komunikacios protokol}
+\subsection{FPGA és UART alapú kommunikációs protokoll}
 \label{FPGAcomuSection}
 Megvalósítva a kommunikációt a kiszolgáló ROS-node, amely UART protokollra épített saját üzenetekből áll. \ref{fig:FPGAComCsomagAlt}.
 
@@ -124,10 +124,10 @@ Megvalósítva a kommunikációt a kiszolgáló ROS-node, amely UART protokollra
 A protokoll keretek közé foglalt adatok rendiségre épül. Speciális karakterek \footnote{speciális karakterek amelyek jelzik az értelmező szamara hogy olyan karakter következik amelyet a protokoll értelmezésében nem kell végrehajtani.} jelzik az üzenet kezdetet és véget jelen esetben az $S$ csomag kezdetét, míg a $P$ a csomag véget jelentik.
 Az csomag tartalmazhat bináris formátumú adatot is ezeket minden esetben a \{ és \} speciális karakterek közé kel kerülniük, mert a köztük levő adat nem fog értelmezésre kerülni a feldolgozó által. Bináris reszt  pl:. struktúra típusú adatra használhatjuk. Mindig a \{ utáni első karakter megadja a bináris adat hosszát így tudja az értelmező hogy hol kell várnia a lezáró karaktert. A bináris szekció hossza nem lehet nagyobb mint 254 byte, de amennyiben szükséges kiterjeszthető.
 
-Minden üzenet tartalmaz egy egyedi azonosítót ami meghatározza az üzenet típusát ez alapján tudja eldönteni majd a fogadott fél hogy melyik kiszolgáló rutint kell felhívnia. Ezt követi egy üzenet számláló 5 char hószú mező amely string formában tartalmaz egy egész számot, amely minden kiküldött üzenet után növelni kell. Az üzenetszámlaló alól kivételt kepéznek a direkt hardveres üzenetek pl.: $SREP$ es a $SRDP$.
+Minden üzenet tartalmaz egy egyedi azonosítót ami meghatározza az üzenet típusát ez alapján tudja eldönteni majd a fogadott fél hogy melyik kiszolgáló rutint kell felhívnia. Ezt követi egy üzenet számláló 5 char hószú mező amely string formában tartalmaz egy egész számot, amely minden kiküldött üzenet után növelni kell. Az üzenetszámlaló alól kivételt kepéznek a direkt hardveres üzenetek pl.: $SREP$ és a $SRDP$.
 A hasznos adat további felépítését meghatározható annak függvényében hogy mit szeretnénk. Jelen esetben a üzenet típus orientált parancsokat szerkesztünk amelyekkel a referencia értékeket, paramétereket állítjuk be, valamint bináris szekciót is tartalmazó struktúrát küld az FPGA modul PC-nek amely a szabályzást és historizálást szolgálja.
 
-\subsection{Paramterek FPGA modul}
+\subsection{Paraméterek FPGA modul}
 
 A paraméterek segítségével tudjuk beállítani a mintavételezési periódusokat, az inkrementális szenzorok felbontását, a szabályozok beállítását is ezáltal oldhatjuk meg.
 Konfigurációs paraméterek:
@@ -167,7 +167,7 @@ Az uart sebessége 1MBd \footnote{megabaud} ami megfelel 131072 byte/s adatforga
     frekvencia = \frac{131072}{SizeOfPachage}=\frac{131072[byte/s]}{100[byte]}=1310,072 [Hz]
 \end{equation}
 
-\subsection{Biztonsagi megoldasok}
+\subsection{Biztonsági megoldások}
 
 Abban az esetben ha kiküldtük az előírt értékeket a modulnak és ezután a kommunikáció megszakadt a modullal akkor a szabályzok próbáljak tartani az előírt érteket annak ellenére is hogy az mar lehet hogy nem aktuális. Erre a célra beépitésre került egy üzenet és egy logika (HeartBeat), a periodikusan érkező üzenet, amely csak a kommunikációs modulhoz érkezik meg, és jelzi hogy a ROS jól működik, és fordítva is küldődik periodikus üzenet amely jelzi az FPGA normális működést. Abban az esetben ha a  megszakad leállítja a motorokat és a szabályzókat,  \ref{fig:FPGAuartRos} alapján az Enable(EN) jelet használva.
 

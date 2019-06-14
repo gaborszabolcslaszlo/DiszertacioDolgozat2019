@@ -67,7 +67,7 @@ BR &   17,9      & kg
 \end{tabular}
 \end{table}
 
-A súlypont pozíciója: $b = 20$ es $c = 30 $
+A súlypont pozíciója: $b = 20$ és $c = 30 $
 
 \subsection{Kerék Dinamikája}
 Az $I_w \in \mathbb{R}^4$ tartalmazza a kerekek inerciáját a forgás tengelyükhöz képest. $\Omega \in \mathbb{R}^4$ a kerekek szögsebessége. A $W_r \in \mathbb{R}^4$ a kerekek sugara, $\tau \in \mathbb{R}^4$ a kerekek forgatónyomatéka.
