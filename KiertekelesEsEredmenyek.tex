@@ -1,12 +1,12 @@
 \chapter{Eredmények Kiértékelése}
 \section{Megvalósítások}
 Ezzel a dolgozattal négy év folyamatos munkájának egy szakaszát szeretném lezárni, a következő eredményeket sikerült felmutatni, kronológiai sorrendben: 
-A mechanikai szerkezet fejlesztése, a 2011 be fejlesztett verzióhoz képest amely sokkal robusztusabb, kültere alkalmasabb mint az előző, és egyszerűbb is. Ugyan megmaradt az a tendencia hogy csiga-áttételeket alkalmazzak a kerekek meghajtására. Az áttételeket magam terveztem és gyártattam le, a kezdeti alacsony költségvetés miatt az 3D nyomtatóval elkészített inkrementális szenzort nem lehetett alkalmazni robusztusan, ami nem az jeleni hogy nem is lehetséges csak túl sok időt igényelt volna, a csiga tengely kotyogása miatt.
-Az alkatrészeket 3D tervező programban elkészítettem, és 3D nyomtatóval elkészítettük, a tapasztalatom ezekkel az alkatrészekkel: nagy mechanikai terhelés elviselésére nem alkalmasak hosszútávon, ezért történt meg hogy a csiga tengely csápagyháza terhelés alatt széttört.
+A mechanikai szerkezet fejlesztése, a 2011 be fejlesztett verzióhoz képest, amely sokkal robusztusabb, kültérre alkalmasabb mint az előző, és egyszerűbb is. Ugyan megmaradt az a tendencia hogy csiga-áttételeket alkalmazzak a kerekek meghajtására. Az áttételeket magam terveztem és gyártattam le, a kezdeti alacsony költségvetés miatt az 3D nyomtatóval elkészített inkrementális szenzort nem lehetett alkalmazni robusztusan, ami nem az jeleni, hogy nem is lehetséges csak túl sok időt igényelt volna, a csiga tengely kotyogása miatt.
+Az alkatrészeket 3D tervező programban elkészítettem, és 3D nyomtatóval elkészítettük, a tapasztalatom ezekkel az alkatrészekkel: nagy mechanikai terhelés elviselésére nem alkalmasak hosszútávon, ezért történt meg hogy a csiga tengely csapágyháza terhelés alatt széttört.
 Vivado környezetet használtam az FPGA fejlesztésére, megvalósítottam egy uBlaze processzorrendszert kialakítását és több hardveres modult is amelyek a következők: PWM modul, UART protokoll csomag értelmező amely támogatja a nagy sebességű kommunikációt, globális engedélyező jel, ezeket a modulokat System Generator-ban valósítottam meg és IP mag készült ezekből.
 Sikeresen elsajátítottam a ROS alapjait, és megterveztem egy sajátos kommunikációt FPGA alapú rendszer és a ROS között. Az integráció a robot és a ROS között jól működik, minden egyes szenzor mért adata bekerül a ROS környezetbe.
 
-A hectormap segitsegevel az ismeretlen terep terkepezese es a roboto lokalizalasa sikeresen bekonfiguraltam a movebase nevu eszkozt amely segitsegevel a roboto egy adott pozicioba es iranyba tudjuk elvinni. A move base megoldja az akadalyok kikeruleset is.
+A hectormap segítségével, az ismeretlen terep térképezésével, a roboton lokalizálva, sikeresen bekonfiguráltam a movebase nevű eszközt, amely segítségével a robotot egy adott pozícióba es irányba tudjuk elvinni. A move base megoldja az akadályok kikerülését is.
 
 
 \section{Hasonló rendszerekkel való összehasonlítás}
