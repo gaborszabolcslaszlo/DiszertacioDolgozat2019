@@ -27,7 +27,7 @@ A roboton IMU szenzora által mért értékek mutatják amint a $g=9.81 m/s^2$ g
 
 \begin{figure}[H]
   \begin{center}
-  	\includegraphics[scale=0.8]{tikz/ImuLepcsoLe1.pdf}
+  	\includegraphics[scale=0.9]{tikz/ImuLepcsoLe1.pdf}
   \end{center}
   \caption{Lépcsön lefele mozgás, három lépcsőfok.}
   \label{fig:ImuLepcsoLe1}
@@ -49,6 +49,27 @@ Az \ref{fig:LepcsoFelxx} az $FL$ és $FR$ kerekeken nagyobb beavatkozó jel esik
   \includegraphics{tikz/LepcsoFelxx.pdf}
   \caption{Lépcsőn felfele mozgás}
   \label{fig:LepcsoFelxx}
+\end{figure}
+
+Abban az esetben ha a rontottal 90 \degree kisebb szög alatt közelítjük meg a lépcsőt akkor a robot mozgása a lépcsőn felfele könnyebben tud haladni. Ha a robot súlypontja a hátul  van és így közelítjük meg a lépcsőt megtörténhet az hogy a robot eleje elemelkedik és hátrabukik amiatt hogy a hátsó kerek beszorulnak a lépcsőfokba és a nyomaték így elemeli az első kerekeket.
+
+Összevetve a \ref{fig:ImuLepcsoFel1} és a \ref{fig:ImuLepcsoAulaSlegenFel1}
+látható hogy mindkét esetben az X és Y tengelyen tapasztaltunk bukdácsolást, ha 60\degree szög alatt közelítjük meg akkor az Y tengelyen is megjelenik egy dőlési szög.
+
+A a pwm kitöltési tényezőjét tekintve az első kereke mindkét esetben nagyobb kitöltési tényezővel dolgoznak amiatt hogy a robot hattal megy fel a lépcsőn, a hátsó részben találhatóak az akkumulátorok.
+
+\begin{figure}[H]
+  \includegraphics{tikz/LepcsoAulaSlegenFelx.pdf}
+  \caption{Lépcsőn 60 \degree irányból felfele haladva 8 s.}
+  \label{fig:LepcsoAulaSlegenFelx}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+  	\includegraphics[scale=0.8]{tikz/ImuLepcsoAulaSlegenFel1.pdf}
+  \end{center}
+  \caption{Lépcsőn felfele mozgás 60 \degree szöget bezárva a lépcsőfokokkal.}
+  \label{fig:ImuLepcsoAulaSlegenFel1}
 \end{figure}
 
 

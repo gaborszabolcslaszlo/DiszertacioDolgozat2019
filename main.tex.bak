@@ -237,7 +237,18 @@ pinstyle/.style = {pin edge={to-,thin,black}
 \tikzset{png export}
 \tikzsetexternalprefix{tikz/} % output the pdf to an existing directory (needs to exist)
 
-\newcommand{\sectionbreak}{\clearpage}
+%\newcommand{\sectionbreak}{\clearpage}
+\newcommand{\sectionbreak}{}
+
+\makeatletter
+\renewcommand\chapter{\thispagestyle{plain}%
+\global\@topnum\z@
+\@afterindentfalse
+\secdef\@chapter\@schapter}
+\makeatother 
+
+\renewcommand{\section}{\fillbreak\oldsection}
+
 
 \begin{document}
 

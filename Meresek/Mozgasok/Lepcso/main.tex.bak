@@ -13,7 +13,7 @@
 %\input{Meresek/Mozgasok/FirstV1.tex}
 
 
-A kovetkező méresek soran a robot egy 40 \degree lepcson lefele és felfele is mozog a lepcsőre merőleges irányban. A robot viselkedése a mozgás során, lefele könyeden megy gond nélkül, felfele viszont a kerekek a következő lépcsöfok élléről lecsusza viszaesnek.
+A következő mérések során a robot egy 40 \degree lépcsőn lefele és felfele is mozog, a lépcsőre merőleges irányban. A robot viselkedése a mozgás során, lefele könnyedén megy gond nélkül, felfele viszont a kerekek a következő lépcsőfok éléről lecsúszva visszaesnek.
 
 A \ref{fig:LepcsoLexx} latható amit a lépcsőn lefele, a mozgato motrok mért értékei. és a \ref{fig:LepcsoFelxx} viszafele mozgás során a mért értékek. A beavatkozó jel nagysága 10\% -al  nagyobb viszafele mozgas során. A mérések elvegzésekor a hajtást végző motrok a kisebbik átételfokozatban voltak, igy nagyobb forgatónyomatékot adtak le.
 
@@ -23,7 +23,7 @@ A \ref{fig:LepcsoLexx} latható amit a lépcsőn lefele, a mozgato motrok mért 
   \label{fig:LepcsoLexx}
 \end{figure}
 
-A roboton IMU szenzora által mért értékek mutatjak amint a $g=9.81 m/s^2$ gravitácios gyorsulás megjelenik a $aZ$ tengelyen \ref{fig:ImuLepcsoLe1}. Kezdetben a robot vizszinteshez közeli állapotban van X és Y.  A lépcson lefele mozgás során a $g$ fokoatosan átevődik az $aX$ tengelyre is amiat, hogy a robot előre dől. A robot három lépcsofokon halad át ami látható az ábrán is.
+A roboton IMU szenzora által mért értékek mutatják amint a $g=9.81 m/s^2$ gravitácios gyorsulás megjelenik a $aZ$ tengelyen \ref{fig:ImuLepcsoLe1}. Kezdetben a robot vizszinteshez közeli állapotban van X és Y.  A lépcson lefele mozgás során a $g$ fokozatosan átevődik az $aX$ tengelyre is amiatt, hogy a robot előre dől. A robot három lépcsőfokon halad át ami látható az ábrán is.
 
 \begin{figure}[H]
   \begin{center}
@@ -41,14 +41,35 @@ A roboton IMU szenzora által mért értékek mutatjak amint a $g=9.81 m/s^2$ gr
   \label{fig:ImuLepcsoFel1}
 \end{figure}
 
-A lépcson felfele mozgás során a robot az eloző állapotból indul visszafele. Azokban a pillanatokban amikor a kerekek lecsusznak a lepcső éléről a kerekek szögsebessége megnő mert a surlodási erő lecsökken.  
+A lépcsőn felfele mozgás során a robot az előző állapotból indul visszafele. Azokban a pillanatokban, amikor a kerekek lecsúsznak a lépcső éléről, a kerekek szögsebessége megnő, mert a súrlódási erő lecsökken.  
 
-Az \ref{fig:LepcsoFelxx} az $FL$ és $FR$ kerekeken nagyobb beavatkozójel esik, amiatt hogy megnő a merőleges nyomoerő.
+Az \ref{fig:LepcsoFelxx} az $FL$ és $FR$ kerekeken nagyobb beavatkozó jel esik, amiatt hogy megnő a merőleges nyomóerő.
 
 \begin{figure}[H]
   \includegraphics{tikz/LepcsoFelxx.pdf}
   \caption{Lépcsőn felfele mozgás}
   \label{fig:LepcsoFelxx}
+\end{figure}
+
+Abban az esetben ha a rontottal 90 \degree kisebb szög alatt közelítjük meg a lépcsőt akkor a robot mozgása a lépcsőn felfele könnyebben tud haladni. Ha a robot súlypontja a hátul  van és így közelítjük meg a lépcsőt megtörténhet az hogy a robot eleje elemelkedik és hátrabukik amiatt hogy a hátsó kerek beszorulnak a lépcsőfokba és a nyomaték így elemeli az első kerekeket.
+
+Összevetve a \ref{fig:ImuLepcsoFel1} és a \ref{fig:ImuLepcsoAulaSlegenFel1}
+látható hogy mindkét esetben az X és Y tengelyen tapasztaltunk bukdácsolást, ha 60\degree szög alatt közelítjük meg akkor az Y tengelyen is megjelenik egy dőlési szög.
+
+A a pwm kitöltési tényezőjét tekintve az első kereke mindkét esetben nagyobb kitöltési tényezővel dolgoznak amiatt hogy a robot hattal megy fel a lépcsőn, a hátsó részben találhatóak az akkumulátorok.
+
+\begin{figure}[H]
+  \includegraphics{tikz/LepcsoAulaSlegenFelx.pdf}
+  \caption{Lépcsőn 60 \degree irányból felfele haladva 8 s.}
+  \label{fig:LepcsoAulaSlegenFelx}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+  	\includegraphics[scale=0.8]{tikz/ImuLepcsoAulaSlegenFel1.pdf}
+  \end{center}
+  \caption{Lépcsőn felfele mozgás 60 \degree szöget bezárva a lépcsőfokokkal.}
+  \label{fig:ImuLepcsoAulaSlegenFel1}
 \end{figure}
 
 

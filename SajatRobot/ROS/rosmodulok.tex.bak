@@ -1,9 +1,10 @@
 %\lhead{ROS sajat robot}
+
 \section{ROS}
 
 A robot irányítását megtehetjük azáltal, hogy csatlakozunk wifin keresztül a robothoz. Az irányításhoz szükséges egy számítógép, amelyre telepítve kell  legyen a ROS. A kliens gépen fognak futni a következő felhasználói eszközök:
 -a rendszerben futó programok által loggolt üzeneteket szűrhetjük és tekinthetjük meg valós időben.
--a paramétereket bealíthatjuk egy grafikus felhasználói felület segítségével ($dinamic\_reconfigure$).-rviz amelyel megjeleniti a robot 3D modelljét a térképen, a robot aktuális pozíciójában es irányában a környezetéhez viszonyítva.
+-a paramétereket bealíthatjuk egy grafikus felhasználói felület segítségével ($dinamic\_reconfigure$).-rviz amelyel megjeleniti a robot 3D modelljét a térképen, a robot aktuális pozíciójában és irányában a környezetéhez viszonyítva.
 -$JuglerPlot$ segitségével online ábrázolhatunk mért értékeket mint pl.: a szabályzókörökben mért értékeket.
 
 Jelenleg két működési mód közül választhatunk:

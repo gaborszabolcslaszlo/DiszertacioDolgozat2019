@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  12 JUN 2019 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.13)  15 JUN 2019 22:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2295,6 +2295,24 @@ LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
 )
 PGFPlots: reading {PositionOrientation.dat}
 (./Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/Pos.tex
+
+LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
+
+\openout15 = `PositionOrientation.dat'.
+
+
+)
+PGFPlots: reading {PositionOrientation.dat}
+(./Meresek/AulaMeresek/PlacFuves_NF_Delta_07_03//Pos.tex
+
+LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
+
+\openout15 = `PositionOrientation.dat'.
+
+
+)
+PGFPlots: reading {PositionOrientation.dat}
+(./Meresek/AulaMeresek/PlacFuves_NF_Delta_07_05//Pos.tex
 
 LaTeX Warning: Overwriting file `./PositionOrientation.dat'.
 
@@ -6593,6 +6611,1908 @@ NOTE: coordinate (-0.09183,-5.2014008e-1) has been dropped because of a coordin
 ate filter. (see also unbounded coords=jump). 
 NOTE: coordinate (-0.09816,-5.1279007e-1) has been dropped because of a coordin
 ate filter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00903,0.00335) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00161,0.02019) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03508,0.06369) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00732,0.01188) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00609,-0.00919) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00634,0.00648) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.02312,0.01512) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.04354,-0.00745) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00174,0.00727) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00589,0.00510) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01222,0.03086) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01999,-0.01009) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00695,0.02004) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01176,-0.02635) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.06159,-0.04297) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01088,-0.00526) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.07692,-0.01085) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00785,-0.05206) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.05380,-0.03411) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.13112,-0.02945) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.26535,0.08699) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.11074,-0.03281) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.14010,-0.03318) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.14723,-0.06799) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.18838,0.02026) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.13165,-0.02195) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.18243,-0.00596) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.19481,0.04232) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.21303,-0.01070) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.25414,0.06536) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39461,0.12381) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.45680,0.11756) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.43398,0.15296) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.37822,0.11724) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.32630,0.06839) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.36758,0.10239) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.43011,0.12858) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.42584,0.16053) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.42529,0.12141) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38126,0.13575) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38542,0.12953) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40384,0.11701) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39034,0.10784) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38413,0.10890) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.42154,0.11660) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40086,0.12726) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.37578,0.10817) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38217,0.12041) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40227,0.11198) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40652,0.13118) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38541,0.10217) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40278,0.13825) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.37283,0.10742) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.41995,0.12794) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.41392,0.12146) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38020,0.10271) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.43346,0.16026) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.37748,0.09986) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39836,0.12155) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.41683,0.15109) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40226,0.13216) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.36666,0.08703) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39827,0.12288) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40843,0.13384) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.41710,0.13390) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.37842,0.10526) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39743,0.12425) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40212,0.11222) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40334,0.14305) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40207,0.13826) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.43377,0.15923) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.42951,0.12972) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38339,0.12920) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.36086,0.09526) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40230,0.11629) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40763,0.13274) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.33184,0.09943) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39768,0.11328) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.41153,0.12402) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39484,0.09198) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.36495,0.08134) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.42272,0.13982) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.36030,0.08751) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.42519,0.14266) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40959,0.13792) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.41704,0.11525) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.41478,0.12172) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39050,0.10798) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38536,0.10859) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.32335,0.08938) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.31379,0.08165) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.33919,0.08613) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.34212,0.05760) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.31959,0.01722) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.38559,0.05833) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.47308,0.07767) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40952,0.02237) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39466,0.01834) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.46692,0.02900) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.39987,0.01009) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.40931,-0.00787) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.44114,-0.00940) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.49054,0.03593) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.49783,0.06341) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.66275,0.12724) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.74241,0.14825) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.65108,0.09674) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.64555,0.08160) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.70267,0.12471) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.64608,0.07126) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.67016,0.12042) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.61343,0.06984) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.54408,-0.01320) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.63658,0.03963) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.60824,0.04075) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.57899,0.04369) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.61990,0.02780) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.64355,0.02030) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.59865,0.00195) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.66513,0.01668) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.78907,0.09378) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.81270,0.10200) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.83397,0.09547) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.90409,0.14792) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.84990,0.10471) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.91312,0.13740) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.93108,0.13840) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.92828,0.13738) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.97943,0.13070) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.93410,0.12248) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.98257,0.15628) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.95575,0.13902) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.97708,0.14913) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.96642,0.12944) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.98949,0.14973) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.00165,0.15518) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.96452,0.13343) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.92149,0.12853) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.98197,0.15809) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.94860,0.13403) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.98489,0.13072) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.10718,0.18797) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.19567,0.20273) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.19386,0.20826) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.25994,0.21940) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.27359,0.22215) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.22196,0.21830) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.24029,0.20518) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.25448,0.21609) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.30954,0.24125) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.33745,0.24601) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.35244,0.24625) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.30453,0.24440) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.50906,0.27845) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.59161,0.28963) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.59283,0.29706) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.60152,0.30453) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.67058,0.30624) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.66333,0.32896) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.70208,0.31626) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.61060,0.30933) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.70189,0.33992) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.70987,0.33691) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.70061,0.33002) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.73843,0.34984) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.73349,0.35365) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.80214,0.35744) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.85593,0.35893) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.75674,0.36122) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.85144,0.38010) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.83183,0.39800) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.85552,0.39704) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.85855,0.38229) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.92379,0.40088) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.85463,0.39215) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.91486,0.41227) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.91180,0.43312) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.94597,0.42849) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.00216,0.43641) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (1.97296,0.43950) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.00887,0.46744) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.01741,0.46842) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.00710,0.49359) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.00525,0.47295) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.05437,0.49908) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.07503,0.49512) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.07703,0.51969) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.08875,0.51075) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.14887,0.54432) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.19878,0.53159) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.38401,0.54982) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.40496,0.55387) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.43526,0.55201) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.45070,0.52762) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.47361,0.56708) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.44881,0.58001) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.47295,0.59288) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.47663,0.60055) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.45659,0.61076) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.53386,0.60624) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.53817,0.61601) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.58102,0.62715) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.56736,0.61661) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.61280,0.63508) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.66090,0.66450) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.62736,0.66539) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.72763,0.65607) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.68084,0.68430) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.65281,0.70811) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.71259,0.69965) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.69292,0.71077) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.72313,0.70550) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.73551,0.72253) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.76782,0.73087) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.79906,0.74414) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.86715,0.75305) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.81975,0.75582) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.83305,0.78290) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.87068,0.77477) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.88853,0.79030) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.87459,0.79914) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.87321,0.79893) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.94304,0.80537) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.86574,0.85951) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.93390,0.84908) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.93574,0.84153) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.96560,0.88598) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.99505,0.90002) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.97112,0.89888) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.95430,0.91129) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.98803,0.91404) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.00261,0.93816) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.97734,0.92917) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.03094,0.96469) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.06363,0.98165) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.05111,0.95621) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.01952,1.01133) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.02533,1.01978) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.08836,1.00435) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.12943,1.03355) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.11254,1.03346) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.13646,1.04822) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.13077,1.03190) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.11749,1.05785) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.16947,1.07013) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.20963,1.09517) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.18146,1.11541) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.20892,1.11503) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.23544,1.11893) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.21719,1.13820) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.21523,1.15378) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.18608,1.16657) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.23732,1.17872) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.27525,1.17279) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.28021,1.19806) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.26815,1.19977) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.28740,1.22784) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.27568,1.25410) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.26548,1.25115) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.30076,1.28805) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.29645,1.26839) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.32123,1.30412) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.30551,1.29722) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.33543,1.33635) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.33666,1.34977) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.35431,1.36317) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.30363,1.37457) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.34220,1.38986) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.31803,1.40556) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.29370,1.42308) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.30443,1.44272) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.31956,1.45625) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.33770,1.48755) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39452,1.45747) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.37664,1.50717) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.36399,1.51340) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.40230,1.53249) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.36339,1.55431) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.35805,1.54424) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39294,1.54213) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.42896,1.57327) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.37845,1.59239) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45781,1.61972) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.46762,1.57504) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.46536,1.66373) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.40129,1.64534) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.47114,1.66277) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.48726,1.66953) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.40877,1.72099) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.41487,1.73094) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.44476,1.73180) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.47853,1.74821) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.46037,1.77522) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.50719,1.76251) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.42710,1.81250) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.46349,1.82362) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52505,1.84628) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.48068,1.84773) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.51570,1.85458) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52037,1.86488) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.49437,1.93270) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.53039,1.89069) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52906,1.93806) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52611,1.92891) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.53275,1.99980) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.47744,2.01114) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.49258,2.02918) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.49498,2.02512) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.46936,2.04767) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52714,2.03443) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.53156,2.06977) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52806,2.08281) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.51205,2.12336) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.50487,2.16971) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.54836,2.12323) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.50339,2.16275) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.51154,2.18525) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.57011,2.17765) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.55938,2.22681) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52878,2.21799) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.57707,2.26923) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.57022,2.27155) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.54121,2.29440) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.55504,2.28574) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.59484,2.28011) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.57537,2.31812) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.57067,2.33530) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.55961,2.34642) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.53659,2.43758) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.50204,2.63838) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.49754,2.66994) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.51661,2.66805) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.49918,2.67059) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.44659,2.64231) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45599,2.59367) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45352,2.62608) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.54420,2.58015) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.67352,2.56105) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.66036,2.50214) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.57236,2.52519) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.63223,2.49142) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.62193,2.49900) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.61714,2.53284) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.55498,2.57938) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.54793,2.59968) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.55353,2.62626) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.54371,2.61751) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.51970,2.63345) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.55748,2.66752) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.57901,2.63262) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.53166,2.70039) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.58369,2.69839) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.53499,2.70261) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.50749,2.73942) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.53740,2.78330) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.52374,2.75348) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45319,2.78295) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.48019,2.76196) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.50656,2.77861) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.48667,2.78682) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.49893,2.83123) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.55685,2.79897) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.44790,2.83620) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.47698,2.82760) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.51017,2.89192) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45294,2.89910) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45869,2.94351) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.43816,2.93324) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45398,2.92371) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39750,2.93248) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45378,2.95457) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.45498,2.96396) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.44688,3.02222) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.41751,3.04365) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39931,3.06100) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39897,3.03163) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39473,3.08020) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.38962,3.11686) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39608,3.11795) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.39821,3.15409) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.36198,3.17883) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.38086,3.16886) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.38804,3.19977) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.35685,3.20619) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.35571,3.21200) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.34405,3.25600) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.33762,3.25191) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.34348,3.24033) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.33545,3.26374) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.29009,3.25922) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.31428,3.29521) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.27088,3.30230) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.29721,3.32574) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.26181,3.33521) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.24231,3.32198) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.25429,3.31578) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.23043,3.38534) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.20830,3.37444) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.25018,3.42964) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.21244,3.44724) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.20546,3.41852) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.19268,3.44902) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.15213,3.46122) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.18978,3.45453) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.17715,3.47553) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.16287,3.50502) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.15256,3.53833) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.12891,3.56511) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.14552,3.50304) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.12759,3.55589) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.09610,3.54298) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.09634,3.57419) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.09478,3.61067) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.06738,3.61856) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.08284,3.60835) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.09748,3.62398) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.02818,3.63252) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.08080,3.63472) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.02799,3.63490) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.02594,3.66642) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.97417,3.62226) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (3.00057,3.71690) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.96544,3.73962) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.99454,3.72656) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.98352,3.71016) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.93095,3.69890) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.92474,3.69966) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.90369,3.72696) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.87736,3.71496) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.91961,3.72491) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.83463,3.74449) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.89121,3.79226) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.84615,3.66457) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.82975,3.79050) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.79599,3.83484) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.81067,3.85862) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.79331,3.83230) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.79330,3.83571) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.81276,3.85895) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.72724,3.80888) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.74589,3.86845) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.71935,3.86539) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.71232,3.84631) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.68780,3.92605) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.67405,3.90660) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.66110,3.90087) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.69136,3.97119) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.72623,3.95510) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.66866,3.94592) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.63512,3.97463) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.58490,3.96445) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.55156,3.90755) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.56339,3.93575) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.57059,3.93516) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.57013,4.01110) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.51197,3.98552) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.52374,4.03011) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.48851,4.12248) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (2.46816,4.05804) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02100,0.00804) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.02156,-0.00449) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.01125,-0.00523) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.01157,-0.00692) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01742,0.00900) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.02441,-0.00107) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00201,0.00790) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00998,0.01252) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01020,0.00229) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00029,0.00287) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00486,0.01618) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02570,0.01056) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03321,0.00896) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03688,0.00671) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00899,0.00083) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00034,0.00385) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00032,0.00417) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00011,0.00555) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02339,0.01277) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02590,0.01054) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.01186,0.00542) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00749,-0.00538) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.01131,-0.00100) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.04309,0.00536) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00862,0.00873) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00962,0.01105) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00375,-0.00303) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00686,-0.00717) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01387,0.00970) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02224,0.01177) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03062,0.01264) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00967,0.00761) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.04431,0.00880) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00071,0.00321) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00674,0.00645) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02559,0.03120) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.06580,0.03906) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.04617,0.03351) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03812,0.02973) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.06209,0.03545) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00194,0.00689) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00446,0.00599) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02208,0.01377) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00491,0.00726) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00457,0.00104) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00939,0.00629) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00979,0.00306) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00196,0.00876) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00146,0.01031) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.04445,0.01834) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00368,0.01873) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00806,0.00745) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01579,0.00218) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00301,0.00702) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.02539,-0.00435) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01128,0.00248) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.01436,-0.00189) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00126,0.01015) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00810,0.00611) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03426,0.02774) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02648,0.04579) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01688,0.04718) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00368,0.04797) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.09261,0.07978) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.06805,0.08679) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.06238,0.11059) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.08268,0.12406) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.09067,0.13150) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.05252,0.13353) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.07816,0.14728) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.04213,0.14994) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.10455,0.17453) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.10353,0.20652) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.10489,0.20621) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.09161,0.20959) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.11547,0.22434) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.14489,0.25653) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.09343,0.23398) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.13640,0.26003) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.10038,0.26591) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.17282,0.30333) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.15142,0.31947) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.14090,0.32326) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.14442,0.33976) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.17887,0.36597) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.17944,0.36629) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.18448,0.38160) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.19287,0.38628) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.22170,0.41221) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.18619,0.42567) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.15078,0.37622) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.13841,0.37102) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.18845,0.46127) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.21276,0.50449) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.26532,0.50610) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.27085,0.52252) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.26144,0.53160) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.27853,0.54279) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.20850,0.53906) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.26242,0.57123) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.16431,0.55219) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.22134,0.58406) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.18628,0.57333) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.17736,0.58067) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.16901,0.58822) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.15002,0.59807) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.18621,0.61002) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.17311,0.62234) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.15468,0.64507) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.14771,0.64845) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.16950,0.65558) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.15474,0.66033) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.16030,0.67804) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.15055,0.67823) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.14772,0.68700) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.12096,0.68044) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.15576,0.72255) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.13741,0.72504) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.12700,0.72712) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.12859,0.72102) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.11599,0.73387) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.09735,0.74662) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.11832,0.76183) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.10114,0.77219) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.10289,0.80373) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03927,0.79161) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00113,0.73437) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.03828,0.75071) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01142,0.79352) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01573,0.85794) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.04570,0.86169) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.04232,0.86620) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03991,0.87099) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.06324,0.88570) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03954,0.89287) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.02383,0.89098) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03144,0.92354) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.00482,0.93264) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.03769,0.96028) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01841,0.97151) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.03820,0.97401) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.01698,1.00810) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (0.00168,1.00787) has been dropped because of a coordinate fil
+ter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.01143,1.02030) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.01572,1.03528) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.02574,1.04799) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.02274,1.06980) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.05182,1.06407) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.05799,1.07248) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.05305,1.08293) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.07394,1.07355) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.05195,1.09335) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.07097,1.12814) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.09575,1.10887) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.09437,1.11216) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.10338,1.12937) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.16431,1.13415) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.16298,1.09167) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.09942,1.15241) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.08878,1.17033) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.17345,1.15044) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.11943,1.19004) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.16577,1.18732) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.16032,1.19448) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.20718,1.19443) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.13623,1.21509) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.15265,1.23371) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.12886,1.24438) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.22572,1.24207) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.18211,1.23923) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.18455,1.25830) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.19113,1.27010) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.21972,1.21878) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.23569,1.27682) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.26162,1.27220) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.26574,1.28316) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.23496,1.30555) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.20865,1.34215) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.23052,1.34657) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.28403,1.33381) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.28568,1.35083) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.26956,1.35216) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.26291,1.36643) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.30758,1.36498) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.30817,1.39272) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.31488,1.38429) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.30356,1.39836) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.31419,1.39356) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.32816,1.40971) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.33857,1.41455) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.37009,1.41068) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.36730,1.40871) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.33815,1.43632) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.34933,1.46100) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.37863,1.46241) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.38880,1.44928) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.41691,1.46700) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.41695,1.44147) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.47749,1.45508) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.43121,1.46492) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.42446,1.47121) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.44192,1.50548) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.45270,1.48135) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.52986,1.47332) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.54203,1.49340) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.50184,1.51355) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.47655,1.51358) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.49164,1.51698) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.51516,1.54799) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.53257,1.55812) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.56095,1.51007) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.55934,1.50813) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.57143,1.54490) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.62513,1.52592) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.64120,1.51018) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.56592,1.58180) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.66278,1.53928) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.69143,1.55085) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.65150,1.54961) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.65876,1.58171) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.70649,1.50812) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.67981,1.57089) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.71606,1.57154) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.70800,1.55246) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.77237,1.55690) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.72231,1.59371) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.76924,1.56985) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.80595,1.53072) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.81585,1.55391) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.84565,1.56373) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.83229,1.54645) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.80014,1.58097) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.83450,1.58000) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.86952,1.53821) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.88705,1.53275) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.88200,1.54262) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.88842,1.55421) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.89353,1.56181) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.91193,1.58603) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.94188,1.55555) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.93258,1.57021) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.98388,1.54448) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.00911,1.52551) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.03198,1.48938) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-0.98327,1.58631) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.00934,1.52534) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.01247,1.54701) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.02393,1.54297) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.01866,1.53893) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.09494,1.50563) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.08341,1.52184) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.07586,1.52273) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.09565,1.50920) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.06510,1.52298) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.11901,1.49895) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.13405,1.49226) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.20070,1.44576) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.21823,1.44712) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.24091,1.41849) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.21944,1.46292) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.23599,1.45370) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.14661,1.47953) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.18657,1.46804) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.22864,1.44567) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26628,1.41588) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.24018,1.43933) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26224,1.42108) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27776,1.40158) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.23661,1.43727) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32273,1.38470) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.33952,1.37532) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31286,1.38452) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.35955,1.36902) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.36359,1.35484) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.38139,1.33844) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.38351,1.33450) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.37777,1.33969) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.40183,1.31402) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.38027,1.32922) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.37141,1.34716) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.44180,1.30055) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.36781,1.34437) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.44716,1.30202) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.44046,1.29165) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.42339,1.29797) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.46972,1.26690) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.45341,1.28522) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.44593,1.29108) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.45838,1.27121) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.45198,1.28748) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.42492,1.28986) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.47459,1.25286) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.46171,1.27754) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.49039,1.23096) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.52084,1.20701) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.50180,1.22177) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.53296,1.18501) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.55438,1.18071) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.54158,1.16802) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.52034,1.18470) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.57407,1.15258) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.54496,1.16407) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.54815,1.13189) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.52444,1.16235) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.57075,1.11850) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.58141,1.10402) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.62831,1.08143) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.62928,1.09778) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.61323,1.09468) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.62284,1.06987) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.64578,1.03860) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.61390,1.07229) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.65311,1.00657) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.63597,1.02361) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.62579,1.04364) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.62009,1.01405) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.65134,0.97447) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.65112,0.97112) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.71122,0.94014) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.67065,0.96043) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.66821,0.96141) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.67920,0.93620) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.69810,0.90202) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.71388,0.92552) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.69615,0.88712) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.66505,0.90454) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.71415,0.86507) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73314,0.85378) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72344,0.82121) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.70542,0.84208) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.78452,0.77629) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.71684,0.82690) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74437,0.77549) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74218,0.79065) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73434,0.75805) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.78386,0.71783) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74200,0.76801) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.76061,0.72464) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73947,0.73456) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.76230,0.68841) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73431,0.69406) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74904,0.66995) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.75103,0.66327) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.71182,0.65706) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74878,0.62396) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.77270,0.60098) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74284,0.62703) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.75375,0.59193) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73654,0.60993) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74284,0.58375) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.76310,0.56097) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.75399,0.56284) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74881,0.53180) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72721,0.54998) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.77879,0.49696) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73586,0.51581) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.77906,0.46136) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72323,0.47456) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.78068,0.44980) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.77908,0.43010) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73672,0.42353) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73340,0.45379) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.75998,0.45011) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72908,0.44945) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73660,0.40815) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.77938,0.36653) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.80733,0.33110) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.76585,0.35860) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.76849,0.36074) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.77205,0.31683) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72628,0.32417) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.76563,0.29372) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72458,0.29069) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73777,0.29115) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72551,0.30554) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72791,0.26846) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.72244,0.25376) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.74321,0.22098) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.73179,0.24296) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.69291,0.24726) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.68027,0.21952) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.67267,0.22457) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.68246,0.22934) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.69137,0.20898) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.64758,0.20739) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.67429,0.15115) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.67283,0.16177) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.68773,0.13237) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.61549,0.14526) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.63087,0.14500) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.62322,0.11738) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.56050,0.09215) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.60648,0.08246) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.61198,0.09192) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.58746,0.10660) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.60787,0.09526) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.59898,0.02745) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.56494,0.04792) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.54850,0.03523) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.54617,0.04820) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.56005,0.02352) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.54216,0.02790) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.52766,-0.01430) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.54350,0.00571) has been dropped because of a coordinate fi
+lter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.49920,-0.02280) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.51753,-0.01822) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.52111,-0.04669) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.48078,-0.04642) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.47867,-0.05371) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.46202,-0.05898) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.44954,-0.04924) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.42469,-0.05218) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.39582,-0.04754) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.41562,-0.07085) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.39266,-0.08989) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.37159,-0.07644) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.40266,-0.10378) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.35131,-0.08441) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.33113,-0.08664) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.36778,-0.14206) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.34063,-0.14642) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32973,-0.11927) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26248,-0.13998) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.30074,-0.13877) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25097,-0.14017) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31027,-0.14538) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.35367,-0.17310) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.34624,-0.19064) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.28238,-0.17233) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.29921,-0.13860) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32841,-0.15102) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32404,-0.17056) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.35473,-0.17183) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26820,-0.18105) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25642,-0.17574) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27449,-0.15562) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32853,-0.17061) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25746,-0.14688) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32391,-0.16312) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32824,-0.14918) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32768,-0.16671) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.30280,-0.14123) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.30945,-0.15994) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32168,-0.13538) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32193,-0.12934) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25242,-0.12762) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26065,-0.13544) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32105,-0.14624) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25775,-0.12909) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31155,-0.13108) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.30491,-0.14533) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.30693,-0.14527) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27149,-0.16859) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.28972,-0.17359) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31246,-0.15773) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25477,-0.13777) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31427,-0.15063) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.24864,-0.13414) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25203,-0.12283) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31411,-0.13818) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31154,-0.15264) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.29990,-0.15600) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.34848,-0.16328) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32524,-0.14861) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.34522,-0.15453) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31087,-0.14686) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.29756,-0.13622) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.31572,-0.13142) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.25870,-0.15159) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26960,-0.16970) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27981,-0.16184) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26723,-0.17871) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27842,-0.18492) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.34362,-0.15494) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32009,-0.15343) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.35277,-0.17677) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27002,-0.17902) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.26393,-0.17419) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27633,-0.17373) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.32917,-0.17382) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27639,-0.18810) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27520,-0.18488) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.35795,-0.17741) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27510,-0.18147) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.35706,-0.19113) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.28054,-0.16911) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27411,-0.17393) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.28158,-0.18039) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27640,-0.18524) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.27315,-0.18621) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.28237,-0.17461) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
+NOTE: coordinate (-1.28140,-0.17843) has been dropped because of a coordinate f
+ilter. (see also unbounded coords=jump). 
 
 LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
 (Font)              using `T2A/ptm/m/n' instead on input line 97.
@@ -6614,20 +8534,20 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 ) (./AktualisTudomany/AktTudomany.tex
 fejezet 2.
 
-Overfull \hbox (32.06444pt too wide) in paragraph at lines 11--12
+Overfull \hbox (32.06444pt too wide) in paragraph at lines 12--13
 \T2A/ptm/bx/it/12 Az olyan g^^Aepek, ame-lye-ket ar-ra ter-vez-tek, hogy bi-zo-
 nyos fel-ada-to-kat au-to-ma-ti-ku-san elv^^Aegezzenek
  []
 
 
-Overfull \hbox (6.87494pt too wide) in paragraph at lines 19--20
+Overfull \hbox (6.87494pt too wide) in paragraph at lines 16--17
 \T2A/ptm/bx/it/12 t^^A^^Ypus^^Au ro-bo-tok k^^Aepesek saj^^Aat k^^Dornyezet^^Du
 k fel-der^^A^^Yt^^Aes^^Aere is-me-ret-len k^^Dornyezetben is k^^Dul^^Donb^^Doz^
 ^Eo
  []
 
 
-Overfull \hbox (4.06972pt too wide) in paragraph at lines 19--20
+Overfull \hbox (4.06972pt too wide) in paragraph at lines 16--17
 \T2A/ptm/bx/it/12 go-kat, pa-lett^^Aakat vagy k^^Dul^^Donb^^Doz^^Eo dol-go-kat 
 kel egyik helysz^^A^^Ynr^^Eol a m^^Aasikra sz^^Aall^^A^^Ytani (p^^Aeld^^Aaul
  []
@@ -6641,7 +8561,14 @@ LaTeX Font Warning: Font shape `T2A/ptm/m/sc' undefined
 (Font)              using `T2A/ptm/m/n' instead on input line 10.
 
 ) (./MobilisRobotok/tableTemplate.tex)) (./MobilisRobotok/clearpathrobotics/hus
-ky.tex (./picture.tex
+ky.tex
+Overfull \hbox (46.55243pt too wide) in paragraph at lines 15--16
+\T2A/ptm/bx/it/12 Nagy te-herb^^A^^Yr^^Aas^^Au k^^Dult^^Aeri mo-bi-lis ro-bot, 
+leg-ink^^Aabb ku-tat^^Aasi c^^Aelokra haszn^^Aalj^^Aak, nagy ker^^Aeknyomat^^Ae
+ka
+ []
+
+(./picture.tex
 The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
 nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
@@ -6729,6 +8656,12 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 
 LaTeX Warning: Reference `fig:RosControlDiagram' on page 14 undefined on input 
 line 64.
+
+
+Overfull \hbox (5.17801pt too wide) in paragraph at lines 64--65
+\T2A/ptm/m/sc/12 f^^Duggv^^Aenyben kell elk^^Aesz^^A^^Yteni a prog-ra-mo-kat am
+e-lyek kep^^Aesek ki-ol-vas-ni ^^Aes be^^A^^Yrni az eszk^^Dozben
+ []
 
 
 Package natbib Warning: Citation `DistributedRealTimeControlROS' on page 14 und
@@ -6842,18 +8775,13 @@ LaTeX Warning: Overwriting file `./MerolegesNyomoeroCalc.dat'.
 PGFPlots: reading {MerolegesNyomoeroCalc.dat}
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-)
+) (./AktualisTudomany/Equations/DinamicsEq.tex)
 
-LaTeX Warning: Reference `fig:NyomoeroSzim4Wheel' on page 18 undefined on input
- line 53.
-
-(./AktualisTudomany/Equations/DinamicsEq.tex)
-
-LaTeX Warning: Reference `fig:SMR4WKinematics' on page 20 undefined on input li
-ne 81.
+LaTeX Warning: Reference `fig:SMR4WKinematics' on page 19 undefined on input li
+ne 80.
 
 
-Overfull \hbox (2.75685pt too wide) in paragraph at lines 89--90
+Overfull \hbox (2.75685pt too wide) in paragraph at lines 88--89
 []\T2A/ptm/m/sc/12 Az $\OML/ztmcm/m/it/12 ICR$ \T2A/ptm/m/sc/12 pont hely-ze-te
  a $[]\OML/ztmcm/m/it/12 V[]$ \T2A/ptm/m/sc/12 se-bess^^Aeg vek-to-rok-ra mer^^
 Eoleges egye-ne-sek metsz^^Aes pontj^^Aaban
@@ -6865,29 +8793,29 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-LaTeX Warning: Hyper reference `eq:allapot' on page 20 undefined on input line 
+LaTeX Warning: Hyper reference `eq:allapot' on page 19 undefined on input line 
+99.
+
+
+LaTeX Warning: Reference `eq:allapot' on page 19 undefined on input line 99.
+
+
+LaTeX Warning: Hyper reference `eq:SebComY' on page 19 undefined on input line 
 100.
 
 
-LaTeX Warning: Reference `eq:allapot' on page 20 undefined on input line 100.
+LaTeX Warning: Reference `eq:SebComY' on page 19 undefined on input line 100.
 
 
-LaTeX Warning: Hyper reference `eq:SebComY' on page 20 undefined on input line 
-101.
+LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 19 undefined
+ on input line 101.
 
 
-LaTeX Warning: Reference `eq:SebComY' on page 20 undefined on input line 101.
+LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 19 undefined on in
+put line 101.
 
 
-LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 20 undefined
- on input line 102.
-
-
-LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 20 undefined on in
-put line 102.
-
-
-Overfull \hbox (4.15575pt too wide) in paragraph at lines 100--103
+Overfull \hbox (4.15575pt too wide) in paragraph at lines 99--102
 \OML/ztmcm/m/it/12 VNR$ \T2A/ptm/m/sc/12 -be. A $\OML/ztmcm/m/it/12 COM$ \T2A/p
 tm/m/sc/12 pont se-bess^^Aeg^^Aenek y kom-po-nen-se meg-ad-hat^^Ao az egyen-let
  ([]) seg^^A^^Yts^^Aeg^^Aevel.
@@ -6895,20 +8823,20 @@ tm/m/sc/12 pont se-bess^^Aeg^^Aenek y kom-po-nen-se meg-ad-hat^^Ao az egyen-let
 
 (./AktualisTudomany/Equations/KinematikEq.tex)
 
-LaTeX Warning: Reference `fig:SMR4WDinamicsModel' on page 21 undefined on input
- line 110.
+LaTeX Warning: Reference `fig:SMR4WDinamicsModel' on page 20 undefined on input
+ line 109.
 
 
-LaTeX Warning: Hyper reference `eq:eromodelglobal1' on page 21 undefined on inp
-ut line 112.
+LaTeX Warning: Hyper reference `eq:eromodelglobal1' on page 20 undefined on inp
+ut line 111.
 
 
-LaTeX Warning: Reference `eq:eromodelglobal1' on page 21 undefined on input lin
-e 112.
+LaTeX Warning: Reference `eq:eromodelglobal1' on page 20 undefined on input lin
+e 111.
 
 
-LaTeX Warning: Reference `eq:eromodelglobal3' on page 21 undefined on input lin
-e 112.
+LaTeX Warning: Reference `eq:eromodelglobal3' on page 20 undefined on input lin
+e 111.
 
 (./picture.tex
 The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
@@ -6916,93 +8844,93 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
 
-LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 21 undefined on i
-nput line 122.
+LaTeX Warning: Reference `fig:SMR4WMerolegesNyomoero' on page 20 undefined on i
+nput line 121.
 
 (./AktualisTudomany/Equations/EroModelEq.tex)
 
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 22 undefined on in
-put line 128.
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 21 undefined on in
+put line 127.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 22 undefined on input li
-ne 128.
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 21 undefined on input li
+ne 127.
 
 
-Package natbib Warning: Citation `RobustMotionControl' on page 22 undefined on 
-input line 128.
+Package natbib Warning: Citation `RobustMotionControl' on page 21 undefined on 
+input line 127.
 
 
-LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 22 undefined
- on input line 128.
+LaTeX Warning: Hyper reference `eq:nemholomonikusmegkotes' on page 21 undefined
+ on input line 127.
 
 
-LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 22 undefined on in
-put line 128.
+LaTeX Warning: Reference `eq:nemholomonikusmegkotes' on page 21 undefined on in
+put line 127.
 
 
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 22 undefined on in
-put line 130.
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 21 undefined on in
+put line 129.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 22 undefined on input li
-ne 130.
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 21 undefined on input li
+ne 129.
 
 
-LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 22 undefined on inp
-ut line 130.
+LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 21 undefined on inp
+ut line 129.
 
 
-LaTeX Warning: Reference `eq:allapotegyszeru' on page 22 undefined on input lin
-e 130.
+LaTeX Warning: Reference `eq:allapotegyszeru' on page 21 undefined on input lin
+e 129.
 
 
-LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 22 undefined
- on input line 130.
+LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 21 undefined
+ on input line 129.
 
 
-LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 22 undefined on in
-put line 130.
+LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 21 undefined on in
+put line 129.
 
 
-LaTeX Warning: Hyper reference `eq:SxAeqZero' on page 22 undefined on input lin
-e 132.
+LaTeX Warning: Hyper reference `eq:SxAeqZero' on page 21 undefined on input lin
+e 131.
 
 
-LaTeX Warning: Reference `eq:SxAeqZero' on page 22 undefined on input line 132.
+LaTeX Warning: Reference `eq:SxAeqZero' on page 21 undefined on input line 131.
 
 
 
-LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 22 undefined
- on input line 132.
+LaTeX Warning: Hyper reference `eq:allapotokdupladerivalt' on page 21 undefined
+ on input line 131.
 
 
-LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 22 undefined on in
-put line 132.
+LaTeX Warning: Reference `eq:allapotokdupladerivalt' on page 21 undefined on in
+put line 131.
 
 
-LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 22 undefined on inp
-ut line 132.
+LaTeX Warning: Hyper reference `eq:allapotegyszeru' on page 21 undefined on inp
+ut line 131.
 
 
-LaTeX Warning: Reference `eq:allapotegyszeru' on page 22 undefined on input lin
-e 132.
+LaTeX Warning: Reference `eq:allapotegyszeru' on page 21 undefined on input lin
+e 131.
 
 
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 22 undefined on in
-put line 132.
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 21 undefined on in
+put line 131.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 22 undefined on input li
-ne 132.
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 21 undefined on input li
+ne 131.
 
 
-LaTeX Warning: Hyper reference `eq:dinamicmodelgenericsimplified' on page 22 un
-defined on input line 132.
+LaTeX Warning: Hyper reference `eq:dinamicmodelgenericsimplified' on page 21 un
+defined on input line 131.
 
 
-LaTeX Warning: Reference `eq:dinamicmodelgenericsimplified' on page 22 undefine
-d on input line 132.
+LaTeX Warning: Reference `eq:dinamicmodelgenericsimplified' on page 21 undefine
+d on input line 131.
 
 (./AktualisTudomany/Equations/RobustMotionControlEQ.tex
 Overfull \hbox (46.60457pt too wide) detected at line 27
@@ -7014,41 +8942,45 @@ Overfull \hbox (46.60457pt too wide) detected at line 27
 
 )
 
-LaTeX Warning: Hyper reference `eq:eloirtnyomatek' on page 23 undefined on inpu
-t line 142.
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 139.
 
 
-LaTeX Warning: Reference `eq:eloirtnyomatek' on page 23 undefined on input line
- 142.
+LaTeX Warning: Hyper reference `eq:eloirtnyomatek' on page 22 undefined on inpu
+t line 141.
 
 
-LaTeX Warning: Hyper reference `eq:controllertorque1' on page 23 undefined on i
-nput line 142.
+LaTeX Warning: Reference `eq:eloirtnyomatek' on page 22 undefined on input line
+ 141.
 
 
-LaTeX Warning: Reference `eq:controllertorque1' on page 23 undefined on input l
-ine 142.
+LaTeX Warning: Hyper reference `eq:controllertorque1' on page 22 undefined on i
+nput line 141.
+
+
+LaTeX Warning: Reference `eq:controllertorque1' on page 22 undefined on input l
+ine 141.
 
 (./pictureFromTex.tex (./SajatRobot/SzerkAbrak/SebContRefNyom.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )) (./AktualisTudomany/Equations/ControllerTorqueHL.tex)
 
-Package natbib Warning: Citation `SSMRartificialForceMethod' on page 23 undefin
-ed on input line 157.
+Package natbib Warning: Citation `SSMRartificialForceMethod' on page 22 undefin
+ed on input line 156.
 
 
-LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 23 undefined on in
-put line 157.
+LaTeX Warning: Hyper reference `eq:dinamiceqgeneral' on page 22 undefined on in
+put line 156.
 
 
-LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 23 undefined on input li
-ne 157.
+LaTeX Warning: Reference `eq:dinamiceqgeneral' on page 22 undefined on input li
+ne 156.
 
 (./AktualisTudomany/Equations/ArtificialTroqueMethod.tex)
 
-Package natbib Warning: Citation `Campa2014' on page 24 undefined on input line
- 167.
+Package natbib Warning: Citation `Campa2014' on page 23 undefined on input line
+ 166.
 
 (./pictureFromTex.tex (./SajatRobot/SzerkAbrak/SebContRefOmega.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -7061,6 +8993,10 @@ LaTeX Warning: Reference `fig:CmodA7architektura' on page 25 undefined on input
 
 (./SajatRobot/FPGAmodulok/RendszerModel.tex
 
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\H' on input line 3.
+
+
 LaTeX Warning: Reference `fig:CmodA7architektura' on page 26 undefined on input
  line 5.
 
@@ -7071,6 +9007,19 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 )
 
 LaTeX Warning: Reference `fig:VivadoHl' on page 26 undefined on input line 28.
+
+
+Overfull \hbox (34.9602pt too wide) in paragraph at lines 28--29
+\T2A/ptm/m/sc/12 az $\OML/ztmcm/m/it/12 microblaze[]\OT1/ztmcm/m/n/12 0[]\OML/z
+tmcm/m/it/12 local[]memory$\T2A/ptm/m/sc/12 -ban tal^^Aalhat^^Ao. A mem^^Aoria 
+m^^Aerete 24Kbyte 32bit s^^Aavsz^^Aeless^^Aeggel,
+ []
+
+
+Overfull \hbox (24.82317pt too wide) in paragraph at lines 28--29
+\T2A/ptm/m/sc/12 mem^^Aori^^Aaban van ta-rol-va, QS-PI alap^^Au in-terf^^Aessze
+l kap-csol^^Aodik a FP-GA hoz, az $\OML/ztmcm/m/it/12 ExternalMemorys$
+ []
 
 
 LaTeX Warning: Reference `fig:VivadoHl' on page 26 undefined on input line 30.
@@ -7108,8 +9057,8 @@ ne 61.
 
 Overfull \hbox (17.12991pt too wide) in paragraph at lines 61--63
 \T2A/ptm/m/sc/12 microB-la-ze pro-ce-szor az $\OML/ztmcm/m/it/12 axi[]bram[]ctr
-l[]\OT1/ztmcm/m/n/12 0$ \T2A/ptm/m/sc/12 mo-du-lon ke-resz-tul be-le-irod-nak a
- $\OML/ztmcm/m/it/12 blk[]mem[]gen[]\OT1/ztmcm/m/n/12 1$
+l[]\OT1/ztmcm/m/n/12 0$ \T2A/ptm/m/sc/12 mo-du-lon ke-reszt^^Dul be-le-irod-nak
+ a $\OML/ztmcm/m/it/12 blk[]mem[]gen[]\OT1/ztmcm/m/n/12 1$
  []
 
 
@@ -7152,17 +9101,61 @@ The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
 nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 ' to disable this.
 )
-
-LaTeX Warning: Reference `fig:ControllersVivado' on page 29 undefined on input 
-line 133.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-[]|\T2A/ptm/m/sc/12 Mintavetelezesi pe-ri-o-dus [ms]
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ [][][]\T2A/ptm/m/n/10 speci^^Aalis ka-rak-te-rek ame-lyek jel-zik az
  []
 
 
-Overfull \hbox (11.14279pt too wide) in paragraph at lines 140--154
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ \T2A/ptm/m/n/10 ^^Aertelmez^^Eo sza-ma-ra hogy olyan ka-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ \T2A/ptm/m/n/10 rak-ter k^^Dovetkezik ame-lyet a pro-to-koll
+ []
+
+
+LaTeX Warning: Reference `fig:ControllersVivado' on page 29 undefined on input 
+line 134.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+[]|\T2A/ptm/m/sc/12 Mintav^^Aetelez^^Aesi pe-ri^^Aodus [ms]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+[]|\T2A/ptm/m/sc/12 V^^Aalaszhat^^Ao szab^^Aalyz^^Ao t^^A^^Ypusok
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 147--148
+\T2A/ptm/m/sc/12 hajt^^Aasonk^^Aent 0=Szoft-va-re PID
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+\T2A/ptm/m/sc/12 sz^^Dogsebess^^Aeg, 1=Hard-ver PID
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+\T2A/ptm/m/sc/12 sz^^Dogsebess^^Aeg, 2=Szoft-ver PID
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 149--150
+[]|\T2A/ptm/m/sc/12 Inkrement^^Aalis szen-zor ^^Aaltal ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]|\T2A/ptm/m/sc/12 sz^^Dogsebess^^Aeg szab^^Aalyz^^Ao, PID
+ []
+
+
+Overfull \hbox (11.14279pt too wide) in paragraph at lines 141--155
 [][] 
  []
 
@@ -7171,82 +9164,79 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package natbib Warning: Citation `AXIuartLite' on page 30 undefined on input li
-ne 163.
+ne 164.
 
 
 LaTeX Warning: Reference `fig:FPGAuartRos' on page 30 undefined on input line 1
-71.
-
-
-Underfull \vbox (badness 2772) has occurred while \output is active []
+72.
 
 ) (./SajatRobot/ROS/rosmodulok.tex
 The command '\includegraphics []{tikz/RobotUserLan.jpg}' has been optimized awa
 y. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `fig:ROSgraph' on page 32 undefined on input line 28.
+LaTeX Warning: Reference `fig:ROSgraph' on page 32 undefined on input line 25.
 
 
-LaTeX Warning: Reference `Tab:nodok' on page 32 undefined on input line 28.
+LaTeX Warning: Reference `Tab:nodok' on page 32 undefined on input line 25.
 
 
 LaTeX Warning: Reference `FPGAcomuSection' on page 32 undefined on input line 3
-6.
+3.
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 37--38
+Underfull \hbox (badness 2443) in paragraph at lines 34--35
 []|\T2A/ptm/m/sc/12 Feladata sz^^Doveges form^^Aaban ^^Aerkez^^Eo ada-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 39--40
-[]|\T2A/ptm/m/sc/12 Feladata a joystick-tol ^^Aerkez^^Eo pa-ran-csok
+Underfull \hbox (badness 3503) in paragraph at lines 34--35
+\T2A/ptm/m/sc/12 be in-tegr^^Aal^^Aas^^Aat old-ja meg. M^^Aert fi-zi-kai
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 39--40
+Underfull \hbox (badness 2334) in paragraph at lines 36--37
+[]|\T2A/ptm/m/sc/12 Feladata a joystick-t^^Eol ^^Aerkez^^Eo pa-ran-csok
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 36--37
 \T2A/ptm/m/sc/12 fo-gad^^Aasa. Meg-val^^Aos^^A^^Ytja a $\OML/ztmcm/m/it/12 Dead
 ManSwitch$
  []
 
 
 Package natbib Warning: Citation `RosSerial' on page 32 undefined on input line
- 41.
+ 38.
 
 
-Package natbib Warning: Citation `rosjoy' on page 32 undefined on input line 42
+Package natbib Warning: Citation `rosjoy' on page 32 undefined on input line 39
 .
 
 
 Package natbib Warning: Citation `roshectormap' on page 32 undefined on input l
-ine 43.
+ine 40.
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 45--46
+Underfull \hbox (badness 1005) in paragraph at lines 42--43
 []|[]\T2A/ptm/m/sc/12 Atalak^^A^^Ytja a ro-bot se-bess^^Aeg ^^Aallapotait ^^Aes
 
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 45--46
-\T2A/ptm/m/sc/12 ke-re-ke ugyan-azt a re-fe-ren-cia ^^Aert^^Aeket kell
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 57--58
+Underfull \hbox (badness 3919) in paragraph at lines 54--55
 []|\T2A/ptm/m/sc/12 Minden ^^Duzenet tar-tal-maz egy
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 75--76
+Underfull \hbox (badness 1728) in paragraph at lines 72--73
 \T2A/ptm/m/sc/12 =1 ma-nu^^Aalis ir^^Aany^^A^^Yt^^Aas joys-tick
  []
 
 
-Overfull \hbox (1.35269pt too wide) in paragraph at lines 52--78
+Overfull \hbox (1.35269pt too wide) in paragraph at lines 49--75
 \T2A/ptm/m/sc/12 Az al^^Aabbi t^^Aabl^^Aazatban l^^Aathatjuk a ROS oper^^Aaci^^
 Aos rend-szer ^^Aaltal szolg^^Aaltatott .msg ^^Duzenetek
  []
@@ -7255,7 +9245,7 @@ Aos rend-szer ^^Aaltal szolg^^Aaltatott .msg ^^Duzenetek
 Underfull \vbox (badness 7759) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `ROSgraph' on page 34 undefined on input line 80.
+LaTeX Warning: Reference `fig:ROSgraph' on page 34 undefined on input line 77.
 
 (./picture.tex
 Package svg Info: Last page of `./svg-inkscape/rosgraph_svg-tex.pdf' is 1 on in
@@ -7270,30 +9260,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 )
 
 Package natbib Warning: Citation `RosSerial' on page 35 undefined on input line
- 93.
+ 90.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 92.
+
+
+
+LaTeX Warning: Reference `fig:MicroblazeSoft' on page 36 undefined on input lin
+e 93.
+
+
+Package natbib Warning: Citation `parameterserver' on page 36 undefined on inpu
+t line 95.
 
 
 LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 95.
 
 
 
-LaTeX Warning: Reference `fig:MicroblazeSoft' on page 36 undefined on input lin
-e 96.
+LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 97.
 
-
-Package natbib Warning: Citation `parameterserver' on page 36 undefined on inpu
-t line 98.
-
-
-LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 98.
-
-
-
-LaTeX Warning: Reference `fig:ROStoUart' on page 36 undefined on input line 100
-.
 
 (./picture.tex
 The command '\includegraphics [width=\aspectratioPic \textwidth ,angle=\rotatio
@@ -7302,53 +9292,53 @@ nAnglePic ]{\img }' has been optimized away. Use '/tikz/external/optimize=false
 )
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\H' on input line 108.
+(hyperref)                removing `\H' on input line 105.
 
 
-Overfull \hbox (1.77507pt too wide) in paragraph at lines 109--110
-\T2A/ptm/m/sc/12 A /ref-Vals ti-pu-su ^^Duzenetben meg-ad-juk min-den egyes mo-
-tor el^^Eo^^A^^Yrt ^^Aerteket an-nak f^^Doveny^^Aeben
+Overfull \hbox (2.10138pt too wide) in paragraph at lines 106--107
+\T2A/ptm/m/sc/12 A /ref-Vals t^^A^^Ypus^^Au ^^Duzenetben meg-ad-juk min-den egy
+es mo-tor el^^Eo^^A^^Yrt ^^Aert^^Aek^^Aet an-nak f^^Doveny^^Aeben
  []
 
 
-Package natbib Warning: Citation `rosTF' on page 36 undefined on input line 113
+Package natbib Warning: Citation `rosTF' on page 36 undefined on input line 110
 .
 
 
-LaTeX Warning: Reference `fig:ROSframes' on page 36 undefined on input line 114
+LaTeX Warning: Reference `fig:ROSframes' on page 36 undefined on input line 111
 .
 
 
-Overfull \hbox (22.4017pt too wide) in paragraph at lines 113--116
-\T2A/ptm/m/sc/12 A vo-nat-koz-tat^^Aasi rend-sze-re-ket sz^^Duks^^Aegesek mert 
-a szen-zo-rok ^^Aes be-avat-koz^^Ao eszk^^Doz^^Dok egym^^Aashoz
+Overfull \hbox (16.20311pt too wide) in paragraph at lines 110--113
+\T2A/ptm/m/sc/12 A vo-nat-koz-tat^^Aasi rend-sze-rek sz^^Duks^^Aegesek, mert a 
+szen-zo-rok ^^Aes be-avat-koz^^Ao eszk^^Doz^^Dok egym^^Aashoz
  []
 
 
-Overfull \hbox (10.60109pt too wide) in paragraph at lines 118--120
+Overfull \hbox (10.60109pt too wide) in paragraph at lines 115--117
 []\T2A/ptm/m/sc/12 r^^Dogz^^A^^Ytett poz^^A^^Yci^^Ao ^^Aes sz^^Dogek, sza-bads^
 ^Aagok 0: Szen-zo-rok la-ser, BO-DY_link, wheel_odom,
  []
 
 
 Package natbib Warning: Citation `rosURDF' on page 37 undefined on input line 1
-26.
+23.
 
 
 Package natbib Warning: Citation `rosJoint' on page 37 undefined on input line 
-127.
+124.
 
 
 Package natbib Warning: Citation `rosLink' on page 37 undefined on input line 1
-27.
+24.
 
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 131
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 128
 .
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 
-LaTeX Warning: Reference `fig:ROSframes' on page 38 undefined on input line 188
+LaTeX Warning: Reference `fig:ROSframes' on page 38 undefined on input line 185
 .
 
 (./picture.tex
@@ -7440,23 +9430,16 @@ ine 7.
 The command '\includegraphics []{tikz/Left_n50Right50x.pdf}' has been optimized
  away. Use '/tikz/external/optimize=false' to disable this.
 
-Underfull \hbox (badness 1803) in paragraph at lines 17--17
+Underfull \hbox (badness 2213) in paragraph at lines 17--17
 []\T2A/ptm/m/sc/12 3.20. ^^Aabra. |$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^
 ^@[] \OT1/ztmcm/m/n/12 4\OML/ztmcm/m/it/12 W$ \T2A/ptm/m/sc/12 t^^A^^Ypus^^Au r
-o-bot mozg^^Aasa, ten-ge-lyek-re bont-va, ha a ke-rek-
+o-bot mozg^^Aasa, ten-ge-lyek-re bont-va, ha a ker^^Aek
  []
 
 The command '\includegraphics []{tikz/Left_n50Right50a.pdf}' has been optimized
  away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [scale=1]{tikz/Left_n50Right50b.pdf}' has been op
 timized away. Use '/tikz/external/optimize=false' to disable this.
-
-Underfull \hbox (badness 1484) in paragraph at lines 31--31
-[]\T2A/ptm/m/sc/12 3.22. ^^Aabra. |$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^
-^@[] \OT1/ztmcm/m/n/12 4\OML/ztmcm/m/it/12 W$ \T2A/ptm/m/sc/12 t^^A^^Ypus^^Au r
-o-bot ^^Aaltal le^^A^^Yrt p^^Aalya, ha a ke-rek-sz^^Eogsebess^^Aegek
- []
-
 The command '\includegraphics []{tikz/Left_n50Right50c.pdf}' has been optimized
  away. Use '/tikz/external/optimize=false' to disable this.
 
@@ -7490,7 +9473,7 @@ ed away. Use '/tikz/external/optimize=false' to disable this.
 Underfull \hbox (badness 1789) in paragraph at lines 48--48
 []\T2A/ptm/m/sc/12 3.28. ^^Aabra. |$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^
 ^@[] \OT1/ztmcm/m/n/12 4\OML/ztmcm/m/it/12 W$ \T2A/ptm/m/sc/12 t^^A^^Ypus^^Au r
-o-bot for-du-la-si sz^^Dogsebess^^Aege, ke-rek-sz^^Dogsebess^^Aegek
+o-bot for-dul^^Aasi sz^^Dogsebess^^Aege, ke-rek-sz^^Dogsebess^^Aegek
  []
 
 The command '\includegraphics [scale=0.8]{tikz/KorP0705e.pdf}' has been optimiz
@@ -7503,7 +9486,7 @@ LaTeX Warning: Reference `fig:KorP0705e' on page 45 undefined on input line 61.
 The command '\includegraphics []{tikz/KorP0703x.pdf}' has been optimized away. 
 Use '/tikz/external/optimize=false' to disable this.
 
-Underfull \hbox (badness 2512) in paragraph at lines 20--20
+Underfull \hbox (badness 2512) in paragraph at lines 19--19
 []\T2A/ptm/m/sc/12 3.30. ^^Aabra. |$\OML/ztmcm/m/it/12 SSMR \OMS/ztmcm/m/n/12 ^
 ^@[] \OT1/ztmcm/m/n/12 4\OML/ztmcm/m/it/12 W$ \T2A/ptm/m/sc/12 t^^A^^Ypus^^Au r
 o-bot mo-tor-vez^^Aerl^^Eo je-lei, ha ker^^Aeksz^^Dogsebess^^Aegek
@@ -7516,8 +9499,8 @@ Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [scale=1]{tikz/KorP0703d.pdf}' has been optimized
  away. Use '/tikz/external/optimize=false' to disable this.
 )
-The command '\includegraphics []{tikz/KorpalyakKavicsos.pdf}' has been optimize
-d away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics []{tikz/s.pdf}' has been optimized away. Use '/ti
+kz/external/optimize=false' to disable this.
 ) (./Meresek/Mozgasok/HomokosDomb/main.tex
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
@@ -7528,7 +9511,7 @@ LaTeX Warning: Reference `fig:HlejtoKerek' on page 46 undefined on input line 9
 .
 
 
-LaTeX Warning: Reference `fig:Hlejto2' on page 46 undefined on input line 11.
+LaTeX Warning: Reference `fig:Hlejto1' on page 46 undefined on input line 11.
 
 
 LaTeX Warning: Reference `fig:Hlejto1' on page 46 undefined on input line 11.
@@ -7586,26 +9569,26 @@ Package natbib Warning: There were undefined citations.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 112.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 282.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 284.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 53516 strings out of 492982
- 1204322 string characters out of 6134896
- 1913930 words of memory out of 5000000
- 56031 multiletter control sequences out of 15000+600000
+ 53559 strings out of 492982
+ 1205541 string characters out of 6134896
+ 2026550 words of memory out of 5000000
+ 56068 multiletter control sequences out of 15000+600000
  562331 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,21n,108p,10410b,2357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,21n,108p,10410b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -7613,7 +9596,7 @@ public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tikz/KorpalyakKavicsos.pdf (1 page, 54090 bytes).
+Output written on tikz/KorpalyakKavicsos.pdf (1 page, 59142 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

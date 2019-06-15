@@ -2,8 +2,9 @@
 
 \input{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/main.tex}
 
-\subsection{Kavicsos talajon, a körpályák összehasonlitása}
+\subsection{Körpályák összehasonlítása}
 
+A lenti ábrán látható a kavicsos illetve füves terepen mert körpályák ábrázolása kétfelé körpályát irtunk elő, a füves talajon nagyobb sebességél haladtunk. Füves talajon a 
 
 \begin{figure}[H]
   \includegraphics{tikz/KorpalyakKavicsos.pdf}

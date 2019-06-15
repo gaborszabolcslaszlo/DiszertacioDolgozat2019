@@ -133,8 +133,8 @@ Felhasználva a  \myeqref{eq:SxAeqZero} és \myeqref{eq:allapotokdupladerivalt} 
 
 \input{AktualisTudomany/Equations/RobustMotionControlEQ.tex}
 
-
 \section{Robot Platform Sebesség Szabályzása}
+
 
 \subsection{Előírt nyomatékkal}
 

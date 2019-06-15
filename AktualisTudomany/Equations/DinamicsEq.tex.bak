@@ -1,0 +1,41 @@
+
+\begin{equation}
+I_w\dot\Omega =
+\tau-W_rF_x
+\end{equation}
+
+\begin{equation*}
+ I_w =   \begin{bmatrix}
+I_{FL} & 0 & 0 & \\ 
+ 0 & I_{BL}  & 0 & 0 \\ 
+ 0 &  0 & I_{FR} & 0\\ 
+ 0 &  0 &  0 & I_{BR}
+\end{bmatrix}
+,\quad
+W_r=\begin{bmatrix}
+r_{FL} & 0 & 0 & 0\\ 
+0 & r_{BL} & 0 &0 \\ 
+0 & 0 & r_{FR} & 0\\ 
+0 & 0 & 0 & r_{BR}
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation*}
+\tau = \begin{bmatrix}
+\tau _{FL}&& 
+\tau _{BL}&& 
+\tau _{FR}&& 
+\tau _{BR}
+\end{bmatrix}^T
+,\quad
+\Omega =\begin{bmatrix}
+\omega _ {FL}&& 
+\omega _ {BL}&& 
+\omega _ {FR}&& 
+\omega _ {BR}
+\end{bmatrix}^T
+\end{equation*}
+
+
+
+

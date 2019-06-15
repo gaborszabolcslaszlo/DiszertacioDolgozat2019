@@ -4,11 +4,11 @@
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/HomokosDomb/}
 \renewcommand{\secondImage}{*}
 
-A lejtő meredeksége 45\degree, a szerkezete homokos, nagyobb méretű szilárd darakkal amelyek elérik a 4cm átmérőt is.
-A lejtőt az FL es FR kerekekkel közelítjük meg, így a BL es BR kerekekre nagyobb merőleges nyomóerő jut.
+A lejtő meredeksége 45\degree, a szerkezete homokos, nagyobb méretű szilárd darabokkal, amelyek elérik a 4cm átmérőt is.
+A lejtőt az FL és FR kerekekkel közelítjük meg, így a BL és BR kerekekre nagyobb merőleges nyomóerő jut.
 A \ref{fig:HlejtoKerek} látható a PWM beavatkozó jelek a BL és BR kerekeken 20\% nagyobb beavatkozó jelet szükséges ugyanannak a referencia jelnek a követésére.
 
-A kereke előirt forgási sebessége 15\degree/s, 0.5m \ref{fig:Hlejto1}  megtétele után a BL és a BR kerek 10 cm mélyen a homokba sülyetek és a robot elakadt \ref{fig:Hlejto1}. Egy másik észrevétel hogy a FL es FR kerek egyáltalan nem sülyedtek be a talajba forgás közben ami a kissebb merőleges nyomóerőnek tulajdonitható. 
+A kereke előirt forgási sebessége 15\degree/s, 0.5m \ref{fig:Hlejto1}  megtétele után a BL és a BR kerek 10 cm mélyen a homokba süllyedtek és a robot elakadt \ref{fig:Hlejto1}. Egy másik észrevétel hogy a FL és FR kerek egyáltalán nem süllyedtek be a talajba forgás közben, ami a kisebb merőleges nyomóerőnek tulajdonítható. 
 
 %kep a talajrol
 %\input{Meresek/Mozgasok/KepekAFelszinrol.tex}

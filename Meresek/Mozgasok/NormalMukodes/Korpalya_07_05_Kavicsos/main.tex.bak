@@ -1,4 +1,4 @@
-\subsection{Kavicsos talajon korpalyan 50/15}
+\subsection{Kavicsos talajon körpályán 50/15}
 A \ref{fig:KorP0705a} megfigyelhető amint a robot kavicsos talajon differenciálisan fordul 80 másodpercen keresztül, ezalatt másfélszer körbefordul.
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos/}
@@ -26,11 +26,11 @@ A \ref{fig:KorP0705a} megfigyelhető amint a robot kavicsos talajon differenciá
 
 \begin{figure}[H]
   \includegraphics{tikz/KorP0705b.pdf}
-  \caption{$SSMR-4W$ típusú robot altal leirt palya, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
+  \caption{$SSMR-4W$ típusú robot által leirt pálya, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705b}
 \end{figure}
 
-A körpalyán mozgás során a robot eltér a szabályos körtöl, és  látható a \ref{fig:KorP0705b} ábrán. A mérések nyilthurokan törének, nincs szabályzókör a pozicióra és a sebességkre.
+A körpályán, mozgás során a robot eltér a szabályos körtöl, és  látható a \ref{fig:KorP0705b} ábrán. A mérések nyilthurokan törénnek, nincs szabályzókör a pozicióra és a sebességekre.
 A szögsebességet tekintve a robot 7\degree/s szögsebességet generál.
 
 
@@ -45,7 +45,7 @@ A szögsebességet tekintve a robot 7\degree/s szögsebességet generál.
 \begin{center}
   \includegraphics[scale=0.8]{tikz/KorP0705d.pdf}
 \end{center}
-  \caption{$SSMR-4W$ típusú robot fordulasi szögsebessége, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
+  \caption{$SSMR-4W$ típusú robot fordulási szögsebessége, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705d}
 \end{figure}
 
@@ -58,4 +58,4 @@ A szögsebességet tekintve a robot 7\degree/s szögsebességet generál.
   \label{fig:KorP0705e}
 \end{figure}
 
-A robot sebességét tekintve a \ref{fig:KorP0705e} látható hogy szinuszosan változuk a pozicióhoz hasonlóan,a robot kiss sebességü mozgása miatt a mérés zajos.
+A robot sebességét tekintve a \ref{fig:KorP0705e} látható, hogy szinuszosan változik a pozicióhoz hasonlóan,a robot kis sebességű mozgása miatt a mérés zajos.
