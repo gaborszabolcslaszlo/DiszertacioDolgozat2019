@@ -116,6 +116,13 @@ Wim~Meeussen Tully~Foote, Eitan Marder-Eppstein.
 wiki.ros.org.
 \newblock Writing a simple publisher and subscriber (c++), 2018.
 
+\bibitem{ICRposition}
+X.~{Wu}, M.~{Xu}, and L.~{Wang}.
+\newblock Differential speed steering control for four-wheel independent
+  driving electric vehicle.
+\newblock In {\em 2013 IEEE International Symposium on Industrial Electronics},
+  pages 1--6, May 2013.
+
 \bibitem{DualPortRam}
 Xilinx.
 \newblock Block memory generator v8.2, 2015.

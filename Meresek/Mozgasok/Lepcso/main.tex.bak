@@ -27,7 +27,7 @@ A roboton IMU szenzora által mért értékek mutatják amint a $g=9.81 m/s^2$ g
 
 \begin{figure}[H]
   \begin{center}
-  	\includegraphics[scale=0.8]{tikz/ImuLepcsoLe1.pdf}
+  	\includegraphics[scale=0.9]{tikz/ImuLepcsoLe1.pdf}
   \end{center}
   \caption{Lépcsön lefele mozgás, három lépcsőfok.}
   \label{fig:ImuLepcsoLe1}

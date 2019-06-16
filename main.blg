@@ -53,45 +53,45 @@ Warning--can't use both author and editor fields in lentin2015
 Too many commas in name 1 of "Morgan Quigley, Brian Gerkey, Kevin Watts, Blaise Gassend" for entry rosjoy
 while executing---line 1090 of file plain.bst
 Warning--empty publisher in Torjancki4Mobilerobot
-You've used 25 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            612 strings with 7030 characters,
-and the built_in function-call counts, 6375 in all, are:
-= -- 564
-> -- 293
-< -- 2
-+ -- 120
-- -- 94
-* -- 339
-:= -- 1062
-add.period$ -- 63
-call.type$ -- 25
-change.case$ -- 118
+            620 strings with 7261 characters,
+and the built_in function-call counts, 6773 in all, are:
+= -- 600
+> -- 311
+< -- 3
++ -- 127
+- -- 100
+* -- 365
+:= -- 1122
+add.period$ -- 66
+call.type$ -- 26
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 235
-empty$ -- 598
-format.name$ -- 94
-if$ -- 1355
+cite$ -- 28
+duplicate$ -- 254
+empty$ -- 633
+format.name$ -- 100
+if$ -- 1446
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 13
-newline$ -- 114
-num.names$ -- 51
-pop$ -- 216
+int.to.str$ -- 26
+missing$ -- 14
+newline$ -- 119
+num.names$ -- 53
+pop$ -- 225
 preamble$ -- 1
-purify$ -- 97
+purify$ -- 102
 quote$ -- 0
-skip$ -- 196
+skip$ -- 210
 stack$ -- 0
-substring$ -- 230
-swap$ -- 37
-text.length$ -- 2
+substring$ -- 247
+swap$ -- 44
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
+type$ -- 96
 warning$ -- 2
-while$ -- 54
-width$ -- 27
-write$ -- 229
+while$ -- 58
+width$ -- 28
+write$ -- 240
 (There were 7 error messages)

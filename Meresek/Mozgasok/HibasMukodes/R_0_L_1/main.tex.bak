@@ -1,6 +1,6 @@
-\subsection{Feloldali kerekek blokolva kavicsos talajon}
+\subsection{Féloldali kerekek blokkolva kavicsos talajon}
 
-A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szögsebességgel forognak. Az eredmények alapján a \ref{fig:Left0Right50b} latható a robot által le1írt pálya. A mozgás soran több mint 360 \degree -t fordul és mondhatni körpályat írt le. A talajjal való surlodások miatt a robot nem tökéletesen fordul ez látható abból is hogy a másodszori fordulás már az előzőhöz képest más középontal rendelkezik. 
+A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szögsebességgel forognak. Az eredmények alapján a \ref{fig:Left0Right50b} látható a robot által leírt pálya. A mozgás során több mint 360 \degree -t fordul és mondhatni körpályát írt le. A talajjal való súrlódások miatt a robot nem tökéletesen fordul ez látható abból is hogy a másodszori fordulás már az előzőhöz képest más középponttal rendelkezik. 
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/HibasMukodes/R_0_L_1/}
 \renewcommand{\secondImage}{*}
@@ -15,41 +15,51 @@ A robot baloldali kerekei leblokkolva és a jobboldali kerekei 50\degree/s szög
 
 
 \begin{figure}[H]
-  \includegraphics{tikz/Left0Right50a.pdf}
-  \caption{$SSMR-4W$ típusú robot poziciója, X és Y tengelyekre bontva, kereksebességek BL=FL=0 és a FR=BR= 50\degree/s}
+	\begin{center}
+  		\includegraphics[scale=0.8]{tikz/Left0Right50a.pdf}
+  	\end{center}
+  \caption{$SSMR-4W$ típusú robot pozíciója, X és Y tengelyekre bontva, keréksebességek BL=FL=0 és a FR=BR= 50\degree/s}
     \label{fig:Left0Right50a}
 \end{figure}
 
 
 \begin{figure}[H]
-  \includegraphics{tikz/Left0Right50b.pdf}
-  \caption{$SSMR-4W$ típusú robot által leírt pálya, kereksebességek BL=FL=0 és a FR=BR= 50\degree/s}
+	\begin{center}
+  		\includegraphics[scale=1]{tikz/Left0Right50b.pdf}
+  	\end{center}
+  \caption{$SSMR-4W$ típusú robot által leírt pálya, kerekesebességek BL=FL=0 és a FR=BR= 50\degree/s}
   \renewcommand{\figlabel}{Left0Right50b}
   \label{fig:Left0Right50b}
 \end{figure}
 
-A mérés során a fordulási szögsebesség 9\degree/s látható a \ref{fig:Left0Right50c} ábran. A LIDAR és HectorMap segítségével mért abszolut szögsebesség zajosabb mint a giroszkóp által mért. A LIDAR-al mért szögsebesség elönyösebb mert a zajokat nem kell integrálni ahoz hogy megkapjuk a szogsebesseget a gyroszkóppal elentétben.
+A mérés során a fordulási szögsebesség 9\degree/s látható a \ref{fig:Left0Right50c} ábran. A LIDAR és HectorMap segítségével mért abszolut szögsebesség zajosabb mint a giroszkóp által mért. A LIDAR-al mért szögsebesség előnyösebb mert a zajokat nem kell integrálni ahhoz hogy megkapjuk a szögsebességet a giroszkóppal ellentétben.
 
-A linearis sebesegeket tekintve \ref{fig:Left0Right50d} szinuszosan változnak, az X és Y tengelyeken, megfigyelhető egy 90\degree eltolodás az X és Y tengelyeken mért szinuszos mozgásban. A kerületi sebesség 0.1 m/s körül adható meg.
+A lineáris sebességeket tekintve \ref{fig:Left0Right50d} szinuszosan változnak, az X és Y tengelyeken, megfigyelhető egy 90\degree eltolódás az X és Y tengelyeken mért szinuszos mozgásban. A kerületi sebesség 0.1 m/s körül adható meg a forgás sugara 0.5m körülire tehető.
 
 \begin{figure}[H]
-  \includegraphics{tikz/Left0Right50c.pdf}
-  \caption{$SSMR-4W$ típusú robot orientácíőja,ha a kerékszögsebességek BL=FL=0 es a FR=BR=50\degree/s}
+	\begin{center}
+  		\includegraphics[scale=1]{tikz/Left0Right50c.pdf}
+  	\end{center}
+  \caption{$SSMR-4W$ típusú robot orientációja,ha a kerékszögsebességek BL=FL=0 és a FR=BR=50\degree/s}
   \label{fig:Left0Right50c}
 \end{figure}
 
 
 \begin{figure}[H]
-  \label{fig:Left0Right50d}
-  \includegraphics{tikz/Left0Right50d.pdf}
-  \caption{$SSMR-4W$ típusú robot fordulási szögsebessége Giroszkóp és LIDAR által mért, ha a kerékszögsebességek BL=FL=0 es a FR=BR= 50\degree/s}
+	\begin{center}
+  		\label{fig:Left0Right50d}
+  		\includegraphics[scale=0.9]{tikz/Left0Right50d.pdf}
+  	\end{center}
+  \caption{$SSMR-4W$ típusú robot fordulási szögsebessége Giroszkóp és LIDAR által mért értékek, ha a kerékszögsebességek BL=FL=0 és a FR=BR= 50\degree/s}
   \label{fig:Left0Right50d}
 \end{figure}
 
 
 \begin{figure}[H]
-  \includegraphics{tikz/Left0Right50e.pdf}
-  \caption{$SSMR-4W$ típusú robot sulypontjának sebessége X és Y tengelyekre bontva, ha a kerékszögsebességek BL=FL=0 és a FR=BR= 50\degree/s}
+	\begin{center}
+  		\includegraphics[scale=0.9]{tikz/Left0Right50e.pdf}
+    \end{center}
+  \caption{$SSMR-4W$ típusú robot súlypontjának sebessége a globális VNR-ben, X és Y tengelyekre bontva, ha a kerékszögsebességek BL=FL=0 és a FR=BR= 50\degree/s}
   \label{fig:Left0Right50e}  
 \end{figure}
 

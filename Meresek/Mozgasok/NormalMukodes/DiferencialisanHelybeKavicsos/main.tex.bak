@@ -4,7 +4,7 @@ A fordulas közben a kerekek követik az előírt referencia szögsebességeket,
 A fordulási szögsebesség 20 \degree/s, az X és Y tengelyen való sebesség elhanyagolható nagyságú, de jelen van mivel a robot forgási középpontja elmozdul \ref{fig:Left_n50Right50b}.
 
 A talajon levő 0.8-1.1cm átmérőjű kavicsok miatt a súrlódások is megváltoznak, az kereke oldalirányú súrlódásai kiesebbek lesznek, emiatt a robot könnyebben fordul. A kavicsok hasonlóképpen viselkednek a csapágyakban található görgőkhöz.
-Abban az esetben, ha a talajt a kavicsok nem teljes mértékben fedik be a \ref{fig:Left_n50Right50a} látható mozgáspálya keletkezik, azáltal hogy csak néha kerül a kerék alá a gördülékeny kavics.
+Abban az esetben, ha a talajt a kavicsok nem teljes mértékben fedik be a \ref{fig:Left_n50Right50a} látható mozgáspálya keletkezik, azáltal hogy csak néha kerül a kerék alá a gördülékeny kavics a négy kerék eltérő nyomatékot fog kifejteni és így a robot forgásközpontja is elmozdul.
 
 \renewcommand{\nth}{2}
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/DiferencialisanHelybeKavicsos/}

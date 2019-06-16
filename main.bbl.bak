@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{ROSArduino2013}
-David & Couceiro Micael & Rocha~Rui Araújo, André &~Portugal.
+David Couceiro Micael Rocha~Rui Araújo, André~Portugal.
 \newblock Integrating arduino-based educational mobile robots in ros, 2013.
 
 \bibitem{RobustMotionControl}
@@ -42,6 +42,10 @@ Carol Fairchild and Dr. Thomas~L. Harman.
 Michael Ferguson.
 \newblock rosserial {@ONLINE}, November 2018.
 
+\bibitem{xmlrpc}
+Scripting~News Inc.
+\newblock Xml-rpc, 2018.
+
 \bibitem{rosLink}
 Jackie~Kay Ioan~Sucan.
 \newblock link, 2018.
@@ -54,14 +58,16 @@ Jackie~Kay Ioan~Sucan.
 Jackie~Kay Ioan~Sucan.
 \newblock Urdf, 2018.
 
-\bibitem{lentin\_2015}
+\bibitem{lentin2015}
 Lentin Joseph.
 \newblock {\em {Mastering ROS for Robotics Programming}}.
 \newblock Packt Publishing, 12 2015.
 
 \bibitem{roshectormap}
-Stefan Kohlbrecher.
-\newblock hector\_mapping, 2018.
+S.~Kohlbrecher, J.~Meyer, O.~von Stryk, and U.~Klingauf.
+\newblock A flexible and scalable slam system with full 3d motion estimation.
+\newblock In {\em Proc. IEEE International Symposium on Safety, Security and
+  Rescue Robotics (SSRR)}. IEEE, November 2011.
 
 \bibitem{NagyPirosKonyv}
 Anis Koubaa, editor.
@@ -106,8 +112,23 @@ Maciej Trojnacki.
 Wim~Meeussen Tully~Foote, Eitan Marder-Eppstein.
 \newblock tf, 2018.
 
+\bibitem{rossubpubexample}
+wiki.ros.org.
+\newblock Writing a simple publisher and subscriber (c++), 2018.
+
+\bibitem{ICRposition}
+X.~{Wu}, M.~{Xu}, and L.~{Wang}.
+\newblock Differential speed steering control for four-wheel independent
+  driving electric vehicle.
+\newblock In {\em 2013 IEEE International Symposium on Industrial Electronics},
+  pages 1--6, May 2013.
+
 \bibitem{DualPortRam}
 Xilinx.
 \newblock Block memory generator v8.2, 2015.
+
+\bibitem{AXIuartLite}
+Xilinx.
+\newblock Axi uart lite v2.0, 2017.
 
 \end{thebibliography}

@@ -16,6 +16,8 @@ $CTM$ a robot kerekeit szabályzó motoroknak nyomaték van előríva amit köve
 
 A kerekek és a talaj egy pontban érintkeznek, ezeket a pontokat jelölje a BR,BL,FL,FR a \ref{fig:SMR4WMerolegesNyomoero} ábrán. Jelölje S a robot súlypontkát, G - a súlyából származó erők a robot alapjához rendelt kordinát rendszerben felbontva a három tengely menten, N a merőleges nyomóerő a talajra az adott pontban.
 
+A robot fizikai méretei: a+b = 0.66m és c+b = 0.58m;
+
 \renewcommand{\img}{SajatRobot/SzerkAbrak/MerolegesNyomoEro.jpg}
 \renewcommand{\sources}{*}
 \renewcommand{\captionn}{Merőleges nyomóerő a talajra $4W-SSMR$ típusú robot esetében.}
@@ -30,14 +32,14 @@ Ha ismerjük a robot súlypontjának a pozícióját mindhárom tengelyen akkor 
 \renewcommand{\img}{SajatRobot/SzerkAbrak/LejtoOldalrol.jpg}
 \renewcommand{\sources}{*}
 \renewcommand{\captionn}{$4W-SSMR$ típusú robot lejtőn felfele oldal nézetből.}
-\renewcommand{\aspectratioPic}{0.5}
+\renewcommand{\aspectratioPic}{0.8}
 \renewcommand{\figlabel}{SMR4WLejtoOldalrol}
 \input{picture.tex}
 
 \renewcommand{\img}{SajatRobot/SzerkAbrak/LejtoSzembol.png}
 \renewcommand{\sources}{*}
 \renewcommand{\captionn}{$4W-SSMR$ típusú robot lejtőn első nézetből.}
-\renewcommand{\aspectratioPic}{0.5}
+\renewcommand{\aspectratioPic}{0.8}
 \renewcommand{\figlabel}{SMR4WLejtoSzembol}
 \input{picture.tex}
 
@@ -59,15 +61,18 @@ A mért adatok vízszintes helyzetben:
 \begin{table}[H]
 \center
 \begin{tabular}{lll}
-Node  & Nyomó erő & Mértékegység \\
+ \hline Kerek  & Nyomó erő & Mértékegység \\ \hline
 FL &   11,8      & kg          \\
 FR &   13,2      & kg          \\
 BL &   17,1      & kg          \\
-BR &   17,9      & kg            
+BR &   17,9      & kg          \\ 
+$F_F$ &   25,0      & kg          \\ 
+$F_B$ &   35,0      & kg          \\ 
+Összsúlya &   60,0   & kg
 \end{tabular}
 \end{table}
 
-A súlypont pozíciója: $b = 20$ és $c = 30 $
+A súlypont pozíciója: $b = 0.34$ és $c = 0.24m $ távolság a COG és COM között: $0.053m$
 
 \subsection{Kerék Dinamikája}
 Az $I_w \in \mathbb{R}^4$ tartalmazza a kerekek inerciáját a forgás tengelyükhöz képest. $\Omega \in \mathbb{R}^4$ a kerekek szögsebessége. A $W_r \in \mathbb{R}^4$ a kerekek sugara, $\tau \in \mathbb{R}^4$ a kerekek forgatónyomatéka.

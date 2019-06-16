@@ -1,7 +1,7 @@
-\section{Pályakövettesi feladatok}
+\section{Pályakövettési feladatok}
 
 \begin{algorithm}
-   \caption{Pályakövetes Algoritmusa}
+   \caption{Pályakövetés Algoritmusa}
     \begin{algorithmic}[1]
      %\Function{GetNextControl}{$X_a,Y_a\alpha$}
       \Function{GetNextControl}{$X_a,Y_a,\alpha_a,X_t,Y_t,\alpha_t,Tr,Tr_\alpha,\Omega_{max},V_{max}$}
@@ -12,7 +12,6 @@
        \State $d=\sqrt{e_x^2+e_y^2}$
        \State $\alpha_i=dir(X_a,Y_a,X_t,Y_t)$ \Comment{Két ponton átmenő egyenes iránytényezője}
        \State $e_\alpha=\alpha_i-\alpha_a$
-       \If {$d > Tr$}
             \If {$e_\alpha > Tr_\alpha$} \Comment{Fordulj a cél fele}
                 \State $\Omega = Rotate(e_\alpha,\Omega_{max}) $
                 \State $V_x = 0 $
@@ -21,17 +20,11 @@
                 \State $\Omega = Rotate(e_\alpha,\Omega_{max}) $
                 \State $V_x = Vx(d,V_{max}) $
             \EndIf
-       \Else \Comment{Kitűzött pozícióba érkezett}
-            
-            \State $e_\alpha=\alpha_t-\alpha_a$
-            \If {$e_\alpha > Tr_\alpha$} \Comment{Fordulj a kitűzött irányba}
-                \State $\Omega =Rotate(e_\alpha,\Omega_{max}) $
-                \State $V_x = 0 $
-            \Else \Comment{Pozíció és irány rendben}
+     
+            \If {$e_\alpha < Tr_\alpha$ és $d<Tr$} \Comment{Kívánt pozícióban}
                 \State $\Omega = 0$
                 \State $V_x = 0 $
             \EndIf
-       \EndIf
         
        \EndFunction
 

@@ -56,5 +56,26 @@ S(q)=\begin{bmatrix}
     S^TA^T=0
 \end{equation}
 
+Az ICR pont meghatározása a robot paraméterei és a mért sebességek alapján \cite{ICRposition}.
+
+\begin{equation}
+	^RV_{COG_X} = \frac{V_L + V_R}{2}
+\end{equation}
+
+\begin{equation}
+	^R\Omega_{COG} = \frac{V_L - V_R}{b+a} 
+\end{equation}
+
+\begin{equation}
+	^R{ICR_X} = -\frac{^R{V_{COG_Y}}}{^R\Omega_{COG}}
+\end{equation}
+
+\begin{equation}
+	^R{ICR_Y} = \frac{^R{V_{COG_X}}}{^R\Omega_{COG}}
+\end{equation}
+
+\begin{equation}
+	R=\sqrt{^R{ICR^2_X} + ^R{ICR^2_Y}}
+\end{equation}
 
 

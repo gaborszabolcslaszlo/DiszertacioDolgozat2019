@@ -3,6 +3,8 @@ A \ref{fig:Left_n50Right50Aulaa} megfigyelhető amint a robot márvány padlón 
 A fordulás közben a kerekek követik az előírt referencia szögsebességeket, amint az \ref{fig:Left_n50Right50Aulax} ábrán is látható.
 A fordulási szögsebesség 25 \degree/s, nagyobb mint a \ref{fig:Left_n50Right50d}, mivel nagyobb referencia értékek íródtak elő a kerekeknek.
 
+A szabályzok működése közben a kitöltési tényező hullámzik mind a négy kerék esetében ami a többi mérés esetében nem fordult elő.
+
 \renewcommand{\nth}{2}
 \renewcommand{\GlobalPath}{Meresek/AulaMeresek/JobraDiff_Aula_07/}
 \renewcommand{\secondImage}{*}

@@ -1,0 +1,81 @@
+\begin{equation}
+\label{eq:allapot}
+\dot{q} = 
+\begin{bmatrix}
+\dot{X}\\ 
+\dot{Y}\\
+\dot{\theta}
+\end{bmatrix}= \begin{bmatrix}
+\cos \theta  & -\sin \theta & 0 \\
+\sin\theta & \cos \theta &  0\\ 
+ 0 & 0  & 1
+\end{bmatrix}
+\begin{bmatrix}
+^RV^{COM}_x\\ 
+^RV^{COM}_y\\ 
+^R\omega^{COG}
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+\label{eq:SebComY}
+^RV^{COM}_y = d\omega
+\end{equation}
+
+\begin{equation}
+\label{eq:nemholomonikusmegkotes}
+\begin{bmatrix}
+-\sin\theta  & -\cos\theta  & -d
+\end{bmatrix}
+\begin{bmatrix}
+\dot{X}\\ 
+\dot{Y}\\
+\dot{\theta}
+\end{bmatrix} = A(q) \dot{q} =0
+\end{equation}
+
+\begin{equation}
+    \label{eq:allapotegyszeru}
+    \dot q = S(q)\eta 
+\end{equation}
+
+\begin{equation*}
+S(q)=\begin{bmatrix}
+\cos \theta  & -d\sin \theta  \\
+\sin\theta & d\cos \theta \\ 
+ 0  & 1
+\end{bmatrix},
+\eta=\begin{bmatrix}
+^RV^{COM}_x\\ 
+^R\omega^{COG}
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation}
+\label{eq:SxAeqZero}
+    S^TA^T=0
+\end{equation}
+
+Az ICR pont meghatározása a robot paraméterei és a mért sebességek alapján \cite{ICRposition}.
+
+\begin{equation}
+	^RV_{COG_X} = \frac{V_L + V_R}{2}
+\end{equation}
+
+\begin{equation}
+	^R\Omega_{COG} = \frac{V_L - V_R}{b+a} 
+\end{equation}
+
+\begin{equation}
+	^R{ICR_X} = -\frac{^R{V_{COG_Y}}}{^R\Omega_{COG}}
+\end{equation}
+
+\begin{equation}
+	^R{ICR_Y} = \frac{^R{V_{COG_X}}}{^R\Omega_{COG}}
+\end{equation}
+
+\begin{equation}
+	R=\sqrt{^R{ICR^2_X} + ^R{ICR^2_Y}}
+\end{equation}
+
+

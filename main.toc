@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {2.7}Dinamikai Modell}{21}{section.2.7}
 \contentsline {section}{\numberline {2.8}Robot Platform Sebess\IeC {\'e}g Szab\IeC {\'a}lyz\IeC {\'a}sa}{24}{section.2.8}
 \contentsline {subsection}{\numberline {2.8.1}El\IeC {\H o}\IeC {\'\i }rt nyomat\IeC {\'e}kkal}{24}{subsection.2.8.1}
-\contentsline {subsubsection}{Mesters\IeC {\'e}ges Er\IeC {\H o} M\IeC {\'o}dszere}{24}{equation.2.8.30}
+\contentsline {subsubsection}{Mesters\IeC {\'e}ges Er\IeC {\H o} M\IeC {\'o}dszere}{24}{equation.2.8.35}
 \contentsline {subsection}{\numberline {2.8.2}Elirt kerekszogsebessegekkel}{25}{subsection.2.8.2}
 \contentsline {chapter}{\numberline {3}A rendszer implement\IeC {\'a}l\IeC {\'a}sa}{26}{chapter.3}
 \contentsline {section}{\numberline {3.1}Robot fel\IeC {\'e}p\IeC {\'\i }t\IeC {\'e}se}{26}{section.3.1}
@@ -26,25 +26,25 @@
 \contentsline {subsection}{\numberline {3.2.4}Kommunik\IeC {\'a}ci\IeC {\'o} sebess\IeC {\'e}ge}{39}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Biztons\IeC {\'a}gi megold\IeC {\'a}sok}{39}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}ROS}{41}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Uzenet tipusok (.msg)}{42}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}\IeC {\"U}zenet t\IeC {\'\i }pusok (.msg)}{42}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}FPGA kommunik\IeC {\'a}ci\IeC {\'o}s modul ROS oldali integraci\IeC {\'o}}{45}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}El\IeC {\H o}irt \IeC {\'e}rt\IeC {\'e}kek}{47}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Vonatkoztat\IeC {\'a}si Rendszerek }{47}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}Kerekek Pid Szabalyzo hangolas}{50}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Kisebbik fokozatban}{51}{subsection.3.4.1}
 \contentsline {section}{\numberline {3.5}P\IeC {\'a}lyak\IeC {\"o}vett\IeC {\'e}si feladatok}{53}{section.3.5}
-\contentsline {section}{\numberline {3.6}Meresek}{53}{section.3.6}
+\contentsline {section}{\numberline {3.6}M\IeC {\'e}r\IeC {\'e}sek}{54}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Differenci\IeC {\'a}lis Forg\IeC {\'a}s V\IeC {\'\i }zszintes Talajon}{54}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Feloldali kerekek blokolva kavicsos talajon}{54}{subsection.3.6.2}
 \contentsline {subsection}{\numberline {3.6.3}Kavicsos talajon helyben forg\IeC {\'a}s}{57}{subsection.3.6.3}
 \contentsline {subsection}{\numberline {3.6.4}M\IeC {\'a}rv\IeC {\'a}ny padl\IeC {\'o}n helyben forg\IeC {\'a}s}{59}{subsection.3.6.4}
 \contentsline {subsection}{\numberline {3.6.5}Kavicsos talajon k\IeC {\"o}rp\IeC {\'a}ly\IeC {\'a}n 50/15}{62}{subsection.3.6.5}
 \contentsline {subsection}{\numberline {3.6.6}Kavicsos talajon k\IeC {\"o}rp\IeC {\'a}ly\IeC {\'a}n 50/25}{65}{subsection.3.6.6}
-\contentsline {subsection}{\numberline {3.6.7}K\IeC {\"o}rp\IeC {\'a}ly\IeC {\'a}k \IeC {\"o}sszehasonl\IeC {\'\i }t\IeC {\'a}sa}{68}{subsection.3.6.7}
+\contentsline {subsection}{\numberline {3.6.7}K\IeC {\"o}rp\IeC {\'a}ly\IeC {\'a}k \IeC {\"o}sszehasonl\IeC {\'\i }t\IeC {\'a}sa}{67}{subsection.3.6.7}
 \contentsline {subsection}{\numberline {3.6.8}Homokos Lejt\IeC {\H o}}{68}{subsection.3.6.8}
 \contentsline {subsection}{\numberline {3.6.9}Lepcson}{70}{subsection.3.6.9}
 \contentsline {subsection}{\numberline {3.6.10}Ismeretlen terep t\IeC {\'e}rk\IeC {\'e}pez\IeC {\'e}se \IeC {\'e}s robot lokaliz\IeC {\'a}l\IeC {\'a}sa (SLAM)}{75}{subsection.3.6.10}
-\contentsline {chapter}{\numberline {4}Eredm\IeC {\'e}nyek Ki\IeC {\'e}rt\IeC {\'e}kel\IeC {\'e}se}{76}{chapter.4}
-\contentsline {section}{\numberline {4.1}Megval\IeC {\'o}s\IeC {\'\i }t\IeC {\'a}sok}{76}{section.4.1}
-\contentsline {section}{\numberline {4.2}Hasonl\IeC {\'o} rendszerekkel val\IeC {\'o} \IeC {\"o}sszehasonl\IeC {\'\i }t\IeC {\'a}s}{77}{section.4.2}
-\contentsline {section}{\numberline {4.3}Tov\IeC {\'a}bbi fejleszt\IeC {\'e}si ir\IeC {\'a}nyok}{77}{section.4.3}
+\contentsline {chapter}{\numberline {4}Eredm\IeC {\'e}nyek Ki\IeC {\'e}rt\IeC {\'e}kel\IeC {\'e}se}{77}{chapter.4}
+\contentsline {section}{\numberline {4.1}Megval\IeC {\'o}s\IeC {\'\i }t\IeC {\'a}sok}{77}{section.4.1}
+\contentsline {section}{\numberline {4.2}Hasonl\IeC {\'o} rendszerekkel val\IeC {\'o} \IeC {\"o}sszehasonl\IeC {\'\i }t\IeC {\'a}s}{78}{section.4.2}
+\contentsline {section}{\numberline {4.3}Tov\IeC {\'a}bbi fejleszt\IeC {\'e}si ir\IeC {\'a}nyok}{79}{section.4.3}

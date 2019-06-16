@@ -5,12 +5,12 @@
 A robot irányítását megtehetjük azáltal, hogy csatlakozunk wifin keresztül a robothoz. Az irányításhoz szükséges egy számítógép, amelyre telepítve kell  legyen a ROS. A kliens gépen fognak futni a következő felhasználói eszközök:
 -a rendszerben futó programok által loggolt üzeneteket szűrhetjük és tekinthetjük meg valós időben.
 -a paramétereket bealíthatjuk egy grafikus felhasználói felület segítségével ($dinamic\_reconfigure$).-rviz amelyel megjeleniti a robot 3D modelljét a térképen, a robot aktuális pozíciójában és irányában a környezetéhez viszonyítva.
--$JuglerPlot$ segitségével online ábrázolhatunk mért értékeket mint pl.: a szabályzókörökben mért értékeket.
+-$JuglerPlot$ segítségével online ábrázolhatunk mért értékeket mint pl.: a szabályzókörökben mért értékeket.
 
 Jelenleg két működési mód közül választhatunk:
 
 	-távirányítóról vezérelve. A távirányítón található egy joystick, amely segítségével a robotnak referencia sebességeket írhatunk elő. A hozzárendelt referencia rendszerhez képest az X tengelyen m/s sebességet adunk meg, míg a Z tengelye körül \degree/s forgási sebességet adunk meg.
-A távirányító két gomb folyamatosan lenyomva tártasával a deadman kapcsolót valósíthatjuk meg. Abban az esetben, ha a két gomb nincsen lenyomva, a szabályzók működése és a pwm generátorok kimenete letiltva marad.
+A távirányító két gomb folyamatosan lenyomva tartásával a deadman kapcsolót valósíthatjuk meg. Abban az esetben, ha a két gomb nincsen lenyomva, a szabályzók működése és a pwm generátorok kimenete letiltva marad.
 
 	-automata mód, itt rviz program segítségével előírhatunk egy referencia pozíciót és irányt ahova szeretnénk, hogy a robot eljusson. Ez alatt a távirányítón a deadman kapcsolókat lenyomva kell tartanunk. A referencia értékeket megadhatjuk rviz használata nélkül azáltal, hogy a megfelelő típusú és nevű üzenetet beküldjük a ROS rendszerbe.
 
@@ -46,7 +46,7 @@ Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő re
  \label{Tab:nodok} 
 \end{table}
 
-\subsection{Uzenet tipusok (.msg)}
+\subsection{Üzenet típusok (.msg)}
 Az alábbi táblázatban láthatjuk a ROS operációs rendszer által szolgáltatott .msg üzenetek kiterjesztését, amelyek lehetővé teszik az FPGA integrációját a ROS környezethez.
 \begin{table}[H]
 \centering
@@ -95,7 +95,7 @@ A paraméterek helyes beállításáról a ParamThread szál gondoskodik, param�
 
 A paraméterek kezelésére a ROS paraméter szerver a felelős \cite{parameterserver}, abban az esetben, ha egy paraméter megváltozott, amely az illető nodehoz köthető, akkor a \ref{fig:ROStoUart} ábrán látható ParameterValtozott esemény előidézi a  megváltozott paraméter értékének az elküldését  FPGAnak irányába.
 
-A globális engedélyező jel a \ref{fig:ROStoUart} MasterLive Enable,  /globalEnable típusú üzenettel engedélyezhetjük a szabályzok működését, a folyamatos működéshez 500ms periódussal kell érkeznie. Abban az esetben, ha a központi számítógép valami okból leállna, akkor a hardveres szabályzok is leállnak. A node 300ms periódussal küldi tovább az engedélyező jelet az FPGA modullnak. A HardverLive jel információt szolgáltat a többi ROS környezetben futó és a működés szempontjából kritikus nodenak, hogy az adott modull megfelelően működik e. Ezen információ birtokában a HeartBeat node leállítja a rendszert, ha egyik FPGA modul nem válaszol.
+A globális engedélyező jel a \ref{fig:ROStoUart} MasterLive Enable,  /globalEnable típusú üzenettel engedélyezhetjük a szabályzok működését, a folyamatos működéshez 500ms periódussal kell érkeznie. Abban az esetben, ha a központi számítógép valami okból leállna, akkor a hardveres szabályzok is leállnak. A node 300ms periódussal küldi tovább az engedélyező jelet az FPGA modulnak. A HardverLive jel információt szolgáltat a többi ROS környezetben futó és a működés szempontjából kritikus nodenak, hogy az adott modul megfelelően működik e. Ezen információ birtokában a HeartBeat node leállítja a rendszert, ha egyik FPGA modul nem válaszol.
 
 \renewcommand{\img}{SajatRobot/ROS/NodeUML.jpg}
 \renewcommand{\sources}{*}

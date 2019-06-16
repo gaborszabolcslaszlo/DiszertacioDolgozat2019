@@ -247,7 +247,7 @@ pinstyle/.style = {pin edge={to-,thin,black}
 \secdef\@chapter\@schapter}
 \makeatother 
 
-\renewcommand{\section}{\fillbreak\oldsection}
+%\renewcommand{\section}{\fillbreak\oldsection}
 
 
 \begin{document}
