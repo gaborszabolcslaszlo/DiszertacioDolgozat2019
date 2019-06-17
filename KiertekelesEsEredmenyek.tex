@@ -1,19 +1,21 @@
 \chapter{Eredmények Kiértékelése}
 \section{Megvalósítások}
 Ezzel a dolgozattal négy év folyamatos munkájának egy szakaszát szeretném lezárni, a következő eredményeket sikerült felmutatni, kronológiai sorrendben: 
-A mechanikai szerkezet fejlesztése, a 2011 be fejlesztett verzióhoz képest, amely sokkal robusztusabb, kültérre alkalmasabb mint az előző, és egyszerűbb is. Ugyan megmaradt az a tendencia hogy csiga-áttételeket alkalmazzak a kerekek meghajtására. Az áttételeket magam terveztem és gyártattam le, a kezdeti alacsony költségvetés miatt az 3D nyomtatóval elkészített inkrementális szenzort nem lehetett alkalmazni robusztusan, ami nem az jeleni, hogy nem is lehetséges csak túl sok időt igényelt volna, a csiga tengely kotyogása miatt.
+
+A mechanikai szerkezet fejlesztése, a 2011 be fejlesztett verzióhoz képest, amely sokkal robusztusabb, kültérre alkalmasabb mint az előző, és egyszerűbb is. Ugyan megmaradt az a tendencia hogy csiga-áttételeket alkalmazzak a kerekek meghajtására. Az áttételeket magam terveztem és gyártattam le, a kezdeti alacsony költségvetés miatt. 
+Sok alkatresz kivitelezesere haszaltam 3D nyomtatasi technikat. Probalkoztam inkrementális szenzor tarcsat kesziteni ami bevalt de nem lehetett alkalmazni robusztusan a rendszeren, mert a mechanikai rendszerben 2-3 mm lotyoges van, ami nem az jeleni, hogy nem is lehetséges csak túl sok időt igényelt volna.
 
 Az alkatrészeket 3D tervező programban elkészítettem, és 3D nyomtatóval elkészítettük, a tapasztalatom ezekkel az alkatrészekkel: nagy mechanikai terhelés elviselésére nem alkalmasak hosszútávon, ezért történt meg hogy a csiga tengely csapágyháza terhelés alatt széttört.
 
 A következő lépésben a robot alacsonyrendű vezérlóáramköröket terveztem meg és viteleztem ki CNC marógép segítségével.
 
-A vezérlő logika implementálására FPGA alapú fejlesztőlapokat használtam mert.
+A vezérlő logika implementálására FPGA alapú fejlesztőlapokat használtam mert, flexibiulisek es testreszabhato rendszert lehet elkesziteni segitsegukkel.
 
 Vivado környezetet használtam az FPGA fejlesztésére, megvalósítottam egy uBlaze processzorrendszert kialakítását és több hardveres modult is amelyek a következők: PWM modul, UART protokoll csomag értelmező amely támogatja a nagy sebességű kommunikációt, globális engedélyező jel, ezeket a modulokat System Generator-ban valósítottam meg és IP mag készült ezekből.
 
 Robotokhoz kapcsolódó keretrendszer használata lett szükséges így került sor a ROS keretrendszer ismereteinek az elsajátítására.
 
-Megterveztem az integrációt a ROS és FPGA UART alapú kommunikációjának kié pitésére a jelen pillanatban a robot specifikus, hasznosulható dinamikusan ujra más robotoknál anélkül hogy ne kellene számottevő programkódot írni.
+Megterveztem az integrációt a ROS és FPGA UART alapú kommunikációjának kiépitésére a jelen pillanatban a robot specifikus, dinamikusan nem hasznosulható ujra más FPGA alapu robotoknál anélkül hogy ne kellene számottevő programkódot írni, de lehetseges egy automatizalni az integraciot amenyiben ez szukseges.
 
 A rosz használata számos előnyel járt, sikerült bekonfigurálni és elindítani a ROS keretrendszerben levő egyeb eszközöket is pl: logolás a nodok között, eclipse fejlesztőkörnyezet bekonfigurálása a fejlesztéshez, HectorMap térképez és lokalizálás LIDAR alapján, robotmodell elkészítése Rviz 3D megjelenítő számára. A alacsonyrendű paraméterek szinkronizációja a ROS rendszerben levő paraméterekkel.
 
@@ -60,4 +62,3 @@ A robotplatformot a következő lépésekben felkelne szerelni egy nagyobb mér�
 A platform  anonimitása lenne a fő cél a növénytermesztésben, legyen képes eljutni A pontból B pontba autonóm módon anélkül hogy kárt tenne a haszonnövényekben. Eközben legyen képes kiszolgálni a majdan rászerelhető pl: robotkar kéréseit.
 
 A mechanika tovább fejlesztése: célszerű lenne a robot mind a négy kerekét kormányozóvá tenni egyedileg, így a önkormányzással járó károk megszőnének és energia fogyasztása is hatékonyabb lenne.
-
