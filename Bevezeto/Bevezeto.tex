@@ -7,10 +7,9 @@ Az előzőleg már egy hasonló rendszer kivitelezésekor elteszitek modulok tov
 A beavatkozás feszültség formájában történik, amelyet H-híddal állítunk elő azáltal hogy PWM jelet generálunk.
 
 Az inkrementális és aramerő szenzorok jeleit FPGA alapú fejlesztőlapokkal oldjuk meg. A roboton helyet foglal egy kis méretű számítógép is amely USB vezetékeken keresztül csatlakozik az FPGA lapokhoz és a roboton található más szenzorokhoz pl: LIDAR, IMU, GPS..
-
+Az FPGA modulok segitsegevel valosulnak meg a kerekek szogsebesseg szabalyzasa, a dolgozatban targyalasra kerul az egyedi hardver integracioja ROS keretrendszerben, amelyet egy koztes nodal valositunk meg.
 A robot a csiga áttelek miatt nagy nyomatékot tud előállítani, ami a mozgási sebesség rovására vált. A robot kepés 0.3 m/s sebességél mozogni előre, és 20 \degree/s forgási sebességet generálni súlypontja körül.
 
 A dolgozat célja az elkészített kültéri mobilis robottal meréseket végezni különböző terepviszonyok között és azokat összehasonlítási. A terepviszonyok mit pl: füves, kavicsos, aszfalt, márvány stb. A meréseket szeretnek összehasonlítani a terepviszonyok függvényében: a robot mozgását és a szükséges energia nagyságát, a környezetében okozott behatások.
 
-A robot SLAM algoritmus  dolgozza fel a LIDAR által mért adatokat és egy 2D térképet állít elő, amelyen kepés egyidőben behatárolnia pozícióját és a térképet építeni is. Ezen meglevő programok használatával kültéri meréseket végezni, térképeket készíteni és majd egy előírt pályán végigmenni, ezen terepeken a térképet használva.
-
+A robot SLAM algoritmus  dolgozza fel a LIDAR által mért adatokat és egy 2D térképet állít elő, amelyen kepés egyidőben behatárolnia pozícióját és a térképet építeni is. Ezen meglevő programok használatával kültéri meréseket végezni, térképeket készíteni és majd egy előírt pályán végigmenni, ezen terepeken a térképet használva. Az esetleges zavao tenyezok felderites amelyek befolyasoljak a terkepezes es a lokalizacio pontosagat.
