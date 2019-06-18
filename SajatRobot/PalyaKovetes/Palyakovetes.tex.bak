@@ -1,4 +1,21 @@
-\section{Pályakövettési feladatok}
+\section{Pályakövetési feladatok}
+
+A robot pályakövetési feladata megfogalmazhatjuk úgy hogy tudjunk eljutni A pontból B pontba ha ismerjük a robot síkbeli pozíciót és az orientációját egy térképen amely megfelel a környezetnek látható az \ref{fig:PositionController} ábrán.
+A \ref{fig:PositionController} ábrán látható hogy felveszünk egy pozitív és egy negatív irányt a szögre nézve, az orientációkat mindig [0\degree 360\degree] között kell megadjuk. A robotnak mindig arra kell fordulnia amerre a szög a legkisebb azért hogy minél kevesebbet keljen mozogjon.
+A kiinduló állapotok a robot kezdetben az A pontban van és az orientációja $\beta_0$ és a B pontba szeretnénk eljutni egyenes vonalban. Így a robotnak kezdetben a célra kell fordulnia és ezután akadhat előre, miközben korrigálja a orientációs hibákat.
+Első lépésben a robotnak fordulnia kell $error$ szöget hogy $\beta_1$ irányba mutasson  és ezután haladhat a cél fele.
+
+
+\begin{figure}[H]
+    		%trim = bal also jobb felso
+   \fbox{\includegraphics[width=1\columnwidth,trim=3cm 6cm 27cm 2cm,clip]{tikz/PositionController.pdf}}
+  \caption{Robot pozíció szemlélődése}
+  \label{fig:PositionController}
+\end{figure}
+
+
+A pályakövetsí algoritmus látható alább. Az  előírt irányt $tan^{-1}$ függvény segítségével határozzuk meg ismerve X és Y tengelyen a hibák nagyságát. A Rotate($e_\alpha$,$\Omega_{max}$) fövenyben alkalmazunk egy PI típusú szabályzót, melynek a feladata a szöghiba 0-hoz való. A Vx(d,$V_max$) a robot lineáris sebességének a szabályzását látja el egy PI típusú szabályzó, célja a robot és a kitűzött cél távolságának a csökkentése. 
+A távolságszabályzó bemenetét súlyőzük $1/e_\alpha$ értékkel hogy ameddig nincs a robot irányban addig ne domináljon távolságszabályzó.
 
 \begin{algorithm}
    \caption{Pályakövetés Algoritmusa}
@@ -18,7 +35,7 @@
             \Else \Comment{Haladj a cél fele és korrigáld az élfordulást}
                 
                 \State $\Omega = Rotate(e_\alpha,\Omega_{max}) $
-                \State $V_x = Vx(d,V_{max}) $
+                \State $V_x = Vx(d*1/e_\alpha,V_{max})$
             \EndIf
      
             \If {$e_\alpha < Tr_\alpha$ és $d<Tr$} \Comment{Kívánt pozícióban}
@@ -30,3 +47,7 @@
 
 \end{algorithmic}
 \end{algorithm}
+
+
+
+Az algoritmus tesztelésére MATLAB/Simulink környezetet használtam. A robot kinematikai modellt az \ref{eq:allapot} egyenlet alapján modelleztem, a pozíciók (X,Y) és a irány meghatározására integráltam a lineáris és szögsebességeket. 

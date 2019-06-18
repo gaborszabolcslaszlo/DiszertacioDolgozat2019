@@ -54,6 +54,8 @@
 %\usepackage[svgnames]{xcolor}
 %\usepackage{newtxtext,newtxmath}
 \usepackage{etoolbox}
+\usepackage{url}
+\usepackage{hyperref}
 
 
 
@@ -256,7 +258,7 @@ pinstyle/.style = {pin edge={to-,thin,black}
 
 \renewcommand{\idoFelirat}{$Id$\H{o}$(s)$}
 
-%\input{compileFigures.tex}
+\input{compileFigures.tex}
 
 %\input{compileFigures.tex}
 

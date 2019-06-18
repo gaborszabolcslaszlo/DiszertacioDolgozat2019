@@ -1,4 +1,14 @@
 
+\renewcommand{\GlobalPath}{SajatRobot/PalyaKovetes/}
+
+	\renewcommand{\figlabel}{SimPoseCont}
+	\renewcommand{\nth}{2}
+	\input{SajatRobot/PalyaKovetes/PalyaContPlot.tex}
+
+
+
+\iffalse
+
 \renewcommand{\GlobalPath}{Meresek/AulaMeresek/JobraDiff_Aula_07/}
 
 	\renewcommand{\figlabel}{Left_n50Right50Aulad}
@@ -6,7 +16,6 @@
 	\input{Meresek/Mozgasok/Szogsebesseg.tex}
 
 
-\iffalse
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos}
 \renewcommand{\GlobalPathA}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos}

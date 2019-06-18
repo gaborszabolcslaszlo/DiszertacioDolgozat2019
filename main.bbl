@@ -46,17 +46,17 @@ Michael Ferguson.
 Scripting~News Inc.
 \newblock Xml-rpc, 2018.
 
-\bibitem{rosLink}
-Jackie~Kay Ioan~Sucan.
-\newblock link, 2018.
-
 \bibitem{rosURDF}
 Jackie~Kay Ioan~Sucan.
 \newblock Urdf, 2018.
 
 \bibitem{rosJoint}
 Jackie~Kay Ioan~Sucan.
-\newblock Urdf, 2018.
+\newblock urdf/xml/joint, 2018.
+
+\bibitem{rosLink}
+Jackie~Kay Ioan~Sucan.
+\newblock urdf/xml/link, 2018.
 
 \bibitem{lentin2015}
 Lentin Joseph.
