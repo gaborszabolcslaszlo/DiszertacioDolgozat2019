@@ -1,5 +1,5 @@
 \subsection{Kavicsos talajon körpályán 50/15}
-A \ref{fig:KorP0705a} megfigyelhető amint a robot kavicsos talajon differenciálisan fordul 80 másodpercen keresztül, ezalatt másfélszer körbefordul.
+A \ref{fig:KorP0705a} megfigyelhető, amint a robot kavicsos talajon differenciálisan fordul 80 másodpercen keresztül, ezalatt másfélszer körbefordul.
 
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/Korpalya_07_05_Kavicsos/}
 \renewcommand{\secondImage}{*}
@@ -19,24 +19,24 @@ A \ref{fig:KorP0705a} megfigyelhető amint a robot kavicsos talajon differenciá
 
 \begin{figure}[H]
   \includegraphics{tikz/KorP0705a.pdf}
-  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
+  \caption{$SSMR-4W$ típusú robot mozgása, tengelyekre bontva, kerékszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705a}  
 \end{figure}
 
 
 \begin{figure}[H]
   \includegraphics{tikz/KorP0705b.pdf}
-  \caption{$SSMR-4W$ típusú robot által leirt pálya, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
+  \caption{$SSMR-4W$ típusú robot által leírt pálya, kerékszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705b}
 \end{figure}
 
-A körpályán, mozgás során a robot eltér a szabályos körtöl, és  látható a \ref{fig:KorP0705b} ábrán. A mérések nyilthurokan törénnek, nincs szabályzókör a pozicióra és a sebességekre.
+A körpályán, mozgás során a robot eltér a szabályos körtől, és látható a \ref{fig:KorP0705b} ábrán. A mérések nyílt hurokban történnek, nincs szabályzókör a pozícióra és a sebességekre.
 A szögsebességet tekintve a robot 7\degree/s szögsebességet generál.
 
 
 %\begin{figure}[H]
 %  \includegraphics{tikz/KorP0705c.pdf}
-%  \caption{$SSMR-4W$ típusú robot orientacioja, kerekszögsebességek %BL=FL=50\degree/s és a FR=BR=15\degree/s}
+%  \caption{$SSMR-4W$ típusú robot orientacioja, kerékszögsebességek %BL=FL=50\degree/s és a FR=BR=15\degree/s}
 %  \label{fig:KorP0705c}
 %\end{figure}
 
@@ -45,7 +45,7 @@ A szögsebességet tekintve a robot 7\degree/s szögsebességet generál.
 \begin{center}
   \includegraphics[scale=0.8]{tikz/KorP0705d.pdf}
 \end{center}
-  \caption{$SSMR-4W$ típusú robot fordulási szögsebessége, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
+  \caption{$SSMR-4W$ típusú robot fordulási szögsebessége, kerékszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705d}
 \end{figure}
 
@@ -54,8 +54,8 @@ A szögsebességet tekintve a robot 7\degree/s szögsebességet generál.
 \begin{center}
   \includegraphics[scale=0.8]{tikz/KorP0705e.pdf}
 \end{center}
-  \caption{$SSMR-4W$ típusú robot egyenesvonalú sebességei, kerekszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
+  \caption{$SSMR-4W$ típusú robot egyenesvonalú sebességei, kerékszögsebességek BL=FL=50\degree/s és a FR=BR=15\degree/s}
   \label{fig:KorP0705e}
 \end{figure}
 
-A robot sebességét tekintve a \ref{fig:KorP0705e} látható, hogy szinuszosan változik a pozicióhoz hasonlóan,a robot kis sebességű mozgása miatt a mérés zajos.
+A robot sebességét tekintve a \ref{fig:KorP0705e} látható, hogy szinuszosan változik a pozícióhoz hasonlóan, a robot kis sebességű mozgása miatt a mérés zajos.

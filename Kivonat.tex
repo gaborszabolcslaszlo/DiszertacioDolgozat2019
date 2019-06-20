@@ -35,13 +35,13 @@ A keret figyelését és a speciális karakterek értelmezését a FPGA  hardver
 A 2D LIDAR szenzor segítségével mérem a robot távolságát a környezetében levő tárgyakhoz képest, 8m távolságig, 360\degree, 2mm pontossággal. A LIDAR méréseit felhasználva, HectorSlam segítségével térképet készítek a környezetéről, amelyben a robot képes lokalizálnia magát.
 A LIDAR alapvetően jól használható a térképezési feladok elvezésére, abban az esetben, ha a környezet tartalmaz üvegfalat és nincs más stabilan mérhető tárgy a közelben, zajok jelennek meg a térképezésben. 
 
-\subsection{Mérések a robottal}
+\subsection*{Mérések a robottal}
 
 A robottal méréseket végeztünk különböző terepviszonyok között, körpályán való mozgást és a helyben forgást tanulmányozva. A robot lépcsőn felfele való mozgását tanulmányozva az eredmény az, hogy a lépcsőt hatékonyabb súlyponttal előre, és nem merőlegesen kell megközelíteni. A homokos talajon való mozgás esetén a kerekek kis fordulatszáma hatékonyabb, mert így a kerekek nem ássák be magukat a homokba. 
 
 
 
-\subsection{Pozíció szabályzása}
+\subsection*{Pozíció szabályzása}
 
 A  pozíció szabályzása a robotnak két részfeladatra osztható: fordulás a  cél irányába, és csökkentsd a távolságot a cél és az aktuális pozíció között. Az irány esetében szöget szabályzunk, míg a távolság esetében sebességet. Mindkét mennyiség esetében PI típusú szabályzót alkalmaztam, a távolság szabályzó bemenetét súlyozva a szögpozíció szabályzó hibájának a fordított értékével.
 

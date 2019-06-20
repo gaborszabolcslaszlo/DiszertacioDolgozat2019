@@ -1,16 +1,15 @@
 \chapter{Bevezető}
-A robotokat széles körben alkalmazzák, egyre több feladatra és most már az átlag emberek életében is. Néhány nagyobb vállat mint pl: ABB, Kuka nagy területet foglalt el az iparban robot karok gyártásában.Emellett egyre több kisebb vállalat jelent meg, amelyek háztartási vagy fél katonai eszközöket gyártanak pl.: iRobo. A mezőgazdaságban is próbálnak alkalmazni autonóm robotokat pl.: echorobotics amelyek segítségével hatóanyag mentes élelmiszereket állíthatnak elő.
+A robotokat széles körben alkalmazzák egyre több feladatra és most már az átlagemberek életében is. Néhány nagyobb vállat, mint pl: ABB, Kuka nagy területet foglalt el az iparban robotkarok gyártása területén. Emellett egyre több kisebb vállalat jelent meg, amelyek háztartási vagy fél katonai eszközöket gyártanak pl.: iRobo. A mezőgazdaságban is próbálnak alkalmazni autonóm robotokat pl.: echorobotics, amelyek segítségével hatóanyag-mentes élelmiszereket állíthatnak elő.
 
-A dolgozat célja hogy felderítse az aktuális legmodernebb technikákat amelyeket robotokon alkalmaznak, és ezeket alkalmazza egy kültéri mobilis robot megépítése során.
-Az előzőleg már egy hasonló rendszer kivitelezésekor elteszitek modulok továbbfejlesztése és integrálása az új rendszerbe. A robot mozgása négy csiga áttétel és négy DC motor segítségével valósul meg. A motrok szögsebességét és  felvett arámokat merjük, inkrementális szenzor és elektromágneses jelenségre alapuló aramerő modul segítségével.
+A dolgozat célja, hogy felderítse az aktuális legmodernebb technikákat, amelyeket robotokon alkalmaznak, és ezeket alkalmazza egy kültéri mobilis robot megépítése során.
+Az egyik feladat az előzőleg már egy hasonló rendszer kivitelezésekor elkészített modulok továbbfejlesztése és integrálása az új rendszerbe. A robot mozgása négy csiga áttétel és négy DC motor segítségével valósul meg. A motorok szögsebességét és  felvett motoráramokat mérjük, inkrementális szenzor és elektromágneses jelenségre alapuló áramerő modul segítségével.
 
-A beavatkozás feszültség formájában történik, amelyet H-híddal állítunk elő azáltal hogy PWM jelet generálunk.
+A beavatkozás feszültség formájában történik, amelyet H-híddal állítunk elő azáltal, hogy PWM jelet generálunk.
 
-Az inkrementális és aramerő szenzorok jeleit FPGA alapú fejlesztőlapokkal oldjuk meg. A roboton helyet foglal egy kis méretű számítógép is amely USB vezetékeken keresztül csatlakozik az FPGA lapokhoz és a roboton található más szenzorokhoz pl: LIDAR, IMU, GPS..
+Az inkrementális és áramerő szenzorok jeleit FPGA alapú fejlesztőlapokkal oldjuk meg. A roboton helyet foglal egy kis méretű számítógép is, amely USB vezetékeken keresztül csatlakozik az FPGA lapokhoz és a roboton található más szenzorokhoz pl: LIDAR, IMU, GPS..
+Az FPGA modulok segítségével valósulnak meg a kerekek szögsebesség szabályzása, a dolgozatban tárgyalásra kerül az egyedi hardver integrációja ROS keretrendszerben, amelyet egy köztes node-dal valósítunk meg.
+A robot a csiga áttételek miatt nagy nyomatékot tud előállítani, ami a mozgási sebesség rovására vált. A robot képes 0.3 m/s sebességgel mozogni előre, és 20 \degree/s forgási sebességet generálni súlypontja körül.
 
-A robot a csiga áttelek miatt nagy nyomatékot tud előállítani, ami a mozgási sebesség rovására vált. A robot kepés 0.3 m/s sebességél mozogni előre, és 20 \degree/s forgási sebességet generálni súlypontja körül.
+A dolgozat célja az elkészített kültéri mobilis robottal meréseket végezni különböző terepviszonyok között és azokat összehasonlítani. A terepviszonyok, mint pl: füves, kavicsos, aszfalt, márvány stb. A meréseket szeretném összehasonlítani a terepviszonyok függvényében: a robot mozgását és a szükséges energia nagyságát, a környezetében okozott behatásokat.
 
-A dolgozat célja az elkészített kültéri mobilis robottal meréseket végezni különböző terepviszonyok között és azokat összehasonlítási. A terepviszonyok mit pl: füves, kavicsos, aszfalt, márvány stb. A meréseket szeretnek összehasonlítani a terepviszonyok függvényében: a robot mozgását és a szükséges energia nagyságát, a környezetében okozott behatsok.
-
-A robot SLAM algoritmus segitsegeve dolgozza fel a LIDAR altal mert adatokat es egy 2D terkepet allit elo, amelyen kepes egyidoben behatarolnia poziciojat es a terkepet epiteni is. Ezen meglevo programok hasznalataval kulteri mereseket vegezni, terkepeket kesziteni es majd egy eloirt palyan vegigmenni ezen terepeken a terkepet hasznalva.
-
+A SLAM algoritmus dolgozza fel a LIDAR által mért adatokat és egy 2D térképet állít elő, amelyen képes egyidőben behatárolnia pozícióját és térképet építeni is. Ezen meglévő programok használatával kültéri méréseket végezni, térképeket készíteni és majd egy előírt pályán végigmenni, ezen terepeken a térképet használva. Az esetleges zavaró tényezők felderítése, amelyek befolyásolják a térképezés és a lokalizáció pontosságát.

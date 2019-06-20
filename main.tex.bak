@@ -1,6 +1,6 @@
 
 
-\documentclass[12pt,a4paper]{book}
+\documentclass[12pt,a4paper,oneside]{book}
 
 \usepackage[margin=8mm]{geometry}
 \PassOptionsToPackage{defaults=hu-min,classmod=unchanged}{magyar.ldf}
@@ -18,6 +18,15 @@
 \usepackage{fancyhdr}
 \usepackage{mathptmx}
 \usepackage{geometry}
+ \geometry{
+ a4paper,
+ %total={170mm,257mm},
+ left=25mm,
+ right=20mm,
+ top=20mm,
+ bottom=25mm,
+ headheight=15mm
+ }
 \usepackage{ifthen}
 \usepackage{enumitem}
 \usepackage{float}
@@ -150,15 +159,6 @@ pinstyle/.style = {pin edge={to-,thin,black}
 %\lhead{Guides and tutorials}
 \rfoot{\center \thepage}
 
- \geometry{
- a4paper,
- total={170mm,257mm},
- left=25mm,
- right=25mm,
- top=20mm,
- bottom=25mm,
- headheight=15mm
- }
  
 %%Formating figure cross references 
 \makeatletter
@@ -264,13 +264,9 @@ pinstyle/.style = {pin edge={to-,thin,black}
 
 %\tracingall
 
-%\input{Fedolap/Fedolap.tex}\newpage
-
-%\input{Declaratie.tex}
-
-%\input{Extras.tex}
+\input{Extras.tex}
 \input{Kivonat.tex}
-%\input{Abstract.tex}
+\input{Abstract.tex}
 
 \tableofcontents
 

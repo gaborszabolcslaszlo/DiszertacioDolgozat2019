@@ -1,9 +1,9 @@
 \lhead{Merésék a Robottal}
 \newpage
 \section{Mérések}
-Ebben a fejezetben tanulmányozásra kerül a robot viselkedése abban az estekben, különböző terepviszonyok között. A Spitit mars roverrel (2006,Március,13) \cite{SpititWheel1} amikor az első jobb kereke meghibásodott. A megoldás az volt, hogy a robot mozgása optimálisabb lesz energia felhasználás szempontjából ha háttal megy. Az energia ellátása is véges volt, kiszolgáltatott volt a napsütésnek,a napelemekre rakodott por miatt csökkentek a azok hatásfoka így sokkal alaposabb mozgás pálya tervezésre volt szükség.
-Problémák adódtak a homokos talajjal is, a Spirit mars járónak, kerekei a homokba süllyedtek és beragadtak, a földi irányító csoport egy másolat segítségével próbálta kimozdítani a csapdából.
-A hasonló eseteket elkerülhetők lennének, ha ismerve a robot korlátait olyan mozgás pályát határoznak meg, amellyel elkerülhetjük ezen akadályokat, vagy időben detektálhatjuk ezen problémákat pl: homokba süllyedés érzékelése.
+Ebben a fejezetben tanulmányozásra kerül a robot viselkedése különböző terepviszonyok között. A Spirit mars rover (2006. március 13.), \cite{SpititWheel1} amikor az első jobb kereke meghibásodott. A megoldás az volt, hogy a robot mozgása optimálisabb lesz energia felhasználás szempontjából, ha háttal megy. Az energia ellátása is véges volt, kiszolgáltatott volt a napsütésnek,a napelemekre rakodott por miatt csökkent azok hatásfoka, így sokkal alaposabb mozgáspálya tervezésre volt szükség.
+Problémák adódtak a homokos talajjal is, a Spirit mars járónak kerekei a homokba süllyedtek és beragadtak, a földi irányító csoport egy másolat segítségével próbálta kimozdítani a csapdából.
+A hasonló esetek elkerülhetők lennének, ha ismerve a robot korlátait olyan mozgás pályát határoznak meg, amellyel elkerülhetjük ezen akadályokat, vagy időben detektálhatjuk ezen problémákat pl: homokba süllyedés érzékelése.
 
 
 A robottal a következő méréseket fogjuk elvégezni:
@@ -16,7 +16,7 @@ A robottal a következő méréseket fogjuk elvégezni:
 
 \subsection{Differenciális Forgás Vízszintes Talajon}
 
-Differenciális forgásnak nevezzük azt, amikor a jobb és bal oldali kerekek sebessége megegyező, csak irányukban ellenkező, így a robot belső területen belül jön létre a ICR pont a COG közelében kellene legyen \ref{fig:SMR4WKinematics}. 
+Differenciális forgásnak nevezzük azt, amikor a jobb és bal oldali kerekek sebessége megegyező, csak irányukban ellenkező, így a robot belső területén belül jön létre a ICR pont a COG közelében kellene legyen \ref{fig:SMR4WKinematics}. 
 
 
 %%globalis paremeterek a meresek kirajzolasahoz.
@@ -63,7 +63,7 @@ Differenciális forgásnak nevezzük azt, amikor a jobb és bal oldali kerekek s
 
 \subsection{Ismeretlen terep térképezése és robot lokalizálása (SLAM)}
 
-A mérés során egy 25x30m udvart jártunk be a robottal távirányítóval vezérelve. A roboton található LIDAR és HectorSlam segítségéével a \ref{fig:hatsoudvarmap} látható térképet készítettem el. A mérés során azt tapasztaltam hogy a fixen álló nagyobb tárgyakhoz jól megtudja határozni a robot pozícióját. Abban az esetben ha LIDAR üveget vagy magasra nőt füves terepen lokalizálja magát a mért értéket zajosabbak lesznek, pl: a \ref{fig:hatsoudvarmap} (0-8,18-22) celláiban füves terep volt.
+A mérés során egy 25x30m udvart jártunk be a robottal távirányítóval vezérelve. A roboton található LIDAR és HectorSlam segítségével a \ref{fig:hatsoudvarmap} látható térképet készítettem el. A mérés során azt tapasztaltam, hogy a fixen álló nagyobb tárgyakhoz képest jól megtudja határozni a robot pozícióját. Abban az esetben, ha LIDAR üveget lát vagy magasra nőtt füves terepen lokalizálja magát, a mért értékek zajosabbak lesznek, pl: a \ref{fig:hatsoudvarmap} (0-8,18-22) celláiban füves terep volt.
 
 
 \begin{figure}[H]
@@ -73,12 +73,12 @@ A mérés során egy 25x30m udvart jártunk be a robottal távirányítóval vez
 \end{figure}
 
 
-A LIDAR mérési tartománya 7m-re volt állítva maximálisan 8m-ig tud mérni, abban az esetben ha a robot messze esik azon fix tárgyaktól amelyekhez kezdetben lokalizálta magét, akkor elveszíti a pozícióját és orientációját. Ezért nyilt terepen nem alkalmazható egy rövidtávú LIDAR egymagában. Két LIDAR használatával egy hószútavú (200m) maximális mérési távolsággal, és egy rövidtávú ami pontosabb. 
+A LIDAR mérési tartománya 7m-re volt állítva. Maximálisan 8m-ig tud mérni, abban az esetben, ha a robot messze esik azon fix tárgyaktól, amelyekhez kezdetben lokalizálta magét, akkor elveszíti a pozícióját és orientációját. Ezért nyílt terepen nem alkalmazható egy rövidtávú LIDAR egymagában. Két LIDAR használatával egy hosszútavú (200m) maximális mérési távolsággal, és egy rövidtávúval, ami pontosabb. 
 
-A \ref{fig:AulaSlam1} látható a Marosvásárhely Sapientia Erdély Magyar Tudományegyetem Marosvásárhely karának aulájában készített térkép. Az aula méretei miatt a középső pirossal jelölt szekció a SLAM számára ismeretlen marad mivel a LIDAR mérési tartománya nem terjed ki addig.
-A robottal a fehér színnel jelölt zónában haladtunk végig. A sárga dobozzal jelölt részen üvegfal található amit a LIDAR nem tud pontosan megmérni ezért a térkép zajokkal lesz teli ezen a részen.
+A \ref{fig:AulaSlam1} látható a Sapientia Erdély Magyar Tudományegyetem Marosvásárhelyi Karának aulájában készített térkép. Az aula méretei miatt a középső, pirossal jelölt szekció a SLAM számára ismeretlen marad, mivel a LIDAR mérési tartománya nem terjed ki addig.
+A robottal a fehér színnel jelölt zónában haladtunk végig. A sárga dobozzal jelölt részen üvegfal található, amit a LIDAR nem tud pontosan megmérni, ezért a térkép zajokkal lesz teli ezen a részen.
 
-A kékkel jelölt zónában a fixen álló tárgy található csak a robot ezen a részen a sárga mezőhöz képest próbálja bepozicionálni magét és ezért a térképen bizonytalanságok jelennek meg.
+A kékkel jelölt zónában a fixen álló tárgy található, csak a robot ezen a részen a sárga mezőhöz képest próbálja bepozícionálni magát és ezért a térképen bizonytalanságok jelennek meg.
 
 \begin{figure}[H]
    \fbox{\includegraphics[width=1.1\columnwidth,trim=0cm 0cm 0cm 0cm,clip]{Meresek/AulaMeresek/SLAM_Aula_taviranyitoval/AulaTaviranyito1.jpg}}

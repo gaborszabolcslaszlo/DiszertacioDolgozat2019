@@ -1,7 +1,49 @@
 \begin{titlepage}
 
-\section*{Extras}
-A dolgozat 2-3 oldalas kivonata román nyelven.
-Cuvinte cheie: 
 
+\section*{Extras}
+Subiectul tezei este implementarea sarcinilor legate de robotul mobil, care pot fi aplicate în teren și măsurătorile cu sistemul real. Robotul este un robot mobil de tip SSMR cu patru roți, cele patru roți sunt deplasate cu ajutorul unui raport de transmisie mare, raportul de transmisie este 1:70, iar viteza maximă a roții este de 90 ° / s, iar diametrul roților este de 0,40m.
+
+Am folosit controale PID pentru a controla viteza de rotație a roților, pe care le-am implementat pe o pagină de dezvoltare bazată pe FPGA și pe software.
+
+Cu ajutorul Matlab, am estimat funcția de transmisie a sistemului și apoi folosind-o informațiile primite am proiectat controlorii PID. La proiectarea sistemului, am analizat oportunitățile de cercetare și dezvoltare, astfel încât este posibilă integrarea altor tipuri de controlere hardware și software în sistem, cu efort minim.
+
+Sarcini centrale ale sistemului sunt realizate de către un computer mic, care rulează în sistemul de operare Ubuntu Linux. Programele rulate pe computer au fost implementate în mediul ROS în C / C ++.
+
+Cu ajutorul senzorilor incrementali, măsor viteza de rotație a roților. Curentul motoarelor DC, care  conduc rapoartele de transmisie, măsor cu senzori bazați pe efect hall.
+
+Valorile măsurate procesez cu ajutorul lui FPGA și trimit mai departe la computerul central.
+
+Unul dintre subiectele principale ale disertației a fost de a examina soluțiile posibile pentru integrarea FPGA și ROS.
+
+Soluția ROS-serial, ca o posibilă soluție de integrare generală, oferită de ROS, este utilizată pe scară largă pentru a integra hardware-ul la nivel inferior, dar datorită limitărilor sale nu este capabil să gestioneze pachetele mari de mesaje.
+
+Pe baza rezultatelor, opțiunea de comunicare cu cele mai bune performanțe este crearea unui protocol propriu bazat pe UART. Cu această soluție, sistemul funcționează robust cu o perioadă de eșantionare de 1 ms. În prezent, lungimea mesajului între calculatorul central și modulele FPGA poate fi de până la 200 de byte, care pot fi extinse dacă este necesar.
+
+Modulele din FPGA au fost implementate folosind un Matlab / Generator de sistem, de ex. PWM, modul de comunicare UART.
+
+Avantajele protocolului propriu dezvoltat și ale FPGA sunt că, prelucrarea datelor încorporate în FPGA este făcută de hardware, facilitând încărcarea procesorului. Dacă protocolul de comunicație a fost efectuat de către procesorul de bază uBlaze soft core, datorită numeroaselor întreruperi, sistemul a fost inutilizabil pentru eșantionarea la 20 ms.
+
+Interpretul de instrucțiuni directe încorporat în modulul de comunicație FPGA poate opri ieșirea PWM și controlorii, dacă întrerupe comunicarea sau asta solicită unitatea centrală.
+
+HeartBeat-ul, cu ajutorul unei soluție de securitate, monitorizează funcționarea tuturor nodurilor importante rulate în sistemul ROS, inclusiv funcționarea FPGA-urilor. Nodul HearBeat trimite periodic semnale de permisiune și așteaptă semnale de la module inportante.
+
+Monitorizarea cadrului și interpretarea caracterelor speciale sunt realizate de hardware-ul FPGA, iar datele primite sunt scrise în memoria partajată cu procesorul. Dacă pachetul este pe deplin în memorie, atunci cere procesorului să-și întrerupă activitatea și să prelucrează pachetul.
+
+Înclinarea și accelerațiile robotului sunt măsurate cu ajutorul unui modul IMU.
+
+Cu ajutorul senzorului 2D LIDAR, măsor distanța robotului în raport cu obiectele din apropiere, distanța de până la 8m, precizia 360 grade, 2mm. Folosind măsurătorile LIDAR, cu ajutorul HectorSlam-ului fac o hartă a mediului, în care robotul este capabil să autolocalizeze.
+
+LIDAR-ul este, în principiu, foarte potrivit pentru sarcini de cartografiere, dacă mediul conține pereți de sticlă și în apropiere nu poate fi găsit alt obiect stabil, în cartografiere apar zgomote.
+
+
+\subsection{ Măsurători cu robotul}
+
+Măsurătorile cu robotul, au fost efectuate în diverse terene, studiind pe traseu circular și rotație pe loc. Pe măsură ce robotul se mișcă pe scări, rezultă că scara trebuie abordată mai eficient cu un centru de greutate și nu perpendiculară. Când se deplasează pe sol nisipos, viteza mică a roților este mai eficientă, deoarece roțile nu se sapă în nisip.
+
+
+
+\subsection{Controlul poziției}
+
+Controlul  poziției la robot, poate fi împărțit în două sub-sarcini: întoarce la destinație și reduce distanța dintre ținta și poziția curentă. În cazul direcției, reglăm unghiul în timp ce în cazul distanței pe viteza. Pentru ambele cantități, am folosit un controler de tip PI, ponderând intrarea controlerului de distanță cu valoarea inversă al erorii controlerului de poziției unghiului.
 \end{titlepage}

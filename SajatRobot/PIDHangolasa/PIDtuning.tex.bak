@@ -1,31 +1,31 @@
-\section{Kerekek Pid Szabalyzo hangolas}
+\section{Kerekek Pid Szabályzó hangolása}
 
-A pid a legelterjedtebb szabályozó egyszerű feladatok elvégzésére, esetünkben is elegendő a kerekek szögsebesség szabályzására kerekenkénti egy PID szabályzóval. A PID szoftveresen fut a uBlaze processzoron. Bemenete egy előírt forgási sebesség \degree/s ban és kimenete egy -32000 és 32000 egész típusú értek. A kimenti érteke a PWM kitöltési tényezőt jeleni, az előjel pedig a beavatkozás irányát.
-Matlab/Simulink környezetben használva a Robotix Toolbox segítségével direkben pwm beavatkozo referenica erteket irtam elo a motroknak. A beavatkozó jel előállítása és elküldési a fizikai eszköznek 0-100\%-ig 10\% lépcsőkben amelyek 0\% kitoltesekkel vanak megszakitva. A mert adatokat rosbag csomagba mentve majd a System Identification Toolbox használatával identifikáljuk a rendszer modellt. A rendszer bemenete egy beavatkozójel ami fizikailag feszültségnek fele meg 0V és 12V között. A kimenetek a forgási sebesseg.
-A mert adatokat Matlab/System Identification hasznalataval megbecsuljuk a rendszer modeleket. Nemlinearis modelt becslunk 
-Hammerstein-Wiener model \cite{matlabhwmmodel} hasznalva, 1 kimenet es 1 bemenet, a linearis atviteli fugveny fokszama:
-zerusok nb = 2, polusok nf = 3, keses a bemenet es a kimenet kozott nk = 1. A becsult adatok 94\% ban megfelelnek a mert rendszernek.          
+A pid, a legelterjedtebb szabályozó egyszerű feladatok elvégzésére, esetünkben is elegendő a kerekek szögsebesség szabályzására kerekenkénti egy PID szabályzóval. A PID szoftveresen fut a uBlaze processzoron. Bemenete egy előírt forgási sebesség \degree/s -ban és kimenete egy -32000 és 32000 egész típusú érték. A kimenti értéke a PWM kitöltési tényezőt jeleni, az előjel pedig a beavatkozás irányát.
+Matlab/Simulink környezetben használva a Robotix Toolbox segítségével direktben pwm beavatkozó referencia értéket írtam elő a motoroknak. A beavatkozó jel előállítása és elküldése a fizikai eszköznek 0-100\%-ig 10\% lépcsőkben, amelyek 0\% kitöltésekkel vannak megszakítva. A mért adatokat rosbag csomagba mentve, majd a System Identification Toolbox használatával identifikáljuk a rendszer modellt. A rendszer bemenete egy beavatkozó jel, ami fizikailag feszültségnek felel meg 0V és 12V között. A kimenetek a forgási sebesség.
+A mért adatokat Matlab/System Identification használatával megbecsüljük a rendszer modelleket. Nemlineáris modellt becslünk 
+Hammerstein-Wiener model \cite{matlabhwmmodel} használva, 1 kimenet és 1 bemenet, a lineáris átviteli függvény fokszáma:
+zérusok nb = 2, pólusok nf = 3, késés a bemenet és a kimenet között nk = 1. A becsült adatok 94\%-ban megfelelnek a mért rendszernek.          
 
-A mereseket a robot kerekei es a talaj erintekzese nelkul vegeztem.
-A becsult modelt a bemenet 50/\%  korul linearizaljuk es a linearizalt modelbol atviteli fugvenyt kesztunk. 
-$tf = tf(linearize(model,16000));$ utasutast hasznalva Matlab kornyezetben. A linearizalt modelt Matlab/PidTuning eszkozt hasznalva behangolunk kiszamitjuk a megfelelo PID szabalyzo parametereit.
+A méréseket a robot kerekei és a talaj érintkezése nélkül végeztem.
+A becsült modellt a bemenet 50\%  körül linearizáljuk és a linearizált modellből átviteli függvényt készítünk. 
+$tf = tf(linearize(model,16000));$ utasítást használva Matlab környezetben. A linearizált modellt Matlab/PidTuning eszközt használva behangolunk, kiszámítjuk a megfelelő PID szabályzó paramétereit.
 
 \input{SajatRobot/PIDHangolasa/MeasuremetSimulinkWheel.tex}
 
-A becsült rendszer átviteli függvénye $H_s(z)$, mintavetelezesi periódus Ts: = 0.05s.
+A becsült rendszer átviteli függvénye $H_s(z)$, mintavételezési periódus Ts: = 0.05s.
 
-\subsection*{Nagyobik fokozatban}
+\subsection*{Nagyobbik fokozatban}
 
-A becsult modelt oszehasonlitva a mert ertekekkel a \ref{fig:NFsysIdent}, a model nemlinearis becsult model megfelel a mert ertekeknek.
+A becsült modell kimenetét összehasonlítva a mért értékekkel a \ref{fig:NFsysIdent}, a nem lineáris becsült modell megfelel a mért értékeknek.
 
 \begin{figure}[H]
   \includegraphics{tikz/NFsysIdent.pdf}
-  \caption{Nagy fokozat Hammerstein-Wiener becsult model valasza, es a mert ertekek.}
+  \caption{Nagy fokozat Hammerstein-Wiener becsült modell válasza és a mért értékek.}
   \label{fig:NFsysIdent}
 \end{figure}
 
 
-Az atviteli fuggveny a bemenet 50/\% korul linearizalva.
+Az átviteli függvény a bemenet 50/\% körül linearizálva.
 
 \begin{equation}
     H_s(z)=\frac{-0.07017z^{-2} -0.053z^{-1}}{-0.2117^{-3}+0.7321z^{-2} -1.393z^{-1} +1}
@@ -33,18 +33,18 @@ Az atviteli fuggveny a bemenet 50/\% korul linearizalva.
 
 A tervezett PID szabályozó paramétere Kp: 7.11 , Ti: 23.66 , Td: 0.43
 
-\subsection{Kisebik fokozatban}
+\subsection{Kisebbik fokozatban}
 
-A becsult modelt oszehasonlitva a mert ertekekkel a \ref{fig:KFsysIdent}, a model nemlinearis becsult model megfelel a mert ertekeknek.
+A becsült modellt összehasonlítva a mért értékekkel a \ref{fig:KFsysIdent}, a modell lineáris becsült modell megfelel a mért értékeknek.
 
 
 \begin{figure}[H]
   \includegraphics{tikz/KFsysIdent.pdf}
-  \caption{Kis fokozat Hammerstein-Wiener becsult model valasza, es a mert ertekek.}
+  \caption{Kis fokozat Hammerstein-Wiener becsült modell válasza és a mért értékek.}
   \label{fig:KFsysIdent}
 \end{figure}
 
-Az atviteli fuggveny a bemenet 50/\% korul linearizalva.
+Az átviteli függvény a bemenet 50/\% körül linearizálva.
 
 \begin{equation}
     H_s(z)=\frac{-0.0291z^{-2} -0.009263z^{-1}}{-0.198z^{-3}+0.7058z^{-2} -1.394z^{-1} +1}

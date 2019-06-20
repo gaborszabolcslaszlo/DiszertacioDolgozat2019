@@ -2,9 +2,9 @@
 
  \nomgroup{J}
 
-  \item [{$\theta$}]\begingroup A robot z és x tengelyek által bezárt szög\nomunit{$\, rad$}\nomeqref {0}
+  \item [{$\theta$}]\begingroup A robot x tengelye és a globális X tengely által bezárt szög\nomunit{$\, rad$}\nomeqref {0}
 		\nompageref{1}
-  \item [{$^nS_{ik}$}]\begingroup Valamilyen $\S$ fizikai mennyiség a $n$ vonatkoztatási rendszerben,az $in$ indexek a mennyiség helyet jelöli.\nomeqref {0}
+  \item [{$^nS_{ik}$}]\begingroup Valamilyen $\S$ fizikai mennyiség a $n$ vonatkoztatási rendszerben,az $ik$ indexek a mennyiség helyet jelöli.\nomeqref {0}
 		\nompageref{1}
   \item [{$F$}]\begingroup erők\nomunit{$\, N$}\nomeqref {0}
 		\nompageref{1}

@@ -22,6 +22,6 @@ A lenti ábrán látható a kavicsos illetve füves terepen mért körpályák �
 
 \begin{figure}[H]
   \includegraphics{tikz/KorpalyakKavicsos.pdf}
-  \caption{Kulombozo korpalyak}
+  \caption{Különböző körpályák}
   \label{fig:KorpalyakKavicsos}  
 \end{figure}

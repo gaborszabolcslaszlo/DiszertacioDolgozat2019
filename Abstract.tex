@@ -2,36 +2,53 @@
 
 \section*{Abstract}
 
-The purpose the document is design and implement a mobile robot platform which applicable outdoor, like agriculture, and measure whit robot real scenarios. The robot is a four wheeled robot, the wheels was driven by a worm gearbox 1:70. Some parameters: radius of wheel 0,2m, maximum angular speed of wheel 90 \degree/s. The control angular speed use PID controller, which was implemented in the FPGA based soft core processor(uBlaze). The tuning off PID controller parameter, use the Matlab toolbox for identification system transfer function, after that use Matlab/PidTuning toolbox for calculate optimal PID parameters. During design of robot, to pay attention of possibilities for development other software or hardware based controllers. 
+The purpose the document is designing, implementing of a mobile robot platform, which can be applicable outdoor, like in agriculture, and measuring whit robot real scenarios. The robot is a four wheeled robot, the wheels was driven by a worm gearbox 1:70. Some parameters: radius of wheel 0.2m m, maximum angular speed of wheel 90 \degree/s. 
+I used PID controllers to control the rotation speed of the wheels, which was implemented in the FPGA based soft core processor (uBlaze). 
 
-The robot has a miniPC whit Ubuntu Linux based operation system, propose of this the synchronization all of nodes in the robot, collect measured data from sensor and FPGAs and calculate controller signal for position. ROS framework was use for the development of code, based C/C++ language.
+With the help of Matlab, I estimated the transmission function of the system and then, with the help of this information I designed the PID controllers.
+At the designing of the system, we paid attention to the development opportunities of the research, so it can be possible to integrate other types of hardware and software controllers into this system, with minimal effort.
 
-The wheels angular speed measure whit incremental rotary encoder, the driven DC motors current was measure whit hall effect based sensor, the measured values processing whit FPGA, and send to miniPC whit UART protokol.
+The system's central tasks are performed by a small computer, running on Ubuntu Linux-based operating system. The running programs on the computer were implemented in ROS environment in C / C ++.
 
-The on of main purpose of this document research the integration methods of FPGA and ROS. The ROS offer capability for integration unique designed hardware used ROS Serial, but has some limitations, because of this, we try this, but has some performance problem when use unique messages, the problem is the size of message buffer limitation. Unable to use for integration FPGA and Ros but successful applied for communication between IMU+ESP8266(arduino based) and ROS use standard ROS messages.
+I measure the speed of rotation of the wheels with incremental sensors and the current of the DC motors, which drives the gear ratios, with sensors based on hall effect.I processed the measured values with the help of FPGA and send to the central computer.
 
-The best practice of the integration is own node for ROS side which handle UART or TCP based unique protocol based communication, and convert messages for the ROS, on hardware side process of messages on FPGA hardware and after that generate an interrupt for processor which handle the request. In this design able to use ROS and FPGA+uBlaze whit 1ms sample time period, and use 200byte size of message.
+One of the main topics of the dissertation was to examine possible solutions of FPGA and ROS integration.
 
-When we try to use communication without hardware acceleration found limitation of uBlaze processor because of many interrupt request from uart module, and the maximum sample time is 50ms.
+The ROS-serial like a possible general integration, as a solution provided by ROS, is widely used to integrate low-level hardware, but due to its limitations, it is unable to handle large message packages.  Unable to use for integration FPGA and Ros, but successful applied for communication between IMU+ESP8266 (arguing based) and ROS use standard ROS messages.
 
-Advantage of hardware preprocessing of message is the speed of communication and we able to use some command addressed to direct hardware, with this method implement some safety methods for increase robust of communication. Implement the HeartBeat functionality, which 
-responsible for detection failure of important nodes and generate global enable signals for all of the nodes on ROS system. The HeartBeat use live line communication which means the FPGA send periodical message to the PC, the heart beat compare this message whit before received message and decide the hardware is live or not live. When HeartBeat not receive message form hardware since 300ms, this mean the hardware is offline. The FPGA communication module wait for periodical enable signal, when not receive this message disable the controller and PWM module outputs.
-The communication module use shared memory whit the uBlaze processor which increase the communication speed.
 
-The implementation of communication and other nodes like PWM module, use Simulink/System Generator, and generate IP core for Vivado designed suit.
+Based on the results, the best-performing communication option, is to create own protocol, based on UART. With this solution, the system works robustly with 1ms sampling period. At the moment, the length of the message between the central computer and the FPGA modules can be up to 200 bytes, which can be extended if necessary.
 
-The robot has many sensor like IMU, 2D LIDAR, GPS, Battery Voltage sensor, this models was connected to miniPc use USB<->Uart transformer. Use the LIDAR measured data and HectoSlam create a map, in this map the robot able to localize itself. Basically, the LIDAR successful applicable to the mapping task but has problem when the environment contains window, at this case the map have mistaken because the measurements of lidar is noisy.
+The modules in the FPGA were implemented using a Matlab / System Generator, eg PWM, UART communication module. The advantages of the own developed protocol and FPGA, are that the processing of the data embedded in the FPGA is done by the hardware, making it easier for the processor to load.
+If the communication protocol was performed by the uBlaze, the soft core processor due to many interruptions, the system was unusable from 20ms of sampling.
 
-\subsection{Measurements whit robots}
 
-I make some measurements whit real outdoor robot in various surface conditions like: green grass, marble, pebbly surfaces to study the circle orbit motion and the on place turning, and robot motion on stair. Result of this measurements is the motion on stair is most effective when the center of gravity point is front and the angle between the stair and robot orientation is less than 90\degree. The motion of pebbly surface is most effective when the wheel rotation speed is smaller, because avoided the wheel sinking into sand.
+The direct instruction interpreter, built into the FPGA communication module, can stop the PWM output and the controllers, if the communication is interrupted or the central unit requests this.
 
-\subsection{Robot Position Controller}
+The HeartBeat, uses the security solution to monitor the operation of all important Node running in the ROS system, including the operation of FPGAs. HearBeat node periodically sends permitting signals and waits for critical modules.
 
-The position controller algorithm divided by two subprocess: turn to goal, and move to goal. Use PI controller to control robot angular position on the map, and PI controller for control robot linear velocity of X axis to reach the desired distance.
+The monitoring of the frame and the interpretation of special characters are performed by the hardware of the FPGA, the incoming data is written to the common memory of the processor. If the package is fully in memory, then it asks the processor, to interrupt its work and process the package.
 
+The inclinations and accelerations of the robot are measured with the help of an IMU module.
+
+With the help of the 2D LIDAR sensor, I measure the distance of the robot in relation to the objects in around, up to 8m distance, 360 degree, with 2mm accuracy. Used the LIDAR Measurements, with the help of HectorSlam I create a map of its environment, in which the robot can locate itself.
+
+LIDAR is basically well suited for mapping tasks, if the environment contains a glass wall and can’t find any other stable object in the area, noises appear in the mapping.
+
+
+
+\subsection*{Measurements whit robots}
+
+With the robot, we made some measurements in various surface conditions like: green grass, marble, pebbly surfaces to study the circular path motion, the rotation on place turning and robot motion on stair. Result of these measurements is the motion on stair is most effective when the center of gravity point is front and the angle between the stair and robot orientation is less than 90\degree. The motion of pebbly surface is most effective when the wheel rotation speed is smaller, because avoided the wheel sinking into sand.
+
+
+\subsection*{Robot Position Controller}
+
+The position controller of the robot can be divided by two sub task: turn to the destination and reduce the distance between the target and the current positionl. In the case of the direction we adjust the angle, while in case of distance the speed. For both quantities, I used a PI type controller, weighting the distance controller input with the inverse of the angle position controller error.
 
 Keywords: SSMR,FPGA,ROS,Robot,SLAM
 
 \end{titlepage}
+
+
 

@@ -2,47 +2,47 @@
 \section{Megvalósítások}
 Ezzel a dolgozattal négy év folyamatos munkájának egy szakaszát szeretném lezárni, a következő eredményeket sikerült felmutatni, kronológiai sorrendben: 
 
-A mechanikai szerkezet fejlesztése, a 2011 be fejlesztett verzióhoz képest, amely sokkal robusztusabb, kültérre alkalmasabb mint az előző, és egyszerűbb is. Ugyan megmaradt az a tendencia hogy csiga-áttételeket alkalmazzak a kerekek meghajtására. Az áttételeket magam terveztem és gyártattam le, a kezdeti alacsony költségvetés miatt. 
-Sok alkatrész kivitelezésére használtam 3D nyomtatasi technikát. Próbálkoztam inkrementális szenzor tárcsát készíteni ami bevált de nem lehetett alkalmazni robusztusan a rendszeren, mert a mechanikai rendszerben 2-3 mm kotyogás van, ami nem az jeleni, hogy nem is lehetséges csak túl sok időt igényelt volna.
+A mechanikai szerkezet fejlesztése a 2015-ben fejlesztett verzióhoz képest sokkal robusztusabb, kültérre alkalmasabb, mint az előző, és egyszerűbb is. Ugyan megmaradt az a tendencia, hogy csiga-áttételeket alkalmazzak a kerekek meghajtására. Az áttételeket magam terveztem és gyártattam le, a kezdeti alacsony költségvetés miatt. 
+Sok alkatrész kivitelezésére használtam 3D nyomtatási technikát. Próbálkoztam inkrementális szenzor tárcsát készíteni, ami bevált, de nem lehetett alkalmazni robusztusan a rendszeren, mert a mechanikai rendszerben 2-3 mm kotyogás van, ami nem az jeleni, hogy nem is lehetséges, csak túl sok időt igényelt volna.
 
-Az alkatrészeket 3D tervező programban elkészítettem, és 3D nyomtatóval megvalósítóutuk, a tapasztalatom ezekkel az alkatrészekkel: nagy mechanikai terhelés elviselésére nem alkalmasak hosszútávon, ezért történt meg hogy a csiga tengely csapágyháza terhelés alatt széttört.
+Az alkatrészeket 3D tervező programban elkészítettem, és 3D nyomtatóval megvalósítottuk, a tapasztalatom ezekkel az alkatrészekkel: nagy mechanikai terhelés elviselésére nem alkalmasak hosszútávon, ezért történt meg, hogy a csiga tengely csapágyháza terhelés alatt széttört.
 
-A következő lépésben a robot alacsonyrendű vezérlóáramköröket terveztem meg és viteleztem ki CNC marógép segítségével.
+A következő lépésben a robot alacsonyrendű vezérlőáramköröket terveztem meg és viteleztem ki CNC marógép segítségével.
 
-A vezérlő logika implementálására FPGA alapú fejlesztőlapokat használtam mert, flexibilisek és testrészabható rendszert lehet elkészíteni segítségükkel.
+A vezérlő logika implementálására FPGA alapú fejlesztőlapokat használtam, mert flexibilisek és testrészabható rendszert lehet elkészíteni segítségükkel.
 
-Vivado környezetet használtam az FPGA fejlesztésére, megvalósítottam egy uBlaze processzorrendszert kialakítását és több hardveres modult is amelyek a következők: PWM modul, UART protokoll csomag értelmező amely támogatja a nagy sebességű kommunikációt és sikerült elérni  az 1ms mintavételezési periódust, globális engedélyező jel, ezeket a modulokat System Generator-ban valósítottam meg és IP mag készült ezekből.
+Vivado környezetet használtam az FPGA fejlesztésére, megvalósítottam egy uBlaze processzorrendszer kialakítását és több hardveres modult is, amelyek a következők: PWM modul, UART protokoll csomag értelmező, amely támogatja a nagy sebességű kommunikációt és sikerült elérni  az 1ms mintavételezési periódust, globális engedélyező jel, ezeket a modulokat System Generator-ban valósítottam meg és IP mag készült ezekből.
 
-Robotokhoz kapcsolódó keretrendszer használata lett szükséges így került sor a ROS keretrendszer ismereteinek az elsajátítására.
+Robotokhoz kapcsolódó keretrendszer használata lett szükséges, így került sor a ROS keretrendszer ismereteinek az elsajátítására.
 
-Megterveztem az integrációt a ROS és FPGA UART alapú kommunikációjának kiépitésére a jelen pillanatban a robot specifikus, dinamikusan nem hasznosulható újra más FPGA alapú robotoknál anélkül hogy ne kellene számottevő programkódot írni, de lehetséges automatizálni az integrációt amennyiben ez szükséges.
+Megterveztem az integrációt a ROS és FPGA UART alapú kommunikációjának kiépítésére a jelen pillanatban a robot specifikus, dinamikusan nem hasznosítható újra más FPGA alapú robotoknál anélkül, hogy ne kellene számottevő programkódot írni, de lehetséges automatizálni az integrációt, amennyiben ez szükséges.
 
-A ROS használata számos előnyel járt, sikerült bekonfigurálni és elindítani a ROS keretrendszerben levő egyéb eszközöket is pl: logolás a nodok között, eclipse fejlesztőkörnyezet bekonfigurálása a fejlesztéshez, HectorMap térképez és lokalizálás LIDAR alapján, robotmodell elkészítése Rviz 3D megjelenítő számára. A alacsonyrendű paraméterek szinkronizációja a ROS rendszerben levő paraméterekkel.
+A ROS használata számos előnyel járt, sikerült bekonfigurálni és elindítani a ROS keretrendszerben levő egyéb eszközöket is pl: loggolás a nodoek között, eclipse fejlesztőkörnyezet bekonfigurálása a fejlesztéshez, HectorMap térképezés és lokalizálás LIDAR alapján, robotmodell elkészítése Rviz 3D megjelenítő számára. Az alacsonyrendű paraméterek szinkronizációja a ROS rendszerben levő paraméterekkel.
 
-Sikerült elkészíteni egy 90GB méretű virtuális gépet amelyen minden eszköz megtalálható a robot fejlesztéséhez: Vivado,Matlab,Arduino,ROS lunar,eclipse.
+Sikerült elkészíteni egy 90GB méretű virtuális gépet, amelyen minden eszköz megtalálható a robot fejlesztéséhez: Vivado,Matlab,Arduino,ROS lunar,eclipse.
 
-Sikerült kiépíteni egy deploy mechanizmust amely segítségével a forráskódot tudjuk telepíteni a robotra. A SSH használatával a meglevő kódokat átmásoljuk a robotra ahol majd újra fodorítjuk a szükséges részeket.
+Sikerült kiépíteni egy deploy mechanizmust, amely segítségével a forráskódot tudjuk telepíteni a robotra. Az SSH használatával a meglevő kódokat átmásoljuk a robotra, ahol majd újra fordítjuk a szükséges részeket.
 
 Sikeresen elsajátítottam a ROS alapjait, és megterveztem egy sajátos kommunikációt FPGA alapú rendszer és a ROS között. Az integráció a robot és a ROS között jól működik, minden egyes szenzor mért adata bekerül a ROS környezetbe.
 
-A rendszer elindítása után, a megbecsültem MATLAB segítségével a kereke átviteli függvényeit, és majd ezekre PID szabályozót terveztem PID tuning toolbox segítségével.
+A rendszer elindítása után megbecsültem MATLAB segítségével a kerekek átviteli függvényeit, és majd ezekre PID szabályozót terveztem PID tuning toolbox segítségével.
 
-A hectormap segítségével, az ismeretlen terep térképezésével, a roboton lokalizálva, sikeresen bekonfiguráltam a movebase nevű eszközt, amely segítségével a robotot egy adott pozícióba és irányba tudjuk elvinni. A move base megoldja az akadályok kikerülését is.
+A HectorMap segítségével, az ismeretlen terep térképezésével, a roboton lokalizálva, sikeresen bekonfiguráltam a movebase nevű eszközt, amely segítségével a robotot egy adott pozícióba és irányba tudjuk elvinni. A movebase megoldja az akadályok kikerülését is.
 
-A térképezéssel kapcsolatban a tapasztalatok a mérések során, a LIDAR és HectorMap zajosak külső terepen egyrészt a környezeti tényezők miatt amelyek befolyásolják a robot dőlésszöget, így zajosítva a méréseket, valamit a lokalizáció nem pontos ha üvegen keresztülhalad a lézersugár.
+A térképezéssel kapcsolatban a tapasztalatok a mérések során, a LIDAR és HectorMap zajosak külső terepen egyrészt a környezeti tényezők miatt amelyek befolyásolják a robot dőlésszögét, így zajosítva a méréseket, valamint a lokalizáció nem pontos, ha üvegen keresztül halad a lézersugár.
 
-A robottal végzet mérések során a robot szerkezete és alacsonyrendű szabályzása megbízhatónak bizonyult, képes több legalább 100kg függőleges irányú terhelést elviselni és akar egy személygépkocsit is elmozdítani.
+A robottal végzett mérések során a robot szerkezete és alacsonyrendű szabályzása megbízhatónak bizonyult, képes több, legalább 100kg függőleges irányú terhelést elviselni és akár egy személygépkocsit is elmozdítani.
 
-A mérések alapján a lépcsőre könnyebben tud felmenni ha egy 90 \degree nál kisebb szög alatt közelítjük meg.
+A mérések alapján a lépcsőre könnyebben tud felmenni, ha egy 90 \degree nál kisebb szög alatt közelítjük meg.
 
-A környezetre fordulás esetén gyakorolja a robot a legnagyobb behatást, pl helyben forgás esetné a súrlódások miatt a füves talajt a fekete földig leszedi. Mezőgazdasági alkalmazásra előnyösebb volna ha mind a négy kereke kormányozhatnák.
+A környezetre fordulás esetén gyakorolja a robot a legnagyobb behatást, pl. helyben forgás esetén a súrlódások miatt a füves talajt a fekete földig leszedi. Mezőgazdasági alkalmazásra előnyösebb volna, ha mind a négy kerekét kormányozhatnánk.
 
-A lépcsőn és a lejtőt is előnyösebb a SSMR al úgy megközelíteni hogy a súlypont a robot elején legyen ahogy felfele haladunk így a merőleges nyomóerők is egyenletesebben eloszlanak. Lépcső esetében ügyelni kell a hátsó kerekek lépcsőfokba való beragadása miatt,mert a kerekek nagy forgatónyomatéka, a robot hátra billentheti, ez abban az esetben állhat fent ha a lépcsőt 90\degree szög alatt közelítjük meg.
+A lépcsőt és a lejtőt is előnyösebb a SSMR al úgy megközelíteni, hogy a súlypont a robot elején legyen, ahogy felfele haladunk, így a merőleges nyomóerők is egyenletesebben eloszlanak. Lépcső esetében ügyelni kell a hátsó kerekek lépcsőfokba való beragadása miatt,m ert a kerekek nagy forgatónyomatéka, a robot hátra billentheti, ez abban az esetben állhat fent, ha a lépcsőt 90\degree szög alatt közelítjük meg.
 
 
 \section{Hasonló rendszerekkel való összehasonlítás}
 
-Az általam kivitelezett robot legjobban a Husky robotra hasonlít amely szintén négy kerekkel rendelkezik. A legnagyobb előnye a sebessége mivel nem használ de kisebb a kerekei forgatónyomatéka. Hátránya ha hátrabukik akkor a kerekei nem fognak érintkeznek a talajjal, míg a SapRoover mindkét irányban képes működni.
+Az általam kivitelezett robot legjobban a Husky robotra hasonlít, amely szintén négy kerékkel rendelkezik. A legnagyobb előnye a sebessége, mivel nem használ, de kisebb a kerekei forgatónyomatéka. Hátránya ha hátrabukik akkor a kerekei nem fognak érintkeznek a talajjal, míg a SapRoover mindkét irányban képes működni.
 
 \begin{table}[]
 \begin{center}
@@ -72,4 +72,4 @@ A mechanika tovább fejlesztése: célszerű lenne a robot mind a négy kerekét
 Az FPGA és a ROS integrációját flexibilisébe lehetne tenni azáltal hogy egy XML alapú konfigurációs fájlban leírva a kívánt üzenet típusokat egy értelmező segítségével kigenerálni a szükséges c++(.cpp és .h) állományokat, ROS és uBlaze oldalra. A UART kommunikációért felelő IP magot csak konfigurálni kellene szoftverből.
 
 
-Napemseles energiaforrással ellátni, és töltőállomást elkészíteni amelyre automatikusan kapcsolódhatna a robot. Az akumlátorok kezelésére egy energia proc
+Napemseles energiaforrással ellátni, és töltőállomást elkészíteni amelyre automatikusan kapcsolódhatna a robot. Az akkumulátorok kezelésére egy energia processzor lenne szükséges.

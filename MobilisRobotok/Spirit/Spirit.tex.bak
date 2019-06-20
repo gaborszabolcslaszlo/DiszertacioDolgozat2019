@@ -12,10 +12,9 @@ https://en.wikipedia.org/wiki/Mars_Exploration_Rover}
 \renewcommand{\AcAndGy}{Igen}
 \renewcommand{\GPS}{Igen}
 \subsection*{Spirit}
- Marsi körülményekre tervezett robot 6 kerekkel rendelkezett amelyből 4 kormányzott
- négy sztereó kamerapárral ellátva,30\degree lejtőt volt képes megmászni. 
-Működési ideje 6 év és 2 hónap volt a Marson, a végen homokba süllyedve egy sziklára akadva
-érte a marsi tél, amely ahhoz vezetett hogy a nap elemei nem szolgáltattak elegendő
+ A marsi körülményekre tervezett robot 6 kerékkel rendelkezett, amelyből 4 kormányzott. Négy darab sztereó kamerával volt ellátva,30\degree-os emelkedőt volt képes megmászni. 
+Működési ideje 6 év és 2 hónap volt a Marson, a végén homokba süllyedve egy sziklára akadva
+érte a marsi tél, amely ahhoz vezetett, hogy a nap elemei nem szolgáltattak elegendő
 energiát és így végleg leállt és kihűlt.
 
 \renewcommand{\aspectratioPic}{0.5}

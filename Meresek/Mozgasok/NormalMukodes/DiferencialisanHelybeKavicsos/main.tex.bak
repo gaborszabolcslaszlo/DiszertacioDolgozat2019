@@ -1,10 +1,10 @@
 \subsection{Kavicsos talajon helyben forgás}
-A \ref{fig:Left_n50Right50a} megfigyelhető amint a robot kavicsos talajon differenciálisan fordul 60 másodpercen keresztül, ezalatt háromszor teljen körbefordul. A pályát tekintve a robot középontja elmozdul, az X tengelyen 0.22m-t és a Y tengelyen 0.6m-t.  Az oldalirányú mozgás a nem egyenlő surlodási erők miatt jön létre.
-A fordulas közben a kerekek követik az előírt referencia szögsebességeket, amint az \ref{fig:Left_n50Right50x} ábrán is látható.
-A fordulási szögsebesség 20 \degree/s, az X és Y tengelyen való sebesség elhanyagolható nagyságú, de jelen van mivel a robot forgási középpontja elmozdul \ref{fig:Left_n50Right50b}.
+A \ref{fig:Left_n50Right50a} megfigyelhető, amint a robot kavicsos talajon differenciálisan fordul 60 másodpercen keresztül, ezalatt háromszor teljen körbefordul. A pályát tekintve a robot középpontja elmozdul, az X tengelyen 0.22m-t és a Y tengelyen 0.6m-t.  Az oldalirányú mozgás a nem egyenlő súrlódási erők miatt jön létre.
+A fordulás közben a kerekek követik az előírt referencia szögsebességeket, amint az \ref{fig:Left_n50Right50x} ábrán is látható.
+A fordulási szögsebesség 20 \degree/s, az X és Y tengelyen való sebesség elhanyagolható nagyságú, de jelen van, mivel a robot forgási középpontja elmozdul \ref{fig:Left_n50Right50b}.
 
-A talajon levő 0.8-1.1cm átmérőjű kavicsok miatt a súrlódások is megváltoznak, az kereke oldalirányú súrlódásai kiesebbek lesznek, emiatt a robot könnyebben fordul. A kavicsok hasonlóképpen viselkednek a csapágyakban található görgőkhöz.
-Abban az esetben, ha a talajt a kavicsok nem teljes mértékben fedik be a \ref{fig:Left_n50Right50a} látható mozgáspálya keletkezik, azáltal hogy csak néha kerül a kerék alá a gördülékeny kavics a négy kerék eltérő nyomatékot fog kifejteni és így a robot forgásközpontja is elmozdul.
+A talajon levő 0.8-1.1cm átmérőjű kavicsok miatt a súrlódások is megváltoznak, a kerekek oldalirányú súrlódásai kiesebbek lesznek, emiatt a robot könnyebben fordul. A kavicsok hasonlóképpen viselkednek a csapágyakban található görgőkhöz.
+Abban az esetben, ha a talajt a kavicsok nem teljes mértékben fedik be a \ref{fig:Left_n50Right50a} látható mozgáspálya keletkezik azáltal, hogy csak néha kerül a kerék alá a gördülékeny kavics, a négy kerék eltérő nyomatékot fog kifejteni és így a robot forgásközpontja is elmozdul.
 
 \renewcommand{\nth}{2}
 \renewcommand{\GlobalPath}{Meresek/Mozgasok/NormalMukodes/DiferencialisanHelybeKavicsos/}
@@ -40,7 +40,7 @@ Abban az esetben, ha a talajt a kavicsok nem teljes mértékben fedik be a \ref{
     \label{fig:Left_n50Right50c}
 \end{figure}
 
-A \ref{fig:Left0Right50d} és a \ref{fig:Left_n50Right50d} összehasonlítva, megfigyelhető, hogy a Giroszkóp által mért érték zajosabb ha a robot fordulási sebessége nagyobb, míg a LIDAR és a HectorMap szögsebessége nem zajosodik ilyen mértékben.
+A \ref{fig:Left0Right50d} és a \ref{fig:Left_n50Right50d} összehasonlítva, megfigyelhető, hogy a Giroszkóp által mért érték zajosabb, ha a robot fordulási sebessége nagyobb, míg a LIDAR és a HectorMap szögsebessége nem zajosodik ilyen mértékben.
 
 \begin{figure}[H]
   \includegraphics{tikz/Left_n50Right50d.pdf}
