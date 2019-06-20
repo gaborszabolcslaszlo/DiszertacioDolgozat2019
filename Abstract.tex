@@ -15,8 +15,22 @@ The best practice of the integration is own node for ROS side wich handle UART o
 When we try to use communication whitout hardware acceleration found limitation of uBlaze processor because of many interapt request from uart module, and the maximum sample time is 50ms.
 
 Advantage of hardware preprocesing of message is the speed of comunication and we able to use some command advantage to direct hadware, with this method inplemet some safty methods for increase robust of communicatein. Inplemetn the HeartBeat functionality, wich 
-responsible for detection failure of important nodes, and generate global enable signals for all of the nodes on ROS system.
+responsible for detection failure of important nodes, and generate global enable signals for all of the nodes on ROS system. The HeartBeat use live line comunication which means the FPGA send periodical message to the PC, the heart beat compre this message whit last before message and decide the hardware is live or not live. When HeartBeat not recive message form hardware since 300ms, this mean the hardware is offline. The FPGA communication modul wait for periodikal enable signal, when not recieve this message disable the controller and PWM modul outputs.
+The communication modul use shared memory whit the uBlaze processor which increase the comunnication speed.
+
+The implementation of comunication and other ndoes like PWM modul, use Simulink/System Generator, and generate IP core for Vivado designe system.
+
+The rovot has many sensor like IMU, 2D LIDAR, GPS, Battery Voltage Senssor, thi modul was conected to miniPc use USB<->Uart transformer. Use the LIDAR measured data and HectoSlam create a map, in this map te robot able to localize itself. Basically the LIDAR sucessful aplicalbe to the mapping task but has problem when the enviroment contains window, at this case the map have mistake bekause the measurements of lidar is noisy.
+
+\subsection{Measurements whit robots}
+
+I make some measurements whit real outdor robot various surface conditions like: green grass, marble, pebbly surfaces to study the circle orbit motion and the on place turning, and robot motion on stair. Result of this measuremnets is the motion on stair is most efective when the conter of gravirti point is fornt and the angle beetwen the stair and robot orinetation is less then 90\degree. The motion of pebbly sutface is most efective when the wheel rotation speed is smaller, because the avoide the wheel sinking into sand.
+
+\subsection{Robot Position Controller}
+
+The position controller algoritm divided by two subprocess: turn to goal, and move to goal. Use PI controller to controlle robot angualr position on the map, and PI controller for controlling robot linear velocity of X axis to reach the desired distance.
 
 
+Keywords: SSMR,FPGA,ROS,Robot,SLAM
 
 \end{titlepage}
