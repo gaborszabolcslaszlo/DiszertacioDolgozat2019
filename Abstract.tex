@@ -2,8 +2,21 @@
 
 \section*{Abstract}
 
-Angolul a kivonat 2-3 oldalban.
-Keywords:.
+The purpose the document is design and implement an mobile robot platform which applicable outdor, like agriculture, and mesure whit robot real senarios. The robot is an four wheeld robot, the weels was driven by a wormgearbox 1:70. Some parameters: radius of wheel 0,2m, maximum angular speed of wheel 90 \degree/s. The controll angualr speed use PID controller, wich was inplemeted in the FPGA based soft core procesor(uBlaze). The tuning off PID controller parameter use the Matlab toolbox for identification system transfer function, afther that use Matlab/PidTuning toolbox for calculate optimal PID parameters. During design of system robot, to pay attention of possibilities for development other software or hardware based controllers. 
+
+The robot has a miniPC whit Ubuntu Linux based operation system, pospose of this sycronization all of node in the robot, collect measured data from sensor and FPGAs and calculate controller signal for position. ROS framework was use for the development of code based C/C++.
+
+The wheels angular speed measure whit inkremental sensors, the driven DC motors current was measure whit hall efect based sensor, the measured values processing whit FPGA, and send to miniPC.
+
+The on of main pourpose of this docuement research the integration methods of FPGA and ROS. The ROS offer capability for integration unique designed hardwer used ROS Serial, but has some limitations, because of this we try to use, but not has some performace broblem whit unique message size limitation. Unable to use for integration FPGA and Ros but succesful applied for comunication between IMU+ESP8266(arduino based) and ROS use standars messages.
+
+The best practice of the integration is own node for ROS side wich handle UART or TCP based unique protocol based communication, and convert messages for the ROS, on hardware side precess of messages on hardware and afther tahat generate an interupt for processor which handle the request. In this dessign able to use ROS and FPGA+uBlaze to 1ms sample time period, and use 200byte size of message.
+
+When we try to use communication whitout hardware acceleration found limitation of uBlaze processor because of many interapt request from uart module, and the maximum sample time is 50ms.
+
+Advantage of hardware preprocesing of message is the speed of comunication and we able to use some command advantage to direct hadware, with this method inplemet some safty methods for increase robust of communicatein. Inplemetn the HeartBeat functionality, wich 
+responsible for detection failure of important nodes, and generate global enable signals for all of the nodes on ROS system.
+
 
 
 \end{titlepage}
