@@ -1,48 +1,49 @@
-\BOOKMARK [0][-]{chapter.1}{Bevezeto}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Bibliogr\341fiai tanulm\341ny}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Robotok}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Mobilis Robotok Helyv\341ltoztat\341sa}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{K\374lt\351ri mobilis robotok}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{Robot Oper\341ci\363s Rendszer}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.4.1}{\332j robot integr\341ci\363ja ROS-hoz}{section.2.4}% 7
-\BOOKMARK [1][-]{section.2.5}{Mobilis robotok modellez\351se}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.5.1}{Meroleges Nyom\363ero \(N\)}{section.2.5}% 9
-\BOOKMARK [2][-]{subsection.2.5.2}{S\372lypont \(X,Y\) komponens\351nek a meghat\341roz\341sa}{section.2.5}% 10
-\BOOKMARK [2][-]{subsection.2.5.3}{S\372lypont meghat\341roz\341sa m\351r\351sekkel}{section.2.5}% 11
-\BOOKMARK [2][-]{subsection.2.5.4}{Ker\351k Dinamik\341ja}{section.2.5}% 12
-\BOOKMARK [1][-]{section.2.6}{Kinematikai Modell}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.7}{Dinamikai Modell}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.8}{Robot Platform Sebess\351g Szab\341lyz\341sa}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.8.1}{Elo\355rt nyomat\351kkal}{section.2.8}% 16
-\BOOKMARK [2][-]{subsection.2.8.2}{Elirt kerekszogsebessegekkel}{section.2.8}% 17
-\BOOKMARK [0][-]{chapter.3}{A rendszer implement\341l\341sa}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Robot fel\351p\355t\351se}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Alacsony szintu modulok}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.2.1}{Microblaze szoftvere}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.2}{FPGA \351s UART alap\372 kommunik\341ci\363s protokoll}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.3}{Param\351terek FPGA modul}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.4}{Kommunik\341ci\363 sebess\351ge}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.5}{Biztons\341gi megold\341sok}{section.3.2}% 25
-\BOOKMARK [1][-]{section.3.3}{ROS}{chapter.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.1}{\334zenet t\355pusok \(.msg\)}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.2}{FPGA kommunik\341ci\363s modul ROS oldali integraci\363}{section.3.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.3}{Eloirt \351rt\351kek}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.4}{Vonatkoztat\341si Rendszerek }{section.3.3}% 30
-\BOOKMARK [1][-]{section.3.4}{Kerekek Pid Szabalyzo hangolas}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.4.1}{Kisebbik fokozatban}{section.3.4}% 32
-\BOOKMARK [1][-]{section.3.5}{P\341lyak\366vet\351si feladatok}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.6}{M\351r\351sek}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.6.1}{Differenci\341lis Forg\341s V\355zszintes Talajon}{section.3.6}% 35
-\BOOKMARK [2][-]{subsection.3.6.2}{F\351loldali kerekek blokkolva kavicsos talajon}{section.3.6}% 36
-\BOOKMARK [2][-]{subsection.3.6.3}{Kavicsos talajon helyben forg\341s}{section.3.6}% 37
-\BOOKMARK [2][-]{subsection.3.6.4}{M\341rv\341ny padl\363n helyben forg\341s}{section.3.6}% 38
-\BOOKMARK [2][-]{subsection.3.6.5}{Kavicsos talajon k\366rp\341ly\341n 50/15}{section.3.6}% 39
-\BOOKMARK [2][-]{subsection.3.6.6}{Kavicsos talajon k\366rp\341ly\341n 50/25}{section.3.6}% 40
-\BOOKMARK [2][-]{subsection.3.6.7}{K\366rp\341ly\341k \366sszehasonl\355t\341sa}{section.3.6}% 41
-\BOOKMARK [2][-]{subsection.3.6.8}{Homokos Lejto}{section.3.6}% 42
-\BOOKMARK [2][-]{subsection.3.6.9}{Lepcson}{section.3.6}% 43
-\BOOKMARK [2][-]{subsection.3.6.10}{Ismeretlen terep t\351rk\351pez\351se \351s robot lokaliz\341l\341sa \(SLAM\)}{section.3.6}% 44
-\BOOKMARK [0][-]{chapter.4}{Eredm\351nyek Ki\351rt\351kel\351se}{}% 45
-\BOOKMARK [1][-]{section.4.1}{Megval\363s\355t\341sok}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.2}{Hasonl\363 rendszerekkel val\363 \366sszehasonl\355t\341s}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.3}{Tov\341bbi fejleszt\351si ir\341nyok}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.0.0.1}{M\351r\351sek a robottal}{}% 1
+\BOOKMARK [2][-]{subsection.0.0.2}{Poz\355ci\363 szab\341lyz\341sa}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Bevezeto}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Bibliogr\341fiai tanulm\341ny}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Robotok}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Mobilis Robotok Helyv\341ltoztat\341sa}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{K\374lt\351ri mobilis robotok}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Robot Oper\341ci\363s Rendszer}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.4.1}{\332j robot integr\341ci\363ja ROS-hoz}{section.2.4}% 9
+\BOOKMARK [1][-]{section.2.5}{Mobilis robotok modellez\351se}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.5.1}{Meroleges Nyom\363ero \(N\)}{section.2.5}% 11
+\BOOKMARK [2][-]{subsection.2.5.2}{S\372lypont \(X,Y\) komponens\351nek a meghat\341roz\341sa}{section.2.5}% 12
+\BOOKMARK [2][-]{subsection.2.5.3}{S\372lypont meghat\341roz\341sa m\351r\351sekkel}{section.2.5}% 13
+\BOOKMARK [2][-]{subsection.2.5.4}{Ker\351k Dinamik\341ja}{section.2.5}% 14
+\BOOKMARK [1][-]{section.2.6}{Kinematikai Modell}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.7}{Dinamikai Modell}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.8}{Robot Platform Sebess\351g Szab\341lyz\341sa}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.8.1}{Elo\355rt nyomat\351kkal}{section.2.8}% 18
+\BOOKMARK [2][-]{subsection.2.8.2}{Elirt kerekszogsebessegekkel}{section.2.8}% 19
+\BOOKMARK [0][-]{chapter.3}{A rendszer implement\341l\341sa}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Robot fel\351p\355t\351se}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{Alacsony szintu modulok}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{Microblaze szoftvere}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{FPGA \351s UART alap\372 kommunik\341ci\363s protokoll}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.3}{Param\351terek FPGA modul}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.4}{Kommunik\341ci\363 sebess\351ge}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.5}{Biztons\341gi megold\341sok}{section.3.2}% 27
+\BOOKMARK [1][-]{section.3.3}{ROS}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.1}{\334zenet t\355pusok \(.msg\)}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.2}{FPGA kommunik\341ci\363s modul ROS oldali integraci\363}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.3}{Eloirt \351rt\351kek}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.4}{Vonatkoztat\341si Rendszerek }{section.3.3}% 32
+\BOOKMARK [1][-]{section.3.4}{Kerekek Pid Szabalyzo hangolas}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.4.1}{Kisebbik fokozatban}{section.3.4}% 34
+\BOOKMARK [1][-]{section.3.5}{P\341lyak\366vet\351si feladatok}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.6}{M\351r\351sek}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.6.1}{Differenci\341lis Forg\341s V\355zszintes Talajon}{section.3.6}% 37
+\BOOKMARK [2][-]{subsection.3.6.2}{F\351loldali kerekek blokkolva kavicsos talajon}{section.3.6}% 38
+\BOOKMARK [2][-]{subsection.3.6.3}{Kavicsos talajon helyben forg\341s}{section.3.6}% 39
+\BOOKMARK [2][-]{subsection.3.6.4}{M\341rv\341ny padl\363n helyben forg\341s}{section.3.6}% 40
+\BOOKMARK [2][-]{subsection.3.6.5}{Kavicsos talajon k\366rp\341ly\341n 50/15}{section.3.6}% 41
+\BOOKMARK [2][-]{subsection.3.6.6}{Kavicsos talajon k\366rp\341ly\341n 50/25}{section.3.6}% 42
+\BOOKMARK [2][-]{subsection.3.6.7}{Homokos Lejto}{section.3.6}% 43
+\BOOKMARK [2][-]{subsection.3.6.8}{Lepcson}{section.3.6}% 44
+\BOOKMARK [2][-]{subsection.3.6.9}{Ismeretlen terep t\351rk\351pez\351se \351s robot lokaliz\341l\341sa \(SLAM\)}{section.3.6}% 45
+\BOOKMARK [0][-]{chapter.4}{Eredm\351nyek Ki\351rt\351kel\351se}{}% 46
+\BOOKMARK [1][-]{section.4.1}{Megval\363s\355t\341sok}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.2}{Hasonl\363 rendszerekkel val\363 \366sszehasonl\355t\341s}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.3}{Tov\341bbi fejleszt\351si ir\341nyok}{chapter.4}% 49

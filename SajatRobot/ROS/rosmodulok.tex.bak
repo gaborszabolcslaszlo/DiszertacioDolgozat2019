@@ -28,7 +28,7 @@ Az \ref{fig:ROSgraph} láthatóak a főbb nodok, topikok és a köztük levő re
 \begin{table}[H]
 \centering
 \begin{tabular}{lp{3cm}p{8cm}}
-\hline Node Nev & Tipus & Leiras \\ \hline
+\hline Node Név & Típus & Leírás \\ \hline
   /R és /L      &  FPGA
   Communication
   Modul     &  Az FPGA-val való kommunikációért felelős. Adatokat fogad/küld  a \ref{FPGAcomuSection} fejezetben leírt protokoll alapján, amelyeket továbbít a ROS operációs rendszerben működő nodoknak.     \\

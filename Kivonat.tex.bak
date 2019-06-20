@@ -1,8 +1,55 @@
 \begin{titlepage}
 
 \section*{Kivonat}
-A dolgozat magyar nyelvű kivonata 2-3 oldalban.
 
-Kulcsszavak: amelyek meghatározzák a dolgozat témáját, max 5 szó
+A dolgozat témája terepen alkalmazható mobilis robothoz köthető feladatok elvégzése, és mérések a valós rendszerrel. A robot egy négykerekű csúszáskormányzású SSMR típusú mobilis robot, a négy kereket egy nagy fogaskerék áttétel segítségével hozzuk mozgásba, az áttétel aránya 1:70, és a kerék maximális forgási szögsebessége 90\degree/s, a kerekek átmérője 0.40m.
+A kerekek forgási sebességének a szabályzására PID típusú szabályzókat alkalmaztam, amelyeket FPGA alapú fejlesztőlapon és szoftveresen valósítottam meg.
+Matlab segítségével megbecsültem a rendszer átviteli függvényét és ezután felhasználva terveztem meg a PID szabályzókat. A rendszer tervezésénél figyeltünk a kutatás-fejlesztési lehetőségekre, így lehetőség van más típusú hardveres és szoftveres szabályzókat is integrálni a rendszerbe minimális erőfeszítéssel.
+
+A rendszer központi feladatait egy kis méretű számítógép végzi, amelyen Ubuntu Linux alapú operációs rendszer fut. A számítógépen futó programokat ROS környezetben implementáltam C/C++ nyelven.
+
+Inkrementális szenzorok segítségével mérem a kerekek forgási sebességét, hall effektusra alapuló szenzorokkal a fogaskerék áttételeket hajtó DC motorok áramát.
+
+A mért értékeket FPGA segítségével dolgozom fel, és küldöm tovább a központi számítógépnek.
+
+A dolgozat egyik fő témája az FPGA és ROS integrációjának lehetséges megoldásainak vizsgálata volt.
+A ROS által nyújtott ROS-serial lehetséges általános integrációs megoldás széles körben alkalmazható alacsony szintű hardverek integrálására, de korlátai miatt nem képes nagy méretű üzenetcsomagok kezelésére.
+
+Az eredmények alapján a legjobban működő kommunikációs lehetőség UART protokollra épülő saját protokoll készítése. Ezen megoldással a rendszer 1ms mintavételezési periódussal robusztusan működik. Jelen pillanatban az üzenet hossza a központi számítógép és az FPGA modulok között maximum 200 byte lehet, ami szükség esetén kiterjeszthető.
+Az FPGA-ban levő modulokat Matlab/System Generator használatával valósítottam meg pl: PWM, UART kommunikációs modul.
+
+A kifejlesztett saját protokoll és az FPGA előnyei, hogy az FPGA-ba beékező adatok feldolgozását a hardver végzi, így könnyítve a processzor leterheltségén. Abban az esetben, ha a kommunikációs protokollt a uBlaze soft core processzor végezt,e a sok megszakítás miatt a rendszer használhatatlan volt már 20ms mintavételezésnél.
+
+Az FPGA kommunikációs modulba beépített direkt utasítás értelmező képes a PWM kimenetet és a szabályzókat leállítani abban az esetben, ha a kommunikáció megszakad vagy ha a központi egység ezt kéri.
+A HeartBeat biztonsági megoldás segítségével figyeli a ROS rendszerben futó összes létfontóságú Node működését, beleértve a FPGA-k működését is. A HearBeat node periodikusan küld engedélyező jeleket és vár is a létfontóságú moduloktól.
+
+A keret figyelését és a speciális karakterek értelmezését a FPGA  hardvere végzi, a beérkező adatokat a processzorral közös memóriába írja bele. Ha a csomag teljes egészében a memóriában van akkor, kéri a processzort, hogy szakítsa meg a munkáját és dolgozza fel a csomagot.
+
+
+
+
+
+
+ A robot dőléseit és gyorsulásait IMU modul segéltségével mérem.
+
+A 2D LIDAR szenzor segítségével mérem a robot távolságát a környezetében levő tárgyakhoz képest, 8m távolságig, 360\degree, 2mm pontossággal. A LIDAR méréseit felhasználva, HectorSlam segítségével térképet készítek a környezetéről, amelyben a robot képes lokalizálnia magát.
+A LIDAR alapvetően jól használható a térképezési feladok elvezésére, abban az esetben, ha a környezet tartalmaz üvegfalat és nincs más stabilan mérhető tárgy a közelben, zajok jelennek meg a térképezésben. 
+
+\subsection{Mérések a robottal}
+
+A robottal méréseket végeztünk különböző terepviszonyok között, körpályán való mozgást és a helyben forgást tanulmányozva. A robot lépcsőn felfele való mozgását tanulmányozva az eredmény az, hogy a lépcsőt hatékonyabb súlyponttal előre, és nem merőlegesen kell megközelíteni. A homokos talajon való mozgás esetén a kerekek kis fordulatszáma hatékonyabb, mert így a kerekek nem ássák be magukat a homokba. 
+
+
+
+\subsection{Pozíció szabályzása}
+
+A  pozíció szabályzása a robotnak két részfeladatra osztható: fordulás a  cél irányába, és csökkentsd a távolságot a cél és az aktuális pozíció között. Az irány esetében szöget szabályzunk, míg a távolság esetében sebességet. Mindkét mennyiség esetében PI típusú szabályzót alkalmaztam, a távolság szabályzó bemenetét súlyozva a szögpozíció szabályzó hibájának a fordított értékével.
+
+
+
+
+
+
+Kulcsszavak: SSMR,FPGA,ROS,Robot,SLAM
 
 \end{titlepage}

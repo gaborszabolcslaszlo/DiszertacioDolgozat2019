@@ -36,7 +36,7 @@
               ]
               
              \addplot [color=red,each nth point={\nth}] table [header=true, x=X, y=Y] {\sysid};
-             \addplot [color=green,each nth point={\nth}] table [header=true, x=Xt, y=Yt]{\sysid};
+             \addplot [color=blue,each nth point={\nth}] table [header=true, x=Xt, y=Yt]{\sysid};
              \legend{\bfseries{\emph{Előírt}},\bfseries{\emph{Mért}}}
          
          \end{axis}
@@ -48,6 +48,7 @@
         anchor=south}}
         
         \begin{axis}[
+        		 name=mygraph2
                 ,width=14.5cm
                 ,height=5cm
                 %,try min ticks=5
@@ -69,9 +70,68 @@
                 ,at=(mygraph.below south west), anchor=above north west
               ]
               
-             \addplot [color=red,each nth point={\nth}] table [header=true, x=Time, y=O] {\sysid};
-             \addplot [color=green,each nth point={\nth}] table [header=true, x=Time, y=Ot]{\sysid};
+             \addplot [color=red,each nth point={\nth}] table [header=true, x expr=\thisrow{Time}*0.01, y=O] {\sysid};
+             \addplot [color=blue,each nth point={\nth}] table [header=true, x expr=\thisrow{Time}*0.01, y=Ot]{\sysid};
              \legend{\bfseries{\emph{Mért}},\bfseries{\emph{Előírt}}}
+             
+         \end{axis}
+         
+         
+         
+          \begin{axis}[
+                ,name=mygraph3
+                ,width=14.5cm
+                ,height=5cm
+                %,try min ticks=5
+                ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                ,ylabel={\bfseries{\emph{[m/s]}}}
+                %,ylabel style={rotate=-90}
+                ,grid=both
+                ,every both grid/.style={gray, opacity=0.5}
+                ,view={45}{45}
+                %,xtick distance=0.3
+                %,ytick distance=0.25
+                %,minor tick num=5
+                %,xticklabel style={rotate=45},
+                ,ylabel style={rotate=-90}
+                %xmin=0,xmax=0.65,
+                %ymin=0,ymax=0.65,
+               % zmin=-5,zmax=60,
+                ,legend columns=-1
+                ,at=(mygraph2.below south west), anchor=above north west
+              ]
+              
+             \addplot [color=black,each nth point={\nth}] table [header=true, x expr=\thisrow{Time}*0.01, y expr=\thisrow{Vx}*100] {\sysid};
+             \legend{\bfseries{\emph{Lineáris sebesség beavatkozó jel}}}
+             
+         \end{axis}
+         
+         \begin{axis}[
+         		,ymode=log,
+                ,width=14.5cm
+                ,height=5cm
+                %,try min ticks=5
+                ,xlabel={\bfseries{\emph{\idoFelirat}}}
+                ,ylabel={\bfseries{\emph{[\degree/s]}}}
+                %,ylabel style={rotate=-90}
+                ,grid=both
+                ,every both grid/.style={gray, opacity=0.5}
+                ,view={45}{45}
+                %,xtick distance=0.3
+                %,ytick distance=0.25
+                %,minor tick num=5
+                %,xticklabel style={rotate=45},
+                %,axis y line*=right,
+                ,ylabel style={rotate=-90}
+                %xmin=0,xmax=0.65,
+                %ymin=0,ymax=0.65,
+               % zmin=-5,zmax=60,
+                ,legend columns=-1
+                ,at=(mygraph3.below south west), anchor=above north west
+              ]
+              
+             \addplot [color=blue,each nth point={\nth}] table [header=true, x expr=\thisrow{Time}*0.01, y expr=\thisrow{Omega}*100]{\sysid};
+             \legend{\bfseries{\emph{Szögsebesség beavatkozó jel}}}
              
          \end{axis}
     \end{tikzpicture}

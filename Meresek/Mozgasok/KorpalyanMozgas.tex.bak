@@ -2,23 +2,23 @@
 
 \input{Meresek/Mozgasok/NormalMukodes/Korpalya_07_03_Kavicsos/main.tex}
 
-\subsection{Körpályák összehasonlítása}
+%\subsection{Körpályák összehasonlítása}
 
 
-\begin{table}[H]
-\begin{tabular}{llllll}
-\hline L & R & Delta & R mért & R számított & Különbség \\ \hline
- 0 &  50 &    50   &        &             &           \\
- 14 & 49 &    35   &        &             &           \\
- 70 & 40 &    30   &        &             &           \\
- 70 & 20 &    50   &        &             &           \\
- 25 & 50 &    25   &        &             &          
-\end{tabular}
-\end{table}
+%\begin{table}[H]
+%\begin{tabular}{llllll}
+%\hline L & R & Delta & R mért & R számított & Különbség \\ \hline
+% 0 &  50 &    50   &    0.55     &      0.39       &           %\\
+% 15 & 50 &    35   &    1.05    &     0.75        &           %\\
+% 70 & 40 &    30   &    3.5   &             &           \\
+% 70 & 20 &    50   &    3.5    &             &           %\\
+% 25 & 50 &    25   &    1.8m    &             &          
+%\end{tabular}
+%\end{table}
 
 
 
-A lenti ábrán látható a kavicsos illetve füves terepen mert körpályák ábrázolása kétfelé körpályát irtunk elő, a füves talajon nagyobb sebességél haladtunk. Füves talajon a 
+A lenti ábrán látható a kavicsos illetve füves terepen mért körpályák ábrázolása kétfelé körpályát irtunk elő, a füves talajon nagyobb sebességél haladtunk.
 
 \begin{figure}[H]
   \includegraphics{tikz/KorpalyakKavicsos.pdf}

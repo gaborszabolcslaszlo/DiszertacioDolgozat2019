@@ -51,3 +51,18 @@ A távolságszabályzó bemenetét súlyőzük $1/e_\alpha$ értékkel hogy amed
 
 
 Az algoritmus tesztelésére MATLAB/Simulink környezetet használtam. A robot kinematikai modellt az \ref{eq:allapot} egyenlet alapján modelleztem, a pozíciók (X,Y) és a irány meghatározására integráltam a lineáris és szögsebességeket. 
+
+A \ref{fig:SimPoseCont} ábrán láthatjuk a szimulációs eredményeket amint a robot egy végtelen jelhez hasonló pályát követ.
+
+\begin{figure}[H]
+	\setlength{\fboxsep}{0pt}
+	\setlength{\fboxrule}{0pt}
+	
+    \begin{center}  	
+    		%trim = bal also jobb felso
+    	\fbox{\includegraphics[width=0.9\columnwidth,trim=0cm 0cm 0cm 0cm,clip]{tikz/SimPoseCont.pdf}}
+    \end{center}  
+    
+  	\caption{Robot pozíció szemlélődése}
+  	\label{fig:SimPoseCont}
+\end{figure}
